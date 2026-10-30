@@ -1,0 +1,66 @@
+{
+  "name": "main-bersama",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "validate": "tsx scripts/validate-content.ts",
+    "build": "npm run validate && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --max-warnings=0",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "check": "npm run lint && npm run format:check && npm run typecheck && npm test && npm run build",
+    "icons": "node scripts/generate-icons.mjs",
+    "prepare": "git config core.hooksPath .githooks || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrezasatya/main-bersama.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrezasatya/main-bersama/issues"
+  },
+  "homepage": "https://github.com/mrezasatya/main-bersama#readme",
+  "dependencies": {
+    "@fontsource/nunito": "^5.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.6",
+    "zustand": "^5.0.16"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@playwright/test": "^1.63.0",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^22.20.5",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "^9.39.5",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.5.7",
+    "globals": "^17.13.0",
+    "jsdom": "^29.1.1",
+    "prettier": "^3.9.10",
+    "tsx": "^4.23.15",
+    "typescript": "5.7",
+    "typescript-eslint": "^8.72.1",
+    "vite": "^6.4.5",
+    "vite-plugin-pwa": "^1.3.0",
+    "vitest": "^3.2.7",
+    "workbox-window": "^7.4.1",
+    "zod": "^3.25.76"
+  },
+  "private": true,
+  "type": "module",
+  "description": "Main Bersama — permainan edukatif untuk anak usia 2-6 tahun",
+  "engines": {
+    "node": ">=20"
+  }
+}

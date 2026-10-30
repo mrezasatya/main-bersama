@@ -1,0 +1,793 @@
+:root {
+  --bg: #fff8ec;
+  --surface: #ffffff;
+  --ink: #33302b;
+  --ink-soft: #6f685e;
+  --primary: #ff9f1c;
+  --primary-ink: #4a2a00;
+  --soft: #fff0d6;
+  --soft-ink: #6a4300;
+  --line: #f0e2c8;
+  --ok: #34b865;
+  --info: #e7f0ff;
+  --warn: #fff3d1;
+  --radius: 24px;
+  --touch: 64px;
+  --shadow: 0 6px 0 rgba(120, 80, 20, 0.12), 0 12px 24px rgba(120, 80, 20, 0.08);
+  font-family: 'Nunito', system-ui, sans-serif;
+  font-weight: 600;
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  background: var(--bg);
+  /* Cegah zoom ketuk-ganda, seret-pilih teks, dan menu tekan-lama di iOS. */
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior: none;
+}
+
+input,
+textarea,
+select {
+  user-select: text;
+  -webkit-user-select: text;
+  font: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 800;
+  margin: 0;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ---------- Tombol ---------- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: var(--touch);
+  min-width: var(--touch);
+  padding: 10px 22px;
+  border: 0;
+  border-radius: 999px;
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.12s ease;
+}
+.btn:active {
+  transform: scale(0.96);
+}
+.btn:focus-visible,
+.choice:focus-visible,
+.game-card:focus-visible,
+.age-option:focus-visible {
+  outline: 4px solid #3b7bf5;
+  outline-offset: 3px;
+}
+.btn-primary {
+  background: var(--primary);
+  color: var(--primary-ink);
+  box-shadow: var(--shadow);
+}
+.btn-soft {
+  background: var(--soft);
+  color: var(--soft-ink);
+}
+.btn-ghost {
+  background: transparent;
+  color: var(--ink);
+  border: 3px solid var(--line);
+}
+.btn-sm {
+  min-height: 44px;
+  min-width: 44px;
+  padding: 6px 14px;
+  font-size: 0.95rem;
+}
+.btn-md {
+  font-size: 1.1rem;
+}
+.btn-lg {
+  font-size: 1.4rem;
+  min-height: 76px;
+  padding: 12px 32px;
+}
+.btn-xl {
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  min-height: 110px;
+  padding: 16px 48px;
+}
+.btn-icon {
+  width: 1.5em;
+  height: 1.5em;
+  flex: none;
+}
+.btn-label {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.btn-label small {
+  font-size: 0.7em;
+  font-weight: 600;
+  opacity: 0.7;
+}
+.hold-btn {
+  background: linear-gradient(
+    90deg,
+    var(--soft) calc(var(--hold, 0) * 100%),
+    transparent calc(var(--hold, 0) * 100%)
+  );
+}
+.link-btn {
+  background: none;
+  border: 0;
+  padding: 0;
+  text-decoration: underline;
+  font-weight: 800;
+  cursor: pointer;
+  min-height: 44px;
+}
+
+/* ---------- Layar mulai ---------- */
+.start {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px 16px;
+  text-align: center;
+}
+.start h1 {
+  font-size: clamp(2.2rem, 7vw, 4rem);
+}
+.start-logo {
+  width: clamp(120px, 24vmin, 200px);
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  50% {
+    transform: translateY(-10px) rotate(4deg);
+  }
+}
+
+.age-picker {
+  display: grid;
+  gap: 14px;
+  width: min(100%, 720px);
+}
+.age-picker-title {
+  margin: 0;
+  color: var(--ink-soft);
+}
+.age-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 12px;
+}
+.age-option {
+  display: grid;
+  gap: 4px;
+  min-height: 96px;
+  padding: 14px;
+  border-radius: var(--radius);
+  border: 4px solid var(--line);
+  background: var(--surface);
+  cursor: pointer;
+  text-align: center;
+}
+.age-option strong {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.age-option small {
+  color: var(--ink-soft);
+}
+.age-option.is-active {
+  border-color: var(--primary);
+  background: var(--soft);
+}
+
+/* ---------- Halaman umum ---------- */
+.page {
+  min-height: 100%;
+  padding: max(16px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right))
+    max(24px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.page-bar,
+.home-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.page-bar h1 {
+  font-size: clamp(1.4rem, 4vw, 2rem);
+  flex: 1;
+}
+.home-title {
+  flex: 1;
+  text-align: center;
+  font-size: clamp(1.6rem, 5vw, 2.6rem);
+}
+.home-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.star-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  min-height: 56px;
+  border-radius: 999px;
+  background: var(--surface);
+  color: #e89b12;
+  font-weight: 800;
+  font-size: 1.4rem;
+  box-shadow: var(--shadow);
+}
+.star-count svg {
+  width: 32px;
+  height: 32px;
+}
+@media (max-width: 640px) {
+  .home-title {
+    order: -1;
+    flex-basis: 100%;
+  }
+  .home-bar {
+    justify-content: space-between;
+  }
+}
+
+/* ---------- Menu permainan ---------- */
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr));
+  gap: 20px;
+}
+.game-card {
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+  padding: 20px;
+  border: 0;
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+.game-card:active {
+  transform: scale(0.97);
+}
+.game-card-art {
+  width: min(140px, 60%);
+  aspect-ratio: 1;
+}
+.game-card-title {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+/* ---------- Permainan ---------- */
+.game {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: max(12px, env(safe-area-inset-top)) max(16px, env(safe-area-inset-right))
+    max(16px, env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left));
+}
+.game-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.game-title {
+  flex: 1;
+  font-size: clamp(1.2rem, 3.5vw, 1.8rem);
+  text-align: center;
+}
+.progress-dots {
+  display: flex;
+  gap: 6px;
+}
+.progress-dots span {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--line);
+  transition: background 0.3s;
+}
+.progress-dots span.is-done {
+  background: var(--primary);
+}
+@media (max-width: 520px) {
+  .game-title {
+    display: none;
+  }
+  .game-bar {
+    justify-content: space-between;
+  }
+}
+.game-stage {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 0;
+}
+.round {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(16px, 4vh, 40px);
+}
+
+.instruction {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 10px 12px 10px 16px;
+  border-radius: 999px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  max-width: 100%;
+}
+.instruction-cue {
+  width: 56px;
+  height: 56px;
+  flex: none;
+}
+.instruction-text {
+  margin: 0;
+  font-size: clamp(1.3rem, 4vw, 2rem);
+  font-weight: 800;
+}
+.instruction-speak {
+  flex: none;
+}
+.swatch {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px solid rgba(0, 0, 0, 0.12);
+}
+
+.choices {
+  --card: min(40vw, 30vh, 260px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: clamp(14px, 3vmin, 32px);
+  max-width: 100%;
+}
+.choices-3 {
+  --card: min(28vw, 30vh, 260px);
+}
+.choices-4 {
+  --card: min(40vw, 26vh, 240px);
+}
+@media (orientation: landscape) {
+  .choices {
+    --card: min(26vw, 42vh, 280px);
+  }
+  .choices-4 {
+    --card: min(21vw, 40vh, 240px);
+  }
+}
+.choice {
+  display: grid;
+  place-items: center;
+  width: var(--card);
+  height: var(--card);
+  min-width: var(--touch);
+  min-height: var(--touch);
+  padding: calc(var(--card) * 0.1);
+  border: 6px solid transparent;
+  border-radius: 32px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition:
+    transform 0.15s ease,
+    opacity 0.3s ease,
+    border-color 0.3s;
+}
+.choice > svg {
+  width: 100%;
+  height: 100%;
+}
+.choice:active {
+  transform: scale(0.95);
+}
+.choice.is-tried {
+  opacity: 0.55;
+}
+.choice.is-correct {
+  border-color: var(--ok);
+  animation: pop 0.6s ease;
+}
+.choice.is-hint {
+  animation: pulse 1.2s ease-in-out infinite;
+}
+.choice.is-shaking {
+  animation: wiggle 0.45s ease;
+}
+@keyframes wiggle {
+  20% {
+    transform: translateX(-10px) rotate(-3deg);
+  }
+  40% {
+    transform: translateX(10px) rotate(3deg);
+  }
+  60% {
+    transform: translateX(-6px) rotate(-2deg);
+  }
+  80% {
+    transform: translateX(6px);
+  }
+}
+@keyframes pop {
+  40% {
+    transform: scale(1.12);
+  }
+}
+@keyframes pulse {
+  50% {
+    transform: scale(1.06);
+    box-shadow: 0 0 0 10px rgba(255, 159, 28, 0.25);
+  }
+}
+
+/* ---------- Hadiah dan overlay ---------- */
+.reward,
+.overlay {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: rgba(255, 248, 236, 0.92);
+  z-index: 10;
+  animation: fade-in 0.3s ease;
+}
+.reward-card,
+.overlay-card {
+  display: grid;
+  gap: 18px;
+  justify-items: center;
+  text-align: center;
+  padding: 28px;
+  width: min(100%, 560px);
+  border-radius: 32px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.reward-card h2,
+.overlay-card h2 {
+  font-size: clamp(1.5rem, 5vw, 2.2rem);
+}
+.reward-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+.reward-skip {
+  margin: 0;
+  color: var(--ink-soft);
+}
+.reward-stickers p {
+  margin: 0 0 8px;
+  font-weight: 800;
+}
+.reward-sticker-list {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+.reward-sticker-list .sticker {
+  width: 140px;
+  animation: pop 0.8s ease 1.2s both;
+}
+.overlay-art {
+  width: 140px;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+.star-row {
+  display: flex;
+  gap: 12px;
+}
+.star {
+  width: clamp(60px, 14vmin, 96px);
+  color: var(--line);
+}
+.star.is-on {
+  color: #ffc83a;
+}
+.star-row.is-animated .star.is-on {
+  animation: star-in 0.5s ease both;
+}
+@keyframes star-in {
+  from {
+    transform: scale(0) rotate(-90deg);
+    opacity: 0;
+  }
+}
+
+/* ---------- Stiker ---------- */
+.sticker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(46%, 150px), 1fr));
+  gap: 16px;
+}
+.sticker {
+  margin: 0;
+  display: grid;
+  gap: 8px;
+  justify-items: center;
+  padding: 14px;
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.sticker-art {
+  width: 100%;
+  aspect-ratio: 1;
+  padding: 10%;
+  border-radius: 50%;
+  background: #fff4dc;
+  border: 4px dashed #f2c46d;
+}
+.sticker.cat-hewan .sticker-art {
+  background: #e9f7ee;
+  border-color: #8fd3a8;
+}
+.sticker.cat-budaya .sticker-art {
+  background: #fdeee6;
+  border-color: #f0a987;
+}
+.sticker.cat-benda .sticker-art {
+  background: #eaf1ff;
+  border-color: #9dbaf5;
+}
+.sticker.is-locked .sticker-art {
+  background: #f3f0ea;
+  border-color: #ddd5c6;
+  color: #c2b8a6;
+  padding: 26%;
+}
+.sticker figcaption {
+  font-weight: 800;
+  text-align: center;
+}
+.album-note {
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 1.1rem;
+}
+
+/* ---------- Halaman pendamping ---------- */
+.parent {
+  max-width: 860px;
+  user-select: text;
+  -webkit-user-select: text;
+}
+.panel {
+  background: var(--surface);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 0 var(--line);
+}
+.panel h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+.panel h3 {
+  font-size: 1.05rem;
+  margin: 14px 0 6px;
+}
+.panel ol,
+.panel ul {
+  padding-left: 1.3em;
+  line-height: 1.6;
+}
+.muted {
+  color: var(--ink-soft);
+}
+.small {
+  font-size: 0.8rem;
+  word-break: break-all;
+}
+.notice {
+  padding: 12px 16px;
+  border-radius: 16px;
+  background: var(--soft);
+  margin: 0 0 16px;
+}
+.notice-info {
+  background: var(--info);
+}
+.notice-warn {
+  background: var(--warn);
+  border: 2px solid #f2c46d;
+}
+.field {
+  display: grid;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+.field-inline {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.field input[type='range'] {
+  width: 100%;
+  min-height: 44px;
+}
+.field input[type='checkbox'] {
+  width: 28px;
+  height: 28px;
+}
+select,
+textarea {
+  border: 2px solid var(--line);
+  border-radius: 12px;
+  padding: 8px 10px;
+  background: #fff;
+  min-height: 44px;
+}
+textarea {
+  width: 100%;
+  margin: 10px 0;
+}
+.btn-row,
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 8px 0;
+}
+.chip {
+  border: 2px solid var(--line);
+  background: #fff;
+  border-radius: 999px;
+  padding: 8px 14px;
+  min-height: 44px;
+  cursor: pointer;
+}
+.confirm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+.confirm p {
+  flex-basis: 100%;
+  margin: 0;
+}
+.guide + .guide {
+  border-top: 2px solid var(--line);
+  margin-top: 12px;
+}
+.kv {
+  display: grid;
+  grid-template-columns: minmax(140px, auto) 1fr;
+  gap: 6px 16px;
+  margin: 0;
+}
+.kv dt {
+  color: var(--ink-soft);
+}
+.kv dd {
+  margin: 0;
+  font-weight: 800;
+}
+.review-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  display: block;
+  overflow-x: auto;
+}
+.review-table th,
+.review-table td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid var(--line);
+}
+.review-table tr.is-active {
+  background: var(--soft);
+}
+.cell-actions {
+  display: flex;
+  gap: 6px;
+}
+
+/* ---------- Memuat ---------- */
+.loading {
+  min-height: 60vh;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+.loading span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--primary);
+  animation: bounce 0.9s ease-in-out infinite;
+}
+.loading span:nth-child(2) {
+  animation-delay: 0.15s;
+}
+.loading span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+@keyframes bounce {
+  50% {
+    transform: translateY(-14px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
