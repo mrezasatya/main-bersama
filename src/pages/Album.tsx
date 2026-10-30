@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { IconBack, IconStar } from '../core/art';
+import { PHRASE } from '../core/audio';
 import { STICKERS, starsToNextSticker, unlockedCount, useTotalStars } from '../core/progress';
 import { BigButton, StickerCard, useSpeakOnMount } from '../core/ui';
 
@@ -9,7 +10,7 @@ export default function Album() {
   const open = unlockedCount(stars);
   const toNext = starsToNextSticker(stars);
 
-  useSpeakOnMount(open > 0 ? `Kamu punya ${open} stiker!` : 'Ayo main untuk mengumpulkan stiker!');
+  useSpeakOnMount(open > 0 ? PHRASE.albumHas : PHRASE.albumEmpty);
 
   return (
     <div className="page album">

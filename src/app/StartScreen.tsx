@@ -1,5 +1,5 @@
 import { Bintang, IconPlay } from '../core/art';
-import { speak, unlockAudio } from '../core/audio';
+import { PHRASE, primeSpeech, speak, unlockAudio } from '../core/audio';
 import { useSettings } from '../core/progress';
 import { BigButton } from '../core/ui';
 import { AgePicker } from './AgePicker';
@@ -11,9 +11,10 @@ export function StartScreen() {
   const setStarted = useAppSession((s) => s.setStarted);
 
   const begin = () => {
+    // Keduanya dipanggil langsung di dalam gestur agar iOS mengizinkan suara.
     void unlockAudio();
-    // speak() dipanggil langsung di dalam gestur agar iOS mengizinkan suara.
-    void speak('Ayo main bersama!');
+    primeSpeech();
+    void speak(PHRASE.start);
     setStarted(true);
   };
 

@@ -33,6 +33,11 @@ Katalog permainan (Bagian 10) dan urutan fase (Bagian 11) ada di berkas brief.
 - **PWA:** `registerType: 'prompt'`. Versi baru aktif otomatis saat aplikasi dibuka ulang, atau lewat tombol
   "Perbarui" di halaman Pendamping. Mode `autoUpdate` tidak dipakai karena memuat ulang halaman secara paksa
   dan bisa memotong permainan anak.
+- **Rekaman suara (ElevenLabs):** `npm run voice` membuat MP3 untuk semua kalimat (`content.json` → `speak`,
+  `src/core/audio/phrases.ts`, judul permainan, nama stiker) ke `public/voice/` + `manifest.json`.
+  Nama berkas = `voiceKey(teks)-versiSuara`. `speak()` memutar rekaman bila ada, lalu jatuh ke suara perangkat.
+  **Setiap kalimat baru yang dibacakan harus berasal dari `content.json` atau `phrases.ts`** (jangan merangkai
+  angka/nama bebas di komponen), lalu jalankan `npm run voice`. `npm run validate` melaporkan cakupan rekaman.
 - **Gerbang pendamping:** tombol "Pendamping" di menu harus ditekan lama 1,5 detik.
 - **Framer Motion** belum dipakai; animasi Fase 0 cukup dengan CSS (menghormati `prefers-reduced-motion`).
 

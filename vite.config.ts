@@ -37,7 +37,9 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,woff2,json,webmanifest}'],
+        // Rekaman suara (voice/*.mp3) ikut di-precache agar bisa dimainkan offline.
+        globPatterns: ['**/*.{js,css,html,svg,png,woff2,json,webmanifest,mp3}'],
+        maximumFileSizeToCacheInBytes: 3 * 1024 * 1024,
         cleanupOutdatedCaches: true,
         navigateFallback: 'index.html',
       },

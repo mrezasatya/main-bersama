@@ -12,7 +12,12 @@ di `src/core/art/` dan `public/favicon.svg`. Tidak memakai karakter, logo, atau 
 
 ## Suara
 
-- Ucapan: Web Speech API (`speechSynthesis`) memakai suara bawaan perangkat pengguna. Tidak ada rekaman yang dibundel.
+- Rekaman ucapan: dibuat dengan ElevenLabs Text-to-Speech (`npm run voice`), disimpan di `public/voice/`.
+  Suara, model, dan tanggal pembuatan tercatat di `public/voice/manifest.json`.
+  Ketentuan penggunaan bergantung pada paket langganan ElevenLabs saat rekaman dibuat
+  (mis. paket gratis mensyaratkan atribusi dan tidak untuk penggunaan komersial); periksa ketentuan
+  terbaru sebelum rilis atau monetisasi.
+- Cadangan: Web Speech API (`speechSynthesis`) memakai suara bawaan perangkat pengguna.
 - Nada dan efek: disintesis dengan Web Audio API. Tidak ada sampel audio.
 
 ## Lagu

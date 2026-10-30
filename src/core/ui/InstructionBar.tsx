@@ -12,7 +12,7 @@ interface Props {
 }
 
 export function InstructionBar({ text, speakText, cue }: Props) {
-  const hasVoice = useVoiceStatus((s) => s.hasIndonesian || !s.ready);
+  const hasVoice = useVoiceStatus((s) => s.hasIndonesian || s.clipCount > 0 || !s.ready);
   return (
     <div className="instruction">
       {cue && <div className="instruction-cue">{cue}</div>}

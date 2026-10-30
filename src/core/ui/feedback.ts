@@ -1,15 +1,4 @@
-import { sfx, speak } from '../audio';
-
-/** Pujian untuk usaha, bukan untuk "pintar". */
-export const PRAISE = [
-  'Hore, kamu menemukannya!',
-  'Kamu berhasil!',
-  'Bagus sekali usahamu!',
-  'Yeay, betul!',
-  'Hebat, kamu terus mencoba!',
-] as const;
-
-export const TRY_AGAIN = ['Ayo coba lagi', 'Hampir! Coba lagi, ya', 'Ayo cari lagi'] as const;
+import { PRAISE, TRY_AGAIN, sfx, speak, speakSequence } from '../audio';
 
 const pick = <T>(arr: readonly T[]): T => arr[Math.floor(Math.random() * arr.length)]!;
 
@@ -23,7 +12,7 @@ export const feedback = {
   /** Umpan balik lembut. Animasi goyang diatur oleh komponen permainan. */
   tryAgain(hint?: string): void {
     sfx.tryAgain();
-    void speak(hint ? `${pick(TRY_AGAIN)}. ${hint}` : pick(TRY_AGAIN));
+    void speakSequence(hint ? [pick(TRY_AGAIN), hint] : [pick(TRY_AGAIN)]);
     navigator.vibrate?.(40);
   },
 };

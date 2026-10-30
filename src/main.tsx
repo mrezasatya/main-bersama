@@ -5,7 +5,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { App } from './app/App';
 import { registerPwa } from './app/pwa';
-import { initVoices } from './core/audio';
+import { initVoices, loadClipManifest } from './core/audio';
 
 // Cegah menu konteks (tekan lama) dan seret gambar di area anak.
 document.addEventListener('contextmenu', (e) => {
@@ -15,6 +15,7 @@ document.addEventListener('contextmenu', (e) => {
 document.addEventListener('dragstart', (e) => e.preventDefault());
 
 initVoices();
+void loadClipManifest();
 void registerPwa();
 
 createRoot(document.getElementById('root')!).render(

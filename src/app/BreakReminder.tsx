@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { speak } from '../core/audio';
+import { PHRASE, speak } from '../core/audio';
 import { STICKER_ART } from '../core/art/stickers';
 import { useSettings } from '../core/progress';
 import { BigButton } from '../core/ui';
@@ -21,7 +21,7 @@ export function BreakReminder() {
       if (played.current >= minutes * 60_000) {
         played.current = 0;
         setShow(true);
-        void speak('Yuk, istirahat sebentar. Minum air dan gerakkan badan.');
+        void speak(PHRASE.breakReminder);
       }
     }, CHECK_MS);
     return () => window.clearInterval(t);
