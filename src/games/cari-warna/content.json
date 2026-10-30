@@ -1,0 +1,562 @@
+[
+  {
+    "id": "bola-merah",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana bola merah?",
+    "label": "Mana bola merah?",
+    "assetKey": "bola",
+    "data": {
+      "target": "merah",
+      "distractors": ["biru", "kuning", "hijau"]
+    },
+    "tags": ["warna", "merah", "bola"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bintang-merah",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana bintang merah?",
+    "label": "Mana bintang merah?",
+    "assetKey": "bintang",
+    "data": {
+      "target": "merah",
+      "distractors": ["biru", "kuning", "hijau"]
+    },
+    "tags": ["warna", "merah", "bintang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "balon-merah",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana balon merah?",
+    "label": "Mana balon merah?",
+    "assetKey": "balon",
+    "data": {
+      "target": "merah",
+      "distractors": ["biru", "kuning", "hijau"]
+    },
+    "tags": ["warna", "merah", "balon"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bunga-merah",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana bunga merah?",
+    "label": "Mana bunga merah?",
+    "assetKey": "bunga",
+    "data": {
+      "target": "merah",
+      "distractors": ["biru", "kuning", "hijau"]
+    },
+    "tags": ["warna", "merah", "bunga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikan-merah",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana ikan merah?",
+    "label": "Mana ikan merah?",
+    "assetKey": "ikan",
+    "data": {
+      "target": "merah",
+      "distractors": ["biru", "kuning", "hijau"]
+    },
+    "tags": ["warna", "merah", "ikan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bola-biru",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana bola biru?",
+    "label": "Mana bola biru?",
+    "assetKey": "bola",
+    "data": {
+      "target": "biru",
+      "distractors": ["kuning", "merah", "hijau"]
+    },
+    "tags": ["warna", "biru", "bola"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bintang-biru",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana bintang biru?",
+    "label": "Mana bintang biru?",
+    "assetKey": "bintang",
+    "data": {
+      "target": "biru",
+      "distractors": ["kuning", "merah", "hijau"]
+    },
+    "tags": ["warna", "biru", "bintang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "balon-biru",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana balon biru?",
+    "label": "Mana balon biru?",
+    "assetKey": "balon",
+    "data": {
+      "target": "biru",
+      "distractors": ["kuning", "merah", "hijau"]
+    },
+    "tags": ["warna", "biru", "balon"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bunga-biru",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana bunga biru?",
+    "label": "Mana bunga biru?",
+    "assetKey": "bunga",
+    "data": {
+      "target": "biru",
+      "distractors": ["kuning", "merah", "hijau"]
+    },
+    "tags": ["warna", "biru", "bunga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikan-biru",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana ikan biru?",
+    "label": "Mana ikan biru?",
+    "assetKey": "ikan",
+    "data": {
+      "target": "biru",
+      "distractors": ["kuning", "merah", "hijau"]
+    },
+    "tags": ["warna", "biru", "ikan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bola-kuning",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana bola kuning?",
+    "label": "Mana bola kuning?",
+    "assetKey": "bola",
+    "data": {
+      "target": "kuning",
+      "distractors": ["biru", "merah", "ungu"]
+    },
+    "tags": ["warna", "kuning", "bola"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bintang-kuning",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana bintang kuning?",
+    "label": "Mana bintang kuning?",
+    "assetKey": "bintang",
+    "data": {
+      "target": "kuning",
+      "distractors": ["biru", "merah", "ungu"]
+    },
+    "tags": ["warna", "kuning", "bintang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "balon-kuning",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana balon kuning?",
+    "label": "Mana balon kuning?",
+    "assetKey": "balon",
+    "data": {
+      "target": "kuning",
+      "distractors": ["biru", "merah", "ungu"]
+    },
+    "tags": ["warna", "kuning", "balon"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bunga-kuning",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana bunga kuning?",
+    "label": "Mana bunga kuning?",
+    "assetKey": "bunga",
+    "data": {
+      "target": "kuning",
+      "distractors": ["biru", "merah", "ungu"]
+    },
+    "tags": ["warna", "kuning", "bunga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikan-kuning",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana ikan kuning?",
+    "label": "Mana ikan kuning?",
+    "assetKey": "ikan",
+    "data": {
+      "target": "kuning",
+      "distractors": ["biru", "merah", "ungu"]
+    },
+    "tags": ["warna", "kuning", "ikan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bola-hijau",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bola hijau?",
+    "label": "Mana bola hijau?",
+    "assetKey": "bola",
+    "data": {
+      "target": "hijau",
+      "distractors": ["merah", "biru", "kuning"]
+    },
+    "tags": ["warna", "hijau", "bola"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bintang-hijau",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bintang hijau?",
+    "label": "Mana bintang hijau?",
+    "assetKey": "bintang",
+    "data": {
+      "target": "hijau",
+      "distractors": ["merah", "biru", "kuning"]
+    },
+    "tags": ["warna", "hijau", "bintang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "balon-hijau",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Mana balon hijau?",
+    "label": "Mana balon hijau?",
+    "assetKey": "balon",
+    "data": {
+      "target": "hijau",
+      "distractors": ["merah", "biru", "kuning"]
+    },
+    "tags": ["warna", "hijau", "balon"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bunga-hijau",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bunga hijau?",
+    "label": "Mana bunga hijau?",
+    "assetKey": "bunga",
+    "data": {
+      "target": "hijau",
+      "distractors": ["merah", "biru", "kuning"]
+    },
+    "tags": ["warna", "hijau", "bunga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikan-hijau",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Mana ikan hijau?",
+    "label": "Mana ikan hijau?",
+    "assetKey": "ikan",
+    "data": {
+      "target": "hijau",
+      "distractors": ["merah", "biru", "kuning"]
+    },
+    "tags": ["warna", "hijau", "ikan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bola-oranye",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana bola oranye?",
+    "label": "Mana bola oranye?",
+    "assetKey": "bola",
+    "data": {
+      "target": "oranye",
+      "distractors": ["biru", "hijau", "kuning"]
+    },
+    "tags": ["warna", "oranye", "bola"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bintang-oranye",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana bintang oranye?",
+    "label": "Mana bintang oranye?",
+    "assetKey": "bintang",
+    "data": {
+      "target": "oranye",
+      "distractors": ["biru", "hijau", "kuning"]
+    },
+    "tags": ["warna", "oranye", "bintang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "balon-oranye",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana balon oranye?",
+    "label": "Mana balon oranye?",
+    "assetKey": "balon",
+    "data": {
+      "target": "oranye",
+      "distractors": ["biru", "hijau", "kuning"]
+    },
+    "tags": ["warna", "oranye", "balon"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bunga-oranye",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana bunga oranye?",
+    "label": "Mana bunga oranye?",
+    "assetKey": "bunga",
+    "data": {
+      "target": "oranye",
+      "distractors": ["biru", "hijau", "kuning"]
+    },
+    "tags": ["warna", "oranye", "bunga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikan-oranye",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana ikan oranye?",
+    "label": "Mana ikan oranye?",
+    "assetKey": "ikan",
+    "data": {
+      "target": "oranye",
+      "distractors": ["biru", "hijau", "kuning"]
+    },
+    "tags": ["warna", "oranye", "ikan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bola-ungu",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana bola ungu?",
+    "label": "Mana bola ungu?",
+    "assetKey": "bola",
+    "data": {
+      "target": "ungu",
+      "distractors": ["kuning", "hijau", "biru"]
+    },
+    "tags": ["warna", "ungu", "bola"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bintang-ungu",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana bintang ungu?",
+    "label": "Mana bintang ungu?",
+    "assetKey": "bintang",
+    "data": {
+      "target": "ungu",
+      "distractors": ["kuning", "hijau", "biru"]
+    },
+    "tags": ["warna", "ungu", "bintang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "balon-ungu",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana balon ungu?",
+    "label": "Mana balon ungu?",
+    "assetKey": "balon",
+    "data": {
+      "target": "ungu",
+      "distractors": ["kuning", "hijau", "biru"]
+    },
+    "tags": ["warna", "ungu", "balon"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bunga-ungu",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana bunga ungu?",
+    "label": "Mana bunga ungu?",
+    "assetKey": "bunga",
+    "data": {
+      "target": "ungu",
+      "distractors": ["kuning", "hijau", "biru"]
+    },
+    "tags": ["warna", "ungu", "bunga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikan-ungu",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana ikan ungu?",
+    "label": "Mana ikan ungu?",
+    "assetKey": "ikan",
+    "data": {
+      "target": "ungu",
+      "distractors": ["kuning", "hijau", "biru"]
+    },
+    "tags": ["warna", "ungu", "ikan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bola-merah-muda",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Mana bola merah muda?",
+    "label": "Mana bola merah muda?",
+    "assetKey": "bola",
+    "data": {
+      "target": "merah muda",
+      "distractors": ["hijau", "biru", "merah"]
+    },
+    "tags": ["warna", "merah muda", "bola"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bintang-merah-muda",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Mana bintang merah muda?",
+    "label": "Mana bintang merah muda?",
+    "assetKey": "bintang",
+    "data": {
+      "target": "merah muda",
+      "distractors": ["hijau", "biru", "merah"]
+    },
+    "tags": ["warna", "merah muda", "bintang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "balon-merah-muda",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Mana balon merah muda?",
+    "label": "Mana balon merah muda?",
+    "assetKey": "balon",
+    "data": {
+      "target": "merah muda",
+      "distractors": ["hijau", "biru", "merah"]
+    },
+    "tags": ["warna", "merah muda", "balon"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bunga-merah-muda",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Mana bunga merah muda?",
+    "label": "Mana bunga merah muda?",
+    "assetKey": "bunga",
+    "data": {
+      "target": "merah muda",
+      "distractors": ["hijau", "biru", "merah"]
+    },
+    "tags": ["warna", "merah muda", "bunga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikan-merah-muda",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Mana ikan merah muda?",
+    "label": "Mana ikan merah muda?",
+    "assetKey": "ikan",
+    "data": {
+      "target": "merah muda",
+      "distractors": ["hijau", "biru", "merah"]
+    },
+    "tags": ["warna", "merah muda", "ikan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bola-cokelat",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Mana bola cokelat?",
+    "label": "Mana bola cokelat?",
+    "assetKey": "bola",
+    "data": {
+      "target": "cokelat",
+      "distractors": ["biru", "oranye", "merah"]
+    },
+    "tags": ["warna", "cokelat", "bola"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bintang-cokelat",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Mana bintang cokelat?",
+    "label": "Mana bintang cokelat?",
+    "assetKey": "bintang",
+    "data": {
+      "target": "cokelat",
+      "distractors": ["biru", "oranye", "merah"]
+    },
+    "tags": ["warna", "cokelat", "bintang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "balon-cokelat",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Mana balon cokelat?",
+    "label": "Mana balon cokelat?",
+    "assetKey": "balon",
+    "data": {
+      "target": "cokelat",
+      "distractors": ["biru", "oranye", "merah"]
+    },
+    "tags": ["warna", "cokelat", "balon"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bunga-cokelat",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Mana bunga cokelat?",
+    "label": "Mana bunga cokelat?",
+    "assetKey": "bunga",
+    "data": {
+      "target": "cokelat",
+      "distractors": ["biru", "oranye", "merah"]
+    },
+    "tags": ["warna", "cokelat", "bunga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikan-cokelat",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Mana ikan cokelat?",
+    "label": "Mana ikan cokelat?",
+    "assetKey": "ikan",
+    "data": {
+      "target": "cokelat",
+      "distractors": ["biru", "oranye", "merah"]
+    },
+    "tags": ["warna", "cokelat", "ikan"],
+    "review": "ditinjau"
+  }
+]
