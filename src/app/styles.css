@@ -418,8 +418,10 @@ svg {
   }
 }
 .choice {
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: var(--card);
   height: var(--card);
   min-width: var(--touch);
@@ -435,9 +437,21 @@ svg {
     opacity 0.3s ease,
     border-color 0.3s;
 }
-.choice > svg {
+.choice-art {
+  display: block;
+  width: 100%;
+  flex: 1;
+  min-height: 0;
+}
+.choice-art > svg {
   width: 100%;
   height: 100%;
+}
+.choice-label {
+  font-weight: 800;
+  font-size: clamp(1rem, 2.6vmin, 1.4rem);
+  line-height: 1.1;
+  padding-top: 4px;
 }
 .choice:active {
   transform: scale(0.95);
@@ -790,4 +804,308 @@ textarea {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* ---------- Galeri (dev) ---------- */
+.galeri {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+  gap: 10px;
+}
+.galeri-item {
+  margin: 0;
+  background: #fff;
+  border-radius: 12px;
+  padding: 6px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+.galeri-item svg {
+  height: 96px;
+}
+
+/* ---------- Nada Nusantara: alat musik ---------- */
+.note-cue {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: var(--soft);
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--soft-ink);
+}
+.instrument {
+  --pad-h: clamp(180px, 38vh, 360px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: clamp(6px, 1.4vw, 14px);
+  width: min(100%, 920px);
+  padding: 18px;
+  border-radius: 28px;
+  background: #fffaf0;
+  box-shadow: var(--shadow);
+  position: relative;
+}
+.pad {
+  border: 0;
+  cursor: pointer;
+  min-width: var(--touch);
+  min-height: var(--touch);
+  touch-action: manipulation;
+  transition:
+    transform 0.08s ease,
+    filter 0.15s ease;
+}
+.pad.is-on {
+  transform: scale(0.94);
+  filter: brightness(1.25);
+}
+.pad.is-hint {
+  animation: pulse 1.1s ease-in-out infinite;
+}
+.pad:focus-visible {
+  outline: 4px solid #3b7bf5;
+}
+/* bilah: xilofon, kolintang, saron */
+.inst-bilah .pad {
+  flex: 1 1 0;
+  max-width: 90px;
+  height: calc(var(--pad-h) * var(--h) / 100);
+  border-radius: 12px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.35), transparent 40%), var(--c);
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.18);
+  position: relative;
+}
+.inst-bilah .pad::before,
+.inst-bilah .pad::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin-left: -4px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.35);
+}
+.inst-bilah .pad::before {
+  top: 12%;
+}
+.inst-bilah .pad::after {
+  bottom: 12%;
+}
+/* tabung: angklung, seruling pan */
+.inst-tabung .pad {
+  flex: 1 1 0;
+  max-width: 80px;
+  height: calc(var(--pad-h) * var(--h) / 100);
+  border-radius: 40px 40px 10px 10px;
+  background:
+    repeating-linear-gradient(180deg, transparent 0 38px, rgba(0, 0, 0, 0.18) 38px 41px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.35), transparent 50%), var(--c);
+  box-shadow: inset 0 -8px 0 rgba(0, 0, 0, 0.2);
+}
+/* pencon, gong, kulit: bundar */
+.inst-pencon .pad,
+.inst-gong .pad,
+.inst-kulit .pad {
+  border-radius: 50%;
+  aspect-ratio: 1;
+}
+.inst-pencon .pad {
+  width: clamp(72px, 13vw, 120px);
+  background: radial-gradient(
+    circle at 50% 50%,
+    #fff7d6 0 14%,
+    rgba(0, 0, 0, 0.18) 15% 18%,
+    var(--c) 19%
+  );
+  box-shadow: inset 0 -6px 0 rgba(0, 0, 0, 0.2);
+}
+.inst-gong .pad {
+  width: clamp(120px, 28vmin, 240px);
+  background: radial-gradient(
+    circle at 50% 50%,
+    #fff2c2 0 16%,
+    rgba(0, 0, 0, 0.2) 17% 20%,
+    var(--c) 21% 82%,
+    #8a6a1a 83%
+  );
+}
+.inst-kulit .pad {
+  width: clamp(120px, 26vmin, 220px);
+  background: radial-gradient(circle, var(--c) 0 72%, #9c6239 73% 84%, #6e3f1e 85%);
+}
+/* senar: sasando, gitar, kecapi, harpa */
+.inst-senar {
+  flex-wrap: nowrap;
+  background: linear-gradient(180deg, #f6e7c8, #e9d2a2);
+}
+.inst-senar .pad {
+  flex: 1 1 0;
+  max-width: 80px;
+  height: var(--pad-h);
+  background: transparent;
+  position: relative;
+}
+.inst-senar .pad::after {
+  content: '';
+  position: absolute;
+  inset: 6% 50%;
+  width: 3px;
+  margin-left: -1.5px;
+  background: var(--c);
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+}
+.inst-senar .pad.is-on::after {
+  width: 6px;
+  margin-left: -3px;
+  background: #ff9f1c;
+}
+/* lubang: suling, rekorder, trompet */
+.inst-lubang {
+  flex-wrap: nowrap;
+  padding: 40px 28px;
+}
+.inst-tube {
+  position: absolute;
+  left: 12px;
+  right: 12px;
+  top: 50%;
+  height: clamp(90px, 16vmin, 130px);
+  transform: translateY(-50%);
+  border-radius: 60px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.45), transparent 50%), var(--c);
+  box-shadow: inset 0 -8px 0 rgba(0, 0, 0, 0.18);
+}
+.inst-lubang .pad {
+  position: relative;
+  width: clamp(64px, 10vw, 84px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle, #3a2a20 0 46%, rgba(0, 0, 0, 0.15) 47% 60%, transparent 61%);
+}
+/* tuts: piano */
+.inst-tuts {
+  flex-wrap: nowrap;
+  gap: 4px;
+  background: #2b2b33;
+}
+.inst-tuts .pad {
+  flex: 1 1 0;
+  max-width: 90px;
+  height: var(--pad-h);
+  border-radius: 0 0 12px 12px;
+  background: linear-gradient(180deg, #e8e8ee, #fff 20%);
+  box-shadow: inset 0 -10px 0 #d9d9e2;
+}
+.melody-dots {
+  display: flex;
+  gap: 10px;
+}
+.melody-dots span {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--line);
+}
+.melody-dots span.is-done {
+  background: var(--ok);
+}
+
+/* ---------- Tiru Irama ---------- */
+.beats {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.beat {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
+  background: var(--line);
+  font-weight: 800;
+  color: var(--soft-ink);
+  transition:
+    background 0.15s,
+    transform 0.15s;
+}
+.beat.is-long {
+  width: 96px;
+}
+.beat.is-lit {
+  background: var(--primary);
+  transform: scale(1.15);
+}
+.beat.is-done {
+  background: var(--ok);
+}
+.drum {
+  width: clamp(200px, 42vmin, 340px);
+  aspect-ratio: 1;
+  padding: 7%;
+  border: 6px solid transparent;
+  border-radius: 50%;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: transform 0.08s ease;
+}
+.drum.is-ready {
+  border-color: var(--primary);
+}
+.drum.is-hit {
+  transform: scale(0.93);
+}
+.drum:disabled {
+  opacity: 0.8;
+}
+
+/* ---------- Panca Indra: figur tubuh ---------- */
+.figure {
+  width: auto;
+  max-width: 100%;
+  border-radius: 28px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  padding: 8px;
+}
+.figure-wajah {
+  height: min(62vh, 92vw);
+}
+.figure-badan {
+  height: min(66vh, 130vw);
+}
+.spot {
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 1.5;
+  cursor: pointer;
+  outline: none;
+}
+.spot:focus-visible {
+  stroke: #3b7bf5;
+}
+.spot.is-correct {
+  stroke: var(--ok);
+  stroke-width: 2.5;
+  fill: rgba(52, 184, 101, 0.18);
+}
+.spot.is-hint {
+  stroke: var(--primary);
+  stroke-dasharray: 3 2;
+  fill: rgba(255, 159, 28, 0.15);
+}
+.spot.is-miss {
+  stroke: #9aa1ab;
+  fill: rgba(154, 161, 171, 0.2);
 }

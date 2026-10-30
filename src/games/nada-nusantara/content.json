@@ -1,0 +1,802 @@
+[
+  {
+    "id": "angklung",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ayo main angklung!",
+    "label": "Angklung",
+    "data": {
+      "nama": "angklung",
+      "timbre": "angklung",
+      "layout": "tabung",
+      "scale": "diatonis",
+      "base": 262,
+      "count": 8,
+      "color": "#D9B26A",
+      "melody": [0, 2, 1, 0],
+      "speakAlso": ["Angklung berasal dari Jawa Barat dan terbuat dari bambu."]
+    },
+    "tags": ["musik", "angklung", "tabung"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "calung",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ayo main calung!",
+    "label": "Calung",
+    "data": {
+      "nama": "calung",
+      "timbre": "bambu",
+      "layout": "bilah",
+      "scale": "slendro",
+      "base": 294,
+      "count": 6,
+      "color": "#D9B26A",
+      "melody": [4, 2, 2, 2],
+      "speakAlso": ["Calung berasal dari Jawa Barat, dipukul pada bilah bambunya."]
+    },
+    "tags": ["musik", "bambu", "bilah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "kolintang",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ayo main kolintang!",
+    "label": "Kolintang",
+    "data": {
+      "nama": "kolintang",
+      "timbre": "kayu",
+      "layout": "bilah",
+      "scale": "diatonis",
+      "base": 262,
+      "count": 8,
+      "color": "#A0673F",
+      "melody": [2, 1, 1, 3],
+      "speakAlso": ["Kolintang berasal dari Sulawesi Utara dan terbuat dari kayu."]
+    },
+    "tags": ["musik", "kayu", "bilah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "saron",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Ayo main saron!",
+    "label": "Saron",
+    "data": {
+      "nama": "saron",
+      "timbre": "logam",
+      "layout": "bilah",
+      "scale": "slendro",
+      "base": 392,
+      "count": 6,
+      "color": "#D4AF37",
+      "melody": [0, 1, 2, 4],
+      "speakAlso": ["Saron adalah bagian dari gamelan Jawa, bilahnya dari logam."]
+    },
+    "tags": ["musik", "logam", "bilah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "demung",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ayo main demung!",
+    "label": "Demung",
+    "data": {
+      "nama": "demung",
+      "timbre": "logam",
+      "layout": "bilah",
+      "scale": "slendro",
+      "base": 196,
+      "count": 6,
+      "color": "#D4AF37",
+      "melody": [1, 0, 1, 3],
+      "speakAlso": ["Demung adalah saron besar dalam gamelan Jawa, nadanya lebih rendah."]
+    },
+    "tags": ["musik", "logam", "bilah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "bonang",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Ayo main bonang!",
+    "label": "Bonang",
+    "data": {
+      "nama": "bonang",
+      "timbre": "pencon",
+      "layout": "pencon",
+      "scale": "pelog",
+      "base": 330,
+      "count": 6,
+      "color": "#D4AF37",
+      "melody": [2, 2, 2, 1],
+      "speakAlso": ["Bonang adalah deretan gong kecil dalam gamelan Jawa."]
+    },
+    "tags": ["musik", "pencon", "pencon"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "kenong",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ayo main kenong!",
+    "label": "Kenong",
+    "data": {
+      "nama": "kenong",
+      "timbre": "pencon",
+      "layout": "pencon",
+      "scale": "slendro",
+      "base": 196,
+      "count": 3,
+      "color": "#D4AF37",
+      "melody": [0, 2, 0, 0],
+      "speakAlso": ["Kenong adalah gong besar yang diletakkan di atas kayu dalam gamelan Jawa."]
+    },
+    "tags": ["musik", "pencon", "pencon"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "gong",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ayo main gong!",
+    "label": "Gong",
+    "data": {
+      "nama": "gong",
+      "timbre": "gong",
+      "layout": "gong",
+      "scale": "slendro",
+      "base": 65,
+      "count": 2,
+      "color": "#D4AF37",
+      "melody": [1, 1, 0, 0],
+      "speakAlso": ["Gong adalah alat musik pukul dari logam yang bunyinya panjang dan dalam."]
+    },
+    "tags": ["musik", "gong", "gong"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "kendang",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ayo main kendang!",
+    "label": "Kendang",
+    "data": {
+      "nama": "kendang",
+      "timbre": "kulit",
+      "layout": "kulit",
+      "scale": "pentatonis",
+      "base": 110,
+      "count": 2,
+      "color": "#E9D8B4",
+      "melody": [1, 1, 0, 1],
+      "speakAlso": ["Kendang adalah gendang dari Jawa yang dipukul dengan tangan."]
+    },
+    "tags": ["musik", "kulit", "kulit"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "rebana",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ayo main rebana!",
+    "label": "Rebana",
+    "data": {
+      "nama": "rebana",
+      "timbre": "rebana",
+      "layout": "kulit",
+      "scale": "pentatonis",
+      "base": 180,
+      "count": 2,
+      "color": "#E9D8B4",
+      "melody": [1, 0, 1, 0],
+      "speakAlso": ["Rebana adalah gendang bundar yang dimainkan di banyak daerah di Indonesia."]
+    },
+    "tags": ["musik", "rebana", "kulit"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "bedug",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ayo main bedug!",
+    "label": "Bedug",
+    "data": {
+      "nama": "bedug",
+      "timbre": "kulit",
+      "layout": "kulit",
+      "scale": "pentatonis",
+      "base": 55,
+      "count": 1,
+      "color": "#E9D8B4",
+      "melody": [0, 0, 0, 0],
+      "speakAlso": ["Bedug adalah gendang besar yang bunyinya dalam."]
+    },
+    "tags": ["musik", "kulit", "kulit"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "tifa",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ayo main tifa!",
+    "label": "Tifa",
+    "data": {
+      "nama": "tifa",
+      "timbre": "kulit",
+      "layout": "kulit",
+      "scale": "pentatonis",
+      "base": 140,
+      "count": 2,
+      "color": "#E9D8B4",
+      "melody": [0, 1, 1, 1],
+      "speakAlso": ["Tifa adalah gendang panjang dari Papua dan Maluku."]
+    },
+    "tags": ["musik", "kulit", "kulit"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "sasando",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Ayo main sasando!",
+    "label": "Sasando",
+    "data": {
+      "nama": "sasando",
+      "timbre": "petik",
+      "layout": "senar",
+      "scale": "diatonis",
+      "base": 262,
+      "count": 8,
+      "color": "#8A5A33",
+      "melody": [4, 4, 2, 1],
+      "speakAlso": ["Sasando berasal dari Pulau Rote, Nusa Tenggara Timur, dan dipetik."]
+    },
+    "tags": ["musik", "petik", "senar"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "kecapi",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ayo main kecapi!",
+    "label": "Kecapi",
+    "data": {
+      "nama": "kecapi",
+      "timbre": "petik",
+      "layout": "senar",
+      "scale": "pelog",
+      "base": 220,
+      "count": 7,
+      "color": "#8A5A33",
+      "melody": [3, 0, 4, 4],
+      "speakAlso": ["Kecapi adalah alat musik petik dari Jawa Barat."]
+    },
+    "tags": ["musik", "petik", "senar"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "sape",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ayo main sape!",
+    "label": "Sape",
+    "data": {
+      "nama": "sape",
+      "timbre": "petik",
+      "layout": "senar",
+      "scale": "pentatonis",
+      "base": 196,
+      "count": 5,
+      "color": "#8A5A33",
+      "melody": [1, 4, 0, 3],
+      "speakAlso": ["Sape adalah alat musik petik dari suku Dayak di Kalimantan."]
+    },
+    "tags": ["musik", "petik", "senar"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "suling",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Ayo main suling!",
+    "label": "Suling",
+    "data": {
+      "nama": "suling",
+      "timbre": "tiup",
+      "layout": "lubang",
+      "scale": "slendro",
+      "base": 392,
+      "count": 6,
+      "color": "#D9B26A",
+      "melody": [4, 2, 3, 2],
+      "speakAlso": ["Suling adalah seruling bambu yang ditiup, ada di banyak daerah Indonesia."]
+    },
+    "tags": ["musik", "tiup", "lubang"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "talempong",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ayo main talempong!",
+    "label": "Talempong",
+    "data": {
+      "nama": "talempong",
+      "timbre": "pencon",
+      "layout": "pencon",
+      "scale": "diatonis",
+      "base": 330,
+      "count": 6,
+      "color": "#D4AF37",
+      "melody": [4, 2, 4, 4],
+      "speakAlso": ["Talempong berasal dari Sumatera Barat, berbentuk seperti gong kecil."]
+    },
+    "tags": ["musik", "pencon", "pencon"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "gambang",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ayo main gambang!",
+    "label": "Gambang",
+    "data": {
+      "nama": "gambang",
+      "timbre": "kayu",
+      "layout": "bilah",
+      "scale": "slendro",
+      "base": 294,
+      "count": 7,
+      "color": "#A0673F",
+      "melody": [2, 4, 2, 1],
+      "speakAlso": ["Gambang adalah alat musik pukul dari bilah kayu dalam gamelan Jawa."]
+    },
+    "tags": ["musik", "kayu", "bilah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "rindik",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Ayo main rindik!",
+    "label": "Rindik",
+    "data": {
+      "nama": "rindik",
+      "timbre": "bambu",
+      "layout": "bilah",
+      "scale": "slendro",
+      "base": 330,
+      "count": 6,
+      "color": "#D9B26A",
+      "melody": [0, 0, 4, 0],
+      "speakAlso": ["Rindik berasal dari Bali dan terbuat dari bambu."]
+    },
+    "tags": ["musik", "bambu", "bilah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "arumba",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ayo main arumba!",
+    "label": "Arumba",
+    "data": {
+      "nama": "arumba",
+      "timbre": "bambu",
+      "layout": "bilah",
+      "scale": "diatonis",
+      "base": 262,
+      "count": 8,
+      "color": "#D9B26A",
+      "melody": [1, 2, 1, 2],
+      "speakAlso": ["Arumba adalah alat musik bambu dari Jawa Barat yang dimainkan bersama-sama."]
+    },
+    "tags": ["musik", "bambu", "bilah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "serunai",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ayo main serunai!",
+    "label": "Serunai",
+    "data": {
+      "nama": "serunai",
+      "timbre": "buluh",
+      "layout": "lubang",
+      "scale": "pentatonis",
+      "base": 330,
+      "count": 5,
+      "color": "#A0673F",
+      "melody": [0, 1, 0, 2],
+      "speakAlso": ["Serunai adalah alat musik tiup dari Sumatera."]
+    },
+    "tags": ["musik", "buluh", "lubang"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "rebab",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ayo main rebab!",
+    "label": "Rebab",
+    "data": {
+      "nama": "rebab",
+      "timbre": "gesek",
+      "layout": "senar",
+      "scale": "pelog",
+      "base": 262,
+      "count": 5,
+      "color": "#8A5A33",
+      "melody": [2, 4, 0, 4],
+      "speakAlso": ["Rebab adalah alat musik gesek dalam gamelan."]
+    },
+    "tags": ["musik", "gesek", "senar"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "tarawangsa",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ayo main tarawangsa!",
+    "label": "Tarawangsa",
+    "data": {
+      "nama": "tarawangsa",
+      "timbre": "gesek",
+      "layout": "senar",
+      "scale": "slendro",
+      "base": 220,
+      "count": 5,
+      "color": "#8A5A33",
+      "melody": [4, 3, 2, 1],
+      "speakAlso": ["Tarawangsa adalah alat musik gesek dari Jawa Barat."]
+    },
+    "tags": ["musik", "gesek", "senar"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "dol",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ayo main dol!",
+    "label": "Dol",
+    "data": {
+      "nama": "dol",
+      "timbre": "kulit",
+      "layout": "kulit",
+      "scale": "pentatonis",
+      "base": 70,
+      "count": 2,
+      "color": "#E9D8B4",
+      "melody": [1, 1, 1, 0],
+      "speakAlso": ["Dol adalah gendang besar dari Bengkulu."]
+    },
+    "tags": ["musik", "kulit", "kulit"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "piano",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ayo main piano!",
+    "label": "Piano",
+    "data": {
+      "nama": "piano",
+      "timbre": "piano",
+      "layout": "tuts",
+      "scale": "diatonis",
+      "base": 262,
+      "count": 8,
+      "color": "#FFFFFF",
+      "melody": [2, 1, 4, 2],
+      "speakAlso": ["Piano dimainkan dengan menekan tutsnya."]
+    },
+    "tags": ["musik", "piano", "tuts"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "xilofon",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ayo main xilofon!",
+    "label": "Xilofon",
+    "data": {
+      "nama": "xilofon",
+      "timbre": "kayu",
+      "layout": "bilah",
+      "scale": "diatonis",
+      "base": 523,
+      "count": 8,
+      "color": "#E5484D",
+      "melody": [4, 0, 0, 4],
+      "speakAlso": ["Xilofon dimainkan dengan memukul bilah-bilah kayu."]
+    },
+    "tags": ["musik", "kayu", "bilah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "marimba",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ayo main marimba!",
+    "label": "Marimba",
+    "data": {
+      "nama": "marimba",
+      "timbre": "kayu",
+      "layout": "bilah",
+      "scale": "diatonis",
+      "base": 196,
+      "count": 8,
+      "color": "#A0673F",
+      "melody": [3, 1, 4, 1],
+      "speakAlso": ["Marimba banyak dimainkan di Meksiko dan Guatemala."]
+    },
+    "tags": ["musik", "kayu", "bilah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "gitar",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ayo main gitar!",
+    "label": "Gitar",
+    "data": {
+      "nama": "gitar",
+      "timbre": "petik",
+      "layout": "senar",
+      "scale": "diatonis",
+      "base": 165,
+      "count": 6,
+      "color": "#8A5A33",
+      "melody": [4, 2, 2, 1],
+      "speakAlso": ["Gitar adalah alat musik petik yang dimainkan di seluruh dunia."]
+    },
+    "tags": ["musik", "petik", "senar"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "ukulele",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Ayo main ukulele!",
+    "label": "Ukulele",
+    "data": {
+      "nama": "ukulele",
+      "timbre": "petik",
+      "layout": "senar",
+      "scale": "diatonis",
+      "base": 392,
+      "count": 4,
+      "color": "#C98F4E",
+      "melody": [0, 3, 3, 1],
+      "speakAlso": ["Ukulele adalah gitar kecil dari Hawaii."]
+    },
+    "tags": ["musik", "petik", "senar"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "harpa",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ayo main harpa!",
+    "label": "Harpa",
+    "data": {
+      "nama": "harpa",
+      "timbre": "petik",
+      "layout": "senar",
+      "scale": "diatonis",
+      "base": 196,
+      "count": 8,
+      "color": "#D4AF37",
+      "melody": [3, 1, 4, 2],
+      "speakAlso": ["Harpa dimainkan dengan memetik banyak senar."]
+    },
+    "tags": ["musik", "petik", "senar"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "biola",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ayo main biola!",
+    "label": "Biola",
+    "data": {
+      "nama": "biola",
+      "timbre": "gesek",
+      "layout": "senar",
+      "scale": "diatonis",
+      "base": 392,
+      "count": 4,
+      "color": "#9C4A1E",
+      "melody": [0, 0, 0, 2],
+      "speakAlso": ["Biola dimainkan dengan cara digesek."]
+    },
+    "tags": ["musik", "gesek", "senar"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "erhu",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ayo main erhu!",
+    "label": "Erhu",
+    "data": {
+      "nama": "erhu",
+      "timbre": "gesek",
+      "layout": "senar",
+      "scale": "pentatonis",
+      "base": 294,
+      "count": 5,
+      "color": "#5A2E1A",
+      "melody": [1, 4, 1, 3],
+      "speakAlso": ["Erhu adalah alat musik gesek dari Tiongkok."]
+    },
+    "tags": ["musik", "gesek", "senar"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "trompet",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ayo main trompet!",
+    "label": "Trompet",
+    "data": {
+      "nama": "trompet",
+      "timbre": "buluh",
+      "layout": "lubang",
+      "scale": "diatonis",
+      "base": 233,
+      "count": 5,
+      "color": "#D4AF37",
+      "melody": [4, 2, 3, 0],
+      "speakAlso": ["Trompet adalah alat musik tiup dari logam."]
+    },
+    "tags": ["musik", "buluh", "lubang"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "rekorder",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Ayo main rekorder!",
+    "label": "Rekorder",
+    "data": {
+      "nama": "rekorder",
+      "timbre": "tiup",
+      "layout": "lubang",
+      "scale": "diatonis",
+      "base": 523,
+      "count": 7,
+      "color": "#F2E6CC",
+      "melody": [3, 2, 1, 1],
+      "speakAlso": ["Rekorder adalah seruling yang sering dipelajari di sekolah."]
+    },
+    "tags": ["musik", "tiup", "lubang"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "serulingPan",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ayo main seruling pan!",
+    "label": "Seruling pan",
+    "data": {
+      "nama": "seruling pan",
+      "timbre": "tiup",
+      "layout": "tabung",
+      "scale": "pentatonis",
+      "base": 392,
+      "count": 6,
+      "color": "#D9B26A",
+      "melody": [2, 3, 2, 1],
+      "speakAlso": ["Seruling pan dimainkan di Pegunungan Andes, Amerika Selatan."]
+    },
+    "tags": ["musik", "tiup", "tabung"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "djembe",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ayo main djembe!",
+    "label": "Djembe",
+    "data": {
+      "nama": "djembe",
+      "timbre": "kulit",
+      "layout": "kulit",
+      "scale": "pentatonis",
+      "base": 120,
+      "count": 3,
+      "color": "#E9D8B4",
+      "melody": [1, 1, 0, 1],
+      "speakAlso": ["Djembe adalah gendang dari Afrika Barat."]
+    },
+    "tags": ["musik", "kulit", "kulit"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "taiko",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ayo main taiko!",
+    "label": "Taiko",
+    "data": {
+      "nama": "taiko",
+      "timbre": "kulit",
+      "layout": "kulit",
+      "scale": "pentatonis",
+      "base": 75,
+      "count": 2,
+      "color": "#E9D8B4",
+      "melody": [1, 0, 1, 0],
+      "speakAlso": ["Taiko adalah gendang besar dari Jepang."]
+    },
+    "tags": ["musik", "kulit", "kulit"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "koto",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ayo main koto!",
+    "label": "Koto",
+    "data": {
+      "nama": "koto",
+      "timbre": "petik",
+      "layout": "senar",
+      "scale": "hirajoshi",
+      "base": 220,
+      "count": 7,
+      "color": "#8A5A33",
+      "melody": [3, 1, 0, 2],
+      "speakAlso": ["Koto adalah alat musik petik dari Jepang."]
+    },
+    "tags": ["musik", "petik", "senar"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "steelpan",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ayo main steelpan!",
+    "label": "Steelpan",
+    "data": {
+      "nama": "steelpan",
+      "timbre": "steelpan",
+      "layout": "pencon",
+      "scale": "diatonis",
+      "base": 392,
+      "count": 7,
+      "color": "#C9CED6",
+      "melody": [1, 0, 2, 4],
+      "speakAlso": ["Steelpan berasal dari Trinidad dan Tobago, terbuat dari drum logam."]
+    },
+    "tags": ["musik", "steelpan", "pencon"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "kalimba",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Ayo main kalimba!",
+    "label": "Kalimba",
+    "data": {
+      "nama": "kalimba",
+      "timbre": "kalimba",
+      "layout": "bilah",
+      "scale": "pentatonis",
+      "base": 392,
+      "count": 7,
+      "color": "#C9CED6",
+      "melody": [1, 0, 4, 4],
+      "speakAlso": ["Kalimba adalah alat musik dari Afrika yang dipetik dengan ibu jari."]
+    },
+    "tags": ["musik", "kalimba", "bilah"],
+    "review": "perlu-ditinjau"
+  }
+]

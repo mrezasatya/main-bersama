@@ -39,7 +39,12 @@ export async function collectPhrases(): Promise<Phrase[]> {
     if (g.missing.length) continue;
     const meta = g.meta as { id: string; title: string; usesAudio?: boolean };
     add(meta.title, 'judul');
-    for (const it of g.content as { speak?: string }[]) if (it.speak) add(it.speak, meta.id);
+    for (const t of g.phrases) add(t, meta.id);
+    for (const it of g.content as { speak?: string; data?: { speakAlso?: unknown } }[]) {
+      if (it.speak) add(it.speak, meta.id);
+      const also = it.data?.speakAlso;
+      if (Array.isArray(also)) for (const t of also) if (typeof t === 'string') add(t, meta.id);
+    }
   }
   return [...map.values()];
 }

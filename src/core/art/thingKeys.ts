@@ -1,0 +1,28 @@
+/** Kunci ikon benda sehari-hari dan organ indra (data murni). */
+export const THING_KEYS = [
+  'mata',
+  'telinga',
+  'hidung',
+  'lidah',
+  'tangan',
+  'jeruk',
+  'permen',
+  'garam',
+  'esKrim',
+  'esBatu',
+  'kue',
+  'roti',
+  'sabun',
+  'durian',
+  'pisang',
+  'cabai',
+  'bantal',
+  'batu',
+  'kapas',
+  'tehHangat',
+  'buku',
+  'lonceng',
+  'gendang',
+  'televisi',
+] as const;
+export type ThingKey = (typeof THING_KEYS)[number];

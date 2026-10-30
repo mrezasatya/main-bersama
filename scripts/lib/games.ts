@@ -10,6 +10,8 @@ export interface GameFolder {
   dir: string;
   missing: string[];
   meta: unknown;
+  /** Kalimat tetap khusus permainan (ekspor `phrases` dari meta.ts), ikut dibuatkan rekaman. */
+  phrases: string[];
   content: unknown;
 }
 
@@ -25,14 +27,15 @@ export async function loadGameFolders(): Promise<GameFolder[]> {
     const base = join(GAMES_DIR, dir);
     const missing = REQUIRED_FILES.filter((f) => !existsSync(join(base, f)));
     if (missing.length) {
-      out.push({ dir, missing, meta: null, content: null });
+      out.push({ dir, missing, meta: null, phrases: [], content: null });
       continue;
     }
-    const { meta } = (await import(pathToFileURL(join(base, 'meta.ts')).href)) as {
+    const { meta, phrases = [] } = (await import(pathToFileURL(join(base, 'meta.ts')).href)) as {
       meta: unknown;
+      phrases?: string[];
     };
     const content: unknown = JSON.parse(readFileSync(join(base, 'content.json'), 'utf8'));
-    out.push({ dir, missing: [], meta, content });
+    out.push({ dir, missing: [], meta, phrases, content });
   }
   return out;
 }

@@ -14,6 +14,8 @@ Katalog permainan (Bagian 10) dan urutan fase (Bagian 11) ada di berkas brief.
 | `npm run lint` / `npm run typecheck` / `npm run format:check` | Wajib lolos sebelum commit (hook `.githooks/pre-commit`)                     |
 | `npm run check`                                               | Semua pemeriksaan + build                                                    |
 | `npm run icons`                                               | Membuat ulang ikon PNG dari `public/favicon.svg`                             |
+| `npm run content`                                             | Membangkitkan ulang `content.json` dari tabel di `scripts/content/*.ts`      |
+| `npm run voice`                                               | Membuat rekaman ElevenLabs untuk kalimat baru (lihat README)                 |
 
 ## Keputusan implementasi (Fase 0)
 
@@ -38,6 +40,18 @@ Katalog permainan (Bagian 10) dan urutan fase (Bagian 11) ada di berkas brief.
   Nama berkas = `voiceKey(teks)-versiSuara`. `speak()` memutar rekaman bila ada, lalu jatuh ke suara perangkat.
   **Setiap kalimat baru yang dibacakan harus berasal dari `content.json` atau `phrases.ts`** (jangan merangkai
   angka/nama bebas di komponen), lalu jalankan `npm run voice`. `npm run validate` melaporkan cakupan rekaman.
+- **Konten (Fase 1+):** `content.json` dibangkitkan dari tabel data di `scripts/content/<slug>.ts`
+  (`npm run content`); ubah tabelnya, bukan JSON-nya. Pengecoh pilihan disimpan di `data.distractors`
+  (id item lain di bank yang sama) dan dipilih otomatis: pengecoh pertama selalu cocok untuk usia 2-3.
+- **Kalimat tambahan:** `data.speakAlso` (larik) untuk kalimat setelah benar, dan ekspor `phrases` di
+  `meta.ts` untuk kalimat tetap permainan. Keduanya ikut divalidasi dan dibuatkan rekaman.
+- **Komponen bersama:** `ChoiceGrid` (pilihan bergambar dengan kontrol kesalahan), `PictureQuiz`
+  (impor langsung dari `core/ui/PictureQuiz`, tidak dari barrel, agar registri gambar tidak masuk bundle awal),
+  `core/audio/effects.ts` (efek hewan/kendaraan) dan `core/audio/instruments.ts` (timbre + tangga nada).
+- **Gambar:** keluarga SVG parametrik di `core/art/animals`, `core/art/vehicles`, `core/art/things.tsx`;
+  spesifikasi data murni terpisah dari renderer agar validasi bisa membaca kuncinya. Galeri semua gambar:
+  `#/dev/galeri` (hanya `npm run dev`).
+- **Usia di luar rentang permainan:** `effectiveAge()` memakai kelompok usia terdekat yang tersedia.
 - **Gerbang pendamping:** tombol "Pendamping" di menu harus ditekan lama 1,5 detik.
 - **Framer Motion** belum dipakai; animasi Fase 0 cukup dengan CSS (menghormati `prefers-reduced-motion`).
 

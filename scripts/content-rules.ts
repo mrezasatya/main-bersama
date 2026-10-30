@@ -119,6 +119,14 @@ export function validateGame(meta: unknown, content: unknown, artKeys: readonly 
   if (m.success && m.data.usesAudio)
     for (const it of items) if (!it.speak.trim()) errors.push(`item ${it.id}: speak kosong`);
 
+  // Kalimat tambahan (data.speakAlso) harus berupa teks yang tidak kosong agar bisa direkam.
+  for (const it of items) {
+    const also = it.data.speakAlso;
+    if (also === undefined) continue;
+    if (!Array.isArray(also) || also.some((t) => typeof t !== 'string' || !t.trim()))
+      errors.push(`item ${it.id}: data.speakAlso harus larik teks yang tidak kosong`);
+  }
+
   // 6. Hitung yang perlu ditinjau
   const needsReview = items.filter((it) => it.review === 'perlu-ditinjau').length;
 

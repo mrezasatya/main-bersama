@@ -1,9 +1,13 @@
+import { lazy, Suspense } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Art, IconAlbum, IconParent, IconStar, NAMED_COLORS } from '../core/art';
+import { IconAlbum, IconParent, IconStar } from '../core/art/icons';
 import { speak } from '../core/audio';
 import { useTotalStars } from '../core/progress';
 import { BigButton, HoldButton } from '../core/ui';
 import { GAMES } from '../games/registry';
+
+// Gambar sampul dimuat terpisah agar registri semua gambar tidak masuk bundle awal.
+const CoverArt = lazy(() => import('./CoverArt'));
 
 export default function Home() {
   const navigate = useNavigate();
@@ -46,7 +50,9 @@ export default function Home() {
             }}
           >
             <div className="game-card-art">
-              <Art k={cover.art} color={NAMED_COLORS[cover.color]} />
+              <Suspense fallback={null}>
+                <CoverArt art={cover.art} color={cover.color} />
+              </Suspense>
             </div>
             <span className="game-card-title">{meta.title}</span>
           </button>

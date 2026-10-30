@@ -9,9 +9,11 @@ interface Props {
   speakText?: string;
   /** Ikon/gambar petunjuk agar instruksi bisa dipahami tanpa suara dan tanpa membaca. */
   cue?: ReactNode;
+  /** Mengganti aksi tombol "Dengar lagi" (mis. memutar efek bunyi dulu). */
+  onReplay?: () => void;
 }
 
-export function InstructionBar({ text, speakText, cue }: Props) {
+export function InstructionBar({ text, speakText, cue, onReplay }: Props) {
   const hasVoice = useVoiceStatus((s) => s.hasIndonesian || s.clipCount > 0 || !s.ready);
   return (
     <div className="instruction">
@@ -20,7 +22,7 @@ export function InstructionBar({ text, speakText, cue }: Props) {
       <button
         type="button"
         className="btn btn-soft btn-md instruction-speak"
-        onClick={() => void speak(speakText ?? text)}
+        onClick={() => (onReplay ? onReplay() : void speak(speakText ?? text))}
         aria-label="Dengar lagi"
       >
         <span className="btn-icon">{hasVoice ? <IconSpeaker /> : <IconSpeakerOff />}</span>

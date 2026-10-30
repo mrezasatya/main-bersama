@@ -28,9 +28,9 @@ describe('Cari Warna (permainan contoh)', () => {
     for (let i = 0; i < len; i++) {
       // Satu pilihan salah dulu: umpan balik lembut, bukan kekalahan.
       const color = targetColor();
-      fireEvent.click(choice(`:not([data-color="${color}"])`));
+      fireEvent.click(choice(`:not([data-choice="${color}"])`));
       expect(screen.queryByRole('dialog')).toBeNull();
-      fireEvent.click(choice(`[data-color="${color}"]`));
+      fireEvent.click(choice(`[data-choice="${color}"]`));
       await act(async () => {
         await vi.advanceTimersByTimeAsync(2000);
       });

@@ -11,6 +11,7 @@ const Album = lazy(() => import('../pages/Album'));
 const Pendamping = lazy(() => import('../pages/Pendamping'));
 const UjiSuara = lazy(() => import('../pages/UjiSuara'));
 const Tinjau = lazy(() => import('../pages/Tinjau'));
+const Galeri = import.meta.env.DEV ? lazy(() => import('../pages/Galeri')) : null;
 
 export function App() {
   const started = useAppSession((s) => s.started);
@@ -26,6 +27,7 @@ export function App() {
           <Route path="/pendamping" element={<Pendamping />} />
           <Route path="/pendamping/uji-suara" element={<UjiSuara />} />
           <Route path="/pendamping/tinjau" element={<Tinjau />} />
+          {Galeri && <Route path="/dev/galeri" element={<Galeri />} />}
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Suspense>

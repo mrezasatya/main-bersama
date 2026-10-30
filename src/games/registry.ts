@@ -2,18 +2,54 @@ import type { ComponentType } from 'react';
 import type { ArtKey, ColorName } from '../core/art';
 import type { CompanionGuide, ContentItem, GameMeta } from '../types';
 import * as cariWarna from './cari-warna/meta';
+import * as kendaraan from './kendaraan/meta';
+import * as nadaNusantara from './nada-nusantara/meta';
+import * as pancaIndra from './panca-indra/meta';
+import * as suaraHewan from './suara-hewan/meta';
+import * as tiruIrama from './tiru-irama/meta';
 
 export interface GameEntry {
   meta: GameMeta;
   guide: CompanionGuide;
   /** Gambar sampul kartu menu. */
-  cover: { art: ArtKey; color: ColorName };
+  cover: { art: ArtKey; color?: ColorName };
   load: () => Promise<{ default: ComponentType }>;
   loadContent: () => Promise<{ default: unknown }>;
 }
 
 /** Tambahkan permainan baru di sini; komponennya dimuat lazy. */
 export const GAMES: readonly GameEntry[] = [
+  {
+    ...suaraHewan,
+    cover: { art: 'ayamJago' },
+    load: () => import('./suara-hewan'),
+    loadContent: () => import('./suara-hewan/content.json'),
+  },
+  {
+    ...kendaraan,
+    cover: { art: 'bus' },
+    load: () => import('./kendaraan'),
+    loadContent: () => import('./kendaraan/content.json'),
+  },
+  {
+    ...nadaNusantara,
+    cover: { art: 'lonceng' },
+    load: () => import('./nada-nusantara'),
+    loadContent: () => import('./nada-nusantara/content.json'),
+  },
+  {
+    ...tiruIrama,
+    cover: { art: 'gendang' },
+    load: () => import('./tiru-irama'),
+    loadContent: () => import('./tiru-irama/content.json'),
+  },
+  {
+    ...pancaIndra,
+    cover: { art: 'telinga' },
+    load: () => import('./panca-indra'),
+    loadContent: () => import('./panca-indra/content.json'),
+  },
+  // Permainan contoh Fase 0 (di luar katalog 30).
   {
     ...cariWarna,
     cover: { art: 'balon', color: 'merah' },
