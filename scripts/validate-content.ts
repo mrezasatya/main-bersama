@@ -2,38 +2,25 @@
  * Validasi bank konten semua permainan (Bagian 6 brief).
  * Dijalankan otomatis oleh `npm run build` dan CI.
  */
-import { existsSync, readdirSync, readFileSync } from 'node:fs';
-import { join } from 'node:path';
-import { pathToFileURL } from 'node:url';
 import { ART_KEYS } from '../src/core/art/keys';
 import { validateGame, type Report } from './content-rules';
-
-const GAMES_DIR = join(import.meta.dirname, '..', 'src', 'games');
+import { loadGameFolders } from './lib/games';
+import { voiceCoverage } from './voice/collect';
 
 async function main(): Promise<void> {
-  const dirs = readdirSync(GAMES_DIR, { withFileTypes: true })
-    .filter((d) => d.isDirectory())
-    .map((d) => d.name);
-
   const reports: Report[] = [];
   const ids = new Set<string>();
   let failed = false;
 
-  for (const dir of dirs) {
-    const base = join(GAMES_DIR, dir);
-    const missing = ['index.tsx', 'meta.ts', 'content.json'].filter(
-      (f) => !existsSync(join(base, f)),
-    );
-    if (missing.length) {
-      console.error(`✗ ${dir}: berkas hilang: ${missing.join(', ')}`);
+  for (const g of await loadGameFolders()) {
+    if (g.missing.length) {
+      console.error(`✗ ${g.dir}: berkas hilang: ${g.missing.join(', ')}`);
       failed = true;
       continue;
     }
-    const { meta } = (await import(pathToFileURL(join(base, 'meta.ts')).href)) as { meta: unknown };
-    const content: unknown = JSON.parse(readFileSync(join(base, 'content.json'), 'utf8'));
-    const report = validateGame(meta, content, ART_KEYS);
-    if (report.gameId !== dir)
-      report.errors.push(`meta.id "${report.gameId}" harus sama dengan nama folder "${dir}"`);
+    const report = validateGame(g.meta, g.content, ART_KEYS);
+    if (report.gameId !== g.dir)
+      report.errors.push(`meta.id "${report.gameId}" harus sama dengan nama folder "${g.dir}"`);
     if (ids.has(report.gameId)) report.errors.push(`meta.id duplikat: ${report.gameId}`);
     ids.add(report.gameId);
     reports.push(report);
@@ -52,6 +39,13 @@ async function main(): Promise<void> {
   }
   console.log('─'.repeat(64));
   console.log(`${reports.length} permainan diperiksa.`);
+
+  // Rekaman suara bukan syarat build: kalimat tanpa rekaman dibacakan suara perangkat.
+  const cov = await voiceCoverage();
+  console.log(
+    `Rekaman suara: ${cov.covered}/${cov.total} kalimat` +
+      (cov.missing > 0 ? ` (${cov.missing} belum ada, jalankan "npm run voice")` : ' ✓'),
+  );
 
   if (failed) {
     console.error('Validasi konten GAGAL.');

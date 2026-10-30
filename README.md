@@ -25,6 +25,47 @@ Smoke test di 3 ukuran layar (setelah build):
 npm run test:e2e
 ```
 
+## Rekaman suara (ElevenLabs)
+
+Semua kalimat yang dibacakan aplikasi dibuat sekali menjadi MP3 dengan ElevenLabs, disimpan di
+`public/voice/`, lalu di-commit. Aplikasi memutar rekaman itu (juga offline). Kalimat yang belum
+punya rekaman dibacakan suara perangkat. Kunci API hanya dipakai di komputer Anda, tidak pernah di
+aplikasi atau di Vercel.
+
+1. Salin `.env.example` menjadi `.env.local`, lalu isi `ELEVENLABS_API_KEY`.
+2. Pilih suara. Suara dari Voice Library harus ditambahkan ke **My Voices** dulu, lalu:
+
+   ```bash
+   npm run voice -- --list-voices
+   ```
+
+   Salin `voice_id` ke `ELEVENLABS_VOICE_ID`.
+
+3. Cek jumlah kalimat dan karakter (gratis, tanpa memanggil API):
+
+   ```bash
+   npm run voice -- --dry-run
+   ```
+
+4. Buat beberapa rekaman dulu, lalu dengarkan di halaman Uji Suara (`npm run dev`):
+
+   ```bash
+   npm run voice -- --limit 5
+   ```
+
+5. Kalau suaranya sudah cocok, buat semuanya:
+
+   ```bash
+   npm run voice
+   ```
+
+6. Commit folder `public/voice`, lalu push.
+
+Skrip ini aman dijalankan berulang: hanya kalimat baru atau yang berubah yang dibuat, jadi kuota
+tidak terbuang. Mengganti suara, model, atau pengaturan suara otomatis membuat ulang semua
+rekaman. `--force` membuat ulang semuanya, dan `--only <id-permainan|ui|stiker|judul>` membatasi
+ke satu sumber.
+
 ## Deploy ke Vercel
 
 1. Di Vercel: **Add New → Project → Import** repositori GitHub ini.

@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
+  VOICE_SAMPLES,
   audioState,
+  clipFor,
+  clipInfo,
   currentVoice,
   isIndonesian,
   noteFreq,
@@ -17,26 +20,11 @@ import {
 } from '../core/audio';
 import { useSettings } from '../core/progress';
 
-const SAMPLES = [
-  { label: 'Sapaan', text: 'Halo! Ayo main bersama. Siapa namamu?' },
-  {
-    label: 'Angka',
-    text: 'Satu, dua, tiga, empat, lima, enam, tujuh, delapan, sembilan, sepuluh.',
-  },
-  {
-    label: 'Bunyi hewan',
-    text: 'Kambing berbunyi mbeek. Ayam berkokok kukuruyuk. Kucing mengeong meong.',
-  },
-  { label: 'Suku kata', text: 'Ba, bi, bu, be, bo. Bola. Ku-da. Ma-ta-ha-ri.' },
-  { label: 'Instruksi', text: 'Mana bola merah? Ayo coba lagi. Hore, kamu berhasil!' },
-  {
-    label: 'Cerita',
-    text: 'Pagi itu, Kancil berjalan ke tepi sungai. Ia ingin menyeberang, tetapi airnya dalam. Apa yang harus dilakukan Kancil?',
-  },
-];
+const SAMPLES = VOICE_SAMPLES;
 
 const OUTCOME_TEXT: Record<SpeakOutcome, string> = {
-  spoken: 'Selesai dibacakan.',
+  clip: 'Selesai diputar dari rekaman ElevenLabs.',
+  spoken: 'Selesai dibacakan suara perangkat.',
   'no-voice': 'Tidak ada suara Bahasa Indonesia. Teks tetap tampil di layar.',
   unsupported: 'Browser tidak mendukung suara ucapan.',
   error: 'Terjadi galat saat membacakan.',
@@ -53,9 +41,9 @@ function playScale(notes: string[], type: OscillatorType) {
 }
 
 export default function UjiSuara() {
-  const { supported, ready, voices } = useVoiceStatus();
+  const { supported, ready, voices, clipCount } = useVoiceStatus();
   const settings = useSettings();
-  const [text, setText] = useState(SAMPLES[0]!.text);
+  const [text, setText] = useState<string>(SAMPLES[0]!.text);
   const [showAll, setShowAll] = useState(false);
   const [status, setStatus] = useState('');
   const [ctxState, setCtxState] = useState(audioState());
@@ -78,8 +66,11 @@ export default function UjiSuara() {
     const started = performance.now();
     const out = await speak(t, opts);
     const secs = ((performance.now() - started) / 1000).toFixed(1);
-    setStatus(`${OUTCOME_TEXT[out]}${out === 'spoken' ? ` (${secs} detik)` : ''}`);
+    const timed = out === 'spoken' || out === 'clip';
+    setStatus(`${OUTCOME_TEXT[out]}${timed ? ` (${secs} detik)` : ''}`);
   };
+  const info = clipInfo();
+  const hasClip = clipFor(text) !== null;
 
   return (
     <div className="page parent">
@@ -122,6 +113,40 @@ export default function UjiSuara() {
       </section>
 
       <section className="panel">
+        <h2>Rekaman suara (ElevenLabs)</h2>
+        <dl className="kv">
+          <dt>Jumlah rekaman</dt>
+          <dd>{clipCount}</dd>
+          {info.generatedAt && (
+            <>
+              <dt>Suara / model</dt>
+              <dd className="small">
+                {info.voiceId} · {info.modelId}
+              </dd>
+              <dt>Dibuat</dt>
+              <dd>{new Date(info.generatedAt).toLocaleString('id-ID')}</dd>
+            </>
+          )}
+        </dl>
+        {clipCount === 0 && (
+          <p className="notice notice-warn">
+            Belum ada rekaman. Jalankan <code>npm run voice</code> (lihat README), lalu deploy
+            ulang.
+          </p>
+        )}
+        <label className="field field-inline">
+          <input
+            type="checkbox"
+            checked={settings.voiceSource === 'rekaman'}
+            onChange={(e) =>
+              settings.update({ voiceSource: e.target.checked ? 'rekaman' : 'perangkat' })
+            }
+          />
+          <span>Pakai rekaman bila tersedia (matikan untuk selalu memakai suara perangkat)</span>
+        </label>
+      </section>
+
+      <section className="panel">
         <h2>Uji kalimat</h2>
         <div className="chip-row">
           {SAMPLES.map((s) => (
@@ -131,9 +156,26 @@ export default function UjiSuara() {
           ))}
         </div>
         <textarea value={text} onChange={(e) => setText(e.target.value)} rows={3} />
+        <p className="muted">
+          {hasClip
+            ? 'Kalimat ini punya rekaman: bandingkan kedua tombol.'
+            : 'Kalimat ini belum punya rekaman; hanya suara perangkat yang tersedia.'}
+        </p>
         <div className="btn-row">
-          <button type="button" className="btn btn-primary btn-md" onClick={() => void run(text)}>
-            Bacakan
+          <button
+            type="button"
+            className="btn btn-primary btn-md"
+            disabled={!hasClip}
+            onClick={() => void run(text)}
+          >
+            Rekaman
+          </button>
+          <button
+            type="button"
+            className="btn btn-soft btn-md"
+            onClick={() => void run(text, { device: true })}
+          >
+            Suara perangkat
           </button>
           <button type="button" className="btn btn-ghost btn-md" onClick={() => stopSpeaking()}>
             Hentikan
@@ -143,8 +185,10 @@ export default function UjiSuara() {
       </section>
 
       <section className="panel">
-        <h2>Uji kecepatan bicara</h2>
-        <p className="muted">Bandingkan, lalu pilih yang paling jelas untuk anak.</p>
+        <h2>Uji kecepatan bicara (suara perangkat)</h2>
+        <p className="muted">
+          Berlaku untuk suara perangkat saja; kecepatan rekaman diatur saat membuat rekaman.
+        </p>
         <div className="btn-row">
           {[0.7, 0.8, 0.85, 0.9, 1].map((r) => (
             <button
@@ -153,7 +197,7 @@ export default function UjiSuara() {
               className={`btn btn-md ${settings.speechRate === r ? 'btn-primary' : 'btn-soft'}`}
               onClick={() => {
                 settings.update({ speechRate: r });
-                void run('Mana bola merah? Ayo cari bersama.', { rate: r });
+                void run('Mana bola merah? Ayo cari bersama.', { rate: r, device: true });
               }}
             >
               {r.toFixed(2)}
@@ -204,7 +248,7 @@ export default function UjiSuara() {
                     <button
                       type="button"
                       className="btn btn-soft btn-sm"
-                      onClick={() => void run(text, { voiceURI: v.voiceURI })}
+                      onClick={() => void run(text, { voiceURI: v.voiceURI, device: true })}
                     >
                       Uji
                     </button>
@@ -270,7 +314,7 @@ export default function UjiSuara() {
             className="btn btn-soft btn-md"
             onClick={() => {
               sfx.success();
-              void run('Hore, kamu berhasil!');
+              void run('Hore, kamu menemukannya!');
             }}
           >
             Uji tumpang tindih

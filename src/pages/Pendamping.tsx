@@ -9,8 +9,10 @@ import { BigButton } from '../core/ui';
 import { GAMES } from '../games/registry';
 
 function VoiceWarning() {
-  const { ready, supported, hasIndonesian } = useVoiceStatus();
-  if (!ready) return null;
+  const { ready, supported, hasIndonesian, clipCount, clipsReady } = useVoiceStatus();
+  if (!ready || !clipsReady) return null;
+  // Rekaman ElevenLabs menutup kebutuhan suara; suara perangkat hanya cadangan.
+  if (clipCount > 0) return null;
   if (!supported)
     return (
       <div className="notice notice-warn">

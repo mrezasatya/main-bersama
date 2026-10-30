@@ -9,6 +9,11 @@ export interface Settings {
   volume: number;
   /** Kecepatan bicara; 0.8-0.9 nyaman untuk anak. */
   speechRate: number;
+  /**
+   * 'rekaman' = putar rekaman ElevenLabs bila ada, selain itu suara perangkat.
+   * 'perangkat' = selalu suara perangkat (untuk membandingkan).
+   */
+  voiceSource: 'rekaman' | 'perangkat';
   /** voiceURI pilihan pendamping; null = pilih otomatis. */
   voiceURI: string | null;
   breakReminder: boolean;
@@ -24,6 +29,7 @@ interface SettingsStore extends Settings {
 export const DEFAULT_SETTINGS: Settings = {
   ageGroup: null,
   volume: 0.8,
+  voiceSource: 'rekaman',
   speechRate: 0.85,
   voiceURI: null,
   breakReminder: true,
@@ -39,8 +45,10 @@ export const useSettings = create<SettingsStore>()(
     }),
     {
       name: 'mb-settings',
-      version: 1,
+      version: 2,
       storage: createJSONStorage(() => safeStorage),
+      // Versi 1 belum punya voiceSource; nilai bawaan dilengkapi dari DEFAULT_SETTINGS.
+      migrate: (persisted) => ({ ...DEFAULT_SETTINGS, ...(persisted as Partial<Settings>) }),
       partialize: ({ update: _update, ...rest }) => rest,
     },
   ),

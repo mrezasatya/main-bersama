@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { sfx, speak } from '../audio';
+import { rewardStars, sfx, speakSequence, stickerLine } from '../audio';
 import { IconHome, IconRepeat } from '../art/icons';
 import type { Sticker } from '../progress';
 import { BigButton } from './BigButton';
@@ -21,12 +21,7 @@ export function RewardScreen({ stars, newStickers, onPlayAgain, onHome }: Props)
 
   useEffect(() => {
     sfx.star();
-    const sticker = newStickers[0];
-    void speak(
-      sticker
-        ? `Hore! Kamu dapat ${stars} bintang dan stiker ${sticker.name}!`
-        : `Hore! Kamu dapat ${stars} bintang!`,
-    );
+    void speakSequence([rewardStars(stars), ...newStickers.map((s) => stickerLine(s.name))]);
     const t = window.setTimeout(() => setShowChoices(true), REWARD_MS);
     return () => window.clearTimeout(t);
   }, [stars, newStickers]);
