@@ -51,6 +51,17 @@ Katalog permainan (Bagian 10) dan urutan fase (Bagian 11) ada di berkas brief.
 - **Gambar:** keluarga SVG parametrik di `core/art/animals`, `core/art/vehicles`, `core/art/things.tsx`;
   spesifikasi data murni terpisah dari renderer agar validasi bisa membaca kuncinya. Galeri semua gambar:
   `#/dev/galeri` (hanya `npm run dev`).
+- **Mesin ronde bersama (Fase 2-6)** di `src/core/ui/` (impor langsung, bukan dari barrel, bila memakai gambar):
+  `OptionQuiz` (lihat/dengar lalu pilih; `minOptions`, `countable`, `optionSay`), `SequenceRound` (ketuk urutan),
+  `MixedRound` (pilih + urutkan, `data.mode = 'urut'`), `TraceRound`/`TraceBoard` (menelusuri huruf/jalur di grid kasar),
+  `DragBoard` (seret-lepas Pointer Events + ketuk-lalu-ketuk; wadah multi-isi untuk mengelompokkan),
+  `CountableGroup` (menghitung dengan mengetuk). Ronde khas permainan ada di `src/games/<slug>/Round.tsx`
+  (kartu memori, puzzle, laboratorium warna, mewarnai, kasir, buat pola).
+- **Visual deklaratif** (`src/core/visual`): konten menulis `{ t: 'num' | 'group' | 'tenframe' | 'bond' | 'bar' |
+'clock' | 'flag' | 'face' | 'shape' | 'money' | 'scene' | 'len' | 'neraca' | 'gelas' | 'row' | ... }`;
+  `validate-content` memeriksa semua visual (gambar, bendera, bentuk, nilai uang) secara otomatis.
+- **Album:** 60 stiker; stiker baru memakai gambar registri (`art`) atau bendera (`flag`), dimuat lazy.
+- **Menu:** permainan yang cocok untuk usia anak tampil dulu; sisanya di bagian "Permainan untuk usia lain".
 - **Usia di luar rentang permainan:** `effectiveAge()` memakai kelompok usia terdekat yang tersedia.
 - **Gerbang pendamping:** tombol "Pendamping" di menu harus ditekan lama 1,5 detik.
 - **Framer Motion** belum dipakai; animasi Fase 0 cukup dengan CSS (menghormati `prefers-reduced-motion`).

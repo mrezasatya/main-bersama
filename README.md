@@ -75,6 +75,16 @@ ke satu sumber.
 
 ## Status
 
-- Fase 0 (fondasi + Uji Suara): selesai. Permainan contoh **Cari Warna** (di luar katalog 30).
-- Fase 1 (Bunyi dan Musik): #4 Suara Hewan, #26 Kendaraan dan Suaranya, #11 Nada Nusantara,
-  #29 Tiru Irama, #27 Panca Indra dan Tubuhku.
+Semua fase (0-6) selesai dibangun: **30 permainan katalog** + permainan contoh **Cari Warna**,
+album 60 stiker, halaman Pendamping, dan Uji Suara. Belum diuji bersama anak di tablet sungguhan.
+
+| Fase                         | Permainan                                                                                         |
+| ---------------------------- | ------------------------------------------------------------------------------------------------- |
+| 1 Bunyi dan Musik            | #4 Suara Hewan, #26 Kendaraan dan Suaranya, #11 Nada Nusantara, #29 Tiru Irama, #27 Panca Indra   |
+| 2 Bahasa dan Huruf           | #7 Huruf Pasir, #8 Rangkai Suku Kata, #18 Gelembung Angka, #30 Peta Dunia Mini, #25 Profesi       |
+| 3 Narasi dan Nilai           | #12 Rasa Hatiku, #28 Cerita Pilihanku, #19 Jam dan Hari, #24 Dari Mana Asalnya?, #23 Ayo Berkebun |
+| 4 Sensorik Visual            | #1 Pasang Bentuk, #2 Campur Warna, #9 Pasangan Budaya, #17 Puzzle Gambar, #3 Urutkan Besar-Kecil  |
+| 5 Berhitung dan Logika       | #5 Hitung Buah, #6 Kebun Angka, #20 Rumah Bentuk, #15 Cari yang Beda, #16 Kelompokkan             |
+| 6 Kreativitas dan Pengukuran | #10 Pola Batik, #13 Jalan Garis, #14 Warna Batik, #21 Toko Kecil, #22 Ukur dan Bandingkan         |
+
+Konten budaya dan fakta berstatus `perlu-ditinjau`: lihat Pendamping, lalu Mode peninjauan.

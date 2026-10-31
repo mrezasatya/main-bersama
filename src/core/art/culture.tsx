@@ -321,4 +321,69 @@ export const CULTURE = {
       <rect x={42} y={34} width={14} height={18} fill="#9E9A90" {...st('#5E5A52', 2)} />
     </g>
   ),
+  parang: () => (
+    <g>
+      <rect x={6} y={6} width={88} height={88} rx={8} fill="#F4E4C2" {...st('#9C6239')} />
+      {[-40, -10, 20, 50].map((o) => (
+        <g key={o}>
+          <path d={`M${o} 100 L${o + 60} 6`} {...st('#7A4B2A', 9)} />
+          {[0, 1, 2, 3].map((i) => (
+            <circle key={i} cx={o + 12 + i * 15} cy={82 - i * 23} r={4} fill="#E3B877" />
+          ))}
+        </g>
+      ))}
+    </g>
+  ),
+  truntum: () => (
+    <g>
+      <rect x={6} y={6} width={88} height={88} rx={8} fill="#22314F" {...st('#111A2E')} />
+      {[
+        [28, 28],
+        [72, 28],
+        [50, 50],
+        [28, 72],
+        [72, 72],
+      ].map(([x = 0, y = 0]) => (
+        <g key={`${x}${y}`} fill="#F4E4C2">
+          {[0, 60, 120, 180, 240, 300].map((a) => (
+            <circle
+              key={a}
+              cx={x + Math.cos((a * Math.PI) / 180) * 8}
+              cy={y + Math.sin((a * Math.PI) / 180) * 8}
+              r={3.5}
+            />
+          ))}
+          <circle cx={x} cy={y} r={3} />
+        </g>
+      ))}
+    </g>
+  ),
+  megaMendung: () => (
+    <g>
+      <rect x={6} y={6} width={88} height={88} rx={8} fill="#E8F2FA" {...st('#1F4E9C')} />
+      {['#1F4E9C', '#3B7BF5', '#8EC9F0', '#E8F2FA'].map((c, i) => (
+        <path
+          key={c}
+          d={`M${18 + i * 5} ${66 - i * 4} Q${18 + i * 5} ${44 + i * 3} ${36 + i * 2} ${46 + i * 2} Q${40 + i} ${28 + i * 4} ${56} ${34 + i * 4} Q${76 - i * 3} ${30 + i * 4} ${78 - i * 5} ${50 + i * 2} Q${86 - i * 5} ${66 - i * 4} ${70 - i * 3} ${68 - i * 4} Z`}
+          fill={c}
+        />
+      ))}
+    </g>
+  ),
+  ceplok: () => (
+    <g>
+      <rect x={6} y={6} width={88} height={88} rx={8} fill="#F4E4C2" {...st('#9C6239')} />
+      {[30, 70].map((cx) =>
+        [30, 70].map((cy) => (
+          <g key={`${cx}${cy}`}>
+            <path
+              d={`M${cx} ${cy - 16} L${cx + 6} ${cy - 6} L${cx + 16} ${cy} L${cx + 6} ${cy + 6} L${cx} ${cy + 16} L${cx - 6} ${cy + 6} L${cx - 16} ${cy} L${cx - 6} ${cy - 6} Z`}
+              fill="#B5442E"
+            />
+            <circle cx={cx} cy={cy} r={4} fill="#F4E4C2" />
+          </g>
+        )),
+      )}
+    </g>
+  ),
 } as const;

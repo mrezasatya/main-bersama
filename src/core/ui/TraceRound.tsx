@@ -1,16 +1,30 @@
 import { useRef, useState } from 'react';
-import { IconRepeat } from '../../core/art/icons';
-import { BigButton, InstructionBar, feedback, useSpeakOnMount } from '../../core/ui';
-import { TraceBoard } from '../../core/ui/TraceBoard';
-import { TRACE_PASS, type TraceScore } from '../../core/ui/trace';
-import { Visual } from '../../core/visual/Visual';
-import type { Visual as VisualSpec } from '../../core/visual/types';
+import { IconRepeat } from '../art/icons';
+import { Art } from '../art/registry';
+import type { ArtKey } from '../art/keys';
+import { Visual } from '../visual/Visual';
+import type { Visual as VisualSpec } from '../visual/types';
 import type { RoundProps } from '../../types';
+import { BigButton } from './BigButton';
+import { InstructionBar } from './InstructionBar';
+import { TraceBoard } from './TraceBoard';
+import { TRACE_PASS, type TraceScore } from './trace';
+import { feedback } from './feedback';
+import { useSpeakOnMount } from './useSpeak';
+
+/** Ikon di ujung jalur (koordinat 0-100). */
+interface Endpoint {
+  k: ArtKey;
+  x: number;
+  y: number;
+}
 
 export interface TraceData {
   glyph?: string;
   path?: string;
   cue?: VisualSpec;
+  start?: Endpoint;
+  end?: Endpoint;
   speakAlso?: string[];
 }
 
@@ -23,6 +37,9 @@ export function TraceRound({ item, ageGroup, onDone }: RoundProps<TraceData>) {
   const resets = useRef(0);
   const target = useRef({ glyph: d.glyph, path: d.path }).current;
   const pass = TRACE_PASS[ageGroup];
+  // Jalur tertutup (lingkaran, kotak): awal = akhir, cukup satu ikon.
+  const closed = !!d.start && !!d.end && Math.hypot(d.start.x - d.end.x, d.start.y - d.end.y) < 6;
+  const ends = closed ? [d.start] : [d.start, d.end];
 
   useSpeakOnMount(item.speak);
 
@@ -41,7 +58,22 @@ export function TraceRound({ item, ageGroup, onDone }: RoundProps<TraceData>) {
     <div className="round">
       <InstructionBar text={item.label ?? item.speak} speakText={item.speak} />
       <div className="trace-wrap">
-        <TraceBoard target={target} onStroke={onStroke} done={done} resetKey={resetKey} />
+        <div className="trace-stage">
+          <TraceBoard target={target} onStroke={onStroke} done={done} resetKey={resetKey} />
+          {ends.map(
+            (p, i) =>
+              p && (
+                <span
+                  key={i}
+                  className={`trace-end ${i === 1 && done ? 'is-arrived' : ''}`}
+                  style={{ left: `${p.x}%`, top: `${p.y}%` }}
+                  aria-hidden="true"
+                >
+                  <Art k={p.k} />
+                </span>
+              ),
+          )}
+        </div>
         <div className="trace-side">
           {d.cue && ageGroup !== 'A' && (
             <div className="trace-cue">

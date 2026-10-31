@@ -1,5 +1,5 @@
 import { GameSession } from '../../core/ui';
-import { TraceRound, type TraceData } from './Round';
+import { TraceRound, type TraceData } from '../../core/ui/TraceRound';
 import type { ContentItem } from '../../types';
 import raw from './content.json';
 import { meta } from './meta';

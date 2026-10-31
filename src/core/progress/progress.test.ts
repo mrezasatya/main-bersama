@@ -1,3 +1,5 @@
+import { FLAG_KEYS } from '../art/flagKeys';
+import { ART_KEYS } from '../art/keys';
 import { STICKER_ART } from '../art/stickers';
 import { sessionStars } from './stars';
 import {
@@ -22,8 +24,15 @@ describe('bintang usaha', () => {
 });
 
 describe('stiker', () => {
-  it('setiap stiker punya gambar dan id unik', () => {
-    for (const s of STICKERS) expect(STICKER_ART[s.artKey]).toBeDefined();
+  it('album berisi minimal 60 stiker, masing-masing punya satu sumber gambar yang valid', () => {
+    expect(STICKERS.length).toBeGreaterThanOrEqual(60);
+    for (const s of STICKERS) {
+      const sources = [s.artKey, s.art, s.flag].filter(Boolean);
+      expect(sources, s.id).toHaveLength(1);
+      if (s.artKey) expect(STICKER_ART[s.artKey], s.id).toBeDefined();
+      if (s.art) expect(ART_KEYS, s.id).toContain(s.art);
+      if (s.flag) expect(FLAG_KEYS, s.id).toContain(s.flag);
+    }
     expect(new Set(STICKERS.map((s) => s.id)).size).toBe(STICKERS.length);
   });
 

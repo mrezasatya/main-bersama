@@ -1,0 +1,743 @@
+[
+  {
+    "id": "kenal-100",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Mana uang seratus rupiah?",
+    "label": "Mana uang seratus rupiah?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 100 },
+        { "t": "money", "v": 2000 },
+        { "t": "money", "v": 20000 },
+        { "t": "money", "v": 500 }
+      ],
+      "speakAlso": ["Ini uang seratus rupiah."]
+    },
+    "tags": ["uang", "kenal"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-200",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Mana uang dua ratus rupiah?",
+    "label": "Mana uang dua ratus rupiah?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 200 },
+        { "t": "money", "v": 5000 },
+        { "t": "money", "v": 50000 },
+        { "t": "money", "v": 1000 }
+      ],
+      "speakAlso": ["Ini uang dua ratus rupiah."]
+    },
+    "tags": ["uang", "kenal"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-500",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Mana uang lima ratus rupiah?",
+    "label": "Mana uang lima ratus rupiah?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 500 },
+        { "t": "money", "v": 10000 },
+        { "t": "money", "v": 100000 },
+        { "t": "money", "v": 2000 }
+      ],
+      "speakAlso": ["Ini uang lima ratus rupiah."]
+    },
+    "tags": ["uang", "kenal"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-1000",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Mana uang seribu rupiah?",
+    "label": "Mana uang seribu rupiah?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 1000 },
+        { "t": "money", "v": 20000 },
+        { "t": "money", "v": 100 },
+        { "t": "money", "v": 5000 }
+      ],
+      "speakAlso": ["Ini uang seribu rupiah."]
+    },
+    "tags": ["uang", "kenal"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-2000",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana uang dua ribu rupiah?",
+    "label": "Mana uang dua ribu rupiah?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 2000 },
+        { "t": "money", "v": 50000 },
+        { "t": "money", "v": 200 },
+        { "t": "money", "v": 10000 }
+      ],
+      "speakAlso": ["Ini uang dua ribu rupiah."]
+    },
+    "tags": ["uang", "kenal"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-5000",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana uang lima ribu rupiah?",
+    "label": "Mana uang lima ribu rupiah?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 5000 },
+        { "t": "money", "v": 100000 },
+        { "t": "money", "v": 500 },
+        { "t": "money", "v": 20000 }
+      ],
+      "speakAlso": ["Ini uang lima ribu rupiah."]
+    },
+    "tags": ["uang", "kenal"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-10000",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana uang sepuluh ribu rupiah?",
+    "label": "Mana uang sepuluh ribu rupiah?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 10000 },
+        { "t": "money", "v": 100 },
+        { "t": "money", "v": 1000 },
+        { "t": "money", "v": 50000 }
+      ],
+      "speakAlso": ["Ini uang sepuluh ribu rupiah."]
+    },
+    "tags": ["uang", "kenal"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-20000",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana uang dua puluh ribu rupiah?",
+    "label": "Mana uang dua puluh ribu rupiah?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 20000 },
+        { "t": "money", "v": 200 },
+        { "t": "money", "v": 2000 },
+        { "t": "money", "v": 100000 }
+      ],
+      "speakAlso": ["Ini uang dua puluh ribu rupiah."]
+    },
+    "tags": ["uang", "kenal"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-50000",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana uang lima puluh ribu rupiah?",
+    "label": "Mana uang lima puluh ribu rupiah?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 50000 },
+        { "t": "money", "v": 500 },
+        { "t": "money", "v": 5000 },
+        { "t": "money", "v": 100 }
+      ],
+      "speakAlso": ["Ini uang lima puluh ribu rupiah."]
+    },
+    "tags": ["uang", "kenal"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-100000",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana uang seratus ribu rupiah?",
+    "label": "Mana uang seratus ribu rupiah?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 100000 },
+        { "t": "money", "v": 1000 },
+        { "t": "money", "v": 10000 },
+        { "t": "money", "v": 200 }
+      ],
+      "speakAlso": ["Ini uang seratus ribu rupiah."]
+    },
+    "tags": ["uang", "kenal"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tukar-2x500",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Dua uang lima ratus sama dengan uang berapa?",
+    "label": "Dua uang lima ratus sama dengan uang berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "money", "v": 500 },
+          { "t": "money", "v": 500 }
+        ]
+      },
+      "options": [
+        { "t": "money", "v": 1000 },
+        { "t": "money", "v": 500 },
+        { "t": "money", "v": 2000 },
+        { "t": "money", "v": 5000 }
+      ],
+      "speakAlso": ["Dua kali lima ratus sama dengan seribu."]
+    },
+    "tags": ["uang", "tukar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tukar-2x1000",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Dua uang seribu sama dengan uang berapa?",
+    "label": "Dua uang seribu sama dengan uang berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "money", "v": 1000 },
+          { "t": "money", "v": 1000 }
+        ]
+      },
+      "options": [
+        { "t": "money", "v": 2000 },
+        { "t": "money", "v": 1000 },
+        { "t": "money", "v": 5000 },
+        { "t": "money", "v": 500 }
+      ],
+      "speakAlso": ["Dua kali seribu sama dengan dua ribu."]
+    },
+    "tags": ["uang", "tukar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tukar-5x1000",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Lima uang seribu sama dengan uang berapa?",
+    "label": "Lima uang seribu sama dengan uang berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "money", "v": 1000 },
+          { "t": "money", "v": 1000 },
+          { "t": "money", "v": 1000 },
+          { "t": "money", "v": 1000 },
+          { "t": "money", "v": 1000 }
+        ]
+      },
+      "options": [
+        { "t": "money", "v": 5000 },
+        { "t": "money", "v": 2000 },
+        { "t": "money", "v": 10000 },
+        { "t": "money", "v": 1000 }
+      ],
+      "speakAlso": ["Lima kali seribu sama dengan lima ribu."]
+    },
+    "tags": ["uang", "tukar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tukar-2x5000",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Dua uang lima ribu sama dengan uang berapa?",
+    "label": "Dua uang lima ribu sama dengan uang berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "money", "v": 5000 },
+          { "t": "money", "v": 5000 }
+        ]
+      },
+      "options": [
+        { "t": "money", "v": 10000 },
+        { "t": "money", "v": 5000 },
+        { "t": "money", "v": 20000 },
+        { "t": "money", "v": 2000 }
+      ],
+      "speakAlso": ["Dua kali lima ribu sama dengan sepuluh ribu."]
+    },
+    "tags": ["uang", "tukar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tukar-2x10000",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Dua uang sepuluh ribu sama dengan uang berapa?",
+    "label": "Dua uang sepuluh ribu sama dengan uang berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "money", "v": 10000 },
+          { "t": "money", "v": 10000 }
+        ]
+      },
+      "options": [
+        { "t": "money", "v": 20000 },
+        { "t": "money", "v": 10000 },
+        { "t": "money", "v": 50000 },
+        { "t": "money", "v": 5000 }
+      ],
+      "speakAlso": ["Dua kali sepuluh ribu sama dengan dua puluh ribu."]
+    },
+    "tags": ["uang", "tukar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tukar-5x100",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Lima uang seratus sama dengan uang berapa?",
+    "label": "Lima uang seratus sama dengan uang berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "money", "v": 100 },
+          { "t": "money", "v": 100 },
+          { "t": "money", "v": 100 },
+          { "t": "money", "v": 100 },
+          { "t": "money", "v": 100 }
+        ]
+      },
+      "options": [
+        { "t": "money", "v": 500 },
+        { "t": "money", "v": 100 },
+        { "t": "money", "v": 1000 },
+        { "t": "money", "v": 200 }
+      ],
+      "speakAlso": ["Lima kali seratus sama dengan lima ratus."]
+    },
+    "tags": ["uang", "tukar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tukar-2x100",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Dua uang seratus sama dengan uang berapa?",
+    "label": "Dua uang seratus sama dengan uang berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "money", "v": 100 },
+          { "t": "money", "v": 100 }
+        ]
+      },
+      "options": [
+        { "t": "money", "v": 200 },
+        { "t": "money", "v": 100 },
+        { "t": "money", "v": 500 },
+        { "t": "money", "v": 1000 }
+      ],
+      "speakAlso": ["Dua kali seratus sama dengan dua ratus."]
+    },
+    "tags": ["uang", "tukar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tukar-5x2000",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Lima uang dua ribu sama dengan uang berapa?",
+    "label": "Lima uang dua ribu sama dengan uang berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "money", "v": 2000 },
+          { "t": "money", "v": 2000 },
+          { "t": "money", "v": 2000 },
+          { "t": "money", "v": 2000 },
+          { "t": "money", "v": 2000 }
+        ]
+      },
+      "options": [
+        { "t": "money", "v": 10000 },
+        { "t": "money", "v": 5000 },
+        { "t": "money", "v": 20000 },
+        { "t": "money", "v": 2000 }
+      ],
+      "speakAlso": ["Lima kali dua ribu sama dengan sepuluh ribu."]
+    },
+    "tags": ["uang", "tukar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "banding-1000-500",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana yang nilainya lebih besar, seribu atau lima ratus?",
+    "label": "Mana yang nilainya lebih besar, seribu atau lima ratus?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 1000 },
+        { "t": "money", "v": 500 }
+      ],
+      "speakAlso": ["Seribu lebih besar."]
+    },
+    "tags": ["uang", "banding"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "banding-2000-5000",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana yang nilainya lebih besar, dua ribu atau lima ribu?",
+    "label": "Mana yang nilainya lebih besar, dua ribu atau lima ribu?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 5000 },
+        { "t": "money", "v": 2000 }
+      ],
+      "speakAlso": ["Lima ribu lebih besar."]
+    },
+    "tags": ["uang", "banding"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "banding-10000-2000",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana yang nilainya lebih besar, sepuluh ribu atau dua ribu?",
+    "label": "Mana yang nilainya lebih besar, sepuluh ribu atau dua ribu?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 10000 },
+        { "t": "money", "v": 2000 }
+      ],
+      "speakAlso": ["Sepuluh ribu lebih besar."]
+    },
+    "tags": ["uang", "banding"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "banding-500-200",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana yang nilainya lebih besar, lima ratus atau dua ratus?",
+    "label": "Mana yang nilainya lebih besar, lima ratus atau dua ratus?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 500 },
+        { "t": "money", "v": 200 }
+      ],
+      "speakAlso": ["Lima ratus lebih besar."]
+    },
+    "tags": ["uang", "banding"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "banding-50000-20000",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana yang nilainya lebih besar, lima puluh ribu atau dua puluh ribu?",
+    "label": "Mana yang nilainya lebih besar, lima puluh ribu atau dua puluh ribu?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 50000 },
+        { "t": "money", "v": 20000 }
+      ],
+      "speakAlso": ["Lima puluh ribu lebih besar."]
+    },
+    "tags": ["uang", "banding"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "banding-100-1000",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana yang nilainya lebih besar, seratus atau seribu?",
+    "label": "Mana yang nilainya lebih besar, seratus atau seribu?",
+    "data": {
+      "options": [
+        { "t": "money", "v": 1000 },
+        { "t": "money", "v": 100 }
+      ],
+      "speakAlso": ["Seribu lebih besar."]
+    },
+    "tags": ["uang", "banding"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-permen",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Harga permen 500 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga permen 500 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "permen" },
+      "price": 500,
+      "wallet": [100, 200, 500],
+      "speakAlso": ["Pas! Uangnya 500 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-telur",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Harga telur 2.000 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga telur 2.000 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "telur" },
+      "price": 2000,
+      "wallet": [500, 1000, 2000],
+      "speakAlso": ["Pas! Uangnya 2.000 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-pisang",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Harga pisang 1.500 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga pisang 1.500 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "pisang" },
+      "price": 1500,
+      "wallet": [500, 1000],
+      "speakAlso": ["Pas! Uangnya 1.500 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-roti",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Harga roti 3.000 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga roti 3.000 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "roti" },
+      "price": 3000,
+      "wallet": [1000, 2000],
+      "speakAlso": ["Pas! Uangnya 3.000 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-apel",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Harga apel 2.500 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga apel 2.500 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "apel" },
+      "price": 2500,
+      "wallet": [500, 1000, 2000],
+      "speakAlso": ["Pas! Uangnya 2.500 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-susu",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Harga susu 5.000 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga susu 5.000 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "susu" },
+      "price": 5000,
+      "wallet": [1000, 2000, 5000],
+      "speakAlso": ["Pas! Uangnya 5.000 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-kue",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Harga kue 1.000 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga kue 1.000 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "kue" },
+      "price": 1000,
+      "wallet": [100, 200, 500],
+      "speakAlso": ["Pas! Uangnya 1.000 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-jeruk",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Harga jeruk 700 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga jeruk 700 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "jeruk" },
+      "price": 700,
+      "wallet": [100, 200, 500],
+      "speakAlso": ["Pas! Uangnya 700 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-esKrim",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Harga es krim 4.000 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga es krim 4.000 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "esKrim" },
+      "price": 4000,
+      "wallet": [1000, 2000],
+      "speakAlso": ["Pas! Uangnya 4.000 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-buku",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Harga buku 7.000 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga buku 7.000 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "buku" },
+      "price": 7000,
+      "wallet": [1000, 2000, 5000],
+      "speakAlso": ["Pas! Uangnya 7.000 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-bola",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Harga bola 10.000 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga bola 10.000 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "bola" },
+      "price": 10000,
+      "wallet": [2000, 5000, 10000],
+      "speakAlso": ["Pas! Uangnya 10.000 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-kerupuk",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Harga kerupuk 1.200 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga kerupuk 1.200 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "kerupuk" },
+      "price": 1200,
+      "wallet": [100, 200, 1000],
+      "speakAlso": ["Pas! Uangnya 1.200 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-klepon",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Harga klepon 3.500 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga klepon 3.500 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "klepon" },
+      "price": 3500,
+      "wallet": [500, 1000, 2000],
+      "speakAlso": ["Pas! Uangnya 3.500 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-yoyo",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Harga yoyo 6.000 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga yoyo 6.000 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "yoyo" },
+      "price": 6000,
+      "wallet": [1000, 5000],
+      "speakAlso": ["Pas! Uangnya 6.000 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-sate",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Harga sate 15.000 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga sate 15.000 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "sate" },
+      "price": 15000,
+      "wallet": [5000, 10000],
+      "speakAlso": ["Pas! Uangnya 15.000 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bayar-balon",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Harga balon 2.200 rupiah. Ketuk uang untuk membayar pas.",
+    "label": "Harga balon 2.200 rupiah. Ketuk uang untuk membayar pas.",
+    "data": {
+      "mode": "bayar",
+      "item": { "t": "art", "k": "balon" },
+      "price": 2200,
+      "wallet": [200, 1000, 2000],
+      "speakAlso": ["Pas! Uangnya 2.200 rupiah. Terima kasih sudah berbelanja."]
+    },
+    "tags": ["uang", "bayar"],
+    "review": "ditinjau"
+  }
+]

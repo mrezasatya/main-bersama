@@ -1,0 +1,677 @@
+[
+  {
+    "id": "lurus-mendatar",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Bantu lebah menuju bunga. Ikuti jalan lurus mendatar.",
+    "label": "Ikuti jalan lurus mendatar",
+    "data": {
+      "path": "M12 50 H88",
+      "start": { "k": "lebah", "x": 12, "y": 50 },
+      "end": { "k": "bunga", "x": 88, "y": 50 },
+      "speakAlso": ["Lebah sampai di bunga!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "lurus-ke-bawah",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Bantu kucing menuju ikan. Ikuti jalan lurus ke bawah.",
+    "label": "Ikuti jalan lurus ke bawah",
+    "data": {
+      "path": "M50 12 V88",
+      "start": { "k": "kucing", "x": 50, "y": 12 },
+      "end": { "k": "ikan", "x": 50, "y": 88 },
+      "speakAlso": ["Kucing sampai di ikan!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "miring",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Bantu monyet menuju pisang. Ikuti jalan miring.",
+    "label": "Ikuti jalan miring",
+    "data": {
+      "path": "M14 84 L86 16",
+      "start": { "k": "monyet", "x": 14, "y": 84 },
+      "end": { "k": "pisang", "x": 86, "y": 16 },
+      "speakAlso": ["Monyet sampai di pisang!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "miring-turun",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Bantu ayam menuju jagung. Ikuti jalan miring turun.",
+    "label": "Ikuti jalan miring turun",
+    "data": {
+      "path": "M14 16 L86 84",
+      "start": { "k": "ayamBetina", "x": 14, "y": 16 },
+      "end": { "k": "jagung", "x": 86, "y": 84 },
+      "speakAlso": ["Ayam sampai di jagung!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "lengkung-bukit",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Bantu mobil menuju rumah. Ikuti jalan lengkung bukit.",
+    "label": "Ikuti jalan lengkung bukit",
+    "data": {
+      "path": "M12 72 Q50 4 88 72",
+      "start": { "k": "mobil", "x": 12, "y": 72 },
+      "end": { "k": "rumahJoglo", "x": 88, "y": 72 },
+      "speakAlso": ["Mobil sampai di rumah!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "lengkung-lembah",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Bantu bebek menuju kolam. Ikuti jalan lengkung lembah.",
+    "label": "Ikuti jalan lengkung lembah",
+    "data": {
+      "path": "M12 28 Q50 96 88 28",
+      "start": { "k": "bebek", "x": 12, "y": 28 },
+      "end": { "k": "tetesAir", "x": 88, "y": 28 },
+      "speakAlso": ["Bebek sampai di kolam!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "gelombang",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Bantu anjing menuju bola. Ikuti jalan gelombang.",
+    "label": "Ikuti jalan gelombang",
+    "data": {
+      "path": "M12 50 Q31 10 50 50 Q69 90 88 50",
+      "start": { "k": "anjing", "x": 12, "y": 50 },
+      "end": { "k": "bola", "x": 88, "y": 50 },
+      "speakAlso": ["Anjing sampai di bola!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "gelombang-dua",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Bantu kupu-kupu menuju bunga. Ikuti jalan gelombang dua.",
+    "label": "Ikuti jalan gelombang dua",
+    "data": {
+      "path": "M12 50 Q21.5 22 31 50 Q40.5 78 50 50 Q59.5 22 69 50 Q78.5 78 88 50",
+      "start": { "k": "lebah", "x": 12, "y": 50 },
+      "end": { "k": "bunga", "x": 88, "y": 50 },
+      "speakAlso": ["Kupu-kupu sampai di bunga!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "zigzag-besar",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Bantu sapi menuju rumput. Ikuti jalan zigzag besar.",
+    "label": "Ikuti jalan zigzag besar",
+    "data": {
+      "path": "M12 76 L50 24 L88 76",
+      "start": { "k": "sapi", "x": 12, "y": 76 },
+      "end": { "k": "padi", "x": 88, "y": 76 },
+      "speakAlso": ["Sapi sampai di rumput!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "zigzag",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Bantu pesawat menuju awan. Ikuti jalan zigzag.",
+    "label": "Ikuti jalan zigzag",
+    "data": {
+      "path": "M12 72 L31 28 L50 72 L69 28 L88 72",
+      "start": { "k": "pesawat", "x": 12, "y": 72 },
+      "end": { "k": "awan", "x": 88, "y": 72 },
+      "speakAlso": ["Pesawat sampai di awan!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tangga",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Bantu perahu menuju pulau. Ikuti jalan tangga.",
+    "label": "Ikuti jalan tangga",
+    "data": {
+      "path": "M12 84 H32 V64 H52 V44 H72 V24 H88",
+      "start": { "k": "perahuLayar", "x": 12, "y": 84 },
+      "end": { "k": "pohonKelapa", "x": 88, "y": 24 },
+      "speakAlso": ["Perahu sampai di pulau!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "zigzag-rapat",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Bantu tikus menuju keju. Ikuti jalan zigzag rapat.",
+    "label": "Ikuti jalan zigzag rapat",
+    "data": {
+      "path": "M12 68 L24.7 32 L37.3 68 L50 32 L62.7 68 L75.3 32 L88 68",
+      "start": { "k": "tikus", "x": 12, "y": 68 },
+      "end": { "k": "keju", "x": 88, "y": 68 },
+      "speakAlso": ["Tikus sampai di keju!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "gelombang-tiga",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Bantu lebah menuju bunga. Ikuti jalan gelombang tiga.",
+    "label": "Ikuti jalan gelombang tiga",
+    "data": {
+      "path": "M12 50 Q18.3 30 24.7 50 Q31 70 37.3 50 Q43.7 30 50 50 Q56.3 70 62.7 50 Q69 30 75.3 50 Q81.7 70 88 50",
+      "start": { "k": "lebah", "x": 12, "y": 50 },
+      "end": { "k": "bunga", "x": 88, "y": 50 },
+      "speakAlso": ["Lebah sampai di bunga!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "lingkaran",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Bantu kucing menuju ikan. Ikuti jalan lingkaran.",
+    "label": "Ikuti jalan lingkaran",
+    "data": {
+      "path": "M50 14 A36 36 0 1 1 49.9 14",
+      "start": { "k": "kucing", "x": 50, "y": 14 },
+      "end": { "k": "ikan", "x": 49.9, "y": 14 },
+      "speakAlso": ["Kucing sampai di ikan!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "busur-besar",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Bantu monyet menuju pisang. Ikuti jalan busur besar.",
+    "label": "Ikuti jalan busur besar",
+    "data": {
+      "path": "M14 80 A40 40 0 0 1 86 80",
+      "start": { "k": "monyet", "x": 14, "y": 80 },
+      "end": { "k": "pisang", "x": 86, "y": 80 },
+      "speakAlso": ["Monyet sampai di pisang!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "huruf-U",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Bantu ayam menuju jagung. Ikuti jalan huruf U.",
+    "label": "Ikuti jalan huruf U",
+    "data": {
+      "path": "M24 16 V60 Q24 86 50 86 Q76 86 76 60 V16",
+      "start": { "k": "ayamBetina", "x": 24, "y": 16 },
+      "end": { "k": "jagung", "x": 76, "y": 16 },
+      "speakAlso": ["Ayam sampai di jagung!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "huruf-L",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Bantu mobil menuju rumah. Ikuti jalan huruf L.",
+    "label": "Ikuti jalan huruf L",
+    "data": {
+      "path": "M28 14 V84 H76",
+      "start": { "k": "mobil", "x": 28, "y": 14 },
+      "end": { "k": "rumahJoglo", "x": 76, "y": 84 },
+      "speakAlso": ["Mobil sampai di rumah!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "huruf-V",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Bantu bebek menuju kolam. Ikuti jalan huruf V.",
+    "label": "Ikuti jalan huruf V",
+    "data": {
+      "path": "M18 16 L50 84 L82 16",
+      "start": { "k": "bebek", "x": 18, "y": 16 },
+      "end": { "k": "tetesAir", "x": 82, "y": 16 },
+      "speakAlso": ["Bebek sampai di kolam!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "huruf-W",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Bantu anjing menuju bola. Ikuti jalan huruf W.",
+    "label": "Ikuti jalan huruf W",
+    "data": {
+      "path": "M12 18 L30 82 L50 34 L70 82 L88 18",
+      "start": { "k": "anjing", "x": 12, "y": 18 },
+      "end": { "k": "bola", "x": 88, "y": 18 },
+      "speakAlso": ["Anjing sampai di bola!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "huruf-M",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Bantu kupu-kupu menuju bunga. Ikuti jalan huruf M.",
+    "label": "Ikuti jalan huruf M",
+    "data": {
+      "path": "M14 84 V18 L50 60 L86 18 V84",
+      "start": { "k": "lebah", "x": 14, "y": 84 },
+      "end": { "k": "bunga", "x": 86, "y": 84 },
+      "speakAlso": ["Kupu-kupu sampai di bunga!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "huruf-N",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Bantu sapi menuju rumput. Ikuti jalan huruf N.",
+    "label": "Ikuti jalan huruf N",
+    "data": {
+      "path": "M22 84 V18 L78 84 V18",
+      "start": { "k": "sapi", "x": 22, "y": 84 },
+      "end": { "k": "padi", "x": 78, "y": 18 },
+      "speakAlso": ["Sapi sampai di rumput!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "huruf-Z",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Bantu pesawat menuju awan. Ikuti jalan huruf Z.",
+    "label": "Ikuti jalan huruf Z",
+    "data": {
+      "path": "M18 18 H82 L18 82 H82",
+      "start": { "k": "pesawat", "x": 18, "y": 18 },
+      "end": { "k": "awan", "x": 82, "y": 82 },
+      "speakAlso": ["Pesawat sampai di awan!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "huruf-S",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Bantu perahu menuju pulau. Ikuti jalan huruf S.",
+    "label": "Ikuti jalan huruf S",
+    "data": {
+      "path": "M76 22 Q50 6 30 22 Q14 40 50 50 Q86 60 70 78 Q50 94 24 78",
+      "start": { "k": "perahuLayar", "x": 76, "y": 22 },
+      "end": { "k": "pohonKelapa", "x": 24, "y": 78 },
+      "speakAlso": ["Perahu sampai di pulau!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "huruf-C",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Bantu tikus menuju keju. Ikuti jalan huruf C.",
+    "label": "Ikuti jalan huruf C",
+    "data": {
+      "path": "M78 26 Q50 4 26 26 Q8 50 26 74 Q50 96 78 74",
+      "start": { "k": "tikus", "x": 78, "y": 26 },
+      "end": { "k": "keju", "x": 78, "y": 74 },
+      "speakAlso": ["Tikus sampai di keju!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "huruf-O",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Bantu lebah menuju bunga. Ikuti jalan huruf O.",
+    "label": "Ikuti jalan huruf O",
+    "data": {
+      "path": "M50 12 Q86 12 86 50 Q86 88 50 88 Q14 88 14 50 Q14 12 49.9 12",
+      "start": { "k": "lebah", "x": 50, "y": 12 },
+      "end": { "k": "bunga", "x": 49.9, "y": 12 },
+      "speakAlso": ["Lebah sampai di bunga!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Bantu kucing menuju ikan. Ikuti jalan angka 1.",
+    "label": "Ikuti jalan angka 1",
+    "data": {
+      "path": "M34 30 L54 14 V86",
+      "start": { "k": "kucing", "x": 34, "y": 30 },
+      "end": { "k": "ikan", "x": 54, "y": 86 },
+      "speakAlso": ["Kucing sampai di ikan!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-2",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Bantu monyet menuju pisang. Ikuti jalan angka 2.",
+    "label": "Ikuti jalan angka 2",
+    "data": {
+      "path": "M24 32 Q30 10 52 12 Q78 16 72 40 Q66 58 24 86 H78",
+      "start": { "k": "monyet", "x": 24, "y": 32 },
+      "end": { "k": "pisang", "x": 78, "y": 86 },
+      "speakAlso": ["Monyet sampai di pisang!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-3",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Bantu ayam menuju jagung. Ikuti jalan angka 3.",
+    "label": "Ikuti jalan angka 3",
+    "data": {
+      "path": "M24 22 Q50 2 70 22 Q80 44 46 48 Q82 52 72 76 Q50 98 24 78",
+      "start": { "k": "ayamBetina", "x": 24, "y": 22 },
+      "end": { "k": "jagung", "x": 24, "y": 78 },
+      "speakAlso": ["Ayam sampai di jagung!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-4",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Bantu mobil menuju rumah. Ikuti jalan angka 4.",
+    "label": "Ikuti jalan angka 4",
+    "data": {
+      "path": "M62 86 V14 L20 64 H82",
+      "start": { "k": "mobil", "x": 62, "y": 86 },
+      "end": { "k": "rumahJoglo", "x": 82, "y": 64 },
+      "speakAlso": ["Mobil sampai di rumah!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-7",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Bantu bebek menuju kolam. Ikuti jalan angka 7.",
+    "label": "Ikuti jalan angka 7",
+    "data": {
+      "path": "M22 16 H78 L42 86",
+      "start": { "k": "bebek", "x": 22, "y": 16 },
+      "end": { "k": "tetesAir", "x": 42, "y": 86 },
+      "speakAlso": ["Bebek sampai di kolam!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "spiral",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Bantu anjing menuju bola. Ikuti jalan spiral.",
+    "label": "Ikuti jalan spiral",
+    "data": {
+      "path": "M54 50 L54.5 51.2 L54.7 52.7 L54.3 54.3 L53.4 55.9 L52 57.3 L50 58.3 L47.7 58.7 L45.2 58.4 L42.7 57.3 L40.4 55.5 L38.6 53.1 L37.5 50 L37.2 46.6 L37.9 43 L39.7 39.7 L42.3 36.7 L45.8 34.5 L50 33.3 L54.5 33.1 L59.1 34.3 L63.3 36.7 L67 40.2 L69.6 44.7 L71 50 L71 55.6 L69.4 61.2 L66.4 66.4 L61.9 70.6 L56.4 73.7 L50 75.3 L43.3 75.1 L36.7 73.1 L30.6 69.4 L25.7 64 L22.2 57.5 L20.5 50 L20.8 42.2 L23.2 34.5 L27.6 27.6 L33.8 22 L41.4 18.1 L50 16.3 L58.9 16.7 L67.6 19.5 L75.4 24.6 L81.7 31.7 L86 40.3 L88 50",
+      "start": { "k": "anjing", "x": 54, "y": 50 },
+      "end": { "k": "bola", "x": 88, "y": 50 },
+      "speakAlso": ["Anjing sampai di bola!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "spiral-kecil",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Bantu kupu-kupu menuju bunga. Ikuti jalan spiral kecil.",
+    "label": "Ikuti jalan spiral kecil",
+    "data": {
+      "path": "M54 50 L55.2 51.4 L55.9 53.4 L55.8 55.8 L54.8 58.4 L52.9 60.7 L50 62.5 L46.4 63.4 L42.3 63.3 L38.2 61.8 L34.3 59.1 L31.1 55.1 L29 50 L28.3 44.2 L29.4 38.1 L32.1 32.1 L36.7 26.9 L42.7 22.9 L50 20.5 L58 20.1 L66.2 22 L73.9 26.1 L80.5 32.4 L85.3 40.5 L88 50",
+      "start": { "k": "lebah", "x": 54, "y": 50 },
+      "end": { "k": "bunga", "x": 88, "y": 50 },
+      "speakAlso": ["Kupu-kupu sampai di bunga!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kotak",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Bantu sapi menuju rumput. Ikuti jalan kotak.",
+    "label": "Ikuti jalan kotak",
+    "data": {
+      "path": "M18 18 H82 V82 H18 V18.1",
+      "start": { "k": "sapi", "x": 18, "y": 18 },
+      "end": { "k": "padi", "x": 18, "y": 18.1 },
+      "speakAlso": ["Sapi sampai di rumput!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "segitiga",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Bantu pesawat menuju awan. Ikuti jalan segitiga.",
+    "label": "Ikuti jalan segitiga",
+    "data": {
+      "path": "M50 12 L88 84 H12 L49.9 12.1",
+      "start": { "k": "pesawat", "x": 50, "y": 12 },
+      "end": { "k": "awan", "x": 49.9, "y": 12.1 },
+      "speakAlso": ["Pesawat sampai di awan!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "loncat-katak",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Bantu perahu menuju pulau. Ikuti jalan loncat katak.",
+    "label": "Ikuti jalan loncat katak",
+    "data": {
+      "path": "M10 80 Q22 30 34 80 Q46 30 58 80 Q70 30 82 80",
+      "start": { "k": "perahuLayar", "x": 10, "y": 80 },
+      "end": { "k": "pohonKelapa", "x": 82, "y": 80 },
+      "speakAlso": ["Perahu sampai di pulau!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ombak-kecil",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Bantu tikus menuju keju. Ikuti jalan ombak kecil.",
+    "label": "Ikuti jalan ombak kecil",
+    "data": {
+      "path": "M12 50 Q16.8 34 21.5 50 Q26.3 66 31 50 Q35.8 34 40.5 50 Q45.3 66 50 50 Q54.8 34 59.5 50 Q64.3 66 69 50 Q73.8 34 78.5 50 Q83.3 66 88 50",
+      "start": { "k": "tikus", "x": 12, "y": 50 },
+      "end": { "k": "keju", "x": 88, "y": 50 },
+      "speakAlso": ["Tikus sampai di keju!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "zigzag-kecil",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Bantu lebah menuju bunga. Ikuti jalan zigzag kecil.",
+    "label": "Ikuti jalan zigzag kecil",
+    "data": {
+      "path": "M12 64 L21.5 36 L31 64 L40.5 36 L50 64 L59.5 36 L69 64 L78.5 36 L88 64",
+      "start": { "k": "lebah", "x": 12, "y": 64 },
+      "end": { "k": "bunga", "x": 88, "y": 64 },
+      "speakAlso": ["Lebah sampai di bunga!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jalan-berkelok",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Bantu kucing menuju ikan. Ikuti jalan jalan berkelok.",
+    "label": "Ikuti jalan jalan berkelok",
+    "data": {
+      "path": "M12 20 Q88 20 50 50 Q12 80 88 80",
+      "start": { "k": "kucing", "x": 12, "y": 20 },
+      "end": { "k": "ikan", "x": 88, "y": 80 },
+      "speakAlso": ["Kucing sampai di ikan!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bukit-kembar",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Bantu monyet menuju pisang. Ikuti jalan bukit kembar.",
+    "label": "Ikuti jalan bukit kembar",
+    "data": {
+      "path": "M10 74 Q30 20 50 74 Q70 20 90 74",
+      "start": { "k": "monyet", "x": 10, "y": 74 },
+      "end": { "k": "pisang", "x": 90, "y": 74 },
+      "speakAlso": ["Monyet sampai di pisang!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "naik-turun",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Bantu ayam menuju jagung. Ikuti jalan naik turun.",
+    "label": "Ikuti jalan naik turun",
+    "data": {
+      "path": "M10 80 L30 30 L50 80 L70 30 L90 80",
+      "start": { "k": "ayamBetina", "x": 10, "y": 80 },
+      "end": { "k": "jagung", "x": 90, "y": 80 },
+      "speakAlso": ["Ayam sampai di jagung!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-0",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Bantu mobil menuju rumah. Ikuti jalan angka 0.",
+    "label": "Ikuti jalan angka 0",
+    "data": {
+      "path": "M50 10 Q78 10 78 50 Q78 90 50 90 Q22 90 22 50 Q22 10 49.9 10",
+      "start": { "k": "mobil", "x": 50, "y": 10 },
+      "end": { "k": "rumahJoglo", "x": 49.9, "y": 10 },
+      "speakAlso": ["Mobil sampai di rumah!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hati",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Bantu bebek menuju kolam. Ikuti jalan hati.",
+    "label": "Ikuti jalan hati",
+    "data": {
+      "path": "M50 84 Q12 58 16 34 Q22 12 50 30 Q78 12 84 34 Q88 58 50.1 84",
+      "start": { "k": "bebek", "x": 50, "y": 84 },
+      "end": { "k": "tetesAir", "x": 50.1, "y": 84 },
+      "speakAlso": ["Bebek sampai di kolam!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bintang",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Bantu anjing menuju bola. Ikuti jalan bintang.",
+    "label": "Ikuti jalan bintang",
+    "data": {
+      "path": "M50 10 L61 40 L92 40 L67 58 L77 88 L50 70 L23 88 L33 58 L8 40 L39 40 L49.9 10",
+      "start": { "k": "anjing", "x": 50, "y": 10 },
+      "end": { "k": "bola", "x": 49.9, "y": 10 },
+      "speakAlso": ["Anjing sampai di bola!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "huruf-A",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Bantu kupu-kupu menuju bunga. Ikuti jalan huruf A.",
+    "label": "Ikuti jalan huruf A",
+    "data": {
+      "path": "M18 86 L50 14 L82 86 M32 58 H68",
+      "start": { "k": "lebah", "x": 18, "y": 86 },
+      "end": { "k": "bunga", "x": 68, "y": 58 },
+      "speakAlso": ["Kupu-kupu sampai di bunga!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jembatan",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Bantu sapi menuju rumput. Ikuti jalan jembatan.",
+    "label": "Ikuti jalan jembatan",
+    "data": {
+      "path": "M10 70 H26 Q50 20 74 70 H90",
+      "start": { "k": "sapi", "x": 10, "y": 70 },
+      "end": { "k": "padi", "x": 90, "y": 70 },
+      "speakAlso": ["Sapi sampai di rumput!"]
+    },
+    "tags": ["garis"],
+    "review": "ditinjau"
+  }
+]

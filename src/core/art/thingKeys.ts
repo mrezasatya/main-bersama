@@ -127,5 +127,9 @@ export const THING_KEYS = [
   'menaraEiffel',
   'piramida',
   'tembokBesar',
+  'parang',
+  'truntum',
+  'megaMendung',
+  'ceplok',
 ] as const;
 export type ThingKey = (typeof THING_KEYS)[number];

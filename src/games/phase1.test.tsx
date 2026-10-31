@@ -91,7 +91,7 @@ describe('Suara Hewan: satu sesi penuh', () => {
   it('jumlah pilihan sesuai usia, lalu layar hadiah', async () => {
     const { default: Game } = await GAMES.find((g) => g.meta.id === 'suara-hewan')!.load();
     render(
-      <MemoryRouter>
+      <MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <Game />
       </MemoryRouter>,
     );

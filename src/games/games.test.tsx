@@ -17,7 +17,7 @@ describe('setiap permainan terdaftar bisa dibuka di setiap kelompok usia', () =>
         useSettings.getState().update({ ageGroup: age });
         const { default: Game } = await g.load();
         const { container, unmount } = render(
-          <MemoryRouter>
+          <MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
             <Game />
           </MemoryRouter>,
         );

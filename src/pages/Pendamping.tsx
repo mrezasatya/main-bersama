@@ -274,15 +274,20 @@ export default function Pendamping() {
       <section className="panel">
         <h2>Aktivitas nyata per permainan</h2>
         {GAMES.map(({ meta, guide }) => (
-          <div key={meta.id} className="guide">
-            <h3>{meta.title}</h3>
+          <details key={meta.id} className="guide">
+            <summary>
+              <strong>{meta.title}</strong>{' '}
+              <span className="muted">
+                ({meta.ageMin}-{meta.ageMax} tahun)
+              </span>
+            </summary>
             <p>{guide.tujuan}</p>
             <ul>
               {guide.aktivitas.map((a) => (
                 <li key={a}>{a}</li>
               ))}
             </ul>
-          </div>
+          </details>
         ))}
       </section>
 

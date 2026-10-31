@@ -103,7 +103,7 @@ describe('Fase 4', () => {
     for (const g of GAMES.filter((x) => x.meta.phase === 4)) {
       const { default: Game } = await g.load();
       const { unmount, container } = render(
-        <MemoryRouter>
+        <MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
           <Game />
         </MemoryRouter>,
       );
