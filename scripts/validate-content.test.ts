@@ -65,6 +65,12 @@ describe('aturan validasi konten', () => {
     expect(validateGame(meta, b, ART_KEYS).errors.join()).toMatch(/speak kosong/);
   });
 
+  it('menolak data.speakAlso yang bukan larik teks', () => {
+    const b = bank(40);
+    b[0] = item(0, { data: { speakAlso: ['ok', ''] } });
+    expect(validateGame(meta, b, ART_KEYS).errors.join()).toMatch(/speakAlso/);
+  });
+
   it('6. menghitung item perlu-ditinjau', () => {
     const b = bank(40);
     b[0] = item(0, { review: 'perlu-ditinjau' });

@@ -1,4 +1,5 @@
 export * from './BigButton';
+export * from './ChoiceGrid';
 export * from './HoldButton';
 export * from './InstructionBar';
 export * from './GameSession';

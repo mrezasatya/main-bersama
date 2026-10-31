@@ -75,4 +75,6 @@ ke satu sumber.
 
 ## Status
 
-Fase 0 (fondasi + Uji Suara) selesai. Permainan contoh: **Cari Warna** (40 item, di luar katalog 30).
+- Fase 0 (fondasi + Uji Suara): selesai. Permainan contoh **Cari Warna** (di luar katalog 30).
+- Fase 1 (Bunyi dan Musik): #4 Suara Hewan, #26 Kendaraan dan Suaranya, #11 Nada Nusantara,
+  #29 Tiru Irama, #27 Panca Indra dan Tubuhku.

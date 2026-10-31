@@ -1,5 +1,5 @@
 import type { AgeGroup, ContentItem, Difficulty } from '../../types';
-import { itemsForAge, pickNext, shuffle } from './picker';
+import { effectiveAge, itemsForAge, pickNext, shuffle } from './picker';
 
 const mk = (id: string, ageGroup: AgeGroup[], difficulty: Difficulty): ContentItem => ({
   id,
@@ -69,6 +69,15 @@ describe('pickNext', () => {
 
   it('melempar galat bila tidak ada item untuk kelompok usia', () => {
     expect(() => pickNext([mk('x', ['C'], 1)], 'A', 1, [])).toThrow();
+  });
+});
+
+describe('effectiveAge', () => {
+  it('memakai kelompok usia terdekat bila permainan tidak mencakup usia anak', () => {
+    const ab = [mk('x', ['A', 'B'], 1)];
+    expect(effectiveAge(ab, 'C')).toBe('B');
+    expect(effectiveAge(ab, 'A')).toBe('A');
+    expect(effectiveAge([mk('y', ['C'], 1)], 'A')).toBe('C');
   });
 });
 

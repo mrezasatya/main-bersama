@@ -1,13 +1,17 @@
-import { PRAISE, TRY_AGAIN, sfx, speak, speakSequence } from '../audio';
+import { PRAISE, TRY_AGAIN, sfx, speakSequence } from '../audio';
 
 const pick = <T>(arr: readonly T[]): T => arr[Math.floor(Math.random() * arr.length)]!;
 
 export const feedback = {
-  /** Selesai setelah pujian dibacakan, minimal ~1,1 detik agar animasi sempat terlihat. */
-  correct(): Promise<unknown> {
+  /**
+   * Selesai setelah kalimat dibacakan, minimal ~1,1 detik agar animasi sempat terlihat.
+   * `say` (mis. "Kambing berbunyi mbeek!") menggantikan pujian acak; bisa beberapa kalimat.
+   */
+  correct(say?: string | readonly string[]): Promise<unknown> {
     sfx.success();
     const minDelay = new Promise((r) => window.setTimeout(r, 1100));
-    return Promise.all([speak(pick(PRAISE)), minDelay]);
+    const lines = say === undefined ? [pick(PRAISE)] : typeof say === 'string' ? [say] : say;
+    return Promise.all([speakSequence(lines), minDelay]);
   },
   /** Umpan balik lembut. Animasi goyang diatur oleh komponen permainan. */
   tryAgain(hint?: string): void {

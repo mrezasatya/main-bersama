@@ -37,7 +37,7 @@ test('mulai, pilih usia, main satu ronde, lalu berhenti', async ({ page }) => {
     expect(box.bottom).toBeLessThanOrEqual(page.viewportSize()!.height);
   }
 
-  await page.locator(`.choice[data-color="${color}"]`).click();
+  await page.locator(`.choice[data-choice="${color}"]`).click();
   await expect(page.locator('.progress-dots .is-done')).toHaveCount(1, { timeout: 8000 });
 
   await page.getByRole('button', { name: 'Berhenti' }).click();
@@ -77,4 +77,27 @@ test('manifest PWA dan service worker tersedia', async ({ page, request }) => {
   await expect
     .poll(() => page.evaluate(() => navigator.serviceWorker.getRegistration().then(Boolean)))
     .toBe(true);
+});
+
+const PHASE1 = [
+  ['suara-hewan', /Suara Hewan/],
+  ['kendaraan', /Kendaraan dan Suaranya/],
+  ['nada-nusantara', /Nada Nusantara/],
+  ['tiru-irama', /Tiru Irama/],
+  ['panca-indra', /Panca Indra/],
+] as const;
+
+test('kelima permainan Fase 1 terbuka tanpa galat dan muat di layar', async ({ page }) => {
+  const errors: string[] = [];
+  page.on('pageerror', (e) => errors.push(e.message));
+  await start(page);
+  for (const [, name] of PHASE1) {
+    await page.getByRole('button', { name }).click();
+    await expect(page.locator('.round')).toBeVisible();
+    await expect(page.locator('.instruction-text')).not.toBeEmpty();
+    await noHorizontalScroll(page);
+    await page.getByRole('button', { name: 'Berhenti' }).click();
+    await expect(page.getByRole('button', { name })).toBeVisible();
+  }
+  expect(errors).toEqual([]);
 });

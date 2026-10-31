@@ -1,0 +1,452 @@
+[
+  {
+    "id": "tepuk-ta-ta",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Tepuk tangan: ta, ta. Ayo tiru!",
+    "label": "ta, ta",
+    "data": { "beats": ["ta", "ta"], "sound": "tepuk" },
+    "tags": ["irama", "tepuk", "2-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendang-ta-taa",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Kendang: ta, taa. Ayo tiru!",
+    "label": "ta, taa",
+    "data": { "beats": ["ta", "taa"], "sound": "kendang" },
+    "tags": ["irama", "kendang", "2-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rebana-taa-ta",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Rebana: taa, ta. Ayo tiru!",
+    "label": "taa, ta",
+    "data": { "beats": ["taa", "ta"], "sound": "rebana" },
+    "tags": ["irama", "rebana", "2-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kentongan-taa-taa",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Kentongan: taa, taa. Ayo tiru!",
+    "label": "taa, taa",
+    "data": { "beats": ["taa", "taa"], "sound": "kentongan" },
+    "tags": ["irama", "kentongan", "2-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tepuk-ta-ta-ta",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Tepuk tangan: ta, ta, ta. Ayo tiru!",
+    "label": "ta, ta, ta",
+    "data": { "beats": ["ta", "ta", "ta"], "sound": "tepuk" },
+    "tags": ["irama", "tepuk", "3-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendang-ta-ta-taa",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Kendang: ta, ta, taa. Ayo tiru!",
+    "label": "ta, ta, taa",
+    "data": { "beats": ["ta", "ta", "taa"], "sound": "kendang" },
+    "tags": ["irama", "kendang", "3-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rebana-ta-taa-ta",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Rebana: ta, taa, ta. Ayo tiru!",
+    "label": "ta, taa, ta",
+    "data": { "beats": ["ta", "taa", "ta"], "sound": "rebana" },
+    "tags": ["irama", "rebana", "3-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kentongan-ta-taa-taa",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Kentongan: ta, taa, taa. Ayo tiru!",
+    "label": "ta, taa, taa",
+    "data": { "beats": ["ta", "taa", "taa"], "sound": "kentongan" },
+    "tags": ["irama", "kentongan", "3-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tepuk-taa-ta-ta",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Tepuk tangan: taa, ta, ta. Ayo tiru!",
+    "label": "taa, ta, ta",
+    "data": { "beats": ["taa", "ta", "ta"], "sound": "tepuk" },
+    "tags": ["irama", "tepuk", "3-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendang-taa-ta-taa",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Kendang: taa, ta, taa. Ayo tiru!",
+    "label": "taa, ta, taa",
+    "data": { "beats": ["taa", "ta", "taa"], "sound": "kendang" },
+    "tags": ["irama", "kendang", "3-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rebana-taa-taa-ta",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Rebana: taa, taa, ta. Ayo tiru!",
+    "label": "taa, taa, ta",
+    "data": { "beats": ["taa", "taa", "ta"], "sound": "rebana" },
+    "tags": ["irama", "rebana", "3-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kentongan-taa-taa-taa",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Kentongan: taa, taa, taa. Ayo tiru!",
+    "label": "taa, taa, taa",
+    "data": { "beats": ["taa", "taa", "taa"], "sound": "kentongan" },
+    "tags": ["irama", "kentongan", "3-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tepuk-ta-ta-taa-ta",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Tepuk tangan: ta, ta, taa, ta. Ayo tiru!",
+    "label": "ta, ta, taa, ta",
+    "data": { "beats": ["ta", "ta", "taa", "ta"], "sound": "tepuk" },
+    "tags": ["irama", "tepuk", "4-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendang-ta-ta-ta-taa",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Kendang: ta, ta, ta, taa. Ayo tiru!",
+    "label": "ta, ta, ta, taa",
+    "data": { "beats": ["ta", "ta", "ta", "taa"], "sound": "kendang" },
+    "tags": ["irama", "kendang", "4-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rebana-taa-ta-ta-taa",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Rebana: taa, ta, ta, taa. Ayo tiru!",
+    "label": "taa, ta, ta, taa",
+    "data": { "beats": ["taa", "ta", "ta", "taa"], "sound": "rebana" },
+    "tags": ["irama", "rebana", "4-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kentongan-ta-taa-ta-ta",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Kentongan: ta, taa, ta, ta. Ayo tiru!",
+    "label": "ta, taa, ta, ta",
+    "data": { "beats": ["ta", "taa", "ta", "ta"], "sound": "kentongan" },
+    "tags": ["irama", "kentongan", "4-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tepuk-ta-taa-taa-taa",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Tepuk tangan: ta, taa, taa, taa. Ayo tiru!",
+    "label": "ta, taa, taa, taa",
+    "data": { "beats": ["ta", "taa", "taa", "taa"], "sound": "tepuk" },
+    "tags": ["irama", "tepuk", "4-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendang-taa-ta-ta-ta",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Kendang: taa, ta, ta, ta. Ayo tiru!",
+    "label": "taa, ta, ta, ta",
+    "data": { "beats": ["taa", "ta", "ta", "ta"], "sound": "kendang" },
+    "tags": ["irama", "kendang", "4-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rebana-taa-taa-taa-taa",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Rebana: taa, taa, taa, taa. Ayo tiru!",
+    "label": "taa, taa, taa, taa",
+    "data": { "beats": ["taa", "taa", "taa", "taa"], "sound": "rebana" },
+    "tags": ["irama", "rebana", "4-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kentongan-taa-ta-taa-taa",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Kentongan: taa, ta, taa, taa. Ayo tiru!",
+    "label": "taa, ta, taa, taa",
+    "data": { "beats": ["taa", "ta", "taa", "taa"], "sound": "kentongan" },
+    "tags": ["irama", "kentongan", "4-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tepuk-ta-taa-taa-ta",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Tepuk tangan: ta, taa, taa, ta. Ayo tiru!",
+    "label": "ta, taa, taa, ta",
+    "data": { "beats": ["ta", "taa", "taa", "ta"], "sound": "tepuk" },
+    "tags": ["irama", "tepuk", "4-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendang-taa-ta-taa-ta",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Kendang: taa, ta, taa, ta. Ayo tiru!",
+    "label": "taa, ta, taa, ta",
+    "data": { "beats": ["taa", "ta", "taa", "ta"], "sound": "kendang" },
+    "tags": ["irama", "kendang", "4-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rebana-taa-taa-ta-taa",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Rebana: taa, taa, ta, taa. Ayo tiru!",
+    "label": "taa, taa, ta, taa",
+    "data": { "beats": ["taa", "taa", "ta", "taa"], "sound": "rebana" },
+    "tags": ["irama", "rebana", "4-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kentongan-ta-taa-ta-taa",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Kentongan: ta, taa, ta, taa. Ayo tiru!",
+    "label": "ta, taa, ta, taa",
+    "data": { "beats": ["ta", "taa", "ta", "taa"], "sound": "kentongan" },
+    "tags": ["irama", "kentongan", "4-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tepuk-ta-ta-taa-taa",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Tepuk tangan: ta, ta, taa, taa. Ayo tiru!",
+    "label": "ta, ta, taa, taa",
+    "data": { "beats": ["ta", "ta", "taa", "taa"], "sound": "tepuk" },
+    "tags": ["irama", "tepuk", "4-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendang-taa-taa-taa-ta",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Kendang: taa, taa, taa, ta. Ayo tiru!",
+    "label": "taa, taa, taa, ta",
+    "data": { "beats": ["taa", "taa", "taa", "ta"], "sound": "kendang" },
+    "tags": ["irama", "kendang", "4-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rebana-taa-ta-taa-taa-ta",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Rebana: taa, ta, taa, taa, ta. Ayo tiru!",
+    "label": "taa, ta, taa, taa, ta",
+    "data": { "beats": ["taa", "ta", "taa", "taa", "ta"], "sound": "rebana" },
+    "tags": ["irama", "rebana", "5-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kentongan-ta-ta-ta-ta-taa-ta",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Kentongan: ta, ta, ta, ta, taa, ta. Ayo tiru!",
+    "label": "ta, ta, ta, ta, taa, ta",
+    "data": { "beats": ["ta", "ta", "ta", "ta", "taa", "ta"], "sound": "kentongan" },
+    "tags": ["irama", "kentongan", "6-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tepuk-taa-ta-taa-ta-ta-taa",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Tepuk tangan: taa, ta, taa, ta, ta, taa. Ayo tiru!",
+    "label": "taa, ta, taa, ta, ta, taa",
+    "data": { "beats": ["taa", "ta", "taa", "ta", "ta", "taa"], "sound": "tepuk" },
+    "tags": ["irama", "tepuk", "6-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendang-taa-ta-taa-taa-taa-taa",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Kendang: taa, ta, taa, taa, taa, taa. Ayo tiru!",
+    "label": "taa, ta, taa, taa, taa, taa",
+    "data": { "beats": ["taa", "ta", "taa", "taa", "taa", "taa"], "sound": "kendang" },
+    "tags": ["irama", "kendang", "6-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rebana-taa-taa-taa-taa-taa-ta",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Rebana: taa, taa, taa, taa, taa, ta. Ayo tiru!",
+    "label": "taa, taa, taa, taa, taa, ta",
+    "data": { "beats": ["taa", "taa", "taa", "taa", "taa", "ta"], "sound": "rebana" },
+    "tags": ["irama", "rebana", "6-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kentongan-ta-ta-taa-ta-ta",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kentongan: ta, ta, taa, ta, ta. Ayo tiru!",
+    "label": "ta, ta, taa, ta, ta",
+    "data": { "beats": ["ta", "ta", "taa", "ta", "ta"], "sound": "kentongan" },
+    "tags": ["irama", "kentongan", "5-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tepuk-taa-ta-taa-taa-ta-ta",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Tepuk tangan: taa, ta, taa, taa, ta, ta. Ayo tiru!",
+    "label": "taa, ta, taa, taa, ta, ta",
+    "data": { "beats": ["taa", "ta", "taa", "taa", "ta", "ta"], "sound": "tepuk" },
+    "tags": ["irama", "tepuk", "6-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendang-ta-taa-taa-ta-taa-ta",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Kendang: ta, taa, taa, ta, taa, ta. Ayo tiru!",
+    "label": "ta, taa, taa, ta, taa, ta",
+    "data": { "beats": ["ta", "taa", "taa", "ta", "taa", "ta"], "sound": "kendang" },
+    "tags": ["irama", "kendang", "6-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rebana-taa-taa-taa-taa-ta-ta",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Rebana: taa, taa, taa, taa, ta, ta. Ayo tiru!",
+    "label": "taa, taa, taa, taa, ta, ta",
+    "data": { "beats": ["taa", "taa", "taa", "taa", "ta", "ta"], "sound": "rebana" },
+    "tags": ["irama", "rebana", "6-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kentongan-ta-taa-taa-taa-ta-taa",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Kentongan: ta, taa, taa, taa, ta, taa. Ayo tiru!",
+    "label": "ta, taa, taa, taa, ta, taa",
+    "data": { "beats": ["ta", "taa", "taa", "taa", "ta", "taa"], "sound": "kentongan" },
+    "tags": ["irama", "kentongan", "6-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tepuk-taa-ta-ta-taa-ta-taa",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Tepuk tangan: taa, ta, ta, taa, ta, taa. Ayo tiru!",
+    "label": "taa, ta, ta, taa, ta, taa",
+    "data": { "beats": ["taa", "ta", "ta", "taa", "ta", "taa"], "sound": "tepuk" },
+    "tags": ["irama", "tepuk", "6-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendang-taa-ta-ta-ta-ta-ta",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Kendang: taa, ta, ta, ta, ta, ta. Ayo tiru!",
+    "label": "taa, ta, ta, ta, ta, ta",
+    "data": { "beats": ["taa", "ta", "ta", "ta", "ta", "ta"], "sound": "kendang" },
+    "tags": ["irama", "kendang", "6-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rebana-ta-ta-ta-taa-ta-taa",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Rebana: ta, ta, ta, taa, ta, taa. Ayo tiru!",
+    "label": "ta, ta, ta, taa, ta, taa",
+    "data": { "beats": ["ta", "ta", "ta", "taa", "ta", "taa"], "sound": "rebana" },
+    "tags": ["irama", "rebana", "6-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kentongan-ta-taa-taa-taa-taa-ta",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Kentongan: ta, taa, taa, taa, taa, ta. Ayo tiru!",
+    "label": "ta, taa, taa, taa, taa, ta",
+    "data": { "beats": ["ta", "taa", "taa", "taa", "taa", "ta"], "sound": "kentongan" },
+    "tags": ["irama", "kentongan", "6-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tepuk-taa-taa-taa-ta-taa",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Tepuk tangan: taa, taa, taa, ta, taa. Ayo tiru!",
+    "label": "taa, taa, taa, ta, taa",
+    "data": { "beats": ["taa", "taa", "taa", "ta", "taa"], "sound": "tepuk" },
+    "tags": ["irama", "tepuk", "5-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendang-ta-taa-taa-taa-taa",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kendang: ta, taa, taa, taa, taa. Ayo tiru!",
+    "label": "ta, taa, taa, taa, taa",
+    "data": { "beats": ["ta", "taa", "taa", "taa", "taa"], "sound": "kendang" },
+    "tags": ["irama", "kendang", "5-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rebana-ta-taa-taa-ta-taa",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Rebana: ta, taa, taa, ta, taa. Ayo tiru!",
+    "label": "ta, taa, taa, ta, taa",
+    "data": { "beats": ["ta", "taa", "taa", "ta", "taa"], "sound": "rebana" },
+    "tags": ["irama", "rebana", "5-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kentongan-taa-ta-ta-taa-taa-ta",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Kentongan: taa, ta, ta, taa, taa, ta. Ayo tiru!",
+    "label": "taa, ta, ta, taa, taa, ta",
+    "data": { "beats": ["taa", "ta", "ta", "taa", "taa", "ta"], "sound": "kentongan" },
+    "tags": ["irama", "kentongan", "6-ketukan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tepuk-ta-taa-taa-taa-ta-ta",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Tepuk tangan: ta, taa, taa, taa, ta, ta. Ayo tiru!",
+    "label": "ta, taa, taa, taa, ta, ta",
+    "data": { "beats": ["ta", "taa", "taa", "taa", "ta", "ta"], "sound": "tepuk" },
+    "tags": ["irama", "tepuk", "6-ketukan"],
+    "review": "ditinjau"
+  }
+]

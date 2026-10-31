@@ -1,0 +1,818 @@
+[
+  {
+    "id": "kambing",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Siapa yang berbunyi mbeek mbeek?",
+    "label": "Kambing",
+    "assetKey": "kambing",
+    "data": {
+      "distractors": ["monyet", "gagak", "sapi"],
+      "sfx": "embik",
+      "promptSfx": true,
+      "habitat": "peternakan",
+      "speakAlso": ["Kambing berbunyi mbeek mbeek!"]
+    },
+    "tags": ["hewan", "kaki4", "peternakan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "domba",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Siapa yang berbunyi beee beee?",
+    "label": "Domba",
+    "assetKey": "domba",
+    "data": {
+      "distractors": ["jangkrik", "anjing", "nyamuk"],
+      "sfx": "embik",
+      "promptSfx": true,
+      "habitat": "peternakan",
+      "speakAlso": ["Domba berbunyi beee beee!"]
+    },
+    "tags": ["hewan", "kaki4", "peternakan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "sapi",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Siapa yang berbunyi mooo?",
+    "label": "Sapi",
+    "assetKey": "sapi",
+    "data": {
+      "distractors": ["ayamBetina", "merak", "katak"],
+      "sfx": "lenguh",
+      "promptSfx": true,
+      "habitat": "peternakan",
+      "speakAlso": ["Sapi berbunyi mooo!"]
+    },
+    "tags": ["hewan", "kaki4", "peternakan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "kerbau",
+    "ageGroup": ["B"],
+    "difficulty": 3,
+    "speak": "Siapa yang berbunyi nguaak?",
+    "label": "Kerbau",
+    "assetKey": "kerbau",
+    "data": {
+      "distractors": ["ular", "singa", "kuda"],
+      "sfx": "lenguh",
+      "promptSfx": true,
+      "habitat": "sawah",
+      "speakAlso": ["Kerbau berbunyi nguaak!"]
+    },
+    "tags": ["hewan", "kaki4", "sawah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "kuda",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Siapa yang berbunyi hiii hiii?",
+    "label": "Kuda",
+    "assetKey": "kuda",
+    "data": {
+      "distractors": ["anakAyam", "anjing", "beruang"],
+      "sfx": "ringkik",
+      "promptSfx": true,
+      "habitat": "peternakan",
+      "speakAlso": ["Kuda berbunyi hiii hiii!"]
+    },
+    "tags": ["hewan", "kaki4", "peternakan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "keledai",
+    "ageGroup": ["B"],
+    "difficulty": 3,
+    "speak": "Siapa yang berbunyi hi-ho hi-ho?",
+    "label": "Keledai",
+    "assetKey": "keledai",
+    "data": {
+      "distractors": ["ayamJago", "serigala", "domba"],
+      "sfx": "ringkik",
+      "promptSfx": true,
+      "habitat": "peternakan",
+      "speakAlso": ["Keledai berbunyi hi-ho hi-ho!"]
+    },
+    "tags": ["hewan", "kaki4", "peternakan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "kucing",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Siapa yang berbunyi meong?",
+    "label": "Kucing",
+    "assetKey": "kucing",
+    "data": {
+      "distractors": ["burungHantu", "gajah", "pelatuk"],
+      "sfx": "meong",
+      "promptSfx": true,
+      "habitat": "rumah",
+      "speakAlso": ["Kucing berbunyi meong!"]
+    },
+    "tags": ["hewan", "kaki4", "rumah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "anjing",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Siapa yang berbunyi guk guk?",
+    "label": "Anjing",
+    "assetKey": "anjing",
+    "data": {
+      "distractors": ["ular", "owa", "merak"],
+      "sfx": "gonggong",
+      "promptSfx": true,
+      "habitat": "rumah",
+      "speakAlso": ["Anjing berbunyi guk guk!"]
+    },
+    "tags": ["hewan", "kaki4", "rumah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "singa",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Siapa yang berbunyi auum?",
+    "label": "Singa",
+    "assetKey": "singa",
+    "data": {
+      "distractors": ["bebek", "kuda", "ayamJago"],
+      "sfx": "auman",
+      "promptSfx": true,
+      "habitat": "padang rumput",
+      "speakAlso": ["Singa berbunyi auum!"]
+    },
+    "tags": ["hewan", "kaki4", "padang rumput"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "harimau",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Siapa yang berbunyi grrr?",
+    "label": "Harimau",
+    "assetKey": "harimau",
+    "data": {
+      "distractors": ["katak", "beo", "komodo"],
+      "sfx": "geram",
+      "promptSfx": true,
+      "habitat": "hutan",
+      "speakAlso": ["Harimau berbunyi grrr!"]
+    },
+    "tags": ["hewan", "kaki4", "hutan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "serigala",
+    "ageGroup": ["B"],
+    "difficulty": 3,
+    "speak": "Siapa yang berbunyi auuuuu?",
+    "label": "Serigala",
+    "assetKey": "serigala",
+    "data": {
+      "distractors": ["katak", "kambing", "kerbau"],
+      "sfx": "lolong",
+      "promptSfx": true,
+      "habitat": "hutan",
+      "speakAlso": ["Serigala berbunyi auuuuu!"]
+    },
+    "tags": ["hewan", "kaki4", "hutan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "beruang",
+    "ageGroup": ["B"],
+    "difficulty": 3,
+    "speak": "Siapa yang berbunyi groar?",
+    "label": "Beruang",
+    "assetKey": "beruang",
+    "data": {
+      "distractors": ["ayamBetina", "kudaNil", "gorila"],
+      "sfx": "auman",
+      "promptSfx": true,
+      "habitat": "hutan",
+      "speakAlso": ["Beruang berbunyi groar!"]
+    },
+    "tags": ["hewan", "kaki4", "hutan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "tikus",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Siapa yang berbunyi cit cit?",
+    "label": "Tikus",
+    "assetKey": "tikus",
+    "data": {
+      "distractors": ["burungHantu", "domba", "ikan"],
+      "sfx": "cicit",
+      "promptSfx": true,
+      "habitat": "rumah",
+      "speakAlso": ["Tikus berbunyi cit cit!"]
+    },
+    "tags": ["hewan", "kaki4", "rumah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "gajah",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Siapa yang berbunyi prooot?",
+    "label": "Gajah",
+    "assetKey": "gajah",
+    "data": {
+      "distractors": ["pipit", "anjingLaut", "tonggeret"],
+      "sfx": "terompetGajah",
+      "promptSfx": true,
+      "habitat": "hutan",
+      "speakAlso": ["Gajah berbunyi prooot!"]
+    },
+    "tags": ["hewan", "kaki4", "hutan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "kudaNil",
+    "ageGroup": ["B"],
+    "difficulty": 4,
+    "speak": "Siapa yang berbunyi hoh hoh hoh?",
+    "label": "Kuda nil",
+    "assetKey": "kudaNil",
+    "data": {
+      "distractors": ["jangkrik", "kambing", "tekukur"],
+      "sfx": "lenguh",
+      "promptSfx": true,
+      "habitat": "sungai",
+      "speakAlso": ["Kuda nil berbunyi hoh hoh hoh!"]
+    },
+    "tags": ["hewan", "kaki4", "sungai"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "monyet",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Siapa yang berbunyi uu uu aa aa?",
+    "label": "Monyet",
+    "assetKey": "monyet",
+    "data": {
+      "distractors": ["singa", "gagak", "merpati"],
+      "sfx": "koak",
+      "promptSfx": true,
+      "habitat": "hutan",
+      "speakAlso": ["Monyet berbunyi uu uu aa aa!"]
+    },
+    "tags": ["hewan", "primata", "hutan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "gorila",
+    "ageGroup": ["B"],
+    "difficulty": 3,
+    "speak": "Siapa yang berbunyi dug dug dug?",
+    "label": "Gorila",
+    "assetKey": "gorila",
+    "data": {
+      "distractors": ["domba", "owa", "kerbau"],
+      "sfx": "pukulDada",
+      "promptSfx": true,
+      "habitat": "hutan",
+      "speakAlso": ["Gorila berbunyi dug dug dug!"]
+    },
+    "tags": ["hewan", "primata", "hutan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "owa",
+    "ageGroup": ["B"],
+    "difficulty": 4,
+    "speak": "Siapa yang berbunyi uwa uwa?",
+    "label": "Owa jawa",
+    "assetKey": "owa",
+    "data": {
+      "distractors": ["jangkrik", "gorila", "kuda"],
+      "sfx": "lolong",
+      "promptSfx": true,
+      "habitat": "hutan",
+      "speakAlso": ["Owa jawa berbunyi uwa uwa!"]
+    },
+    "tags": ["hewan", "primata", "hutan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "ayamJago",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Siapa yang berbunyi kukuruyuk?",
+    "label": "Ayam jago",
+    "assetKey": "ayamJago",
+    "data": {
+      "distractors": ["singa", "elang", "paus"],
+      "sfx": "kokok",
+      "promptSfx": true,
+      "habitat": "peternakan",
+      "speakAlso": ["Ayam jago berbunyi kukuruyuk!"]
+    },
+    "tags": ["hewan", "burung", "peternakan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "ayamBetina",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Siapa yang berbunyi petok petok?",
+    "label": "Ayam betina",
+    "assetKey": "ayamBetina",
+    "data": {
+      "distractors": ["gajah", "beo", "serigala"],
+      "sfx": "koak",
+      "promptSfx": true,
+      "habitat": "peternakan",
+      "speakAlso": ["Ayam betina berbunyi petok petok!"]
+    },
+    "tags": ["hewan", "burung", "peternakan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "anakAyam",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Siapa yang berbunyi ciap ciap?",
+    "label": "Anak ayam",
+    "assetKey": "anakAyam",
+    "data": {
+      "distractors": ["gajah", "kambing", "kerbau"],
+      "sfx": "cicit",
+      "promptSfx": true,
+      "habitat": "peternakan",
+      "speakAlso": ["Anak ayam berbunyi ciap ciap!"]
+    },
+    "tags": ["hewan", "burung", "peternakan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "bebek",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Siapa yang berbunyi kwek kwek?",
+    "label": "Bebek",
+    "assetKey": "bebek",
+    "data": {
+      "distractors": ["kucing", "paus", "ikan"],
+      "sfx": "kwek",
+      "promptSfx": true,
+      "habitat": "sawah",
+      "speakAlso": ["Bebek berbunyi kwek kwek!"]
+    },
+    "tags": ["hewan", "burung", "sawah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "angsa",
+    "ageGroup": ["B"],
+    "difficulty": 3,
+    "speak": "Siapa yang berbunyi hong hong?",
+    "label": "Angsa",
+    "assetKey": "angsa",
+    "data": {
+      "distractors": ["domba", "pipit", "ular"],
+      "sfx": "kwek",
+      "promptSfx": true,
+      "habitat": "danau",
+      "speakAlso": ["Angsa berbunyi hong hong!"]
+    },
+    "tags": ["hewan", "burung", "danau"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "kalkun",
+    "ageGroup": ["B"],
+    "difficulty": 4,
+    "speak": "Siapa yang berbunyi gluk gluk gluk?",
+    "label": "Kalkun",
+    "assetKey": "kalkun",
+    "data": {
+      "distractors": ["kucing", "ayamJago", "merpati"],
+      "sfx": "kwok",
+      "promptSfx": true,
+      "habitat": "peternakan",
+      "speakAlso": ["Kalkun berbunyi gluk gluk gluk!"]
+    },
+    "tags": ["hewan", "burung", "peternakan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "pipit",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Siapa yang berbunyi cuit cuit?",
+    "label": "Burung pipit",
+    "assetKey": "pipit",
+    "data": {
+      "distractors": ["domba", "elang", "kucing"],
+      "sfx": "kicau",
+      "promptSfx": true,
+      "habitat": "taman",
+      "speakAlso": ["Burung pipit berbunyi cuit cuit!"]
+    },
+    "tags": ["hewan", "burung", "taman"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "burungHantu",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Siapa yang berbunyi huu huu?",
+    "label": "Burung hantu",
+    "assetKey": "burungHantu",
+    "data": {
+      "distractors": ["lebah", "tokek", "harimau"],
+      "sfx": "hu",
+      "promptSfx": true,
+      "habitat": "hutan",
+      "speakAlso": ["Burung hantu berbunyi huu huu!"]
+    },
+    "tags": ["hewan", "burung", "hutan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "gagak",
+    "ageGroup": ["B"],
+    "difficulty": 3,
+    "speak": "Siapa yang berbunyi gaak gaak?",
+    "label": "Burung gagak",
+    "assetKey": "gagak",
+    "data": {
+      "distractors": ["kambing", "ayamBetina", "monyet"],
+      "sfx": "koak",
+      "promptSfx": true,
+      "habitat": "hutan",
+      "speakAlso": ["Burung gagak berbunyi gaak gaak!"]
+    },
+    "tags": ["hewan", "burung", "hutan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "merpati",
+    "ageGroup": ["B"],
+    "difficulty": 2,
+    "speak": "Siapa yang berbunyi kurrr kurrr?",
+    "label": "Burung merpati",
+    "assetKey": "merpati",
+    "data": {
+      "distractors": ["tikus", "sapi", "tokek"],
+      "sfx": "dekut",
+      "promptSfx": true,
+      "habitat": "taman",
+      "speakAlso": ["Burung merpati berbunyi kurrr kurrr!"]
+    },
+    "tags": ["hewan", "burung", "taman"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "perkutut",
+    "ageGroup": ["B"],
+    "difficulty": 4,
+    "speak": "Siapa yang berbunyi perkutuuut?",
+    "label": "Burung perkutut",
+    "assetKey": "perkutut",
+    "data": {
+      "distractors": ["harimau", "gagak", "paus"],
+      "sfx": "dekut",
+      "promptSfx": true,
+      "habitat": "taman",
+      "speakAlso": ["Burung perkutut berbunyi perkutuuut!"]
+    },
+    "tags": ["hewan", "burung", "taman"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "tekukur",
+    "ageGroup": ["B"],
+    "difficulty": 5,
+    "speak": "Siapa yang berbunyi te-ku-kur?",
+    "label": "Burung tekukur",
+    "assetKey": "tekukur",
+    "data": {
+      "distractors": ["jangkrik", "merak", "pipit"],
+      "sfx": "dekut",
+      "promptSfx": true,
+      "habitat": "sawah",
+      "speakAlso": ["Burung tekukur berbunyi te-ku-kur!"]
+    },
+    "tags": ["hewan", "burung", "sawah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "kakatua",
+    "ageGroup": ["B"],
+    "difficulty": 3,
+    "speak": "Siapa yang berbunyi kreeek kreeek?",
+    "label": "Burung kakatua",
+    "assetKey": "kakatua",
+    "data": {
+      "distractors": ["jangkrik", "bebek", "ayamJago"],
+      "sfx": "pekik",
+      "promptSfx": true,
+      "habitat": "hutan",
+      "speakAlso": ["Burung kakatua berbunyi kreeek kreeek!"]
+    },
+    "tags": ["hewan", "burung", "hutan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "beo",
+    "ageGroup": ["B"],
+    "difficulty": 3,
+    "speak": "Siapa yang berbunyi halo halo?",
+    "label": "Burung beo",
+    "assetKey": "beo",
+    "data": {
+      "distractors": ["kambing", "kalkun", "ayamJago"],
+      "sfx": "kicau",
+      "promptSfx": true,
+      "habitat": "hutan",
+      "speakAlso": ["Burung beo berbunyi halo halo!"]
+    },
+    "tags": ["hewan", "burung", "hutan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "elang",
+    "ageGroup": ["B"],
+    "difficulty": 3,
+    "speak": "Siapa yang berbunyi kiiik kiiik?",
+    "label": "Burung elang",
+    "assetKey": "elang",
+    "data": {
+      "distractors": ["monyet", "kalkun", "kerbau"],
+      "sfx": "pekik",
+      "promptSfx": true,
+      "habitat": "gunung",
+      "speakAlso": ["Burung elang berbunyi kiiik kiiik!"]
+    },
+    "tags": ["hewan", "burung", "gunung"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "pelatuk",
+    "ageGroup": ["B"],
+    "difficulty": 3,
+    "speak": "Siapa yang berbunyi tok tok tok?",
+    "label": "Burung pelatuk",
+    "assetKey": "pelatuk",
+    "data": {
+      "distractors": ["monyet", "anakAyam", "jangkrik"],
+      "sfx": "ketuk",
+      "promptSfx": true,
+      "habitat": "hutan",
+      "speakAlso": ["Burung pelatuk berbunyi tok tok tok!"]
+    },
+    "tags": ["hewan", "burung", "hutan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "merak",
+    "ageGroup": ["B"],
+    "difficulty": 4,
+    "speak": "Siapa yang berbunyi kiyaau?",
+    "label": "Burung merak",
+    "assetKey": "merak",
+    "data": {
+      "distractors": ["sapi", "tekukur", "perkutut"],
+      "sfx": "pekik",
+      "promptSfx": true,
+      "habitat": "taman",
+      "speakAlso": ["Burung merak berbunyi kiyaau!"]
+    },
+    "tags": ["hewan", "burung", "taman"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "katak",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Siapa yang berbunyi kwok kwok?",
+    "label": "Katak",
+    "assetKey": "katak",
+    "data": {
+      "distractors": ["anjing", "serigala", "keledai"],
+      "sfx": "kwok",
+      "promptSfx": true,
+      "habitat": "sawah",
+      "speakAlso": ["Katak berbunyi kwok kwok!"]
+    },
+    "tags": ["hewan", "reptil", "sawah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "tokek",
+    "ageGroup": ["B"],
+    "difficulty": 2,
+    "speak": "Siapa yang berbunyi tokek tokek?",
+    "label": "Tokek",
+    "assetKey": "tokek",
+    "data": {
+      "distractors": ["sapi", "anjingLaut", "ular"],
+      "sfx": "decak",
+      "promptSfx": true,
+      "habitat": "rumah",
+      "speakAlso": ["Tokek berbunyi tokek tokek!"]
+    },
+    "tags": ["hewan", "reptil", "rumah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "cicak",
+    "ageGroup": ["B"],
+    "difficulty": 3,
+    "speak": "Siapa yang berbunyi cek cek cek?",
+    "label": "Cicak",
+    "assetKey": "cicak",
+    "data": {
+      "distractors": ["ikan", "katak", "burungHantu"],
+      "sfx": "decak",
+      "promptSfx": true,
+      "habitat": "rumah",
+      "speakAlso": ["Cicak berbunyi cek cek cek!"]
+    },
+    "tags": ["hewan", "reptil", "rumah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "ular",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Siapa yang berbunyi sssss?",
+    "label": "Ular",
+    "assetKey": "ular",
+    "data": {
+      "distractors": ["gajah", "owa", "kakatua"],
+      "sfx": "desis",
+      "promptSfx": true,
+      "habitat": "hutan",
+      "speakAlso": ["Ular berbunyi sssss!"]
+    },
+    "tags": ["hewan", "reptil", "hutan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "komodo",
+    "ageGroup": ["B"],
+    "difficulty": 4,
+    "speak": "Siapa yang berbunyi hhhhh?",
+    "label": "Komodo",
+    "assetKey": "komodo",
+    "data": {
+      "distractors": ["lebah", "ular", "kalkun"],
+      "sfx": "desis",
+      "promptSfx": true,
+      "habitat": "pulau Komodo",
+      "speakAlso": ["Komodo berbunyi hhhhh!"]
+    },
+    "tags": ["hewan", "reptil", "pulau Komodo"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "lebah",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Siapa yang berbunyi nguung nguung?",
+    "label": "Lebah",
+    "assetKey": "lebah",
+    "data": {
+      "distractors": ["harimau", "kuda", "kambing"],
+      "sfx": "dengung",
+      "promptSfx": true,
+      "habitat": "taman",
+      "speakAlso": ["Lebah berbunyi nguung nguung!"]
+    },
+    "tags": ["hewan", "serangga", "taman"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "nyamuk",
+    "ageGroup": ["B"],
+    "difficulty": 2,
+    "speak": "Siapa yang berbunyi ngiiing?",
+    "label": "Nyamuk",
+    "assetKey": "nyamuk",
+    "data": {
+      "distractors": ["anakAyam", "kuda", "komodo"],
+      "sfx": "ngiing",
+      "promptSfx": true,
+      "habitat": "rumah",
+      "speakAlso": ["Nyamuk berbunyi ngiiing!"]
+    },
+    "tags": ["hewan", "serangga", "rumah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "jangkrik",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Siapa yang berbunyi krik krik?",
+    "label": "Jangkrik",
+    "assetKey": "jangkrik",
+    "data": {
+      "distractors": ["pipit", "ikan", "pelatuk"],
+      "sfx": "krik",
+      "promptSfx": true,
+      "habitat": "sawah",
+      "speakAlso": ["Jangkrik berbunyi krik krik!"]
+    },
+    "tags": ["hewan", "serangga", "sawah"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "tonggeret",
+    "ageGroup": ["B"],
+    "difficulty": 4,
+    "speak": "Siapa yang berbunyi kreeeet?",
+    "label": "Tonggeret",
+    "assetKey": "tonggeret",
+    "data": {
+      "distractors": ["anjing", "nyamuk", "perkutut"],
+      "sfx": "dengir",
+      "promptSfx": true,
+      "habitat": "hutan",
+      "speakAlso": ["Tonggeret berbunyi kreeeet!"]
+    },
+    "tags": ["hewan", "serangga", "hutan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "lumbaLumba",
+    "ageGroup": ["B"],
+    "difficulty": 2,
+    "speak": "Siapa yang berbunyi iik iik iik?",
+    "label": "Lumba-lumba",
+    "assetKey": "lumbaLumba",
+    "data": {
+      "distractors": ["ayamBetina", "merak", "burungHantu"],
+      "sfx": "siulLumba",
+      "promptSfx": true,
+      "habitat": "laut",
+      "speakAlso": ["Lumba-lumba berbunyi iik iik iik!"]
+    },
+    "tags": ["hewan", "laut", "laut"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "paus",
+    "ageGroup": ["B"],
+    "difficulty": 3,
+    "speak": "Siapa yang berbunyi uuuuung?",
+    "label": "Paus",
+    "assetKey": "paus",
+    "data": {
+      "distractors": ["ayamJago", "anjingLaut", "merpati"],
+      "sfx": "nyanyiPaus",
+      "promptSfx": true,
+      "habitat": "laut",
+      "speakAlso": ["Paus berbunyi uuuuung!"]
+    },
+    "tags": ["hewan", "laut", "laut"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "ikan",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Siapa yang berbunyi blub blub?",
+    "label": "Ikan",
+    "assetKey": "ikan",
+    "data": {
+      "distractors": ["harimau", "ayamJago", "owa"],
+      "sfx": "gelembung",
+      "promptSfx": true,
+      "habitat": "sungai",
+      "speakAlso": ["Ikan berbunyi blub blub!"]
+    },
+    "tags": ["hewan", "laut", "sungai"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "anjingLaut",
+    "ageGroup": ["B"],
+    "difficulty": 3,
+    "speak": "Siapa yang berbunyi aur aur?",
+    "label": "Anjing laut",
+    "assetKey": "anjingLaut",
+    "data": {
+      "distractors": ["katak", "lumbaLumba", "gagak"],
+      "sfx": "gonggong",
+      "promptSfx": true,
+      "habitat": "laut",
+      "speakAlso": ["Anjing laut berbunyi aur aur!"]
+    },
+    "tags": ["hewan", "laut", "laut"],
+    "review": "perlu-ditinjau"
+  }
+]

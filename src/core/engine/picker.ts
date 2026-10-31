@@ -17,6 +17,22 @@ export function itemsForAge<T extends ContentItem<unknown>>(
   return bank.filter((it) => it.ageGroup.includes(age));
 }
 
+const AGE_ORDER: AgeGroup[] = ['A', 'B', 'C'];
+
+/**
+ * Kelompok usia yang dipakai untuk sebuah bank. Bila permainan tidak mencakup usia anak
+ * (mis. permainan 2-4 tahun dibuka anak 5-6 tahun), dipakai kelompok terdekat yang tersedia.
+ */
+export function effectiveAge(bank: readonly ContentItem<unknown>[], age: AgeGroup): AgeGroup {
+  const has = (g: AgeGroup) => bank.some((it) => it.ageGroup.includes(g));
+  if (has(age)) return age;
+  const i = AGE_ORDER.indexOf(age);
+  const byDistance = [...AGE_ORDER].sort(
+    (a, b) => Math.abs(AGE_ORDER.indexOf(a) - i) - Math.abs(AGE_ORDER.indexOf(b) - i),
+  );
+  return byDistance.find(has) ?? age;
+}
+
 /**
  * Shuffle-bag adaptif: memilih item yang belum dilihat untuk kelompok usia ini,
  * dengan tingkat kesulitan paling dekat ke level saat ini. Item yang lebih mudah

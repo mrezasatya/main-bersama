@@ -1,9 +1,9 @@
-import { useCallback, useEffect, useRef, useState, type ComponentType } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState, type ComponentType } from 'react';
 import { useNavigate } from 'react-router-dom';
 import type { AgeGroup, ContentItem, GameMeta, RoundProps, RoundResult } from '../../types';
 import { stopSpeaking } from '../audio';
 import { IconHome } from '../art/icons';
-import { ENGINE_CONFIG, pickNext } from '../engine';
+import { ENGINE_CONFIG, effectiveAge, pickNext } from '../engine';
 import {
   newlyUnlocked,
   sessionStars,
@@ -32,7 +32,8 @@ interface Reward {
  */
 export function GameSession<D>({ meta, content, Round }: Props<D>) {
   const navigate = useNavigate();
-  const age: AgeGroup = useSettings((s) => s.ageGroup) ?? 'A';
+  const chosenAge: AgeGroup = useSettings((s) => s.ageGroup) ?? 'A';
+  const age = useMemo(() => effectiveAge(content, chosenAge), [content, chosenAge]);
   const sessionLength = ENGINE_CONFIG.sessionLength[age];
 
   const [item, setItem] = useState<ContentItem<D> | null>(null);

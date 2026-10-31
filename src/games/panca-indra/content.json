@@ -1,0 +1,582 @@
+[
+  {
+    "id": "tunjuk-rambut",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana rambut?",
+    "label": "Mana rambut?",
+    "data": { "mode": "tunjuk", "part": "rambut" },
+    "tags": ["tubuh", "wajah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-mata",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana mata?",
+    "label": "Mana mata?",
+    "data": { "mode": "tunjuk", "part": "mata" },
+    "tags": ["tubuh", "wajah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-hidung",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana hidung?",
+    "label": "Mana hidung?",
+    "data": { "mode": "tunjuk", "part": "hidung" },
+    "tags": ["tubuh", "wajah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-mulut",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana mulut?",
+    "label": "Mana mulut?",
+    "data": { "mode": "tunjuk", "part": "mulut" },
+    "tags": ["tubuh", "wajah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-telinga",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana telinga?",
+    "label": "Mana telinga?",
+    "data": { "mode": "tunjuk", "part": "telinga" },
+    "tags": ["tubuh", "wajah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-kepala",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana kepala?",
+    "label": "Mana kepala?",
+    "data": { "mode": "tunjuk", "part": "kepala" },
+    "tags": ["tubuh", "badan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-perut",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana perut?",
+    "label": "Mana perut?",
+    "data": { "mode": "tunjuk", "part": "perut" },
+    "tags": ["tubuh", "badan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-tangan",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana tangan?",
+    "label": "Mana tangan?",
+    "data": { "mode": "tunjuk", "part": "tangan" },
+    "tags": ["tubuh", "badan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-kaki",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana kaki?",
+    "label": "Mana kaki?",
+    "data": { "mode": "tunjuk", "part": "kaki" },
+    "tags": ["tubuh", "badan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-pipi",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana pipi?",
+    "label": "Mana pipi?",
+    "data": { "mode": "tunjuk", "part": "pipi" },
+    "tags": ["tubuh", "wajah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-leher",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana leher?",
+    "label": "Mana leher?",
+    "data": { "mode": "tunjuk", "part": "leher" },
+    "tags": ["tubuh", "badan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-bahu",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana bahu?",
+    "label": "Mana bahu?",
+    "data": { "mode": "tunjuk", "part": "bahu" },
+    "tags": ["tubuh", "badan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-lutut",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana lutut?",
+    "label": "Mana lutut?",
+    "data": { "mode": "tunjuk", "part": "lutut" },
+    "tags": ["tubuh", "badan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-alis",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana alis?",
+    "label": "Mana alis?",
+    "data": { "mode": "tunjuk", "part": "alis" },
+    "tags": ["tubuh", "wajah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-dahi",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana dahi?",
+    "label": "Mana dahi?",
+    "data": { "mode": "tunjuk", "part": "dahi" },
+    "tags": ["tubuh", "wajah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-dagu",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana dagu?",
+    "label": "Mana dagu?",
+    "data": { "mode": "tunjuk", "part": "dagu" },
+    "tags": ["tubuh", "wajah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-siku",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana siku?",
+    "label": "Mana siku?",
+    "data": { "mode": "tunjuk", "part": "siku" },
+    "tags": ["tubuh", "badan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tunjuk-dada",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana dada?",
+    "label": "Mana dada?",
+    "data": { "mode": "tunjuk", "part": "dada" },
+    "tags": ["tubuh", "badan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-mata-televisi",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Untuk menonton televisi, kita pakai apa?",
+    "label": "Untuk menonton televisi, kita pakai apa?",
+    "assetKey": "televisi",
+    "data": {
+      "mode": "indra",
+      "organ": "mata",
+      "distractors": ["telinga", "lidah", "hidung"],
+      "speakAlso": ["Mata! Kita melihat dengan mata."]
+    },
+    "tags": ["indra", "mata"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-mata-buku",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Untuk melihat gambar di buku, kita pakai apa?",
+    "label": "Untuk melihat gambar di buku, kita pakai apa?",
+    "assetKey": "buku",
+    "data": {
+      "mode": "indra",
+      "organ": "mata",
+      "distractors": ["hidung", "lidah", "tangan"],
+      "speakAlso": ["Mata! Kita melihat dengan mata."]
+    },
+    "tags": ["indra", "mata"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-mata-bintang",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Untuk melihat bintang di langit, kita pakai apa?",
+    "label": "Untuk melihat bintang di langit, kita pakai apa?",
+    "assetKey": "bintang",
+    "data": {
+      "mode": "indra",
+      "organ": "mata",
+      "distractors": ["hidung", "telinga", "lidah"],
+      "speakAlso": ["Mata! Kita melihat dengan mata."]
+    },
+    "tags": ["indra", "mata"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-mata-balon",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Untuk melihat warna balon, kita pakai apa?",
+    "label": "Untuk melihat warna balon, kita pakai apa?",
+    "assetKey": "balon",
+    "data": {
+      "mode": "indra",
+      "organ": "mata",
+      "distractors": ["telinga", "lidah", "hidung"],
+      "speakAlso": ["Mata! Kita melihat dengan mata."]
+    },
+    "tags": ["indra", "mata"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-mata-merak",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Untuk melihat bulu merak yang indah, kita pakai apa?",
+    "label": "Untuk melihat bulu merak yang indah, kita pakai apa?",
+    "assetKey": "merak",
+    "data": {
+      "mode": "indra",
+      "organ": "mata",
+      "distractors": ["hidung", "tangan", "telinga"],
+      "speakAlso": ["Mata! Kita melihat dengan mata."]
+    },
+    "tags": ["indra", "mata"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-telinga-ayamJago",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Untuk mendengar ayam berkokok, kita pakai apa?",
+    "label": "Untuk mendengar ayam berkokok, kita pakai apa?",
+    "assetKey": "ayamJago",
+    "data": {
+      "mode": "indra",
+      "organ": "telinga",
+      "distractors": ["hidung", "mata", "lidah"],
+      "speakAlso": ["Telinga! Kita mendengar dengan telinga."]
+    },
+    "tags": ["indra", "telinga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-telinga-ambulans",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Untuk mendengar suara ambulans, kita pakai apa?",
+    "label": "Untuk mendengar suara ambulans, kita pakai apa?",
+    "assetKey": "ambulans",
+    "data": {
+      "mode": "indra",
+      "organ": "telinga",
+      "distractors": ["hidung", "tangan", "mata"],
+      "speakAlso": ["Telinga! Kita mendengar dengan telinga."]
+    },
+    "tags": ["indra", "telinga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-telinga-lonceng",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Untuk mendengar bunyi lonceng, kita pakai apa?",
+    "label": "Untuk mendengar bunyi lonceng, kita pakai apa?",
+    "assetKey": "lonceng",
+    "data": {
+      "mode": "indra",
+      "organ": "telinga",
+      "distractors": ["lidah", "tangan", "mata"],
+      "speakAlso": ["Telinga! Kita mendengar dengan telinga."]
+    },
+    "tags": ["indra", "telinga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-telinga-gendang",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Untuk mendengar suara gendang, kita pakai apa?",
+    "label": "Untuk mendengar suara gendang, kita pakai apa?",
+    "assetKey": "gendang",
+    "data": {
+      "mode": "indra",
+      "organ": "telinga",
+      "distractors": ["tangan", "mata", "hidung"],
+      "speakAlso": ["Telinga! Kita mendengar dengan telinga."]
+    },
+    "tags": ["indra", "telinga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-telinga-kucing",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Untuk mendengar kucing mengeong, kita pakai apa?",
+    "label": "Untuk mendengar kucing mengeong, kita pakai apa?",
+    "assetKey": "kucing",
+    "data": {
+      "mode": "indra",
+      "organ": "telinga",
+      "distractors": ["lidah", "mata", "tangan"],
+      "speakAlso": ["Telinga! Kita mendengar dengan telinga."]
+    },
+    "tags": ["indra", "telinga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-hidung-bunga",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Untuk mencium wangi bunga, kita pakai apa?",
+    "label": "Untuk mencium wangi bunga, kita pakai apa?",
+    "assetKey": "bunga",
+    "data": {
+      "mode": "indra",
+      "organ": "hidung",
+      "distractors": ["lidah", "telinga", "mata"],
+      "speakAlso": ["Hidung! Kita mencium bau dengan hidung."]
+    },
+    "tags": ["indra", "hidung"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-hidung-kue",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Untuk mencium kue yang harum, kita pakai apa?",
+    "label": "Untuk mencium kue yang harum, kita pakai apa?",
+    "assetKey": "kue",
+    "data": {
+      "mode": "indra",
+      "organ": "hidung",
+      "distractors": ["telinga", "tangan", "lidah"],
+      "speakAlso": ["Hidung! Kita mencium bau dengan hidung."]
+    },
+    "tags": ["indra", "hidung"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-hidung-sabun",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Untuk mencium sabun yang wangi, kita pakai apa?",
+    "label": "Untuk mencium sabun yang wangi, kita pakai apa?",
+    "assetKey": "sabun",
+    "data": {
+      "mode": "indra",
+      "organ": "hidung",
+      "distractors": ["mata", "lidah", "tangan"],
+      "speakAlso": ["Hidung! Kita mencium bau dengan hidung."]
+    },
+    "tags": ["indra", "hidung"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-hidung-durian",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Untuk mencium bau durian, kita pakai apa?",
+    "label": "Untuk mencium bau durian, kita pakai apa?",
+    "assetKey": "durian",
+    "data": {
+      "mode": "indra",
+      "organ": "hidung",
+      "distractors": ["tangan", "lidah", "telinga"],
+      "speakAlso": ["Hidung! Kita mencium bau dengan hidung."]
+    },
+    "tags": ["indra", "hidung"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-hidung-roti",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Untuk mencium roti yang baru matang, kita pakai apa?",
+    "label": "Untuk mencium roti yang baru matang, kita pakai apa?",
+    "assetKey": "roti",
+    "data": {
+      "mode": "indra",
+      "organ": "hidung",
+      "distractors": ["lidah", "telinga", "tangan"],
+      "speakAlso": ["Hidung! Kita mencium bau dengan hidung."]
+    },
+    "tags": ["indra", "hidung"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-lidah-permen",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Untuk merasakan permen yang manis, kita pakai apa?",
+    "label": "Untuk merasakan permen yang manis, kita pakai apa?",
+    "assetKey": "permen",
+    "data": {
+      "mode": "indra",
+      "organ": "lidah",
+      "distractors": ["tangan", "mata", "hidung"],
+      "speakAlso": ["Lidah! Kita merasakan makanan dengan lidah."]
+    },
+    "tags": ["indra", "lidah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-lidah-jeruk",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Untuk merasakan jeruk yang asam, kita pakai apa?",
+    "label": "Untuk merasakan jeruk yang asam, kita pakai apa?",
+    "assetKey": "jeruk",
+    "data": {
+      "mode": "indra",
+      "organ": "lidah",
+      "distractors": ["telinga", "tangan", "hidung"],
+      "speakAlso": ["Lidah! Kita merasakan makanan dengan lidah."]
+    },
+    "tags": ["indra", "lidah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-lidah-garam",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Untuk merasakan garam yang asin, kita pakai apa?",
+    "label": "Untuk merasakan garam yang asin, kita pakai apa?",
+    "assetKey": "garam",
+    "data": {
+      "mode": "indra",
+      "organ": "lidah",
+      "distractors": ["tangan", "telinga", "mata"],
+      "speakAlso": ["Lidah! Kita merasakan makanan dengan lidah."]
+    },
+    "tags": ["indra", "lidah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-lidah-cabai",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Untuk merasakan cabai yang pedas, kita pakai apa?",
+    "label": "Untuk merasakan cabai yang pedas, kita pakai apa?",
+    "assetKey": "cabai",
+    "data": {
+      "mode": "indra",
+      "organ": "lidah",
+      "distractors": ["hidung", "telinga", "mata"],
+      "speakAlso": ["Lidah! Kita merasakan makanan dengan lidah."]
+    },
+    "tags": ["indra", "lidah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-lidah-pisang",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Untuk merasakan pisang yang manis, kita pakai apa?",
+    "label": "Untuk merasakan pisang yang manis, kita pakai apa?",
+    "assetKey": "pisang",
+    "data": {
+      "mode": "indra",
+      "organ": "lidah",
+      "distractors": ["mata", "hidung", "tangan"],
+      "speakAlso": ["Lidah! Kita merasakan makanan dengan lidah."]
+    },
+    "tags": ["indra", "lidah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-tangan-esBatu",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Untuk merasakan es batu yang dingin, kita pakai apa?",
+    "label": "Untuk merasakan es batu yang dingin, kita pakai apa?",
+    "assetKey": "esBatu",
+    "data": {
+      "mode": "indra",
+      "organ": "tangan",
+      "distractors": ["telinga", "hidung", "lidah"],
+      "speakAlso": ["Tangan! Kulit kita bisa merasakan sentuhan."]
+    },
+    "tags": ["indra", "tangan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-tangan-bantal",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Untuk merasakan bantal yang empuk, kita pakai apa?",
+    "label": "Untuk merasakan bantal yang empuk, kita pakai apa?",
+    "assetKey": "bantal",
+    "data": {
+      "mode": "indra",
+      "organ": "tangan",
+      "distractors": ["hidung", "telinga", "mata"],
+      "speakAlso": ["Tangan! Kulit kita bisa merasakan sentuhan."]
+    },
+    "tags": ["indra", "tangan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-tangan-batu",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Untuk merasakan batu yang keras, kita pakai apa?",
+    "label": "Untuk merasakan batu yang keras, kita pakai apa?",
+    "assetKey": "batu",
+    "data": {
+      "mode": "indra",
+      "organ": "tangan",
+      "distractors": ["mata", "hidung", "lidah"],
+      "speakAlso": ["Tangan! Kulit kita bisa merasakan sentuhan."]
+    },
+    "tags": ["indra", "tangan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-tangan-kapas",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Untuk merasakan kapas yang lembut, kita pakai apa?",
+    "label": "Untuk merasakan kapas yang lembut, kita pakai apa?",
+    "assetKey": "kapas",
+    "data": {
+      "mode": "indra",
+      "organ": "tangan",
+      "distractors": ["lidah", "telinga", "mata"],
+      "speakAlso": ["Tangan! Kulit kita bisa merasakan sentuhan."]
+    },
+    "tags": ["indra", "tangan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "indra-tangan-tehHangat",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Untuk merasakan gelas teh yang hangat, kita pakai apa?",
+    "label": "Untuk merasakan gelas teh yang hangat, kita pakai apa?",
+    "assetKey": "tehHangat",
+    "data": {
+      "mode": "indra",
+      "organ": "tangan",
+      "distractors": ["telinga", "lidah", "mata"],
+      "speakAlso": ["Tangan! Kulit kita bisa merasakan sentuhan."]
+    },
+    "tags": ["indra", "tangan"],
+    "review": "ditinjau"
+  }
+]

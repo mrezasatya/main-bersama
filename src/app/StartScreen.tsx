@@ -1,4 +1,5 @@
-import { Bintang, IconPlay } from '../core/art';
+import { IconPlay } from '../core/art/icons';
+import { Bintang } from '../core/art/objects';
 import { PHRASE, primeSpeech, speak, unlockAudio } from '../core/audio';
 import { useSettings } from '../core/progress';
 import { BigButton } from '../core/ui';
