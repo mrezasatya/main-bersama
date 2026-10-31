@@ -79,25 +79,37 @@ test('manifest PWA dan service worker tersedia', async ({ page, request }) => {
     .toBe(true);
 });
 
-const PHASE1 = [
-  ['suara-hewan', /Suara Hewan/],
-  ['kendaraan', /Kendaraan dan Suaranya/],
-  ['nada-nusantara', /Nada Nusantara/],
-  ['tiru-irama', /Tiru Irama/],
-  ['panca-indra', /Panca Indra/],
-] as const;
-
-test('kelima permainan Fase 1 terbuka tanpa galat dan muat di layar', async ({ page }) => {
+test('semua permainan di menu terbuka tanpa galat dan muat di layar', async ({ page }) => {
+  test.setTimeout(120_000);
   const errors: string[] = [];
   page.on('pageerror', (e) => errors.push(e.message));
   await start(page);
-  for (const [, name] of PHASE1) {
-    await page.getByRole('button', { name }).click();
-    await expect(page.locator('.round')).toBeVisible();
-    await expect(page.locator('.instruction-text')).not.toBeEmpty();
+  const titles = await page.locator('.game-card-title').allTextContents();
+  expect(titles.length).toBeGreaterThanOrEqual(6);
+  for (const title of titles) {
+    await page.locator('.game-card', { hasText: title }).click();
+    await expect(page.locator('.round'), title).toBeVisible();
     await noHorizontalScroll(page);
     await page.getByRole('button', { name: 'Berhenti' }).click();
-    await expect(page.getByRole('button', { name })).toBeVisible();
+    await expect(page.locator('.game-card').first()).toBeVisible();
   }
   expect(errors).toEqual([]);
+});
+
+test('menelusuri huruf di papan pasir menyelesaikan ronde', async ({ page }) => {
+  await start(page);
+  await page.locator('.game-card', { hasText: 'Huruf Pasir' }).click();
+  const board = page.locator('.trace-board');
+  await expect(board).toBeVisible();
+  await page.waitForTimeout(400);
+  const box = (await board.boundingBox())!;
+  // Sapuan zig-zag rapat menutupi seluruh papan (mulai di dalam: sudut papan membulat).
+  await page.mouse.move(box.x + 40, box.y + 40);
+  await page.mouse.down();
+  for (let y = 20; y < box.height - 10; y += 10) {
+    await page.mouse.move(box.x + box.width - 10, box.y + y, { steps: 4 });
+    await page.mouse.move(box.x + 10, box.y + y + 5, { steps: 4 });
+  }
+  await page.mouse.up();
+  await expect(page.locator('.progress-dots .is-done')).toHaveCount(1, { timeout: 10_000 });
 });

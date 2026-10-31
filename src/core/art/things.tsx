@@ -1,5 +1,6 @@
 import type { ComponentType } from 'react';
 import type { ThingKey } from './thingKeys';
+import { MORE } from './thingsMore';
 
 /** Ikon benda sehari-hari dan organ indra, orisinal, viewBox 100x100. */
 const SKIN = '#F2C49B';
@@ -472,6 +473,7 @@ export const THINGS: Record<ThingKey, ComponentType> = {
   lonceng: C(Lonceng),
   gendang: C(Gendang),
   televisi: C(Televisi),
+  ...MORE,
 };
 
 export function ThingArt({

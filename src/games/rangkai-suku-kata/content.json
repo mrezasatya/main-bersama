@@ -1,0 +1,1007 @@
+[
+  {
+    "id": "balon",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata balon.",
+    "label": "Susun: balon",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ba" },
+        { "t": "text", "s": "lon" }
+      ],
+      "tileSay": ["ba", "lon"],
+      "extra": [{ "t": "text", "s": "bin" }],
+      "cue": { "t": "art", "k": "balon" },
+      "joined": true,
+      "speakAlso": ["ba, lon. Balon!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bintang",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata bintang.",
+    "label": "Susun: bintang",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "bin" },
+        { "t": "text", "s": "tang" }
+      ],
+      "tileSay": ["bin", "tang"],
+      "extra": [{ "t": "text", "s": "i" }],
+      "cue": { "t": "art", "k": "bintang" },
+      "joined": true,
+      "speakAlso": ["bin, tang. Bintang!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bunga",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata bunga.",
+    "label": "Susun: bunga",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "bu" },
+        { "t": "text", "s": "nga" }
+      ],
+      "tileSay": ["bu", "nga"],
+      "extra": [{ "t": "text", "s": "tang" }],
+      "cue": { "t": "art", "k": "bunga" },
+      "joined": true,
+      "speakAlso": ["bu, nga. Bunga!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikan",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata ikan.",
+    "label": "Susun: ikan",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "i" },
+        { "t": "text", "s": "kan" }
+      ],
+      "tileSay": ["i", "kan"],
+      "extra": [{ "t": "text", "s": "ket" }],
+      "cue": { "t": "art", "k": "ikan" },
+      "joined": true,
+      "speakAlso": ["i, kan. Ikan!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bola",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata bola.",
+    "label": "Susun: bola",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "bo" },
+        { "t": "text", "s": "la" }
+      ],
+      "tileSay": ["bo", "la"],
+      "extra": [{ "t": "text", "s": "si" }],
+      "cue": { "t": "art", "k": "bola" },
+      "joined": true,
+      "speakAlso": ["bo, la. Bola!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kambing",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata kambing.",
+    "label": "Susun: kambing",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "kam" },
+        { "t": "text", "s": "bing" }
+      ],
+      "tileSay": ["kam", "bing"],
+      "extra": [{ "t": "text", "s": "sang" }],
+      "cue": { "t": "art", "k": "kambing" },
+      "joined": true,
+      "speakAlso": ["kam, bing. Kambing!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "domba",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata domba.",
+    "label": "Susun: domba",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "dom" },
+        { "t": "text", "s": "ba" }
+      ],
+      "tileSay": ["dom", "ba"],
+      "extra": [{ "t": "text", "s": "ka" }],
+      "cue": { "t": "art", "k": "domba" },
+      "joined": true,
+      "speakAlso": ["dom, ba. Domba!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sapi",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata sapi.",
+    "label": "Susun: sapi",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "sa" },
+        { "t": "text", "s": "pi" }
+      ],
+      "tileSay": ["sa", "pi"],
+      "extra": [{ "t": "text", "s": "ci" }],
+      "cue": { "t": "art", "k": "sapi" },
+      "joined": true,
+      "speakAlso": ["sa, pi. Sapi!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kerbau",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata kerbau.",
+    "label": "Susun: kerbau",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ker" },
+        { "t": "text", "s": "bau" }
+      ],
+      "tileSay": ["ker", "bau"],
+      "extra": [{ "t": "text", "s": "ci" }],
+      "cue": { "t": "art", "k": "kerbau" },
+      "joined": true,
+      "speakAlso": ["ker, bau. Kerbau!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kuda",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata kuda.",
+    "label": "Susun: kuda",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ku" },
+        { "t": "text", "s": "da" }
+      ],
+      "tileSay": ["ku", "da"],
+      "extra": [{ "t": "text", "s": "le" }],
+      "cue": { "t": "art", "k": "kuda" },
+      "joined": true,
+      "speakAlso": ["ku, da. Kuda!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kucing",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata kucing.",
+    "label": "Susun: kucing",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ku" },
+        { "t": "text", "s": "cing" }
+      ],
+      "tileSay": ["ku", "cing"],
+      "extra": [{ "t": "text", "s": "nga" }],
+      "cue": { "t": "art", "k": "kucing" },
+      "joined": true,
+      "speakAlso": ["ku, cing. Kucing!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "anjing",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata anjing.",
+    "label": "Susun: anjing",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "an" },
+        { "t": "text", "s": "jing" }
+      ],
+      "tileSay": ["an", "jing"],
+      "extra": [{ "t": "text", "s": "dom" }],
+      "cue": { "t": "art", "k": "anjing" },
+      "joined": true,
+      "speakAlso": ["an, jing. Anjing!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "singa",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata singa.",
+    "label": "Susun: singa",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "si" },
+        { "t": "text", "s": "nga" }
+      ],
+      "tileSay": ["si", "nga"],
+      "extra": [{ "t": "text", "s": "pan" }],
+      "cue": { "t": "art", "k": "singa" },
+      "joined": true,
+      "speakAlso": ["si, nga. Singa!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "harimau",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Susun suku kata menjadi kata harimau.",
+    "label": "Susun: harimau",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ha" },
+        { "t": "text", "s": "ri" },
+        { "t": "text", "s": "mau" }
+      ],
+      "tileSay": ["ha", "ri", "mau"],
+      "extra": [{ "t": "text", "s": "jing" }],
+      "cue": { "t": "art", "k": "harimau" },
+      "joined": true,
+      "speakAlso": ["ha, ri, mau. Harimau!"]
+    },
+    "tags": ["suku-kata", "3-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tikus",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata tikus.",
+    "label": "Susun: tikus",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ti" },
+        { "t": "text", "s": "kus" }
+      ],
+      "tileSay": ["ti", "kus"],
+      "extra": [{ "t": "text", "s": "ci" }],
+      "cue": { "t": "art", "k": "tikus" },
+      "joined": true,
+      "speakAlso": ["ti, kus. Tikus!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "gajah",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata gajah.",
+    "label": "Susun: gajah",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ga" },
+        { "t": "text", "s": "jah" }
+      ],
+      "tileSay": ["ga", "jah"],
+      "extra": [{ "t": "text", "s": "cing" }],
+      "cue": { "t": "art", "k": "gajah" },
+      "joined": true,
+      "speakAlso": ["ga, jah. Gajah!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "monyet",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata monyet.",
+    "label": "Susun: monyet",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "mo" },
+        { "t": "text", "s": "nyet" }
+      ],
+      "tileSay": ["mo", "nyet"],
+      "extra": [{ "t": "text", "s": "jah" }],
+      "cue": { "t": "art", "k": "monyet" },
+      "joined": true,
+      "speakAlso": ["mo, nyet. Monyet!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "katak",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata katak.",
+    "label": "Susun: katak",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ka" },
+        { "t": "text", "s": "tak" }
+      ],
+      "tileSay": ["ka", "tak"],
+      "extra": [{ "t": "text", "s": "bu" }],
+      "cue": { "t": "art", "k": "katak" },
+      "joined": true,
+      "speakAlso": ["ka, tak. Katak!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tokek",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata tokek.",
+    "label": "Susun: tokek",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "to" },
+        { "t": "text", "s": "kek" }
+      ],
+      "tileSay": ["to", "kek"],
+      "extra": [{ "t": "text", "s": "nga" }],
+      "cue": { "t": "art", "k": "tokek" },
+      "joined": true,
+      "speakAlso": ["to, kek. Tokek!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cicak",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata cicak.",
+    "label": "Susun: cicak",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ci" },
+        { "t": "text", "s": "cak" }
+      ],
+      "tileSay": ["ci", "cak"],
+      "extra": [{ "t": "text", "s": "be" }],
+      "cue": { "t": "art", "k": "cicak" },
+      "joined": true,
+      "speakAlso": ["ci, cak. Cicak!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ular",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata ular.",
+    "label": "Susun: ular",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "u" },
+        { "t": "text", "s": "lar" }
+      ],
+      "tileSay": ["u", "lar"],
+      "extra": [{ "t": "text", "s": "kus" }],
+      "cue": { "t": "art", "k": "ular" },
+      "joined": true,
+      "speakAlso": ["u, lar. Ular!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "lebah",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata lebah.",
+    "label": "Susun: lebah",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "le" },
+        { "t": "text", "s": "bah" }
+      ],
+      "tileSay": ["le", "bah"],
+      "extra": [{ "t": "text", "s": "lar" }],
+      "cue": { "t": "art", "k": "lebah" },
+      "joined": true,
+      "speakAlso": ["le, bah. Lebah!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "nyamuk",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata nyamuk.",
+    "label": "Susun: nyamuk",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "nya" },
+        { "t": "text", "s": "muk" }
+      ],
+      "tileSay": ["nya", "muk"],
+      "extra": [{ "t": "text", "s": "per" }],
+      "cue": { "t": "art", "k": "nyamuk" },
+      "joined": true,
+      "speakAlso": ["nya, muk. Nyamuk!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bebek",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata bebek.",
+    "label": "Susun: bebek",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "be" },
+        { "t": "text", "s": "bek" }
+      ],
+      "tileSay": ["be", "bek"],
+      "extra": [{ "t": "text", "s": "kek" }],
+      "cue": { "t": "art", "k": "bebek" },
+      "joined": true,
+      "speakAlso": ["be, bek. Bebek!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angsa",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata angsa.",
+    "label": "Susun: angsa",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ang" },
+        { "t": "text", "s": "sa" }
+      ],
+      "tileSay": ["ang", "sa"],
+      "extra": [{ "t": "text", "s": "ban" }],
+      "cue": { "t": "art", "k": "angsa" },
+      "joined": true,
+      "speakAlso": ["ang, sa. Angsa!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "merpati",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Susun suku kata menjadi kata merpati.",
+    "label": "Susun: merpati",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "mer" },
+        { "t": "text", "s": "pa" },
+        { "t": "text", "s": "ti" }
+      ],
+      "tileSay": ["mer", "pa", "ti"],
+      "extra": [{ "t": "text", "s": "ku" }],
+      "cue": { "t": "art", "k": "merpati" },
+      "joined": true,
+      "speakAlso": ["mer, pa, ti. Merpati!"]
+    },
+    "tags": ["suku-kata", "3-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "taksi",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata taksi.",
+    "label": "Susun: taksi",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "tak" },
+        { "t": "text", "s": "si" }
+      ],
+      "tileSay": ["tak", "si"],
+      "extra": [{ "t": "text", "s": "bun" }],
+      "cue": { "t": "art", "k": "taksi" },
+      "joined": true,
+      "speakAlso": ["tak, si. Taksi!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "motor",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata motor.",
+    "label": "Susun: motor",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "mo" },
+        { "t": "text", "s": "tor" }
+      ],
+      "tileSay": ["mo", "tor"],
+      "extra": [{ "t": "text", "s": "da" }],
+      "cue": { "t": "art", "k": "motor" },
+      "joined": true,
+      "speakAlso": ["mo, tor. Motor!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sepeda",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Susun suku kata menjadi kata sepeda.",
+    "label": "Susun: sepeda",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "se" },
+        { "t": "text", "s": "pe" },
+        { "t": "text", "s": "da" }
+      ],
+      "tileSay": ["se", "pe", "da"],
+      "extra": [{ "t": "text", "s": "ti" }],
+      "cue": { "t": "art", "k": "sepeda" },
+      "joined": true,
+      "speakAlso": ["se, pe, da. Sepeda!"]
+    },
+    "tags": ["suku-kata", "3-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "becak",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata becak.",
+    "label": "Susun: becak",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "be" },
+        { "t": "text", "s": "cak" }
+      ],
+      "tileSay": ["be", "cak"],
+      "extra": [{ "t": "text", "s": "se" }],
+      "cue": { "t": "art", "k": "becak" },
+      "joined": true,
+      "speakAlso": ["be, cak. Becak!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sampan",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata sampan.",
+    "label": "Susun: sampan",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "sam" },
+        { "t": "text", "s": "pan" }
+      ],
+      "tileSay": ["sam", "pan"],
+      "extra": [{ "t": "text", "s": "si" }],
+      "cue": { "t": "art", "k": "sampan" },
+      "joined": true,
+      "speakAlso": ["sam, pan. Sampan!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "roket",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata roket.",
+    "label": "Susun: roket",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ro" },
+        { "t": "text", "s": "ket" }
+      ],
+      "tileSay": ["ro", "ket"],
+      "extra": [{ "t": "text", "s": "kan" }],
+      "cue": { "t": "art", "k": "roket" },
+      "joined": true,
+      "speakAlso": ["ro, ket. Roket!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jeruk",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata jeruk.",
+    "label": "Susun: jeruk",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "je" },
+        { "t": "text", "s": "ruk" }
+      ],
+      "tileSay": ["je", "ruk"],
+      "extra": [{ "t": "text", "s": "kan" }],
+      "cue": { "t": "art", "k": "jeruk" },
+      "joined": true,
+      "speakAlso": ["je, ruk. Jeruk!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "permen",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata permen.",
+    "label": "Susun: permen",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "per" },
+        { "t": "text", "s": "men" }
+      ],
+      "tileSay": ["per", "men"],
+      "extra": [{ "t": "text", "s": "mo" }],
+      "cue": { "t": "art", "k": "permen" },
+      "joined": true,
+      "speakAlso": ["per, men. Permen!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "roti",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata roti.",
+    "label": "Susun: roti",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ro" },
+        { "t": "text", "s": "ti" }
+      ],
+      "tileSay": ["ro", "ti"],
+      "extra": [{ "t": "text", "s": "a" }],
+      "cue": { "t": "art", "k": "roti" },
+      "joined": true,
+      "speakAlso": ["ro, ti. Roti!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sabun",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata sabun.",
+    "label": "Susun: sabun",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "sa" },
+        { "t": "text", "s": "bun" }
+      ],
+      "tileSay": ["sa", "bun"],
+      "extra": [{ "t": "text", "s": "pe" }],
+      "cue": { "t": "art", "k": "sabun" },
+      "joined": true,
+      "speakAlso": ["sa, bun. Sabun!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "durian",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Susun suku kata menjadi kata durian.",
+    "label": "Susun: durian",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "du" },
+        { "t": "text", "s": "ri" },
+        { "t": "text", "s": "an" }
+      ],
+      "tileSay": ["du", "ri", "an"],
+      "extra": [{ "t": "text", "s": "bu" }],
+      "cue": { "t": "art", "k": "durian" },
+      "joined": true,
+      "speakAlso": ["du, ri, an. Durian!"]
+    },
+    "tags": ["suku-kata", "3-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pisang",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata pisang.",
+    "label": "Susun: pisang",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "pi" },
+        { "t": "text", "s": "sang" }
+      ],
+      "tileSay": ["pi", "sang"],
+      "extra": [{ "t": "text", "s": "bu" }],
+      "cue": { "t": "art", "k": "pisang" },
+      "joined": true,
+      "speakAlso": ["pi, sang. Pisang!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bantal",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata bantal.",
+    "label": "Susun: bantal",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ban" },
+        { "t": "text", "s": "tal" }
+      ],
+      "tileSay": ["ban", "tal"],
+      "extra": [{ "t": "text", "s": "nas" }],
+      "cue": { "t": "art", "k": "bantal" },
+      "joined": true,
+      "speakAlso": ["ban, tal. Bantal!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "batu",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata batu.",
+    "label": "Susun: batu",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ba" },
+        { "t": "text", "s": "tu" }
+      ],
+      "tileSay": ["ba", "tu"],
+      "extra": [{ "t": "text", "s": "na" }],
+      "cue": { "t": "art", "k": "batu" },
+      "joined": true,
+      "speakAlso": ["ba, tu. Batu!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buku",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata buku.",
+    "label": "Susun: buku",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "bu" },
+        { "t": "text", "s": "ku" }
+      ],
+      "tileSay": ["bu", "ku"],
+      "extra": [{ "t": "text", "s": "me" }],
+      "cue": { "t": "art", "k": "buku" },
+      "joined": true,
+      "speakAlso": ["bu, ku. Buku!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "lonceng",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata lonceng.",
+    "label": "Susun: lonceng",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "lon" },
+        { "t": "text", "s": "ceng" }
+      ],
+      "tileSay": ["lon", "ceng"],
+      "extra": [{ "t": "text", "s": "ta" }],
+      "cue": { "t": "art", "k": "lonceng" },
+      "joined": true,
+      "speakAlso": ["lon, ceng. Lonceng!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "gendang",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata gendang.",
+    "label": "Susun: gendang",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "gen" },
+        { "t": "text", "s": "dang" }
+      ],
+      "tileSay": ["gen", "dang"],
+      "extra": [{ "t": "text", "s": "sang" }],
+      "cue": { "t": "art", "k": "gendang" },
+      "joined": true,
+      "speakAlso": ["gen, dang. Gendang!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "mata",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata mata.",
+    "label": "Susun: mata",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ma" },
+        { "t": "text", "s": "ta" }
+      ],
+      "tileSay": ["ma", "ta"],
+      "extra": [{ "t": "text", "s": "bin" }],
+      "cue": { "t": "art", "k": "mata" },
+      "joined": true,
+      "speakAlso": ["ma, ta. Mata!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hidung",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata hidung.",
+    "label": "Susun: hidung",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "hi" },
+        { "t": "text", "s": "dung" }
+      ],
+      "tileSay": ["hi", "dung"],
+      "extra": [{ "t": "text", "s": "bau" }],
+      "cue": { "t": "art", "k": "hidung" },
+      "joined": true,
+      "speakAlso": ["hi, dung. Hidung!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "apel",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata apel.",
+    "label": "Susun: apel",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "a" },
+        { "t": "text", "s": "pel" }
+      ],
+      "tileSay": ["a", "pel"],
+      "extra": [{ "t": "text", "s": "ang" }],
+      "cue": { "t": "art", "k": "apel" },
+      "joined": true,
+      "speakAlso": ["a, pel. Apel!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "nanas",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata nanas.",
+    "label": "Susun: nanas",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "na" },
+        { "t": "text", "s": "nas" }
+      ],
+      "tileSay": ["na", "nas"],
+      "extra": [{ "t": "text", "s": "bu" }],
+      "cue": { "t": "art", "k": "nanas" },
+      "joined": true,
+      "speakAlso": ["na, nas. Nanas!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "wortel",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata wortel.",
+    "label": "Susun: wortel",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "wor" },
+        { "t": "text", "s": "tel" }
+      ],
+      "tileSay": ["wor", "tel"],
+      "extra": [{ "t": "text", "s": "i" }],
+      "cue": { "t": "art", "k": "wortel" },
+      "joined": true,
+      "speakAlso": ["wor, tel. Wortel!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tomat",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Susun suku kata menjadi kata tomat.",
+    "label": "Susun: tomat",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "to" },
+        { "t": "text", "s": "mat" }
+      ],
+      "tileSay": ["to", "mat"],
+      "extra": [{ "t": "text", "s": "pi" }],
+      "cue": { "t": "art", "k": "tomat" },
+      "joined": true,
+      "speakAlso": ["to, mat. Tomat!"]
+    },
+    "tags": ["suku-kata", "2-suku"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kamera",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Susun suku kata menjadi kata kamera.",
+    "label": "Susun: kamera",
+    "data": {
+      "tiles": [
+        { "t": "text", "s": "ka" },
+        { "t": "text", "s": "me" },
+        { "t": "text", "s": "ra" }
+      ],
+      "tileSay": ["ka", "me", "ra"],
+      "extra": [{ "t": "text", "s": "lar" }],
+      "cue": { "t": "art", "k": "kamera" },
+      "joined": true,
+      "speakAlso": ["ka, me, ra. Kamera!"]
+    },
+    "tags": ["suku-kata", "3-suku"],
+    "review": "ditinjau"
+  }
+]

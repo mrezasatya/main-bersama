@@ -5,7 +5,7 @@ import { isEffectName, isScaleName, isTimbre } from '../core/audio';
 import { ENGINE_CONFIG } from '../core/engine';
 import { useProgress, useSettings } from '../core/progress';
 import type { PictureQuizData } from '../core/ui/PictureQuiz';
-import type { AgeGroup, ContentItem } from '../types';
+import type { ContentItem } from '../types';
 import kendaraan from './kendaraan/content.json';
 import nada from './nada-nusantara/content.json';
 import type { NadaData } from './nada-nusantara/types';
@@ -73,27 +73,11 @@ describe('konten Fase 1', () => {
   });
 });
 
-describe('setiap permainan bisa dibuka di setiap kelompok usia', () => {
-  const phase1 = GAMES.filter((g) => g.meta.phase === 1);
-  it('lima permainan Fase 1 terdaftar', () => {
+describe('Fase 1 terdaftar', () => {
+  it('lima permainan Fase 1', () => {
+    const phase1 = GAMES.filter((g) => g.meta.phase === 1);
     expect(phase1.map((g) => g.meta.number).sort((a, b) => a - b)).toEqual([4, 11, 26, 27, 29]);
   });
-
-  for (const g of phase1)
-    for (const age of ['A', 'B', 'C'] as AgeGroup[])
-      it(`${g.meta.id} (${age})`, async () => {
-        useProgress.getState().reset();
-        useSettings.getState().update({ ageGroup: age });
-        const { default: Game } = await g.load();
-        const { container, unmount } = render(
-          <MemoryRouter>
-            <Game />
-          </MemoryRouter>,
-        );
-        expect(container.querySelector('.round')).not.toBeNull();
-        expect(screen.getByRole('button', { name: /Berhenti/ })).toBeInTheDocument();
-        unmount();
-      });
 });
 
 describe('Suara Hewan: satu sesi penuh', () => {

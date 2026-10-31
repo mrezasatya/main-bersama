@@ -1109,3 +1109,152 @@ textarea {
   stroke: #9aa1ab;
   fill: rgba(154, 161, 171, 0.2);
 }
+
+/* ---------- OptionQuiz: petunjuk besar ---------- */
+.quiz-cue {
+  width: min(70vw, 34vh, 260px);
+  aspect-ratio: 1;
+  padding: 10px;
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.quiz-cue-row,
+.quiz-cue-bar,
+.quiz-cue-len,
+.quiz-cue-tenframe {
+  width: min(90vw, 60vh, 520px);
+  aspect-ratio: auto;
+  height: min(30vw, 22vh, 180px);
+}
+.quiz-cue-row svg,
+.quiz-cue-bar svg {
+  height: 100%;
+}
+.v-silhouette svg {
+  filter: brightness(0) opacity(0.75);
+}
+
+/* ---------- Gelembung ---------- */
+.bubbles .choice,
+.bubbles .seq-tile {
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #ffffff 0 18%, #e3f3ff 45%, #b9dcf7 100%);
+  border: 4px solid #9fd0f2;
+  animation: float 3.5s ease-in-out infinite;
+}
+.bubbles .choice:nth-child(2n),
+.bubbles .seq-tile:nth-child(2n) {
+  animation-delay: -1.7s;
+}
+.bubbles .choice.is-correct {
+  animation: pop 0.6s ease;
+  border-color: var(--ok);
+}
+
+/* ---------- Sequence ---------- */
+.seq-slots {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.seq-slots.is-joined {
+  gap: 2px;
+}
+.seq-slot {
+  width: clamp(64px, 14vmin, 110px);
+  aspect-ratio: 1;
+  border-radius: 18px;
+  border: 4px dashed var(--line);
+  background: #fffaf0;
+}
+.seq-slot.is-filled {
+  border-style: solid;
+  border-color: var(--ok);
+  background: var(--surface);
+}
+.seq-pool {
+  display: flex;
+  gap: clamp(10px, 2vmin, 18px);
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.seq-tile {
+  width: clamp(76px, 17vmin, 140px);
+  aspect-ratio: 1;
+  padding: 8px;
+  border: 0;
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition:
+    opacity 0.25s,
+    transform 0.15s;
+}
+.seq-tile.is-used {
+  opacity: 0.15;
+}
+.seq-tile.is-shaking {
+  animation: wiggle 0.45s ease;
+}
+.seq-tile.is-hint {
+  animation: pulse 1.1s ease-in-out infinite;
+}
+
+/* ---------- Menelusuri (papan pasir) ---------- */
+.trace-wrap {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.trace-board {
+  width: min(88vw, 58vh, 520px);
+  aspect-ratio: 1;
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+  touch-action: none;
+  cursor: crosshair;
+}
+.trace-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+@media (orientation: portrait) {
+  .trace-side {
+    flex-direction: row;
+  }
+}
+.trace-cue {
+  width: clamp(80px, 16vmin, 140px);
+  aspect-ratio: 1;
+  padding: 8px;
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.trace-meter {
+  width: 120px;
+  height: 14px;
+  border-radius: 7px;
+  background: var(--line);
+  overflow: hidden;
+}
+.trace-meter span {
+  display: block;
+  height: 100%;
+  background: var(--ok);
+  transition: width 0.3s;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}

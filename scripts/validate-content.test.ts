@@ -71,6 +71,19 @@ describe('aturan validasi konten', () => {
     expect(validateGame(meta, b, ART_KEYS).errors.join()).toMatch(/speakAlso/);
   });
 
+  it('menolak visual yang merujuk gambar tidak ada', () => {
+    const b = bank(40);
+    b[0] = item(0, {
+      data: {
+        options: [
+          { t: 'art', k: 'naga' },
+          { t: 'num', n: 3 },
+        ],
+      },
+    });
+    expect(validateGame(meta, b, ART_KEYS).errors.join()).toMatch(/naga/);
+  });
+
   it('6. menghitung item perlu-ditinjau', () => {
     const b = bank(40);
     b[0] = item(0, { review: 'perlu-ditinjau' });

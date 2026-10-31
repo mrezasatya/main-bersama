@@ -1,0 +1,602 @@
+[
+  {
+    "id": "kecil-a",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ini huruf a. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf a",
+    "data": { "glyph": "a", "cue": { "t": "art", "k": "apel" }, "speakAlso": ["a, seperti apel!"] },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-b",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini huruf b. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf b",
+    "data": { "glyph": "b", "cue": { "t": "art", "k": "bola" }, "speakAlso": ["b, seperti bola!"] },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-c",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ini huruf c. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf c",
+    "data": {
+      "glyph": "c",
+      "cue": { "t": "art", "k": "cicak" },
+      "speakAlso": ["c, seperti cicak!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-d",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini huruf d. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf d",
+    "data": {
+      "glyph": "d",
+      "cue": { "t": "art", "k": "durian" },
+      "speakAlso": ["d, seperti durian!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-e",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ini huruf e. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf e",
+    "data": {
+      "glyph": "e",
+      "cue": { "t": "art", "k": "esKrim" },
+      "speakAlso": ["e, seperti es krim!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-f",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf f. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf f",
+    "data": {
+      "glyph": "f",
+      "cue": { "t": "art", "k": "kamera" },
+      "speakAlso": ["f, seperti foto!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-g",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf g. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf g",
+    "data": {
+      "glyph": "g",
+      "cue": { "t": "art", "k": "gajah" },
+      "speakAlso": ["g, seperti gajah!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-h",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini huruf h. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf h",
+    "data": {
+      "glyph": "h",
+      "cue": { "t": "art", "k": "harimau" },
+      "speakAlso": ["h, seperti harimau!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-i",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ini huruf i. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf i",
+    "data": { "glyph": "i", "cue": { "t": "art", "k": "ikan" }, "speakAlso": ["i, seperti ikan!"] },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-j",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini huruf j. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf j",
+    "data": {
+      "glyph": "j",
+      "cue": { "t": "art", "k": "jeruk" },
+      "speakAlso": ["j, seperti jeruk!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-k",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf k. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf k",
+    "data": {
+      "glyph": "k",
+      "cue": { "t": "art", "k": "kucing" },
+      "speakAlso": ["k, seperti kucing!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-l",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ini huruf l. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf l",
+    "data": {
+      "glyph": "l",
+      "cue": { "t": "art", "k": "lebah" },
+      "speakAlso": ["l, seperti lebah!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-m",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini huruf m. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf m",
+    "data": {
+      "glyph": "m",
+      "cue": { "t": "art", "k": "monyet" },
+      "speakAlso": ["m, seperti monyet!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-n",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini huruf n. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf n",
+    "data": {
+      "glyph": "n",
+      "cue": { "t": "art", "k": "nanas" },
+      "speakAlso": ["n, seperti nanas!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-o",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ini huruf o. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf o",
+    "data": { "glyph": "o", "cue": { "t": "art", "k": "obor" }, "speakAlso": ["o, seperti obor!"] },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-p",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini huruf p. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf p",
+    "data": {
+      "glyph": "p",
+      "cue": { "t": "art", "k": "pisang" },
+      "speakAlso": ["p, seperti pisang!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-q",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf q. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf q",
+    "data": { "glyph": "q", "speakAlso": ["Huruf q jarang dipakai dalam bahasa Indonesia."] },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-r",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini huruf r. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf r",
+    "data": { "glyph": "r", "cue": { "t": "art", "k": "roti" }, "speakAlso": ["r, seperti roti!"] },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-s",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini huruf s. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf s",
+    "data": { "glyph": "s", "cue": { "t": "art", "k": "sapi" }, "speakAlso": ["s, seperti sapi!"] },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-t",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini huruf t. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf t",
+    "data": {
+      "glyph": "t",
+      "cue": { "t": "art", "k": "tikus" },
+      "speakAlso": ["t, seperti tikus!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-u",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ini huruf u. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf u",
+    "data": { "glyph": "u", "cue": { "t": "art", "k": "ular" }, "speakAlso": ["u, seperti ular!"] },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-v",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini huruf v. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf v",
+    "data": { "glyph": "v", "cue": { "t": "art", "k": "vas" }, "speakAlso": ["v, seperti vas!"] },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-w",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini huruf w. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf w",
+    "data": {
+      "glyph": "w",
+      "cue": { "t": "art", "k": "wortel" },
+      "speakAlso": ["w, seperti wortel!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-x",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini huruf x. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf x",
+    "data": {
+      "glyph": "x",
+      "cue": { "t": "art", "k": "xilofon" },
+      "speakAlso": ["x, seperti xilofon!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-y",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf y. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf y",
+    "data": { "glyph": "y", "cue": { "t": "art", "k": "yoyo" }, "speakAlso": ["y, seperti yoyo!"] },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-z",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf z. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf z",
+    "data": {
+      "glyph": "z",
+      "cue": { "t": "art", "k": "zebra" },
+      "speakAlso": ["z, seperti zebra!"]
+    },
+    "tags": ["huruf", "kecil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-A",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf A besar. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf A",
+    "data": {
+      "glyph": "A",
+      "cue": { "t": "art", "k": "apel" },
+      "speakAlso": ["A besar, seperti apel!"]
+    },
+    "tags": ["huruf", "besar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-I",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf I besar. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf I",
+    "data": {
+      "glyph": "I",
+      "cue": { "t": "art", "k": "ikan" },
+      "speakAlso": ["I besar, seperti ikan!"]
+    },
+    "tags": ["huruf", "besar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-U",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf U besar. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf U",
+    "data": {
+      "glyph": "U",
+      "cue": { "t": "art", "k": "ular" },
+      "speakAlso": ["U besar, seperti ular!"]
+    },
+    "tags": ["huruf", "besar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-E",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf E besar. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf E",
+    "data": {
+      "glyph": "E",
+      "cue": { "t": "art", "k": "esKrim" },
+      "speakAlso": ["E besar, seperti es krim!"]
+    },
+    "tags": ["huruf", "besar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-O",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf O besar. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf O",
+    "data": {
+      "glyph": "O",
+      "cue": { "t": "art", "k": "obor" },
+      "speakAlso": ["O besar, seperti obor!"]
+    },
+    "tags": ["huruf", "besar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-B",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf B besar. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf B",
+    "data": {
+      "glyph": "B",
+      "cue": { "t": "art", "k": "bola" },
+      "speakAlso": ["B besar, seperti bola!"]
+    },
+    "tags": ["huruf", "besar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-M",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf M besar. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf M",
+    "data": {
+      "glyph": "M",
+      "cue": { "t": "art", "k": "monyet" },
+      "speakAlso": ["M besar, seperti monyet!"]
+    },
+    "tags": ["huruf", "besar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-S",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf S besar. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf S",
+    "data": {
+      "glyph": "S",
+      "cue": { "t": "art", "k": "sapi" },
+      "speakAlso": ["S besar, seperti sapi!"]
+    },
+    "tags": ["huruf", "besar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-K",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf K besar. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf K",
+    "data": {
+      "glyph": "K",
+      "cue": { "t": "art", "k": "kucing" },
+      "speakAlso": ["K besar, seperti kucing!"]
+    },
+    "tags": ["huruf", "besar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-P",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ini huruf P besar. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri huruf P",
+    "data": {
+      "glyph": "P",
+      "cue": { "t": "art", "k": "pisang" },
+      "speakAlso": ["P besar, seperti pisang!"]
+    },
+    "tags": ["huruf", "besar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-0",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Ini angka nol. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri angka 0",
+    "data": { "glyph": "0", "speakAlso": ["Nol artinya tidak ada."] },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ini angka satu. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri angka 1",
+    "data": {
+      "glyph": "1",
+      "cue": { "t": "group", "k": "bintang", "n": 1 },
+      "speakAlso": ["Satu!"]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-2",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ini angka dua. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri angka 2",
+    "data": {
+      "glyph": "2",
+      "cue": { "t": "group", "k": "bintang", "n": 2 },
+      "speakAlso": ["Dua!"]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-3",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ini angka tiga. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri angka 3",
+    "data": {
+      "glyph": "3",
+      "cue": { "t": "group", "k": "bintang", "n": 3 },
+      "speakAlso": ["Tiga!"]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-4",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Ini angka empat. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri angka 4",
+    "data": {
+      "glyph": "4",
+      "cue": { "t": "group", "k": "bintang", "n": 4 },
+      "speakAlso": ["Empat!"]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-5",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Ini angka lima. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri angka 5",
+    "data": {
+      "glyph": "5",
+      "cue": { "t": "group", "k": "bintang", "n": 5 },
+      "speakAlso": ["Lima!"]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-6",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini angka enam. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri angka 6",
+    "data": {
+      "glyph": "6",
+      "cue": { "t": "group", "k": "bintang", "n": 6 },
+      "speakAlso": ["Enam!"]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-7",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini angka tujuh. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri angka 7",
+    "data": {
+      "glyph": "7",
+      "cue": { "t": "group", "k": "bintang", "n": 7 },
+      "speakAlso": ["Tujuh!"]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-8",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini angka delapan. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri angka 8",
+    "data": {
+      "glyph": "8",
+      "cue": { "t": "group", "k": "bintang", "n": 8 },
+      "speakAlso": ["Delapan!"]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "angka-9",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ini angka sembilan. Ayo telusuri dengan jarimu.",
+    "label": "Telusuri angka 9",
+    "data": {
+      "glyph": "9",
+      "cue": { "t": "group", "k": "bintang", "n": 9 },
+      "speakAlso": ["Sembilan!"]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  }
+]

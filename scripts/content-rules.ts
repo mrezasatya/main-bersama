@@ -1,4 +1,5 @@
 import { z } from 'zod';
+import { findVisuals, visualErrors } from '../src/core/visual/types';
 import type { AgeGroup, ContentItem, GameMeta } from '../src/types';
 
 export const MIN_ITEMS = 40;
@@ -119,13 +120,21 @@ export function validateGame(meta: unknown, content: unknown, artKeys: readonly 
   if (m.success && m.data.usesAudio)
     for (const it of items) if (!it.speak.trim()) errors.push(`item ${it.id}: speak kosong`);
 
-  // Kalimat tambahan (data.speakAlso) harus berupa teks yang tidak kosong agar bisa direkam.
-  for (const it of items) {
-    const also = it.data.speakAlso;
-    if (also === undefined) continue;
-    if (!Array.isArray(also) || also.some((t) => typeof t !== 'string' || !t.trim()))
-      errors.push(`item ${it.id}: data.speakAlso harus larik teks yang tidak kosong`);
-  }
+  // Kalimat tambahan (speakAlso, tileSay; optionSay boleh null) harus teks agar bisa direkam.
+  for (const it of items)
+    for (const key of ['speakAlso', 'tileSay', 'optionSay'] as const) {
+      const list = it.data[key];
+      if (list === undefined) continue;
+      const okItem = (t: unknown) =>
+        (typeof t === 'string' && t.trim() !== '') || (key === 'optionSay' && t === null);
+      if (!Array.isArray(list) || !list.every(okItem))
+        errors.push(`item ${it.id}: data.${key} harus larik teks yang tidak kosong`);
+    }
+
+  // Visual deklaratif (data.cue, data.options, ...) harus merujuk gambar/bendera/bentuk yang ada.
+  for (const it of items)
+    for (const [path, v] of findVisuals(it.data))
+      errors.push(...visualErrors(v, `item ${it.id} ${path}`));
 
   // 6. Hitung yang perlu ditinjau
   const needsReview = items.filter((it) => it.review === 'perlu-ditinjau').length;

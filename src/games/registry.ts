@@ -7,6 +7,11 @@ import * as nadaNusantara from './nada-nusantara/meta';
 import * as pancaIndra from './panca-indra/meta';
 import * as suaraHewan from './suara-hewan/meta';
 import * as tiruIrama from './tiru-irama/meta';
+import * as gelembungAngka from './gelembung-angka/meta';
+import * as hurufPasir from './huruf-pasir/meta';
+import * as petaDunia from './peta-dunia/meta';
+import * as profesi from './profesi/meta';
+import * as rangkaiSukuKata from './rangkai-suku-kata/meta';
 
 export interface GameEntry {
   meta: GameMeta;
@@ -48,6 +53,36 @@ export const GAMES: readonly GameEntry[] = [
     cover: { art: 'telinga' },
     load: () => import('./panca-indra'),
     loadContent: () => import('./panca-indra/content.json'),
+  },
+  {
+    ...hurufPasir,
+    cover: { art: 'apel' },
+    load: () => import('./huruf-pasir'),
+    loadContent: () => import('./huruf-pasir/content.json'),
+  },
+  {
+    ...rangkaiSukuKata,
+    cover: { art: 'buku' },
+    load: () => import('./rangkai-suku-kata'),
+    loadContent: () => import('./rangkai-suku-kata/content.json'),
+  },
+  {
+    ...gelembungAngka,
+    cover: { art: 'balon' },
+    load: () => import('./gelembung-angka'),
+    loadContent: () => import('./gelembung-angka/content.json'),
+  },
+  {
+    ...petaDunia,
+    cover: { art: 'pesawat' },
+    load: () => import('./peta-dunia'),
+    loadContent: () => import('./peta-dunia/content.json'),
+  },
+  {
+    ...profesi,
+    cover: { art: 'dokter' },
+    load: () => import('./profesi'),
+    loadContent: () => import('./profesi/content.json'),
   },
   // Permainan contoh Fase 0 (di luar katalog 30).
   {

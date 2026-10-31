@@ -1,0 +1,924 @@
+[
+  {
+    "id": "kenal-1",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana angka 1?",
+    "label": "Mana angka 1?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 3 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-2",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana angka 2?",
+    "label": "Mana angka 2?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 1 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-3",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana angka 3?",
+    "label": "Mana angka 3?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 2 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-4",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana angka 4?",
+    "label": "Mana angka 4?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 3 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-5",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana angka 5?",
+    "label": "Mana angka 5?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 4 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-6",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana angka 6?",
+    "label": "Mana angka 6?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 5 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-7",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana angka 7?",
+    "label": "Mana angka 7?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 6 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-8",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana angka 8?",
+    "label": "Mana angka 8?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 7 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-9",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana angka 9?",
+    "label": "Mana angka 9?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 8 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-10",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana angka 10?",
+    "label": "Mana angka 10?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 8 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-11",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana angka 11?",
+    "label": "Mana angka 11?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 11 },
+        { "t": "num", "n": 17 },
+        { "t": "num", "n": 12 },
+        { "t": "num", "n": 10 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-12",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana angka 12?",
+    "label": "Mana angka 12?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 12 },
+        { "t": "num", "n": 18 },
+        { "t": "num", "n": 13 },
+        { "t": "num", "n": 11 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-13",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana angka 13?",
+    "label": "Mana angka 13?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 13 },
+        { "t": "num", "n": 19 },
+        { "t": "num", "n": 14 },
+        { "t": "num", "n": 12 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-14",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana angka 14?",
+    "label": "Mana angka 14?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 14 },
+        { "t": "num", "n": 20 },
+        { "t": "num", "n": 15 },
+        { "t": "num", "n": 13 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-15",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana angka 15?",
+    "label": "Mana angka 15?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 15 },
+        { "t": "num", "n": 20 },
+        { "t": "num", "n": 16 },
+        { "t": "num", "n": 14 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-16",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana angka 16?",
+    "label": "Mana angka 16?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 16 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 17 },
+        { "t": "num", "n": 15 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-17",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana angka 17?",
+    "label": "Mana angka 17?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 17 },
+        { "t": "num", "n": 11 },
+        { "t": "num", "n": 18 },
+        { "t": "num", "n": 16 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-18",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana angka 18?",
+    "label": "Mana angka 18?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 18 },
+        { "t": "num", "n": 12 },
+        { "t": "num", "n": 19 },
+        { "t": "num", "n": 17 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-19",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana angka 19?",
+    "label": "Mana angka 19?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 19 },
+        { "t": "num", "n": 13 },
+        { "t": "num", "n": 20 },
+        { "t": "num", "n": 18 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kenal-20",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana angka 20?",
+    "label": "Mana angka 20?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 20 },
+        { "t": "num", "n": 14 },
+        { "t": "num", "n": 19 },
+        { "t": "num", "n": 18 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Angka berapa sesudah 1?",
+    "label": "Angka berapa sesudah 1?",
+    "data": {
+      "layout": "bubbles",
+      "cue": { "t": "row", "items": [{ "t": "num", "n": 1 }, { "t": "q" }] },
+      "options": [
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 1 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Angka berapa sesudah 2?",
+    "label": "Angka berapa sesudah 2?",
+    "data": {
+      "layout": "bubbles",
+      "cue": { "t": "row", "items": [{ "t": "num", "n": 2 }, { "t": "q" }] },
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 2 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Angka berapa sesudah 3?",
+    "label": "Angka berapa sesudah 3?",
+    "data": {
+      "layout": "bubbles",
+      "cue": { "t": "row", "items": [{ "t": "num", "n": 3 }, { "t": "q" }] },
+      "options": [
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 3 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Angka berapa sesudah 4?",
+    "label": "Angka berapa sesudah 4?",
+    "data": {
+      "layout": "bubbles",
+      "cue": { "t": "row", "items": [{ "t": "num", "n": 4 }, { "t": "q" }] },
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 4 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-5",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Angka berapa sesudah 5?",
+    "label": "Angka berapa sesudah 5?",
+    "data": {
+      "layout": "bubbles",
+      "cue": { "t": "row", "items": [{ "t": "num", "n": 5 }, { "t": "q" }] },
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 5 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-6",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Angka berapa sesudah 6?",
+    "label": "Angka berapa sesudah 6?",
+    "data": {
+      "layout": "bubbles",
+      "cue": { "t": "row", "items": [{ "t": "num", "n": 6 }, { "t": "q" }] },
+      "options": [
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 6 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-7",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Angka berapa sesudah 7?",
+    "label": "Angka berapa sesudah 7?",
+    "data": {
+      "layout": "bubbles",
+      "cue": { "t": "row", "items": [{ "t": "num", "n": 7 }, { "t": "q" }] },
+      "options": [
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 7 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-8",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Angka berapa sesudah 8?",
+    "label": "Angka berapa sesudah 8?",
+    "data": {
+      "layout": "bubbles",
+      "cue": { "t": "row", "items": [{ "t": "num", "n": 8 }, { "t": "q" }] },
+      "options": [
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 8 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sebelum-3",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Angka berapa sebelum 3?",
+    "label": "Angka berapa sebelum 3?",
+    "data": {
+      "layout": "bubbles",
+      "cue": { "t": "row", "items": [{ "t": "q" }, { "t": "num", "n": 3 }] },
+      "options": [
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 1 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sebelum-5",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Angka berapa sebelum 5?",
+    "label": "Angka berapa sebelum 5?",
+    "data": {
+      "layout": "bubbles",
+      "cue": { "t": "row", "items": [{ "t": "q" }, { "t": "num", "n": 5 }] },
+      "options": [
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 3 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sebelum-7",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Angka berapa sebelum 7?",
+    "label": "Angka berapa sebelum 7?",
+    "data": {
+      "layout": "bubbles",
+      "cue": { "t": "row", "items": [{ "t": "q" }, { "t": "num", "n": 7 }] },
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 5 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sebelum-9",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Angka berapa sebelum 9?",
+    "label": "Angka berapa sebelum 9?",
+    "data": {
+      "layout": "bubbles",
+      "cue": { "t": "row", "items": [{ "t": "q" }, { "t": "num", "n": 9 }] },
+      "options": [
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 7 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sebelum-10",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Angka berapa sebelum 10?",
+    "label": "Angka berapa sebelum 10?",
+    "data": {
+      "layout": "bubbles",
+      "cue": { "t": "row", "items": [{ "t": "q" }, { "t": "num", "n": 10 }] },
+      "options": [
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 8 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-2-7",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Mana yang lebih besar, 2 atau 7?",
+    "label": "Mana yang lebih besar, 2 atau 7?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 2 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-5-3",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Mana yang lebih besar, 5 atau 3?",
+    "label": "Mana yang lebih besar, 5 atau 3?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 3 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-8-4",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Mana yang lebih besar, 8 atau 4?",
+    "label": "Mana yang lebih besar, 8 atau 4?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 4 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-1-6",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana yang lebih besar, 1 atau 6?",
+    "label": "Mana yang lebih besar, 1 atau 6?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 1 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-9-6",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana yang lebih besar, 9 atau 6?",
+    "label": "Mana yang lebih besar, 9 atau 6?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 6 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-4-10",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana yang lebih besar, 4 atau 10?",
+    "label": "Mana yang lebih besar, 4 atau 10?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 4 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-7-8",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana yang lebih besar, 7 atau 8?",
+    "label": "Mana yang lebih besar, 7 atau 8?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 7 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-3-8",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana yang lebih kecil, 3 atau 8?",
+    "label": "Mana yang lebih kecil, 3 atau 8?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 8 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-6-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana yang lebih kecil, 6 atau 2?",
+    "label": "Mana yang lebih kecil, 6 atau 2?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 6 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-9-5",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana yang lebih kecil, 9 atau 5?",
+    "label": "Mana yang lebih kecil, 9 atau 5?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 9 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kecil-7-10",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana yang lebih kecil, 7 atau 10?",
+    "label": "Mana yang lebih kecil, 7 atau 10?",
+    "data": {
+      "layout": "bubbles",
+      "options": [
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 10 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "loncat-0",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Dua, empat, enam, lalu berapa?",
+    "label": "Dua, empat, enam, lalu berapa?",
+    "data": {
+      "layout": "bubbles",
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "num", "n": 2 },
+          { "t": "num", "n": 4 },
+          { "t": "num", "n": 6 },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 14 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 7 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "loncat-1",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Lima, sepuluh, lima belas, lalu berapa?",
+    "label": "Lima, sepuluh, lima belas, lalu berapa?",
+    "data": {
+      "layout": "bubbles",
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "num", "n": 5 },
+          { "t": "num", "n": 10 },
+          { "t": "num", "n": 15 },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 20 },
+        { "t": "num", "n": 14 },
+        { "t": "num", "n": 19 },
+        { "t": "num", "n": 18 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "loncat-2",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Satu, tiga, lima, lalu berapa?",
+    "label": "Satu, tiga, lima, lalu berapa?",
+    "data": {
+      "layout": "bubbles",
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "num", "n": 1 },
+          { "t": "num", "n": 3 },
+          { "t": "num", "n": 5 },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 13 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 6 }
+      ]
+    },
+    "tags": ["angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "urut-1-3",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Pecahkan gelembung dari 1 sampai 3!",
+    "label": "Pecahkan gelembung 1 sampai 3",
+    "data": {
+      "mode": "urut",
+      "tiles": [
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 3 }
+      ]
+    },
+    "tags": ["angka", "urutan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "urut-1-5",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Pecahkan gelembung dari 1 sampai 5!",
+    "label": "Pecahkan gelembung 1 sampai 5",
+    "data": {
+      "mode": "urut",
+      "tiles": [
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 5 }
+      ]
+    },
+    "tags": ["angka", "urutan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "urut-1-8",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Pecahkan gelembung dari 1 sampai 8!",
+    "label": "Pecahkan gelembung 1 sampai 8",
+    "data": {
+      "mode": "urut",
+      "tiles": [
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 8 }
+      ]
+    },
+    "tags": ["angka", "urutan"],
+    "review": "ditinjau"
+  }
+]

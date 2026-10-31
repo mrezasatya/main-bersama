@@ -1,0 +1,911 @@
+[
+  {
+    "id": "dokter",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa alat seorang dokter?",
+    "label": "Apa alat seorang dokter?",
+    "data": {
+      "cue": { "t": "art", "k": "dokter" },
+      "options": [
+        { "t": "art", "k": "stetoskop" },
+        { "t": "art", "k": "buku" },
+        { "t": "art", "k": "benangJarum" },
+        { "t": "art", "k": "mesinKasir" }
+      ],
+      "speakAlso": [
+        "Dokter memakai stetoskop untuk memeriksa orang sakit.",
+        "Dokter bekerja di rumah sakit."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "perawat",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang perawat?",
+    "label": "Apa alat seorang perawat?",
+    "data": {
+      "cue": { "t": "art", "k": "perawat" },
+      "options": [
+        { "t": "art", "k": "termometer" },
+        { "t": "art", "k": "wajan" },
+        { "t": "art", "k": "mikrofon" },
+        { "t": "art", "k": "roket" }
+      ],
+      "speakAlso": [
+        "Perawat memakai termometer untuk mengukur suhu badan.",
+        "Perawat bekerja di rumah sakit."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "guru",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa alat seorang guru?",
+    "label": "Apa alat seorang guru?",
+    "data": {
+      "cue": { "t": "art", "k": "guru" },
+      "options": [
+        { "t": "art", "k": "buku" },
+        { "t": "art", "k": "selang" },
+        { "t": "art", "k": "vas" },
+        { "t": "art", "k": "speedboat" }
+      ],
+      "speakAlso": ["Guru memakai buku untuk mengajar murid.", "Guru bekerja di sekolah."]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "polisi",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa alat seorang polisi?",
+    "label": "Apa alat seorang polisi?",
+    "data": {
+      "cue": { "t": "art", "k": "polisi" },
+      "options": [
+        { "t": "art", "k": "peluit" },
+        { "t": "art", "k": "wajan" },
+        { "t": "art", "k": "roti" },
+        { "t": "art", "k": "speedboat" }
+      ],
+      "speakAlso": [
+        "Polisi memakai peluit untuk mengatur lalu lintas.",
+        "Polisi bekerja di jalan raya."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "petugasPemadam",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa alat seorang petugas pemadam kebakaran?",
+    "label": "Apa alat seorang petugas pemadam kebakaran?",
+    "data": {
+      "cue": { "t": "art", "k": "petugasPemadam" },
+      "options": [
+        { "t": "art", "k": "selang" },
+        { "t": "art", "k": "amplop" },
+        { "t": "art", "k": "gunting" },
+        { "t": "art", "k": "mikrofon" }
+      ],
+      "speakAlso": [
+        "Petugas pemadam kebakaran memakai selang air untuk memadamkan api.",
+        "Petugas pemadam kebakaran bekerja di pos pemadam kebakaran."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "petani",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa alat seorang petani?",
+    "label": "Apa alat seorang petani?",
+    "data": {
+      "cue": { "t": "art", "k": "petani" },
+      "options": [
+        { "t": "art", "k": "cangkul" },
+        { "t": "art", "k": "selang" },
+        { "t": "art", "k": "kartuKuning" },
+        { "t": "art", "k": "pesawat" }
+      ],
+      "speakAlso": ["Petani memakai cangkul untuk menggemburkan tanah.", "Petani bekerja di sawah."]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "nelayan",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa alat seorang nelayan?",
+    "label": "Apa alat seorang nelayan?",
+    "data": {
+      "cue": { "t": "art", "k": "nelayan" },
+      "options": [
+        { "t": "art", "k": "jala" },
+        { "t": "art", "k": "mikrofon" },
+        { "t": "art", "k": "rakBuku" },
+        { "t": "art", "k": "amplop" }
+      ],
+      "speakAlso": ["Nelayan memakai jala untuk menangkap ikan.", "Nelayan bekerja di laut."]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "koki",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa alat seorang koki?",
+    "label": "Apa alat seorang koki?",
+    "data": {
+      "cue": { "t": "art", "k": "koki" },
+      "options": [
+        { "t": "art", "k": "wajan" },
+        { "t": "art", "k": "peluit" },
+        { "t": "art", "k": "laptop" },
+        { "t": "art", "k": "kunciInggris" }
+      ],
+      "speakAlso": ["Koki memakai wajan untuk memasak makanan.", "Koki bekerja di dapur."]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pilot",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa alat seorang pilot?",
+    "label": "Apa alat seorang pilot?",
+    "data": {
+      "cue": { "t": "art", "k": "pilot" },
+      "options": [
+        { "t": "art", "k": "pesawat" },
+        { "t": "art", "k": "peluit" },
+        { "t": "art", "k": "wajan" },
+        { "t": "art", "k": "kuas" }
+      ],
+      "speakAlso": [
+        "Pilot memakai pesawat untuk menerbangkan penumpang.",
+        "Pilot bekerja di bandara."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "masinis",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang masinis?",
+    "label": "Apa alat seorang masinis?",
+    "data": {
+      "cue": { "t": "art", "k": "masinis" },
+      "options": [
+        { "t": "art", "k": "keretaApi" },
+        { "t": "art", "k": "jala" },
+        { "t": "art", "k": "kucing" },
+        { "t": "art", "k": "sapu" }
+      ],
+      "speakAlso": [
+        "Masinis memakai kereta api untuk membawa penumpang naik kereta.",
+        "Masinis bekerja di stasiun."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tukangKayu",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang tukang kayu?",
+    "label": "Apa alat seorang tukang kayu?",
+    "data": {
+      "cue": { "t": "art", "k": "tukangKayu" },
+      "options": [
+        { "t": "art", "k": "palu" },
+        { "t": "art", "k": "amplop" },
+        { "t": "art", "k": "buku" },
+        { "t": "art", "k": "timbangan" }
+      ],
+      "speakAlso": [
+        "Tukang kayu memakai palu untuk membuat meja dan kursi.",
+        "Tukang kayu bekerja di bengkel kayu."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "montir",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang montir?",
+    "label": "Apa alat seorang montir?",
+    "data": {
+      "cue": { "t": "art", "k": "montir" },
+      "options": [
+        { "t": "art", "k": "kunciInggris" },
+        { "t": "art", "k": "peluit" },
+        { "t": "art", "k": "kucing" },
+        { "t": "art", "k": "pesawat" }
+      ],
+      "speakAlso": [
+        "Montir memakai kunci inggris untuk memperbaiki mobil dan motor.",
+        "Montir bekerja di bengkel."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "penjahit",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang penjahit?",
+    "label": "Apa alat seorang penjahit?",
+    "data": {
+      "cue": { "t": "art", "k": "penjahit" },
+      "options": [
+        { "t": "art", "k": "benangJarum" },
+        { "t": "art", "k": "roket" },
+        { "t": "art", "k": "bus" },
+        { "t": "art", "k": "kartuKuning" }
+      ],
+      "speakAlso": [
+        "Penjahit memakai benang dan jarum untuk membuat baju.",
+        "Penjahit bekerja di rumah jahit."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pelukis",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa alat seorang pelukis?",
+    "label": "Apa alat seorang pelukis?",
+    "data": {
+      "cue": { "t": "art", "k": "pelukis" },
+      "options": [
+        { "t": "art", "k": "kuas" },
+        { "t": "art", "k": "buku" },
+        { "t": "art", "k": "wajan" },
+        { "t": "art", "k": "timbangan" }
+      ],
+      "speakAlso": [
+        "Pelukis memakai kuas dan cat untuk membuat lukisan.",
+        "Pelukis bekerja di sanggar lukis."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "penyanyi",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa alat seorang penyanyi?",
+    "label": "Apa alat seorang penyanyi?",
+    "data": {
+      "cue": { "t": "art", "k": "penyanyi" },
+      "options": [
+        { "t": "art", "k": "mikrofon" },
+        { "t": "art", "k": "stetoskop" },
+        { "t": "art", "k": "canting" },
+        { "t": "art", "k": "kunciInggris" }
+      ],
+      "speakAlso": [
+        "Penyanyi memakai mikrofon untuk bernyanyi untuk banyak orang.",
+        "Penyanyi bekerja di panggung."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "penari",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang penari?",
+    "label": "Apa alat seorang penari?",
+    "data": {
+      "cue": { "t": "art", "k": "penari" },
+      "options": [
+        { "t": "art", "k": "selendang" },
+        { "t": "art", "k": "roket" },
+        { "t": "art", "k": "gitar" },
+        { "t": "art", "k": "selang" }
+      ],
+      "speakAlso": [
+        "Penari memakai selendang untuk menari dengan indah.",
+        "Penari bekerja di sanggar tari."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "dokterGigi",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa alat seorang dokter gigi?",
+    "label": "Apa alat seorang dokter gigi?",
+    "data": {
+      "cue": { "t": "art", "k": "dokterGigi" },
+      "options": [
+        { "t": "art", "k": "sikatGigi" },
+        { "t": "art", "k": "roket" },
+        { "t": "art", "k": "bus" },
+        { "t": "art", "k": "jala" }
+      ],
+      "speakAlso": [
+        "Dokter gigi memakai sikat gigi untuk merawat gigi kita.",
+        "Dokter gigi bekerja di klinik gigi."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "dokterHewan",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang dokter hewan?",
+    "label": "Apa alat seorang dokter hewan?",
+    "data": {
+      "cue": { "t": "art", "k": "dokterHewan" },
+      "options": [
+        { "t": "art", "k": "kucing" },
+        { "t": "art", "k": "bus" },
+        { "t": "art", "k": "wortel" },
+        { "t": "art", "k": "canting" }
+      ],
+      "speakAlso": [
+        "Dokter hewan memakai hewan peliharaan untuk merawat hewan yang sakit.",
+        "Dokter hewan bekerja di klinik hewan."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tukangPos",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa alat seorang tukang pos?",
+    "label": "Apa alat seorang tukang pos?",
+    "data": {
+      "cue": { "t": "art", "k": "tukangPos" },
+      "options": [
+        { "t": "art", "k": "amplop" },
+        { "t": "art", "k": "bus" },
+        { "t": "art", "k": "jala" },
+        { "t": "art", "k": "wajan" }
+      ],
+      "speakAlso": [
+        "Tukang pos memakai surat untuk mengantar surat dan paket.",
+        "Tukang pos bekerja di kantor pos."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "satpam",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang satpam?",
+    "label": "Apa alat seorang satpam?",
+    "data": {
+      "cue": { "t": "art", "k": "satpam" },
+      "options": [
+        { "t": "art", "k": "senter" },
+        { "t": "art", "k": "wajan" },
+        { "t": "art", "k": "laptop" },
+        { "t": "art", "k": "meteran" }
+      ],
+      "speakAlso": [
+        "Satpam memakai senter untuk menjaga keamanan.",
+        "Satpam bekerja di gedung dan kantor."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "astronaut",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa alat seorang astronaut?",
+    "label": "Apa alat seorang astronaut?",
+    "data": {
+      "cue": { "t": "art", "k": "astronaut" },
+      "options": [
+        { "t": "art", "k": "roket" },
+        { "t": "art", "k": "kuas" },
+        { "t": "art", "k": "sapi" },
+        { "t": "art", "k": "bus" }
+      ],
+      "speakAlso": [
+        "Astronaut memakai roket untuk menjelajah luar angkasa.",
+        "Astronaut bekerja di stasiun luar angkasa."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "arsitek",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Apa alat seorang arsitek?",
+    "label": "Apa alat seorang arsitek?",
+    "data": {
+      "cue": { "t": "art", "k": "arsitek" },
+      "options": [
+        { "t": "art", "k": "meteran" },
+        { "t": "art", "k": "bus" },
+        { "t": "art", "k": "rakBuku" },
+        { "t": "art", "k": "kuas" }
+      ],
+      "speakAlso": [
+        "Arsitek memakai meteran untuk merancang gedung dan rumah.",
+        "Arsitek bekerja di kantor arsitek."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "fotografer",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang fotografer?",
+    "label": "Apa alat seorang fotografer?",
+    "data": {
+      "cue": { "t": "art", "k": "fotografer" },
+      "options": [
+        { "t": "art", "k": "kamera" },
+        { "t": "art", "k": "mikrofon" },
+        { "t": "art", "k": "kunciInggris" },
+        { "t": "art", "k": "mikroskop" }
+      ],
+      "speakAlso": [
+        "Fotografer memakai kamera untuk mengambil foto.",
+        "Fotografer bekerja di studio foto."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "petugasKebersihan",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang petugas kebersihan?",
+    "label": "Apa alat seorang petugas kebersihan?",
+    "data": {
+      "cue": { "t": "art", "k": "petugasKebersihan" },
+      "options": [
+        { "t": "art", "k": "sapu" },
+        { "t": "art", "k": "roket" },
+        { "t": "art", "k": "meteran" },
+        { "t": "art", "k": "sapi" }
+      ],
+      "speakAlso": [
+        "Petugas kebersihan memakai sapu untuk membersihkan lingkungan.",
+        "Petugas kebersihan bekerja di jalan dan taman."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pedagang",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang pedagang?",
+    "label": "Apa alat seorang pedagang?",
+    "data": {
+      "cue": { "t": "art", "k": "pedagang" },
+      "options": [
+        { "t": "art", "k": "timbangan" },
+        { "t": "art", "k": "bola" },
+        { "t": "art", "k": "canting" },
+        { "t": "art", "k": "keretaApi" }
+      ],
+      "speakAlso": [
+        "Pedagang memakai timbangan untuk menimbang barang dagangan.",
+        "Pedagang bekerja di pasar."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tukangRoti",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang tukang roti?",
+    "label": "Apa alat seorang tukang roti?",
+    "data": {
+      "cue": { "t": "art", "k": "tukangRoti" },
+      "options": [
+        { "t": "art", "k": "roti" },
+        { "t": "art", "k": "mikrofon" },
+        { "t": "art", "k": "meteran" },
+        { "t": "art", "k": "palu" }
+      ],
+      "speakAlso": [
+        "Tukang roti memakai roti untuk membuat roti dan kue.",
+        "Tukang roti bekerja di toko roti."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "peternak",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang peternak?",
+    "label": "Apa alat seorang peternak?",
+    "data": {
+      "cue": { "t": "art", "k": "peternak" },
+      "options": [
+        { "t": "art", "k": "sapi" },
+        { "t": "art", "k": "stetoskop" },
+        { "t": "art", "k": "palu" },
+        { "t": "art", "k": "mikroskop" }
+      ],
+      "speakAlso": [
+        "Peternak memakai sapi untuk merawat hewan ternak.",
+        "Peternak bekerja di peternakan."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "nakhoda",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Apa alat seorang nakhoda?",
+    "label": "Apa alat seorang nakhoda?",
+    "data": {
+      "cue": { "t": "art", "k": "nakhoda" },
+      "options": [
+        { "t": "art", "k": "kemudi" },
+        { "t": "art", "k": "peluit" },
+        { "t": "art", "k": "sikatGigi" },
+        { "t": "art", "k": "pesawat" }
+      ],
+      "speakAlso": [
+        "Nakhoda memakai kemudi kapal untuk mengemudikan kapal.",
+        "Nakhoda bekerja di kapal laut."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pustakawan",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Apa alat seorang pustakawan?",
+    "label": "Apa alat seorang pustakawan?",
+    "data": {
+      "cue": { "t": "art", "k": "pustakawan" },
+      "options": [
+        { "t": "art", "k": "rakBuku" },
+        { "t": "art", "k": "sikatGigi" },
+        { "t": "art", "k": "bola" },
+        { "t": "art", "k": "cangkul" }
+      ],
+      "speakAlso": [
+        "Pustakawan memakai rak buku untuk merapikan dan meminjamkan buku.",
+        "Pustakawan bekerja di perpustakaan."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ilmuwan",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Apa alat seorang ilmuwan?",
+    "label": "Apa alat seorang ilmuwan?",
+    "data": {
+      "cue": { "t": "art", "k": "ilmuwan" },
+      "options": [
+        { "t": "art", "k": "mikroskop" },
+        { "t": "art", "k": "bus" },
+        { "t": "art", "k": "pesawat" },
+        { "t": "art", "k": "canting" }
+      ],
+      "speakAlso": [
+        "Ilmuwan memakai mikroskop untuk meneliti benda yang sangat kecil.",
+        "Ilmuwan bekerja di laboratorium."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pemrogram",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Apa alat seorang pemrogram?",
+    "label": "Apa alat seorang pemrogram?",
+    "data": {
+      "cue": { "t": "art", "k": "pemrogram" },
+      "options": [
+        { "t": "art", "k": "laptop" },
+        { "t": "art", "k": "mikrofon" },
+        { "t": "art", "k": "kartuKuning" },
+        { "t": "art", "k": "canting" }
+      ],
+      "speakAlso": [
+        "Pemrogram memakai laptop untuk membuat aplikasi dan permainan.",
+        "Pemrogram bekerja di kantor."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pemainBola",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa alat seorang pemain sepak bola?",
+    "label": "Apa alat seorang pemain sepak bola?",
+    "data": {
+      "cue": { "t": "art", "k": "pemainBola" },
+      "options": [
+        { "t": "art", "k": "bola" },
+        { "t": "art", "k": "sikatGigi" },
+        { "t": "art", "k": "jala" },
+        { "t": "art", "k": "kuas" }
+      ],
+      "speakAlso": [
+        "Pemain sepak bola memakai bola untuk bermain sepak bola.",
+        "Pemain sepak bola bekerja di lapangan."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "wasit",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Apa alat seorang wasit?",
+    "label": "Apa alat seorang wasit?",
+    "data": {
+      "cue": { "t": "art", "k": "wasit" },
+      "options": [
+        { "t": "art", "k": "kartuKuning" },
+        { "t": "art", "k": "stetoskop" },
+        { "t": "art", "k": "laptop" },
+        { "t": "art", "k": "selendang" }
+      ],
+      "speakAlso": [
+        "Wasit memakai kartu kuning untuk menjaga pertandingan tetap adil.",
+        "Wasit bekerja di lapangan."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "musisi",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang musisi?",
+    "label": "Apa alat seorang musisi?",
+    "data": {
+      "cue": { "t": "art", "k": "musisi" },
+      "options": [
+        { "t": "art", "k": "gitar" },
+        { "t": "art", "k": "wajan" },
+        { "t": "art", "k": "rakBuku" },
+        { "t": "art", "k": "amplop" }
+      ],
+      "speakAlso": ["Musisi memakai gitar untuk memainkan musik.", "Musisi bekerja di panggung."]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "dalang",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Apa alat seorang dalang?",
+    "label": "Apa alat seorang dalang?",
+    "data": {
+      "cue": { "t": "art", "k": "dalang" },
+      "options": [
+        { "t": "art", "k": "wayang" },
+        { "t": "art", "k": "roket" },
+        { "t": "art", "k": "kunciInggris" },
+        { "t": "art", "k": "buku" }
+      ],
+      "speakAlso": [
+        "Dalang memakai wayang untuk memainkan pertunjukan wayang.",
+        "Dalang bekerja di panggung wayang."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pembatik",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Apa alat seorang pembatik?",
+    "label": "Apa alat seorang pembatik?",
+    "data": {
+      "cue": { "t": "art", "k": "pembatik" },
+      "options": [
+        { "t": "art", "k": "canting" },
+        { "t": "art", "k": "roket" },
+        { "t": "art", "k": "mikrofon" },
+        { "t": "art", "k": "senter" }
+      ],
+      "speakAlso": [
+        "Pembatik memakai canting untuk membuat kain batik.",
+        "Pembatik bekerja di rumah batik."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tukangCukur",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang tukang cukur?",
+    "label": "Apa alat seorang tukang cukur?",
+    "data": {
+      "cue": { "t": "art", "k": "tukangCukur" },
+      "options": [
+        { "t": "art", "k": "gunting" },
+        { "t": "art", "k": "bola" },
+        { "t": "art", "k": "rakBuku" },
+        { "t": "art", "k": "canting" }
+      ],
+      "speakAlso": [
+        "Tukang cukur memakai gunting untuk merapikan rambut.",
+        "Tukang cukur bekerja di tempat pangkas rambut."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kasir",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang kasir?",
+    "label": "Apa alat seorang kasir?",
+    "data": {
+      "cue": { "t": "art", "k": "kasir" },
+      "options": [
+        { "t": "art", "k": "mesinKasir" },
+        { "t": "art", "k": "cangkul" },
+        { "t": "art", "k": "roti" },
+        { "t": "art", "k": "buku" }
+      ],
+      "speakAlso": [
+        "Kasir memakai mesin kasir untuk menerima pembayaran.",
+        "Kasir bekerja di toko."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sopir",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa alat seorang sopir bus?",
+    "label": "Apa alat seorang sopir bus?",
+    "data": {
+      "cue": { "t": "art", "k": "sopir" },
+      "options": [
+        { "t": "art", "k": "bus" },
+        { "t": "art", "k": "bola" },
+        { "t": "art", "k": "kuas" },
+        { "t": "art", "k": "canting" }
+      ],
+      "speakAlso": [
+        "Sopir bus memakai bus untuk mengantar penumpang.",
+        "Sopir bus bekerja di terminal."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "penjualSayur",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Apa alat seorang penjual sayur?",
+    "label": "Apa alat seorang penjual sayur?",
+    "data": {
+      "cue": { "t": "art", "k": "penjualSayur" },
+      "options": [
+        { "t": "art", "k": "wortel" },
+        { "t": "art", "k": "selang" },
+        { "t": "art", "k": "kunciInggris" },
+        { "t": "art", "k": "canting" }
+      ],
+      "speakAlso": [
+        "Penjual sayur memakai sayuran untuk menjual sayur segar.",
+        "Penjual sayur bekerja di pasar."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pembuatGerabah",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Apa alat seorang pembuat gerabah?",
+    "label": "Apa alat seorang pembuat gerabah?",
+    "data": {
+      "cue": { "t": "art", "k": "pembuatGerabah" },
+      "options": [
+        { "t": "art", "k": "vas" },
+        { "t": "art", "k": "buku" },
+        { "t": "art", "k": "mikrofon" },
+        { "t": "art", "k": "kemudi" }
+      ],
+      "speakAlso": [
+        "Pembuat gerabah memakai vas tanah liat untuk membuat vas dan periuk.",
+        "Pembuat gerabah bekerja di rumah gerabah."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "penjagaPantai",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Apa alat seorang penjaga pantai?",
+    "label": "Apa alat seorang penjaga pantai?",
+    "data": {
+      "cue": { "t": "art", "k": "penjagaPantai" },
+      "options": [
+        { "t": "art", "k": "speedboat" },
+        { "t": "art", "k": "amplop" },
+        { "t": "art", "k": "vas" },
+        { "t": "art", "k": "meteran" }
+      ],
+      "speakAlso": [
+        "Penjaga pantai memakai perahu motor untuk menolong orang di laut.",
+        "Penjaga pantai bekerja di pantai."
+      ]
+    },
+    "tags": ["profesi"],
+    "review": "ditinjau"
+  }
+]
