@@ -1,0 +1,412 @@
+[
+  {
+    "id": "bola",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Susun puzzle bola!",
+    "label": "Puzzle bola (2 keping)",
+    "data": { "art": "bola", "cols": 2, "rows": 1, "speakAlso": ["Hore, bola!"] },
+    "tags": ["puzzle", "2-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bintang",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Susun puzzle bintang!",
+    "label": "Puzzle bintang (2 keping)",
+    "data": { "art": "bintang", "cols": 2, "rows": 1, "speakAlso": ["Hore, bintang!"] },
+    "tags": ["puzzle", "2-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "apel",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Susun puzzle apel!",
+    "label": "Puzzle apel (2 keping)",
+    "data": { "art": "apel", "cols": 2, "rows": 1, "speakAlso": ["Hore, apel!"] },
+    "tags": ["puzzle", "2-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikan",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Susun puzzle ikan!",
+    "label": "Puzzle ikan (2 keping)",
+    "data": { "art": "ikan", "cols": 2, "rows": 1, "speakAlso": ["Hore, ikan!"] },
+    "tags": ["puzzle", "2-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kucing",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Susun puzzle kucing!",
+    "label": "Puzzle kucing (4 keping)",
+    "data": { "art": "kucing", "cols": 2, "rows": 2, "speakAlso": ["Hore, kucing!"] },
+    "tags": ["puzzle", "4-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "gajah",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Susun puzzle gajah!",
+    "label": "Puzzle gajah (4 keping)",
+    "data": { "art": "gajah", "cols": 2, "rows": 2, "speakAlso": ["Hore, gajah!"] },
+    "tags": ["puzzle", "4-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "mobil",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Susun puzzle mobil!",
+    "label": "Puzzle mobil (4 keping)",
+    "data": { "art": "mobil", "cols": 2, "rows": 2, "speakAlso": ["Hore, mobil!"] },
+    "tags": ["puzzle", "4-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "balon",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Susun puzzle balon!",
+    "label": "Puzzle balon (3 keping)",
+    "data": { "art": "balon", "cols": 3, "rows": 1, "speakAlso": ["Hore, balon!"] },
+    "tags": ["puzzle", "3-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ayamJago",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Susun puzzle ayam jago!",
+    "label": "Puzzle ayam jago (4 keping)",
+    "data": { "art": "ayamJago", "cols": 2, "rows": 2, "speakAlso": ["Hore, ayam jago!"] },
+    "tags": ["puzzle", "4-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bus",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Susun puzzle bus!",
+    "label": "Puzzle bus (4 keping)",
+    "data": { "art": "bus", "cols": 2, "rows": 2, "speakAlso": ["Hore, bus!"] },
+    "tags": ["puzzle", "4-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "katak",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Susun puzzle katak!",
+    "label": "Puzzle katak (4 keping)",
+    "data": { "art": "katak", "cols": 2, "rows": 2, "speakAlso": ["Hore, katak!"] },
+    "tags": ["puzzle", "4-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "singa",
+    "ageGroup": ["A", "B"],
+    "difficulty": 2,
+    "speak": "Susun puzzle singa!",
+    "label": "Puzzle singa (4 keping)",
+    "data": { "art": "singa", "cols": 2, "rows": 2, "speakAlso": ["Hore, singa!"] },
+    "tags": ["puzzle", "4-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kuda",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Susun puzzle kuda!",
+    "label": "Puzzle kuda (6 keping)",
+    "data": { "art": "kuda", "cols": 3, "rows": 2, "speakAlso": ["Hore, kuda!"] },
+    "tags": ["puzzle", "6-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pesawat",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Susun puzzle pesawat!",
+    "label": "Puzzle pesawat (6 keping)",
+    "data": { "art": "pesawat", "cols": 3, "rows": 2, "speakAlso": ["Hore, pesawat!"] },
+    "tags": ["puzzle", "6-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "burungHantu",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Susun puzzle burung hantu!",
+    "label": "Puzzle burung hantu (6 keping)",
+    "data": { "art": "burungHantu", "cols": 3, "rows": 2, "speakAlso": ["Hore, burung hantu!"] },
+    "tags": ["puzzle", "6-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "perahuLayar",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Susun puzzle perahu layar!",
+    "label": "Puzzle perahu layar (6 keping)",
+    "data": { "art": "perahuLayar", "cols": 3, "rows": 2, "speakAlso": ["Hore, perahu layar!"] },
+    "tags": ["puzzle", "6-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rumahJoglo",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Susun puzzle rumah joglo!",
+    "label": "Puzzle rumah joglo (6 keping)",
+    "data": { "art": "rumahJoglo", "cols": 3, "rows": 2, "speakAlso": ["Hore, rumah joglo!"] },
+    "tags": ["puzzle", "6-keping"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "monas",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Susun puzzle Monas!",
+    "label": "Puzzle Monas (6 keping)",
+    "data": { "art": "monas", "cols": 3, "rows": 2, "speakAlso": ["Hore, Monas!"] },
+    "tags": ["puzzle", "6-keping"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "harimau",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Susun puzzle harimau!",
+    "label": "Puzzle harimau (6 keping)",
+    "data": { "art": "harimau", "cols": 3, "rows": 2, "speakAlso": ["Hore, harimau!"] },
+    "tags": ["puzzle", "6-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "helikopter",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Susun puzzle helikopter!",
+    "label": "Puzzle helikopter (6 keping)",
+    "data": { "art": "helikopter", "cols": 3, "rows": 2, "speakAlso": ["Hore, helikopter!"] },
+    "tags": ["puzzle", "6-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "merak",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Susun puzzle merak!",
+    "label": "Puzzle merak (9 keping)",
+    "data": { "art": "merak", "cols": 3, "rows": 3, "speakAlso": ["Hore, merak!"] },
+    "tags": ["puzzle", "9-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rumahGadang",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Susun puzzle rumah gadang!",
+    "label": "Puzzle rumah gadang (9 keping)",
+    "data": { "art": "rumahGadang", "cols": 3, "rows": 3, "speakAlso": ["Hore, rumah gadang!"] },
+    "tags": ["puzzle", "9-keping"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "borobudur",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Susun puzzle Candi Borobudur!",
+    "label": "Puzzle Candi Borobudur (9 keping)",
+    "data": { "art": "borobudur", "cols": 3, "rows": 3, "speakAlso": ["Hore, Candi Borobudur!"] },
+    "tags": ["puzzle", "9-keping"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "keretaUap",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Susun puzzle kereta uap!",
+    "label": "Puzzle kereta uap (9 keping)",
+    "data": { "art": "keretaUap", "cols": 3, "rows": 3, "speakAlso": ["Hore, kereta uap!"] },
+    "tags": ["puzzle", "9-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "menaraEiffel",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Susun puzzle Menara Eiffel!",
+    "label": "Puzzle Menara Eiffel (9 keping)",
+    "data": { "art": "menaraEiffel", "cols": 3, "rows": 3, "speakAlso": ["Hore, Menara Eiffel!"] },
+    "tags": ["puzzle", "9-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "piramida",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Susun puzzle piramida!",
+    "label": "Puzzle piramida (9 keping)",
+    "data": { "art": "piramida", "cols": 3, "rows": 3, "speakAlso": ["Hore, piramida!"] },
+    "tags": ["puzzle", "9-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "zebra",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Susun puzzle zebra!",
+    "label": "Puzzle zebra (9 keping)",
+    "data": { "art": "zebra", "cols": 3, "rows": 3, "speakAlso": ["Hore, zebra!"] },
+    "tags": ["puzzle", "9-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pinisi",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Susun puzzle kapal pinisi!",
+    "label": "Puzzle kapal pinisi (9 keping)",
+    "data": { "art": "pinisi", "cols": 3, "rows": 3, "speakAlso": ["Hore, kapal pinisi!"] },
+    "tags": ["puzzle", "9-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rumahTongkonan",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Susun puzzle rumah tongkonan!",
+    "label": "Puzzle rumah tongkonan (12 keping)",
+    "data": {
+      "art": "rumahTongkonan",
+      "cols": 4,
+      "rows": 3,
+      "speakAlso": ["Hore, rumah tongkonan!"]
+    },
+    "tags": ["puzzle", "12-keping"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "ondelOndel",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Susun puzzle ondel-ondel!",
+    "label": "Puzzle ondel-ondel (12 keping)",
+    "data": { "art": "ondelOndel", "cols": 4, "rows": 3, "speakAlso": ["Hore, ondel-ondel!"] },
+    "tags": ["puzzle", "12-keping"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "tembokBesar",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Susun puzzle Tembok Besar Tiongkok!",
+    "label": "Puzzle Tembok Besar Tiongkok (12 keping)",
+    "data": {
+      "art": "tembokBesar",
+      "cols": 4,
+      "rows": 3,
+      "speakAlso": ["Hore, Tembok Besar Tiongkok!"]
+    },
+    "tags": ["puzzle", "12-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "komodo",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Susun puzzle komodo!",
+    "label": "Puzzle komodo (12 keping)",
+    "data": { "art": "komodo", "cols": 4, "rows": 3, "speakAlso": ["Hore, komodo!"] },
+    "tags": ["puzzle", "12-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "balonUdara",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Susun puzzle balon udara!",
+    "label": "Puzzle balon udara (12 keping)",
+    "data": { "art": "balonUdara", "cols": 4, "rows": 3, "speakAlso": ["Hore, balon udara!"] },
+    "tags": ["puzzle", "12-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rumahHonai",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Susun puzzle rumah honai!",
+    "label": "Puzzle rumah honai (12 keping)",
+    "data": { "art": "rumahHonai", "cols": 4, "rows": 3, "speakAlso": ["Hore, rumah honai!"] },
+    "tags": ["puzzle", "12-keping"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "kapalSelam",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Susun puzzle kapal selam!",
+    "label": "Puzzle kapal selam (16 keping)",
+    "data": { "art": "kapalSelam", "cols": 4, "rows": 4, "speakAlso": ["Hore, kapal selam!"] },
+    "tags": ["puzzle", "16-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "paus",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Susun puzzle paus!",
+    "label": "Puzzle paus (16 keping)",
+    "data": { "art": "paus", "cols": 4, "rows": 4, "speakAlso": ["Hore, paus!"] },
+    "tags": ["puzzle", "16-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "gorila",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Susun puzzle gorila!",
+    "label": "Puzzle gorila (16 keping)",
+    "data": { "art": "gorila", "cols": 4, "rows": 4, "speakAlso": ["Hore, gorila!"] },
+    "tags": ["puzzle", "16-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "wayang",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Susun puzzle wayang!",
+    "label": "Puzzle wayang (16 keping)",
+    "data": { "art": "wayang", "cols": 4, "rows": 4, "speakAlso": ["Hore, wayang!"] },
+    "tags": ["puzzle", "16-keping"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "keretaApi",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Susun puzzle kereta api!",
+    "label": "Puzzle kereta api (20 keping)",
+    "data": { "art": "keretaApi", "cols": 5, "rows": 4, "speakAlso": ["Hore, kereta api!"] },
+    "tags": ["puzzle", "20-keping"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tumpeng",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Susun puzzle nasi tumpeng!",
+    "label": "Puzzle nasi tumpeng (20 keping)",
+    "data": { "art": "tumpeng", "cols": 5, "rows": 4, "speakAlso": ["Hore, nasi tumpeng!"] },
+    "tags": ["puzzle", "20-keping"],
+    "review": "perlu-ditinjau"
+  }
+]

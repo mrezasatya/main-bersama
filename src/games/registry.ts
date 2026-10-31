@@ -6,6 +6,11 @@ import * as ceritaPilihanku from './cerita-pilihanku/meta';
 import * as dariManaAsalnya from './dari-mana-asalnya/meta';
 import * as jamDanHari from './jam-dan-hari/meta';
 import * as rasaHatiku from './rasa-hatiku/meta';
+import * as campurWarna from './campur-warna/meta';
+import * as pasangBentuk from './pasang-bentuk/meta';
+import * as pasanganBudaya from './pasangan-budaya/meta';
+import * as puzzleGambar from './puzzle-gambar/meta';
+import * as urutkanBesarKecil from './urutkan-besar-kecil/meta';
 import * as cariWarna from './cari-warna/meta';
 import * as kendaraan from './kendaraan/meta';
 import * as nadaNusantara from './nada-nusantara/meta';
@@ -118,6 +123,36 @@ export const GAMES: readonly GameEntry[] = [
     cover: { art: 'pot' },
     load: () => import('./ayo-berkebun'),
     loadContent: () => import('./ayo-berkebun/content.json'),
+  },
+  {
+    ...pasangBentuk,
+    cover: { art: 'bintang' },
+    load: () => import('./pasang-bentuk'),
+    loadContent: () => import('./pasang-bentuk/content.json'),
+  },
+  {
+    ...campurWarna,
+    cover: { art: 'kuas' },
+    load: () => import('./campur-warna'),
+    loadContent: () => import('./campur-warna/content.json'),
+  },
+  {
+    ...pasanganBudaya,
+    cover: { art: 'rumahGadang' },
+    load: () => import('./pasangan-budaya'),
+    loadContent: () => import('./pasangan-budaya/content.json'),
+  },
+  {
+    ...puzzleGambar,
+    cover: { art: 'gajah' },
+    load: () => import('./puzzle-gambar'),
+    loadContent: () => import('./puzzle-gambar/content.json'),
+  },
+  {
+    ...urutkanBesarKecil,
+    cover: { art: 'bola' },
+    load: () => import('./urutkan-besar-kecil'),
+    loadContent: () => import('./urutkan-besar-kecil/content.json'),
   },
   // Permainan contoh Fase 0 (di luar katalog 30).
   {

@@ -1,0 +1,1171 @@
+[
+  {
+    "id": "papan-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Cari pasangan rumah joglo dan rumah tongkonan!",
+    "label": "Cari pasangan: rumah adat",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "rumahJoglo" },
+        { "t": "art", "k": "rumahTongkonan" },
+        { "t": "art", "k": "rumahHonai" },
+        { "t": "art", "k": "rumahPanggung" },
+        { "t": "art", "k": "rumahGadang" }
+      ],
+      "tileSay": [
+        "Rumah joglo dari Jawa.",
+        "Rumah tongkonan dari Sulawesi Selatan.",
+        "Rumah honai dari Papua.",
+        "Rumah panggung.",
+        "Rumah gadang dari Sumatera Barat."
+      ]
+    },
+    "tags": ["budaya", "rumah adat"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-2",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 3,
+    "speak": "Cari pasangan soto dan nasi tumpeng!",
+    "label": "Cari pasangan: makanan",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "soto" },
+        { "t": "art", "k": "tumpeng" },
+        { "t": "art", "k": "rendang" },
+        { "t": "art", "k": "sate" },
+        { "t": "art", "k": "kerupuk" },
+        { "t": "art", "k": "klepon" }
+      ],
+      "tileSay": ["Soto.", "Nasi tumpeng.", "Rendang.", "Sate.", "Kerupuk.", "Klepon."]
+    },
+    "tags": ["budaya", "makanan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan gong dan angklung!",
+    "label": "Cari pasangan: alat musik",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "gong" },
+        { "t": "art", "k": "angklung" },
+        { "t": "art", "k": "sasando" },
+        { "t": "art", "k": "suling" },
+        { "t": "art", "k": "gendang" },
+        { "t": "art", "k": "kolintang" }
+      ],
+      "tileSay": ["Gong.", "Angklung.", "Sasando.", "Suling.", "Kendang.", "Kolintang."]
+    },
+    "tags": ["budaya", "alat musik"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Cari pasangan ondel-ondel dan selendang!",
+    "label": "Cari pasangan: budaya",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "ondelOndel" },
+        { "t": "art", "k": "selendang" },
+        { "t": "art", "k": "canting" },
+        { "t": "art", "k": "wayang" },
+        { "t": "art", "k": "blangkon" },
+        { "t": "art", "k": "batikKawung" }
+      ],
+      "tileSay": [
+        "Ondel-ondel.",
+        "Selendang.",
+        "Canting batik.",
+        "Wayang.",
+        "Blangkon.",
+        "Batik kawung."
+      ]
+    },
+    "tags": ["budaya", "budaya"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-5",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Cari pasangan owa jawa dan merak!",
+    "label": "Cari pasangan: hewan khas",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "owa" },
+        { "t": "art", "k": "merak" },
+        { "t": "art", "k": "harimau" },
+        { "t": "art", "k": "komodo" },
+        { "t": "art", "k": "gajah" },
+        { "t": "art", "k": "elang" }
+      ],
+      "tileSay": ["Owa jawa.", "Merak.", "Harimau.", "Komodo.", "Gajah.", "Elang."]
+    },
+    "tags": ["budaya", "hewan khas"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-6",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan becak dan bajaj!",
+    "label": "Cari pasangan: kendaraan tradisional",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "becak" },
+        { "t": "art", "k": "bajaj" },
+        { "t": "art", "k": "delman" },
+        { "t": "art", "k": "jukung" },
+        { "t": "art", "k": "sampan" },
+        { "t": "art", "k": "pinisi" }
+      ],
+      "tileSay": ["Becak.", "Bajaj.", "Delman.", "Jukung.", "Sampan.", "Kapal pinisi."]
+    },
+    "tags": ["budaya", "kendaraan tradisional"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-7",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Cari pasangan Tembok Besar Tiongkok dan piramida!",
+    "label": "Cari pasangan: tempat terkenal",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "tembokBesar" },
+        { "t": "art", "k": "piramida" },
+        { "t": "art", "k": "menaraEiffel" },
+        { "t": "art", "k": "monas" },
+        { "t": "art", "k": "borobudur" }
+      ],
+      "tileSay": [
+        "Tembok Besar Tiongkok.",
+        "Piramida.",
+        "Menara Eiffel.",
+        "Monas.",
+        "Candi Borobudur."
+      ]
+    },
+    "tags": ["budaya", "tempat terkenal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-8",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Cari pasangan rumah gadang dan rumah joglo!",
+    "label": "Cari pasangan: rumah adat",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "rumahGadang" },
+        { "t": "art", "k": "rumahJoglo" },
+        { "t": "art", "k": "rumahTongkonan" },
+        { "t": "art", "k": "rumahPanggung" },
+        { "t": "art", "k": "rumahHonai" }
+      ],
+      "tileSay": [
+        "Rumah gadang dari Sumatera Barat.",
+        "Rumah joglo dari Jawa.",
+        "Rumah tongkonan dari Sulawesi Selatan.",
+        "Rumah panggung.",
+        "Rumah honai dari Papua."
+      ]
+    },
+    "tags": ["budaya", "rumah adat"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-9",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan nasi tumpeng dan soto!",
+    "label": "Cari pasangan: makanan",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "tumpeng" },
+        { "t": "art", "k": "soto" },
+        { "t": "art", "k": "rendang" },
+        { "t": "art", "k": "sate" },
+        { "t": "art", "k": "kerupuk" },
+        { "t": "art", "k": "klepon" }
+      ],
+      "tileSay": ["Nasi tumpeng.", "Soto.", "Rendang.", "Sate.", "Kerupuk.", "Klepon."]
+    },
+    "tags": ["budaya", "makanan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-10",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Cari pasangan angklung dan kolintang!",
+    "label": "Cari pasangan: alat musik",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "angklung" },
+        { "t": "art", "k": "kolintang" },
+        { "t": "art", "k": "sasando" },
+        { "t": "art", "k": "suling" },
+        { "t": "art", "k": "gendang" },
+        { "t": "art", "k": "gong" }
+      ],
+      "tileSay": ["Angklung.", "Kolintang.", "Sasando.", "Suling.", "Kendang.", "Gong."]
+    },
+    "tags": ["budaya", "alat musik"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-11",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 3,
+    "speak": "Cari pasangan ondel-ondel dan wayang!",
+    "label": "Cari pasangan: budaya",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "ondelOndel" },
+        { "t": "art", "k": "wayang" },
+        { "t": "art", "k": "canting" },
+        { "t": "art", "k": "blangkon" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "selendang" }
+      ],
+      "tileSay": [
+        "Ondel-ondel.",
+        "Wayang.",
+        "Canting batik.",
+        "Blangkon.",
+        "Batik kawung.",
+        "Selendang."
+      ]
+    },
+    "tags": ["budaya", "budaya"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-12",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan harimau dan elang!",
+    "label": "Cari pasangan: hewan khas",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "harimau" },
+        { "t": "art", "k": "elang" },
+        { "t": "art", "k": "owa" },
+        { "t": "art", "k": "gajah" },
+        { "t": "art", "k": "merak" },
+        { "t": "art", "k": "komodo" }
+      ],
+      "tileSay": ["Harimau.", "Elang.", "Owa jawa.", "Gajah.", "Merak.", "Komodo."]
+    },
+    "tags": ["budaya", "hewan khas"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-13",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Cari pasangan kapal pinisi dan bajaj!",
+    "label": "Cari pasangan: kendaraan tradisional",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "pinisi" },
+        { "t": "art", "k": "bajaj" },
+        { "t": "art", "k": "jukung" },
+        { "t": "art", "k": "delman" },
+        { "t": "art", "k": "sampan" },
+        { "t": "art", "k": "becak" }
+      ],
+      "tileSay": ["Kapal pinisi.", "Bajaj.", "Jukung.", "Delman.", "Sampan.", "Becak."]
+    },
+    "tags": ["budaya", "kendaraan tradisional"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-14",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Cari pasangan Candi Borobudur dan Monas!",
+    "label": "Cari pasangan: tempat terkenal",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "borobudur" },
+        { "t": "art", "k": "monas" },
+        { "t": "art", "k": "menaraEiffel" },
+        { "t": "art", "k": "tembokBesar" },
+        { "t": "art", "k": "piramida" }
+      ],
+      "tileSay": [
+        "Candi Borobudur.",
+        "Monas.",
+        "Menara Eiffel.",
+        "Tembok Besar Tiongkok.",
+        "Piramida."
+      ]
+    },
+    "tags": ["budaya", "tempat terkenal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-15",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan rumah gadang dan rumah honai!",
+    "label": "Cari pasangan: rumah adat",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "rumahGadang" },
+        { "t": "art", "k": "rumahHonai" },
+        { "t": "art", "k": "rumahPanggung" },
+        { "t": "art", "k": "rumahTongkonan" },
+        { "t": "art", "k": "rumahJoglo" }
+      ],
+      "tileSay": [
+        "Rumah gadang dari Sumatera Barat.",
+        "Rumah honai dari Papua.",
+        "Rumah panggung.",
+        "Rumah tongkonan dari Sulawesi Selatan.",
+        "Rumah joglo dari Jawa."
+      ]
+    },
+    "tags": ["budaya", "rumah adat"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-16",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Cari pasangan klepon dan kerupuk!",
+    "label": "Cari pasangan: makanan",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "klepon" },
+        { "t": "art", "k": "kerupuk" },
+        { "t": "art", "k": "rendang" },
+        { "t": "art", "k": "sate" },
+        { "t": "art", "k": "tumpeng" },
+        { "t": "art", "k": "soto" }
+      ],
+      "tileSay": ["Klepon.", "Kerupuk.", "Rendang.", "Sate.", "Nasi tumpeng.", "Soto."]
+    },
+    "tags": ["budaya", "makanan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-17",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 3,
+    "speak": "Cari pasangan angklung dan gong!",
+    "label": "Cari pasangan: alat musik",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "angklung" },
+        { "t": "art", "k": "gong" },
+        { "t": "art", "k": "suling" },
+        { "t": "art", "k": "gendang" },
+        { "t": "art", "k": "kolintang" },
+        { "t": "art", "k": "sasando" }
+      ],
+      "tileSay": ["Angklung.", "Gong.", "Suling.", "Kendang.", "Kolintang.", "Sasando."]
+    },
+    "tags": ["budaya", "alat musik"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-18",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan selendang dan ondel-ondel!",
+    "label": "Cari pasangan: budaya",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "selendang" },
+        { "t": "art", "k": "ondelOndel" },
+        { "t": "art", "k": "blangkon" },
+        { "t": "art", "k": "canting" },
+        { "t": "art", "k": "wayang" },
+        { "t": "art", "k": "batikKawung" }
+      ],
+      "tileSay": [
+        "Selendang.",
+        "Ondel-ondel.",
+        "Blangkon.",
+        "Canting batik.",
+        "Wayang.",
+        "Batik kawung."
+      ]
+    },
+    "tags": ["budaya", "budaya"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-19",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Cari pasangan komodo dan owa jawa!",
+    "label": "Cari pasangan: hewan khas",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "komodo" },
+        { "t": "art", "k": "owa" },
+        { "t": "art", "k": "harimau" },
+        { "t": "art", "k": "merak" },
+        { "t": "art", "k": "gajah" },
+        { "t": "art", "k": "elang" }
+      ],
+      "tileSay": ["Komodo.", "Owa jawa.", "Harimau.", "Merak.", "Gajah.", "Elang."]
+    },
+    "tags": ["budaya", "hewan khas"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-20",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Cari pasangan delman dan jukung!",
+    "label": "Cari pasangan: kendaraan tradisional",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "delman" },
+        { "t": "art", "k": "jukung" },
+        { "t": "art", "k": "bajaj" },
+        { "t": "art", "k": "sampan" },
+        { "t": "art", "k": "pinisi" },
+        { "t": "art", "k": "becak" }
+      ],
+      "tileSay": ["Delman.", "Jukung.", "Bajaj.", "Sampan.", "Kapal pinisi.", "Becak."]
+    },
+    "tags": ["budaya", "kendaraan tradisional"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-21",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan Tembok Besar Tiongkok dan Monas!",
+    "label": "Cari pasangan: tempat terkenal",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "tembokBesar" },
+        { "t": "art", "k": "monas" },
+        { "t": "art", "k": "borobudur" },
+        { "t": "art", "k": "menaraEiffel" },
+        { "t": "art", "k": "piramida" }
+      ],
+      "tileSay": [
+        "Tembok Besar Tiongkok.",
+        "Monas.",
+        "Candi Borobudur.",
+        "Menara Eiffel.",
+        "Piramida."
+      ]
+    },
+    "tags": ["budaya", "tempat terkenal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-22",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Cari pasangan rumah honai dan rumah joglo!",
+    "label": "Cari pasangan: rumah adat",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "rumahHonai" },
+        { "t": "art", "k": "rumahJoglo" },
+        { "t": "art", "k": "rumahGadang" },
+        { "t": "art", "k": "rumahPanggung" },
+        { "t": "art", "k": "rumahTongkonan" }
+      ],
+      "tileSay": [
+        "Rumah honai dari Papua.",
+        "Rumah joglo dari Jawa.",
+        "Rumah gadang dari Sumatera Barat.",
+        "Rumah panggung.",
+        "Rumah tongkonan dari Sulawesi Selatan."
+      ]
+    },
+    "tags": ["budaya", "rumah adat"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-23",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Cari pasangan klepon dan nasi tumpeng!",
+    "label": "Cari pasangan: makanan",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "klepon" },
+        { "t": "art", "k": "tumpeng" },
+        { "t": "art", "k": "kerupuk" },
+        { "t": "art", "k": "rendang" },
+        { "t": "art", "k": "sate" },
+        { "t": "art", "k": "soto" }
+      ],
+      "tileSay": ["Klepon.", "Nasi tumpeng.", "Kerupuk.", "Rendang.", "Sate.", "Soto."]
+    },
+    "tags": ["budaya", "makanan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-24",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan angklung dan sasando!",
+    "label": "Cari pasangan: alat musik",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "angklung" },
+        { "t": "art", "k": "sasando" },
+        { "t": "art", "k": "gong" },
+        { "t": "art", "k": "gendang" },
+        { "t": "art", "k": "kolintang" },
+        { "t": "art", "k": "suling" }
+      ],
+      "tileSay": ["Angklung.", "Sasando.", "Gong.", "Kendang.", "Kolintang.", "Suling."]
+    },
+    "tags": ["budaya", "alat musik"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-25",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Cari pasangan selendang dan canting batik!",
+    "label": "Cari pasangan: budaya",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "selendang" },
+        { "t": "art", "k": "canting" },
+        { "t": "art", "k": "ondelOndel" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "blangkon" },
+        { "t": "art", "k": "wayang" }
+      ],
+      "tileSay": [
+        "Selendang.",
+        "Canting batik.",
+        "Ondel-ondel.",
+        "Batik kawung.",
+        "Blangkon.",
+        "Wayang."
+      ]
+    },
+    "tags": ["budaya", "budaya"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-26",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 3,
+    "speak": "Cari pasangan gajah dan harimau!",
+    "label": "Cari pasangan: hewan khas",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "gajah" },
+        { "t": "art", "k": "harimau" },
+        { "t": "art", "k": "owa" },
+        { "t": "art", "k": "elang" },
+        { "t": "art", "k": "komodo" },
+        { "t": "art", "k": "merak" }
+      ],
+      "tileSay": ["Gajah.", "Harimau.", "Owa jawa.", "Elang.", "Komodo.", "Merak."]
+    },
+    "tags": ["budaya", "hewan khas"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-27",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan delman dan becak!",
+    "label": "Cari pasangan: kendaraan tradisional",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "delman" },
+        { "t": "art", "k": "becak" },
+        { "t": "art", "k": "pinisi" },
+        { "t": "art", "k": "sampan" },
+        { "t": "art", "k": "bajaj" },
+        { "t": "art", "k": "jukung" }
+      ],
+      "tileSay": ["Delman.", "Becak.", "Kapal pinisi.", "Sampan.", "Bajaj.", "Jukung."]
+    },
+    "tags": ["budaya", "kendaraan tradisional"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-28",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Cari pasangan Monas dan Candi Borobudur!",
+    "label": "Cari pasangan: tempat terkenal",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "monas" },
+        { "t": "art", "k": "borobudur" },
+        { "t": "art", "k": "menaraEiffel" },
+        { "t": "art", "k": "tembokBesar" },
+        { "t": "art", "k": "piramida" }
+      ],
+      "tileSay": [
+        "Monas.",
+        "Candi Borobudur.",
+        "Menara Eiffel.",
+        "Tembok Besar Tiongkok.",
+        "Piramida."
+      ]
+    },
+    "tags": ["budaya", "tempat terkenal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-29",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Cari pasangan rumah honai dan rumah tongkonan!",
+    "label": "Cari pasangan: rumah adat",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "rumahHonai" },
+        { "t": "art", "k": "rumahTongkonan" },
+        { "t": "art", "k": "rumahPanggung" },
+        { "t": "art", "k": "rumahGadang" },
+        { "t": "art", "k": "rumahJoglo" }
+      ],
+      "tileSay": [
+        "Rumah honai dari Papua.",
+        "Rumah tongkonan dari Sulawesi Selatan.",
+        "Rumah panggung.",
+        "Rumah gadang dari Sumatera Barat.",
+        "Rumah joglo dari Jawa."
+      ]
+    },
+    "tags": ["budaya", "rumah adat"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-30",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan kerupuk dan rendang!",
+    "label": "Cari pasangan: makanan",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "kerupuk" },
+        { "t": "art", "k": "rendang" },
+        { "t": "art", "k": "soto" },
+        { "t": "art", "k": "klepon" },
+        { "t": "art", "k": "sate" },
+        { "t": "art", "k": "tumpeng" }
+      ],
+      "tileSay": ["Kerupuk.", "Rendang.", "Soto.", "Klepon.", "Sate.", "Nasi tumpeng."]
+    },
+    "tags": ["budaya", "makanan"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-31",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Cari pasangan suling dan kendang!",
+    "label": "Cari pasangan: alat musik",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "suling" },
+        { "t": "art", "k": "gendang" },
+        { "t": "art", "k": "kolintang" },
+        { "t": "art", "k": "sasando" },
+        { "t": "art", "k": "angklung" },
+        { "t": "art", "k": "gong" }
+      ],
+      "tileSay": ["Suling.", "Kendang.", "Kolintang.", "Sasando.", "Angklung.", "Gong."]
+    },
+    "tags": ["budaya", "alat musik"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-32",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 3,
+    "speak": "Cari pasangan batik kawung dan canting batik!",
+    "label": "Cari pasangan: budaya",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "canting" },
+        { "t": "art", "k": "blangkon" },
+        { "t": "art", "k": "selendang" },
+        { "t": "art", "k": "wayang" },
+        { "t": "art", "k": "ondelOndel" }
+      ],
+      "tileSay": [
+        "Batik kawung.",
+        "Canting batik.",
+        "Blangkon.",
+        "Selendang.",
+        "Wayang.",
+        "Ondel-ondel."
+      ]
+    },
+    "tags": ["budaya", "budaya"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-33",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan harimau dan owa jawa!",
+    "label": "Cari pasangan: hewan khas",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "harimau" },
+        { "t": "art", "k": "owa" },
+        { "t": "art", "k": "merak" },
+        { "t": "art", "k": "gajah" },
+        { "t": "art", "k": "komodo" },
+        { "t": "art", "k": "elang" }
+      ],
+      "tileSay": ["Harimau.", "Owa jawa.", "Merak.", "Gajah.", "Komodo.", "Elang."]
+    },
+    "tags": ["budaya", "hewan khas"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-34",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Cari pasangan bajaj dan kapal pinisi!",
+    "label": "Cari pasangan: kendaraan tradisional",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "bajaj" },
+        { "t": "art", "k": "pinisi" },
+        { "t": "art", "k": "sampan" },
+        { "t": "art", "k": "delman" },
+        { "t": "art", "k": "jukung" },
+        { "t": "art", "k": "becak" }
+      ],
+      "tileSay": ["Bajaj.", "Kapal pinisi.", "Sampan.", "Delman.", "Jukung.", "Becak."]
+    },
+    "tags": ["budaya", "kendaraan tradisional"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-35",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Cari pasangan Menara Eiffel dan Candi Borobudur!",
+    "label": "Cari pasangan: tempat terkenal",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "menaraEiffel" },
+        { "t": "art", "k": "borobudur" },
+        { "t": "art", "k": "tembokBesar" },
+        { "t": "art", "k": "piramida" },
+        { "t": "art", "k": "monas" }
+      ],
+      "tileSay": [
+        "Menara Eiffel.",
+        "Candi Borobudur.",
+        "Tembok Besar Tiongkok.",
+        "Piramida.",
+        "Monas."
+      ]
+    },
+    "tags": ["budaya", "tempat terkenal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-36",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan rumah gadang dan angklung!",
+    "label": "Cari pasangan: campuran",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "rumahGadang" },
+        { "t": "art", "k": "angklung" },
+        { "t": "art", "k": "wayang" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "suling" },
+        { "t": "art", "k": "owa" }
+      ],
+      "tileSay": [
+        "Rumah gadang dari Sumatera Barat.",
+        "Angklung.",
+        "Wayang.",
+        "Batik kawung.",
+        "Suling.",
+        "Owa jawa."
+      ]
+    },
+    "tags": ["budaya", "campuran"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-37",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan komodo dan elang!",
+    "label": "Cari pasangan: campuran",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "komodo" },
+        { "t": "art", "k": "elang" },
+        { "t": "art", "k": "becak" },
+        { "t": "art", "k": "ondelOndel" },
+        { "t": "art", "k": "selendang" },
+        { "t": "art", "k": "rumahJoglo" }
+      ],
+      "tileSay": [
+        "Komodo.",
+        "Elang.",
+        "Becak.",
+        "Ondel-ondel.",
+        "Selendang.",
+        "Rumah joglo dari Jawa."
+      ]
+    },
+    "tags": ["budaya", "campuran"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-38",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan rumah joglo dan sasando!",
+    "label": "Cari pasangan: campuran",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "rumahJoglo" },
+        { "t": "art", "k": "sasando" },
+        { "t": "art", "k": "merak" },
+        { "t": "art", "k": "tembokBesar" },
+        { "t": "art", "k": "becak" },
+        { "t": "art", "k": "gendang" }
+      ],
+      "tileSay": [
+        "Rumah joglo dari Jawa.",
+        "Sasando.",
+        "Merak.",
+        "Tembok Besar Tiongkok.",
+        "Becak.",
+        "Kendang."
+      ]
+    },
+    "tags": ["budaya", "campuran"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-39",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan merak dan jukung!",
+    "label": "Cari pasangan: campuran",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "merak" },
+        { "t": "art", "k": "jukung" },
+        { "t": "art", "k": "pinisi" },
+        { "t": "art", "k": "harimau" },
+        { "t": "art", "k": "ondelOndel" },
+        { "t": "art", "k": "rumahJoglo" }
+      ],
+      "tileSay": [
+        "Merak.",
+        "Jukung.",
+        "Kapal pinisi.",
+        "Harimau.",
+        "Ondel-ondel.",
+        "Rumah joglo dari Jawa."
+      ]
+    },
+    "tags": ["budaya", "campuran"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-40",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan harimau dan jukung!",
+    "label": "Cari pasangan: campuran",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "harimau" },
+        { "t": "art", "k": "jukung" },
+        { "t": "art", "k": "borobudur" },
+        { "t": "art", "k": "merak" },
+        { "t": "art", "k": "gendang" },
+        { "t": "art", "k": "rumahPanggung" }
+      ],
+      "tileSay": [
+        "Harimau.",
+        "Jukung.",
+        "Candi Borobudur.",
+        "Merak.",
+        "Kendang.",
+        "Rumah panggung."
+      ]
+    },
+    "tags": ["budaya", "campuran"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-41",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan owa jawa dan sampan!",
+    "label": "Cari pasangan: campuran",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "owa" },
+        { "t": "art", "k": "sampan" },
+        { "t": "art", "k": "wayang" },
+        { "t": "art", "k": "gong" },
+        { "t": "art", "k": "menaraEiffel" },
+        { "t": "art", "k": "pinisi" }
+      ],
+      "tileSay": ["Owa jawa.", "Sampan.", "Wayang.", "Gong.", "Menara Eiffel.", "Kapal pinisi."]
+    },
+    "tags": ["budaya", "campuran"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-42",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan Menara Eiffel dan gong!",
+    "label": "Cari pasangan: campuran",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "menaraEiffel" },
+        { "t": "art", "k": "gong" },
+        { "t": "art", "k": "komodo" },
+        { "t": "art", "k": "piramida" },
+        { "t": "art", "k": "selendang" },
+        { "t": "art", "k": "owa" }
+      ],
+      "tileSay": ["Menara Eiffel.", "Gong.", "Komodo.", "Piramida.", "Selendang.", "Owa jawa."]
+    },
+    "tags": ["budaya", "campuran"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-43",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan rumah honai dan sampan!",
+    "label": "Cari pasangan: campuran",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "rumahHonai" },
+        { "t": "art", "k": "sampan" },
+        { "t": "art", "k": "tumpeng" },
+        { "t": "art", "k": "selendang" },
+        { "t": "art", "k": "klepon" },
+        { "t": "art", "k": "gajah" }
+      ],
+      "tileSay": [
+        "Rumah honai dari Papua.",
+        "Sampan.",
+        "Nasi tumpeng.",
+        "Selendang.",
+        "Klepon.",
+        "Gajah."
+      ]
+    },
+    "tags": ["budaya", "campuran"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-44",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan rumah honai dan klepon!",
+    "label": "Cari pasangan: campuran",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "rumahHonai" },
+        { "t": "art", "k": "klepon" },
+        { "t": "art", "k": "merak" },
+        { "t": "art", "k": "tembokBesar" },
+        { "t": "art", "k": "kolintang" },
+        { "t": "art", "k": "ondelOndel" }
+      ],
+      "tileSay": [
+        "Rumah honai dari Papua.",
+        "Klepon.",
+        "Merak.",
+        "Tembok Besar Tiongkok.",
+        "Kolintang.",
+        "Ondel-ondel."
+      ]
+    },
+    "tags": ["budaya", "campuran"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-45",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan angklung dan owa jawa!",
+    "label": "Cari pasangan: campuran",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "angklung" },
+        { "t": "art", "k": "owa" },
+        { "t": "art", "k": "pinisi" },
+        { "t": "art", "k": "rumahTongkonan" },
+        { "t": "art", "k": "rumahJoglo" },
+        { "t": "art", "k": "sate" }
+      ],
+      "tileSay": [
+        "Angklung.",
+        "Owa jawa.",
+        "Kapal pinisi.",
+        "Rumah tongkonan dari Sulawesi Selatan.",
+        "Rumah joglo dari Jawa.",
+        "Sate."
+      ]
+    },
+    "tags": ["budaya", "campuran"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-46",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan batik kawung dan blangkon!",
+    "label": "Cari pasangan: campuran",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "blangkon" },
+        { "t": "art", "k": "owa" },
+        { "t": "art", "k": "merak" },
+        { "t": "art", "k": "sasando" },
+        { "t": "art", "k": "monas" }
+      ],
+      "tileSay": ["Batik kawung.", "Blangkon.", "Owa jawa.", "Merak.", "Sasando.", "Monas."]
+    },
+    "tags": ["budaya", "campuran"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-47",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan nasi tumpeng dan blangkon!",
+    "label": "Cari pasangan: campuran",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "tumpeng" },
+        { "t": "art", "k": "blangkon" },
+        { "t": "art", "k": "rumahHonai" },
+        { "t": "art", "k": "becak" },
+        { "t": "art", "k": "kerupuk" },
+        { "t": "art", "k": "sate" }
+      ],
+      "tileSay": [
+        "Nasi tumpeng.",
+        "Blangkon.",
+        "Rumah honai dari Papua.",
+        "Becak.",
+        "Kerupuk.",
+        "Sate."
+      ]
+    },
+    "tags": ["budaya", "campuran"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-48",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan jukung dan merak!",
+    "label": "Cari pasangan: campuran",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "jukung" },
+        { "t": "art", "k": "merak" },
+        { "t": "art", "k": "rumahTongkonan" },
+        { "t": "art", "k": "blangkon" },
+        { "t": "art", "k": "sate" },
+        { "t": "art", "k": "gendang" }
+      ],
+      "tileSay": [
+        "Jukung.",
+        "Merak.",
+        "Rumah tongkonan dari Sulawesi Selatan.",
+        "Blangkon.",
+        "Sate.",
+        "Kendang."
+      ]
+    },
+    "tags": ["budaya", "campuran"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-49",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan kolintang dan batik kawung!",
+    "label": "Cari pasangan: campuran",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "kolintang" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "harimau" },
+        { "t": "art", "k": "blangkon" },
+        { "t": "art", "k": "klepon" },
+        { "t": "art", "k": "rumahHonai" }
+      ],
+      "tileSay": [
+        "Kolintang.",
+        "Batik kawung.",
+        "Harimau.",
+        "Blangkon.",
+        "Klepon.",
+        "Rumah honai dari Papua."
+      ]
+    },
+    "tags": ["budaya", "campuran"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "papan-50",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Cari pasangan canting batik dan selendang!",
+    "label": "Cari pasangan: campuran",
+    "data": {
+      "cards": [
+        { "t": "art", "k": "canting" },
+        { "t": "art", "k": "selendang" },
+        { "t": "art", "k": "menaraEiffel" },
+        { "t": "art", "k": "gajah" },
+        { "t": "art", "k": "tumpeng" },
+        { "t": "art", "k": "rendang" }
+      ],
+      "tileSay": [
+        "Canting batik.",
+        "Selendang.",
+        "Menara Eiffel.",
+        "Gajah.",
+        "Nasi tumpeng.",
+        "Rendang."
+      ]
+    },
+    "tags": ["budaya", "campuran"],
+    "review": "perlu-ditinjau"
+  }
+]

@@ -64,7 +64,7 @@ button {
   color: inherit;
 }
 
-svg {
+:not(svg) > svg {
   display: block;
   width: 100%;
   height: 100%;
@@ -1257,4 +1257,200 @@ textarea {
   height: 1px;
   overflow: hidden;
   clip: rect(0 0 0 0);
+}
+
+/* ---------- Seret-lepas ---------- */
+.dnd {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: clamp(14px, 3vh, 28px);
+  width: 100%;
+}
+.dnd-targets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(10px, 2vmin, 20px);
+  justify-content: center;
+  position: relative;
+}
+.dnd-target {
+  width: clamp(80px, 19vmin, 170px);
+  aspect-ratio: 1;
+  padding: 8px;
+  border: 4px dashed #d9cdb6;
+  border-radius: 22px;
+  background: #fffaf0;
+  cursor: pointer;
+}
+.dnd-target.is-armed {
+  border-color: var(--primary);
+  animation: pulse 1.2s ease-in-out infinite;
+}
+.dnd-target.is-filled {
+  border-style: solid;
+  border-color: var(--ok);
+  background: var(--surface);
+  animation: pop 0.5s ease;
+}
+.dnd-tray {
+  display: flex;
+  flex-wrap: wrap;
+  gap: clamp(10px, 2vmin, 20px);
+  justify-content: center;
+  min-height: clamp(80px, 19vmin, 170px);
+}
+.dnd-piece {
+  width: clamp(80px, 19vmin, 170px);
+  aspect-ratio: 1;
+  padding: 8px;
+  border: 4px solid transparent;
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  cursor: grab;
+  touch-action: none;
+  position: relative;
+  z-index: 1;
+}
+.dnd-piece.is-selected {
+  border-color: var(--primary);
+}
+.dnd-piece.is-dragging {
+  z-index: 5;
+  cursor: grabbing;
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.2);
+  transition: none;
+}
+.dnd-piece.is-shaking {
+  animation: wiggle 0.45s ease;
+}
+/* Puzzle: sasaran berupa kisi rapat */
+.dnd-targets.is-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--cols), 1fr);
+  gap: 2px;
+  width: min(90vw, 52vh, 520px);
+  aspect-ratio: 1;
+  padding: 6px;
+  border-radius: 18px;
+  background: #fffaf0;
+  box-shadow: var(--shadow);
+}
+.dnd-targets.is-grid .dnd-target {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+  padding: 0;
+  border-width: 2px;
+  border-radius: 6px;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+}
+.dnd-targets.is-grid .dnd-target.is-filled {
+  border-color: transparent;
+}
+.dnd-ghost {
+  position: absolute;
+  inset: 6px;
+  opacity: 0.18;
+  pointer-events: none;
+}
+.puzzle .dnd-piece {
+  width: clamp(64px, 14vmin, 120px);
+  padding: 2px;
+}
+
+/* ---------- Campur Warna: laboratorium ---------- */
+.mix-bowl {
+  width: min(70vw, 34vh, 300px);
+}
+.mix-bowl svg {
+  height: auto;
+}
+.mix-paint {
+  transition: fill 0.6s ease;
+}
+.mix-pots {
+  display: flex;
+  gap: clamp(10px, 2vmin, 20px);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mix-pot {
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  width: clamp(80px, 17vmin, 130px);
+  padding: 10px;
+  border: 4px solid transparent;
+  border-radius: 22px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  font-weight: 800;
+  cursor: pointer;
+}
+.mix-pot svg {
+  height: auto;
+  aspect-ratio: 1;
+}
+.mix-pot.is-picked {
+  border-color: var(--primary);
+  transform: translateY(-6px);
+}
+.mix-hint {
+  margin: 0;
+}
+
+/* ---------- Kartu memori ---------- */
+.memory {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: clamp(8px, 2vmin, 16px);
+}
+.memory-6 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.memory-12 {
+  grid-template-columns: repeat(4, 1fr);
+}
+@media (orientation: landscape) {
+  .memory-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .memory-6 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .memory-12 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+.memory-card {
+  width: clamp(72px, 16vmin, 150px);
+  aspect-ratio: 3 / 4;
+  padding: 8px;
+  border: 0;
+  border-radius: 18px;
+  background: repeating-linear-gradient(45deg, #ffb547 0 10px, #ffc76e 10px 20px);
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    background 0.3s;
+}
+.memory-card.is-up {
+  background: var(--surface);
+  transform: rotateY(0deg);
+}
+.memory-card.is-matched {
+  outline: 4px solid var(--ok);
+}
+.memory-face {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.puzzle .dnd-piece {
+  aspect-ratio: var(--pa, 1);
 }

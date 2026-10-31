@@ -1,0 +1,734 @@
+[
+  {
+    "id": "buat-0",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ayo buat warna oranye! Campur dua warna.",
+    "label": "Ayo buat warna oranye! Campur dua warna.",
+    "data": {
+      "mode": "campur",
+      "target": "oranye",
+      "pots": ["merah", "kuning", "biru"],
+      "instr": { "t": "swatch", "c": "oranye" }
+    },
+    "tags": ["warna", "campur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buat-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ayo buat warna hijau! Campur dua warna.",
+    "label": "Ayo buat warna hijau! Campur dua warna.",
+    "data": {
+      "mode": "campur",
+      "target": "hijau",
+      "pots": ["merah", "kuning", "biru"],
+      "instr": { "t": "swatch", "c": "hijau" }
+    },
+    "tags": ["warna", "campur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buat-2",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ayo buat warna ungu! Campur dua warna.",
+    "label": "Ayo buat warna ungu! Campur dua warna.",
+    "data": {
+      "mode": "campur",
+      "target": "ungu",
+      "pots": ["merah", "kuning", "biru"],
+      "instr": { "t": "swatch", "c": "ungu" }
+    },
+    "tags": ["warna", "campur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buat-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ayo buat warna merah muda! Campur dua warna.",
+    "label": "Ayo buat warna merah muda! Campur dua warna.",
+    "data": {
+      "mode": "campur",
+      "target": "merah muda",
+      "pots": ["merah", "putih", "biru"],
+      "instr": { "t": "swatch", "c": "merah muda" }
+    },
+    "tags": ["warna", "campur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buat-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ayo buat warna biru muda! Campur dua warna.",
+    "label": "Ayo buat warna biru muda! Campur dua warna.",
+    "data": {
+      "mode": "campur",
+      "target": "biru muda",
+      "pots": ["biru", "putih", "kuning"],
+      "instr": { "t": "swatch", "c": "biru muda" }
+    },
+    "tags": ["warna", "campur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buat-5",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ayo buat warna abu-abu! Campur dua warna.",
+    "label": "Ayo buat warna abu-abu! Campur dua warna.",
+    "data": {
+      "mode": "campur",
+      "target": "abu-abu",
+      "pots": ["hitam", "putih", "merah"],
+      "instr": { "t": "swatch", "c": "abu-abu" }
+    },
+    "tags": ["warna", "campur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buat-6",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ayo buat warna hijau! Campur dua warna. Ada lebih banyak pilihan.",
+    "label": "Ayo buat warna hijau! Campur dua warna. Ada lebih banyak pilihan.",
+    "data": {
+      "mode": "campur",
+      "target": "hijau",
+      "pots": ["biru", "kuning", "putih", "merah"],
+      "instr": { "t": "swatch", "c": "hijau" }
+    },
+    "tags": ["warna", "campur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buat-7",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ayo buat warna oranye! Campur dua warna. Ada lebih banyak pilihan.",
+    "label": "Ayo buat warna oranye! Campur dua warna. Ada lebih banyak pilihan.",
+    "data": {
+      "mode": "campur",
+      "target": "oranye",
+      "pots": ["kuning", "merah", "putih", "biru"],
+      "instr": { "t": "swatch", "c": "oranye" }
+    },
+    "tags": ["warna", "campur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buat-8",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ayo buat warna ungu! Campur dua warna. Ada lebih banyak pilihan.",
+    "label": "Ayo buat warna ungu! Campur dua warna. Ada lebih banyak pilihan.",
+    "data": {
+      "mode": "campur",
+      "target": "ungu",
+      "pots": ["biru", "merah", "kuning", "putih"],
+      "instr": { "t": "swatch", "c": "ungu" }
+    },
+    "tags": ["warna", "campur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buat-9",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ayo buat warna merah muda! Campur dua warna. Ada lebih banyak pilihan.",
+    "label": "Ayo buat warna merah muda! Campur dua warna. Ada lebih banyak pilihan.",
+    "data": {
+      "mode": "campur",
+      "target": "merah muda",
+      "pots": ["putih", "merah", "kuning", "hitam"],
+      "instr": { "t": "swatch", "c": "merah muda" }
+    },
+    "tags": ["warna", "campur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-0",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Merah dicampur kuning jadi warna apa?",
+    "label": "Merah dicampur kuning jadi warna apa?",
+    "data": {
+      "cue": { "t": "mix", "a": "merah", "b": "kuning" },
+      "options": [
+        { "t": "swatch", "c": "oranye" },
+        { "t": "swatch", "c": "hijau" },
+        { "t": "swatch", "c": "ungu" },
+        { "t": "swatch", "c": "biru" }
+      ],
+      "labels": ["oranye", "hijau", "ungu", "biru"],
+      "speakAlso": ["Merah dan kuning jadi oranye!"]
+    },
+    "tags": ["warna", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Kuning dicampur biru jadi warna apa?",
+    "label": "Kuning dicampur biru jadi warna apa?",
+    "data": {
+      "cue": { "t": "mix", "a": "kuning", "b": "biru" },
+      "options": [
+        { "t": "swatch", "c": "hijau" },
+        { "t": "swatch", "c": "oranye" },
+        { "t": "swatch", "c": "merah" },
+        { "t": "swatch", "c": "ungu" }
+      ],
+      "labels": ["hijau", "oranye", "merah", "ungu"],
+      "speakAlso": ["Kuning dan biru jadi hijau!"]
+    },
+    "tags": ["warna", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-2",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Merah dicampur biru jadi warna apa?",
+    "label": "Merah dicampur biru jadi warna apa?",
+    "data": {
+      "cue": { "t": "mix", "a": "merah", "b": "biru" },
+      "options": [
+        { "t": "swatch", "c": "ungu" },
+        { "t": "swatch", "c": "hijau" },
+        { "t": "swatch", "c": "oranye" },
+        { "t": "swatch", "c": "kuning" }
+      ],
+      "labels": ["ungu", "hijau", "oranye", "kuning"],
+      "speakAlso": ["Merah dan biru jadi ungu!"]
+    },
+    "tags": ["warna", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Merah dicampur putih jadi warna apa?",
+    "label": "Merah dicampur putih jadi warna apa?",
+    "data": {
+      "cue": { "t": "mix", "a": "merah", "b": "putih" },
+      "options": [
+        { "t": "swatch", "c": "merah muda" },
+        { "t": "swatch", "c": "hijau" },
+        { "t": "swatch", "c": "biru" },
+        { "t": "swatch", "c": "ungu" }
+      ],
+      "labels": ["merah muda", "hijau", "biru", "ungu"],
+      "speakAlso": ["Merah dan putih jadi merah muda!"]
+    },
+    "tags": ["warna", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Biru dicampur putih jadi warna apa?",
+    "label": "Biru dicampur putih jadi warna apa?",
+    "data": {
+      "cue": { "t": "mix", "a": "biru", "b": "putih" },
+      "options": [
+        { "t": "swatch", "c": "biru muda" },
+        { "t": "swatch", "c": "merah" },
+        { "t": "swatch", "c": "oranye" },
+        { "t": "swatch", "c": "hijau" }
+      ],
+      "labels": ["biru muda", "merah", "oranye", "hijau"],
+      "speakAlso": ["Biru dan putih jadi biru muda!"]
+    },
+    "tags": ["warna", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-5",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Hitam dicampur putih jadi warna apa?",
+    "label": "Hitam dicampur putih jadi warna apa?",
+    "data": {
+      "cue": { "t": "mix", "a": "hitam", "b": "putih" },
+      "options": [
+        { "t": "swatch", "c": "abu-abu" },
+        { "t": "swatch", "c": "kuning" },
+        { "t": "swatch", "c": "merah muda" },
+        { "t": "swatch", "c": "hijau" }
+      ],
+      "labels": ["abu-abu", "kuning", "merah muda", "hijau"],
+      "speakAlso": ["Hitam dan putih jadi abu-abu!"]
+    },
+    "tags": ["warna", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-6",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kuning dicampur merah jadi warna apa?",
+    "label": "Kuning dicampur merah jadi warna apa?",
+    "data": {
+      "cue": { "t": "mix", "a": "kuning", "b": "merah" },
+      "options": [
+        { "t": "swatch", "c": "oranye" },
+        { "t": "swatch", "c": "ungu" },
+        { "t": "swatch", "c": "biru" },
+        { "t": "swatch", "c": "hijau" }
+      ],
+      "labels": ["oranye", "ungu", "biru", "hijau"],
+      "speakAlso": ["Kuning dan merah jadi oranye!"]
+    },
+    "tags": ["warna", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-7",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Biru dicampur kuning jadi warna apa?",
+    "label": "Biru dicampur kuning jadi warna apa?",
+    "data": {
+      "cue": { "t": "mix", "a": "biru", "b": "kuning" },
+      "options": [
+        { "t": "swatch", "c": "hijau" },
+        { "t": "swatch", "c": "merah" },
+        { "t": "swatch", "c": "ungu" },
+        { "t": "swatch", "c": "oranye" }
+      ],
+      "labels": ["hijau", "merah", "ungu", "oranye"],
+      "speakAlso": ["Biru dan kuning jadi hijau!"]
+    },
+    "tags": ["warna", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-8",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Biru dicampur merah jadi warna apa?",
+    "label": "Biru dicampur merah jadi warna apa?",
+    "data": {
+      "cue": { "t": "mix", "a": "biru", "b": "merah" },
+      "options": [
+        { "t": "swatch", "c": "ungu" },
+        { "t": "swatch", "c": "kuning" },
+        { "t": "swatch", "c": "hijau" },
+        { "t": "swatch", "c": "oranye" }
+      ],
+      "labels": ["ungu", "kuning", "hijau", "oranye"],
+      "speakAlso": ["Biru dan merah jadi ungu!"]
+    },
+    "tags": ["warna", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-9",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Putih dicampur merah jadi warna apa?",
+    "label": "Putih dicampur merah jadi warna apa?",
+    "data": {
+      "cue": { "t": "mix", "a": "putih", "b": "merah" },
+      "options": [
+        { "t": "swatch", "c": "merah muda" },
+        { "t": "swatch", "c": "biru muda" },
+        { "t": "swatch", "c": "ungu" },
+        { "t": "swatch", "c": "oranye" }
+      ],
+      "labels": ["merah muda", "biru muda", "ungu", "oranye"],
+      "speakAlso": ["Putih dan merah jadi merah muda!"]
+    },
+    "tags": ["warna", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "terang-0",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana warna yang lebih terang, biru muda atau biru?",
+    "label": "Mana warna yang lebih terang, biru muda atau biru?",
+    "data": {
+      "options": [
+        { "t": "swatch", "c": "biru muda" },
+        { "t": "swatch", "c": "biru" }
+      ],
+      "labels": ["biru muda", "biru"],
+      "speakAlso": ["Biru muda lebih terang."]
+    },
+    "tags": ["warna", "terang-gelap"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "terang-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana warna yang lebih terang, merah muda atau merah?",
+    "label": "Mana warna yang lebih terang, merah muda atau merah?",
+    "data": {
+      "options": [
+        { "t": "swatch", "c": "merah muda" },
+        { "t": "swatch", "c": "merah" }
+      ],
+      "labels": ["merah muda", "merah"],
+      "speakAlso": ["Merah muda lebih terang."]
+    },
+    "tags": ["warna", "terang-gelap"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "terang-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana warna yang lebih terang, abu-abu atau hitam?",
+    "label": "Mana warna yang lebih terang, abu-abu atau hitam?",
+    "data": {
+      "options": [
+        { "t": "swatch", "c": "abu-abu" },
+        { "t": "swatch", "c": "hitam" }
+      ],
+      "labels": ["abu-abu", "hitam"],
+      "speakAlso": ["Abu-abu lebih terang."]
+    },
+    "tags": ["warna", "terang-gelap"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "gelap-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana warna yang lebih gelap, biru atau biru muda?",
+    "label": "Mana warna yang lebih gelap, biru atau biru muda?",
+    "data": {
+      "options": [
+        { "t": "swatch", "c": "biru" },
+        { "t": "swatch", "c": "biru muda" }
+      ],
+      "labels": ["biru", "biru muda"],
+      "speakAlso": ["Biru lebih gelap."]
+    },
+    "tags": ["warna", "terang-gelap"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "gelap-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana warna yang lebih gelap, hitam atau abu-abu?",
+    "label": "Mana warna yang lebih gelap, hitam atau abu-abu?",
+    "data": {
+      "options": [
+        { "t": "swatch", "c": "hitam" },
+        { "t": "swatch", "c": "abu-abu" }
+      ],
+      "labels": ["hitam", "abu-abu"],
+      "speakAlso": ["Hitam lebih gelap."]
+    },
+    "tags": ["warna", "terang-gelap"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "gelap-5",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana warna yang lebih gelap, merah atau merah muda?",
+    "label": "Mana warna yang lebih gelap, merah atau merah muda?",
+    "data": {
+      "options": [
+        { "t": "swatch", "c": "merah" },
+        { "t": "swatch", "c": "merah muda" }
+      ],
+      "labels": ["merah", "merah muda"],
+      "speakAlso": ["Merah lebih gelap."]
+    },
+    "tags": ["warna", "terang-gelap"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alam-0",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa warna daun?",
+    "label": "Apa warna daun?",
+    "data": {
+      "cue": { "t": "art", "k": "daun" },
+      "options": [
+        { "t": "swatch", "c": "hijau" },
+        { "t": "swatch", "c": "ungu" },
+        { "t": "swatch", "c": "biru" },
+        { "t": "swatch", "c": "merah" }
+      ],
+      "labels": ["hijau", "ungu", "biru", "merah"],
+      "speakAlso": ["Warna daun hijau."]
+    },
+    "tags": ["warna", "alam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alam-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa warna pisang matang?",
+    "label": "Apa warna pisang matang?",
+    "data": {
+      "cue": { "t": "art", "k": "pisang" },
+      "options": [
+        { "t": "swatch", "c": "kuning" },
+        { "t": "swatch", "c": "biru" },
+        { "t": "swatch", "c": "ungu" },
+        { "t": "swatch", "c": "hitam" }
+      ],
+      "labels": ["kuning", "biru", "ungu", "hitam"],
+      "speakAlso": ["Warna pisang matang kuning."]
+    },
+    "tags": ["warna", "alam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alam-2",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa warna tomat?",
+    "label": "Apa warna tomat?",
+    "data": {
+      "cue": { "t": "art", "k": "tomat" },
+      "options": [
+        { "t": "swatch", "c": "merah" },
+        { "t": "swatch", "c": "biru" },
+        { "t": "swatch", "c": "hijau" },
+        { "t": "swatch", "c": "ungu" }
+      ],
+      "labels": ["merah", "biru", "hijau", "ungu"],
+      "speakAlso": ["Warna tomat merah."]
+    },
+    "tags": ["warna", "alam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alam-3",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa warna wortel?",
+    "label": "Apa warna wortel?",
+    "data": {
+      "cue": { "t": "art", "k": "wortel" },
+      "options": [
+        { "t": "swatch", "c": "oranye" },
+        { "t": "swatch", "c": "biru" },
+        { "t": "swatch", "c": "ungu" },
+        { "t": "swatch", "c": "hijau" }
+      ],
+      "labels": ["oranye", "biru", "ungu", "hijau"],
+      "speakAlso": ["Warna wortel oranye."]
+    },
+    "tags": ["warna", "alam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alam-4",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa warna anggur ini?",
+    "label": "Apa warna anggur ini?",
+    "data": {
+      "cue": { "t": "art", "k": "anggur" },
+      "options": [
+        { "t": "swatch", "c": "ungu" },
+        { "t": "swatch", "c": "kuning" },
+        { "t": "swatch", "c": "oranye" },
+        { "t": "swatch", "c": "hijau" }
+      ],
+      "labels": ["ungu", "kuning", "oranye", "hijau"],
+      "speakAlso": ["Warna anggur ini ungu."]
+    },
+    "tags": ["warna", "alam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alam-5",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa warna matahari?",
+    "label": "Apa warna matahari?",
+    "data": {
+      "cue": { "t": "art", "k": "matahari" },
+      "options": [
+        { "t": "swatch", "c": "kuning" },
+        { "t": "swatch", "c": "biru" },
+        { "t": "swatch", "c": "hijau" },
+        { "t": "swatch", "c": "ungu" }
+      ],
+      "labels": ["kuning", "biru", "hijau", "ungu"],
+      "speakAlso": ["Warna matahari kuning."]
+    },
+    "tags": ["warna", "alam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alam-6",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Apa warna awan?",
+    "label": "Apa warna awan?",
+    "data": {
+      "cue": { "t": "art", "k": "awan" },
+      "options": [
+        { "t": "swatch", "c": "putih" },
+        { "t": "swatch", "c": "merah" },
+        { "t": "swatch", "c": "hijau" },
+        { "t": "swatch", "c": "oranye" }
+      ],
+      "labels": ["putih", "merah", "hijau", "oranye"],
+      "speakAlso": ["Warna awan putih."]
+    },
+    "tags": ["warna", "alam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alam-7",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Apa warna batu?",
+    "label": "Apa warna batu?",
+    "data": {
+      "cue": { "t": "art", "k": "batu" },
+      "options": [
+        { "t": "swatch", "c": "abu-abu" },
+        { "t": "swatch", "c": "merah muda" },
+        { "t": "swatch", "c": "kuning" },
+        { "t": "swatch", "c": "hijau" }
+      ],
+      "labels": ["abu-abu", "merah muda", "kuning", "hijau"],
+      "speakAlso": ["Warna batu abu-abu."]
+    },
+    "tags": ["warna", "alam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alam-8",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Apa warna batang pohon?",
+    "label": "Apa warna batang pohon?",
+    "data": {
+      "cue": { "t": "art", "k": "pohon" },
+      "options": [
+        { "t": "swatch", "c": "cokelat" },
+        { "t": "swatch", "c": "biru" },
+        { "t": "swatch", "c": "merah muda" },
+        { "t": "swatch", "c": "ungu" }
+      ],
+      "labels": ["cokelat", "biru", "merah muda", "ungu"],
+      "speakAlso": ["Warna batang pohon cokelat."]
+    },
+    "tags": ["warna", "alam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alam-9",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Apa warna jeruk?",
+    "label": "Apa warna jeruk?",
+    "data": {
+      "cue": { "t": "art", "k": "jeruk" },
+      "options": [
+        { "t": "swatch", "c": "oranye" },
+        { "t": "swatch", "c": "ungu" },
+        { "t": "swatch", "c": "biru" },
+        { "t": "swatch", "c": "merah muda" }
+      ],
+      "labels": ["oranye", "ungu", "biru", "merah muda"],
+      "speakAlso": ["Warna jeruk oranye."]
+    },
+    "tags": ["warna", "alam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alam-10",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Apa warna air laut?",
+    "label": "Apa warna air laut?",
+    "data": {
+      "cue": { "t": "art", "k": "tetesAir" },
+      "options": [
+        { "t": "swatch", "c": "biru" },
+        { "t": "swatch", "c": "merah" },
+        { "t": "swatch", "c": "cokelat" },
+        { "t": "swatch", "c": "kuning" }
+      ],
+      "labels": ["biru", "merah", "cokelat", "kuning"],
+      "speakAlso": ["Warna air laut biru."]
+    },
+    "tags": ["warna", "alam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alam-11",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Apa warna stroberi?",
+    "label": "Apa warna stroberi?",
+    "data": {
+      "cue": { "t": "art", "k": "stroberi" },
+      "options": [
+        { "t": "swatch", "c": "merah" },
+        { "t": "swatch", "c": "biru" },
+        { "t": "swatch", "c": "hijau" },
+        { "t": "swatch", "c": "ungu" }
+      ],
+      "labels": ["merah", "biru", "hijau", "ungu"],
+      "speakAlso": ["Warna stroberi merah."]
+    },
+    "tags": ["warna", "alam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alam-12",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Apa warna cokelat batangan?",
+    "label": "Apa warna cokelat batangan?",
+    "data": {
+      "cue": { "t": "art", "k": "cokelat" },
+      "options": [
+        { "t": "swatch", "c": "cokelat" },
+        { "t": "swatch", "c": "biru" },
+        { "t": "swatch", "c": "hijau" },
+        { "t": "swatch", "c": "merah muda" }
+      ],
+      "labels": ["cokelat", "biru", "hijau", "merah muda"],
+      "speakAlso": ["Warna cokelat batangan cokelat."]
+    },
+    "tags": ["warna", "alam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alam-13",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Apa warna kulit semangka?",
+    "label": "Apa warna kulit semangka?",
+    "data": {
+      "cue": { "t": "art", "k": "semangka" },
+      "options": [
+        { "t": "swatch", "c": "hijau" },
+        { "t": "swatch", "c": "merah" },
+        { "t": "swatch", "c": "kuning" },
+        { "t": "swatch", "c": "ungu" }
+      ],
+      "labels": ["hijau", "merah", "kuning", "ungu"],
+      "speakAlso": ["Warna kulit semangka hijau."]
+    },
+    "tags": ["warna", "alam"],
+    "review": "ditinjau"
+  }
+]
