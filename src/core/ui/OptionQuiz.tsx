@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useMemo } from 'react';
 import { playEffect, sfx as sounds, speak, speakSequence } from '../audio';
 import { ENGINE_CONFIG, shuffle } from '../engine';
-import { Visual, visualLabel } from '../visual/Visual';
-import type { Visual as VisualSpec } from '../visual/types';
+import { Visual } from '../visual/Visual';
+import { visualLabel, type Visual as VisualSpec } from '../visual/types';
 import type { RoundProps } from '../../types';
 import { ChoiceGrid } from './ChoiceGrid';
 import { InstructionBar } from './InstructionBar';

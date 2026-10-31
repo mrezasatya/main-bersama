@@ -4,7 +4,6 @@ import { FlagArt } from '../art/Flag';
 import { Art } from '../art/registry';
 import type { ArtKey } from '../art/keys';
 import type { Emotion, SceneKey, ShapeKey, Visual } from './types';
-import { visualLabel } from './types';
 
 /** Renderer visual deklaratif. Selalu SVG persegi agar seragam di kartu pilihan. */
 
@@ -1019,5 +1018,3 @@ function render(v: Visual): React.ReactNode {
 export function Visual({ v }: { v: Visual }) {
   return <Fragment>{render(v)}</Fragment>;
 }
-
-export { visualLabel };

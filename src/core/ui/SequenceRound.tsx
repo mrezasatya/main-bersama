@@ -1,8 +1,8 @@
 import { useMemo, useState } from 'react';
 import { sfx, speak } from '../audio';
 import { shuffle } from '../engine';
-import { Visual, visualLabel } from '../visual/Visual';
-import type { Visual as VisualSpec } from '../visual/types';
+import { Visual } from '../visual/Visual';
+import { visualLabel, type Visual as VisualSpec } from '../visual/types';
 import type { RoundProps } from '../../types';
 import { InstructionBar } from './InstructionBar';
 import { feedback } from './feedback';
