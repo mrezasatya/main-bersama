@@ -1,0 +1,716 @@
+[
+  {
+    "id": "mana-0",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana biji?",
+    "label": "Mana biji?",
+    "data": {
+      "options": [
+        { "t": "plant", "stage": 0 },
+        { "t": "plant", "stage": 2 },
+        { "t": "plant", "stage": 4 },
+        { "t": "plant", "stage": 1 }
+      ],
+      "labels": ["biji", "tanaman muda", "tanaman berbuah", "kecambah"],
+      "speakAlso": ["Ini biji."]
+    },
+    "tags": ["berkebun", "tahap"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "mana-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana kecambah?",
+    "label": "Mana kecambah?",
+    "data": {
+      "options": [
+        { "t": "plant", "stage": 1 },
+        { "t": "plant", "stage": 3 },
+        { "t": "plant", "stage": 0 },
+        { "t": "plant", "stage": 2 }
+      ],
+      "labels": ["kecambah", "tanaman berbunga", "biji", "tanaman muda"],
+      "speakAlso": ["Ini kecambah."]
+    },
+    "tags": ["berkebun", "tahap"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "mana-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Mana tanaman muda?",
+    "label": "Mana tanaman muda?",
+    "data": {
+      "options": [
+        { "t": "plant", "stage": 2 },
+        { "t": "plant", "stage": 4 },
+        { "t": "plant", "stage": 1 },
+        { "t": "plant", "stage": 3 }
+      ],
+      "labels": ["tanaman muda", "tanaman berbuah", "kecambah", "tanaman berbunga"],
+      "speakAlso": ["Ini tanaman muda."]
+    },
+    "tags": ["berkebun", "tahap"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "mana-3",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Mana tanaman berbunga?",
+    "label": "Mana tanaman berbunga?",
+    "data": {
+      "options": [
+        { "t": "plant", "stage": 3 },
+        { "t": "plant", "stage": 0 },
+        { "t": "plant", "stage": 2 },
+        { "t": "plant", "stage": 4 }
+      ],
+      "labels": ["tanaman berbunga", "biji", "tanaman muda", "tanaman berbuah"],
+      "speakAlso": ["Ini tanaman berbunga."]
+    },
+    "tags": ["berkebun", "tahap"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "mana-4",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana tanaman berbuah?",
+    "label": "Mana tanaman berbuah?",
+    "data": {
+      "options": [
+        { "t": "plant", "stage": 4 },
+        { "t": "plant", "stage": 1 },
+        { "t": "plant", "stage": 3 },
+        { "t": "plant", "stage": 0 }
+      ],
+      "labels": ["tanaman berbuah", "kecambah", "tanaman berbunga", "biji"],
+      "speakAlso": ["Ini tanaman berbuah."]
+    },
+    "tags": ["berkebun", "tahap"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-0",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Sesudah biji, tanaman tumbuh menjadi apa?",
+    "label": "Sesudah biji, tanaman tumbuh menjadi apa?",
+    "data": {
+      "cue": { "t": "plant", "stage": 0 },
+      "options": [
+        { "t": "plant", "stage": 1 },
+        { "t": "plant", "stage": 3 },
+        { "t": "plant", "stage": 4 }
+      ],
+      "speakAlso": ["Sesudah biji, tumbuh menjadi kecambah."]
+    },
+    "tags": ["berkebun", "tahap"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Sesudah kecambah, tanaman tumbuh menjadi apa?",
+    "label": "Sesudah kecambah, tanaman tumbuh menjadi apa?",
+    "data": {
+      "cue": { "t": "plant", "stage": 1 },
+      "options": [
+        { "t": "plant", "stage": 2 },
+        { "t": "plant", "stage": 4 },
+        { "t": "plant", "stage": 0 }
+      ],
+      "speakAlso": ["Sesudah kecambah, tumbuh menjadi tanaman muda."]
+    },
+    "tags": ["berkebun", "tahap"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Sesudah tanaman muda, tanaman tumbuh menjadi apa?",
+    "label": "Sesudah tanaman muda, tanaman tumbuh menjadi apa?",
+    "data": {
+      "cue": { "t": "plant", "stage": 2 },
+      "options": [
+        { "t": "plant", "stage": 3 },
+        { "t": "plant", "stage": 0 },
+        { "t": "plant", "stage": 0 }
+      ],
+      "speakAlso": ["Sesudah tanaman muda, tumbuh menjadi tanaman berbunga."]
+    },
+    "tags": ["berkebun", "tahap"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Sesudah tanaman berbunga, tanaman tumbuh menjadi apa?",
+    "label": "Sesudah tanaman berbunga, tanaman tumbuh menjadi apa?",
+    "data": {
+      "cue": { "t": "plant", "stage": 3 },
+      "options": [
+        { "t": "plant", "stage": 4 },
+        { "t": "plant", "stage": 1 },
+        { "t": "plant", "stage": 0 }
+      ],
+      "speakAlso": ["Sesudah tanaman berbunga, tumbuh menjadi tanaman berbuah."]
+    },
+    "tags": ["berkebun", "tahap"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "urutkan-0",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 3,
+    "speak": "Urutkan tanaman dari biji sampai tanaman muda.",
+    "label": "Urutkan dari biji sampai tanaman muda",
+    "data": {
+      "mode": "urut",
+      "tiles": [
+        { "t": "plant", "stage": 0 },
+        { "t": "plant", "stage": 1 },
+        { "t": "plant", "stage": 2 }
+      ],
+      "speakAlso": ["Tanaman tumbuh sedikit demi sedikit."]
+    },
+    "tags": ["berkebun", "urutan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "urutkan-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Urutkan tanaman dari biji sampai tanaman berbunga.",
+    "label": "Urutkan dari biji sampai tanaman berbunga",
+    "data": {
+      "mode": "urut",
+      "tiles": [
+        { "t": "plant", "stage": 0 },
+        { "t": "plant", "stage": 1 },
+        { "t": "plant", "stage": 2 },
+        { "t": "plant", "stage": 3 }
+      ],
+      "speakAlso": ["Tanaman tumbuh sedikit demi sedikit."]
+    },
+    "tags": ["berkebun", "urutan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "urutkan-2",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Urutkan tanaman dari biji sampai tanaman berbuah.",
+    "label": "Urutkan dari biji sampai tanaman berbuah",
+    "data": {
+      "mode": "urut",
+      "tiles": [
+        { "t": "plant", "stage": 0 },
+        { "t": "plant", "stage": 1 },
+        { "t": "plant", "stage": 2 },
+        { "t": "plant", "stage": 3 },
+        { "t": "plant", "stage": 4 }
+      ],
+      "speakAlso": ["Tanaman tumbuh sedikit demi sedikit."]
+    },
+    "tags": ["berkebun", "urutan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "urutkan-3",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 3,
+    "speak": "Urutkan tanaman dari tanaman muda sampai tanaman berbuah.",
+    "label": "Urutkan dari tanaman muda sampai tanaman berbuah",
+    "data": {
+      "mode": "urut",
+      "tiles": [
+        { "t": "plant", "stage": 2 },
+        { "t": "plant", "stage": 3 },
+        { "t": "plant", "stage": 4 }
+      ],
+      "speakAlso": ["Tanaman tumbuh sedikit demi sedikit."]
+    },
+    "tags": ["berkebun", "urutan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "butuh-0",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Tanaman perlu minum apa?",
+    "label": "Tanaman perlu minum apa?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "tetesAir" },
+        { "t": "art", "k": "susu" },
+        { "t": "art", "k": "permen" },
+        { "t": "art", "k": "esKrim" }
+      ],
+      "speakAlso": ["Tanaman perlu air."]
+    },
+    "tags": ["berkebun", "kebutuhan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "butuh-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Tanaman perlu cahaya dari mana?",
+    "label": "Tanaman perlu cahaya dari mana?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "matahari" },
+        { "t": "art", "k": "televisi" },
+        { "t": "art", "k": "senter" },
+        { "t": "art", "k": "lonceng" }
+      ],
+      "speakAlso": ["Tanaman perlu sinar matahari."]
+    },
+    "tags": ["berkebun", "kebutuhan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "butuh-2",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Biji ditanam di mana?",
+    "label": "Biji ditanam di mana?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "pot" },
+        { "t": "art", "k": "piring" },
+        { "t": "art", "k": "tasSekolah" },
+        { "t": "art", "k": "meja" }
+      ],
+      "speakAlso": ["Biji ditanam di tanah, misalnya di pot."]
+    },
+    "tags": ["berkebun", "kebutuhan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "butuh-3",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Apa yang membuat tanaman tetap segar?",
+    "label": "Apa yang membuat tanaman tetap segar?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "tetesAir" },
+        { "t": "art", "k": "batu" },
+        { "t": "art", "k": "kertas" },
+        { "t": "art", "k": "mainanRusak" }
+      ],
+      "speakAlso": ["Air membuat tanaman segar."]
+    },
+    "tags": ["berkebun", "kebutuhan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "butuh-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Daunnya layu. Tanaman butuh apa?",
+    "label": "Daunnya layu. Tanaman butuh apa?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "tetesAir" },
+        { "t": "art", "k": "permen" },
+        { "t": "art", "k": "yoyo" },
+        { "t": "art", "k": "kertas" }
+      ],
+      "speakAlso": ["Daun layu tandanya tanaman kehausan."]
+    },
+    "tags": ["berkebun", "kebutuhan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "butuh-5",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Tanaman di dalam kamar gelap jadi pucat. Ia butuh apa?",
+    "label": "Tanaman di dalam kamar gelap jadi pucat. Ia butuh apa?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "matahari" },
+        { "t": "art", "k": "bantal" },
+        { "t": "art", "k": "tempatTidur" },
+        { "t": "art", "k": "buku" }
+      ],
+      "speakAlso": ["Tanaman butuh cahaya matahari."]
+    },
+    "tags": ["berkebun", "kebutuhan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alat-0",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Alat untuk menyiram tanaman?",
+    "label": "Alat untuk menyiram tanaman?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "penyiram" },
+        { "t": "art", "k": "gunting" },
+        { "t": "art", "k": "piring" },
+        { "t": "art", "k": "buku" }
+      ],
+      "speakAlso": ["Penyiram untuk menyiram tanaman."]
+    },
+    "tags": ["berkebun", "merawat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alat-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Alat untuk menggali tanah?",
+    "label": "Alat untuk menggali tanah?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "sekop" },
+        { "t": "art", "k": "sikatGigi" },
+        { "t": "art", "k": "piring" },
+        { "t": "art", "k": "yoyo" }
+      ],
+      "speakAlso": ["Sekop untuk menggali tanah."]
+    },
+    "tags": ["berkebun", "merawat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alat-2",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Wadah untuk menanam bunga?",
+    "label": "Wadah untuk menanam bunga?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "pot" },
+        { "t": "art", "k": "piring" },
+        { "t": "art", "k": "tasSekolah" },
+        { "t": "art", "k": "meja" }
+      ],
+      "speakAlso": ["Pot untuk menanam bunga."]
+    },
+    "tags": ["berkebun", "merawat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alat-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Alat petani untuk mencangkul sawah?",
+    "label": "Alat petani untuk mencangkul sawah?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "cangkul" },
+        { "t": "art", "k": "gitar" },
+        { "t": "art", "k": "mikrofon" },
+        { "t": "art", "k": "kamera" }
+      ],
+      "speakAlso": ["Cangkul untuk menggemburkan tanah."]
+    },
+    "tags": ["berkebun", "merawat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alat-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Daun ini layu. Apa yang kita pakai?",
+    "label": "Daun ini layu. Apa yang kita pakai?",
+    "data": {
+      "cue": { "t": "art", "k": "daunLayu" },
+      "options": [
+        { "t": "art", "k": "penyiram" },
+        { "t": "art", "k": "sapu" },
+        { "t": "art", "k": "gunting" },
+        { "t": "art", "k": "buku" }
+      ],
+      "speakAlso": ["Kita siram dengan penyiram."]
+    },
+    "tags": ["berkebun", "merawat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "alat-5",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Hewan apa yang membantu bunga berbuah?",
+    "label": "Hewan apa yang membantu bunga berbuah?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "lebah" },
+        { "t": "art", "k": "tikus" },
+        { "t": "art", "k": "nyamuk" },
+        { "t": "art", "k": "cicak" }
+      ],
+      "speakAlso": ["Lebah membantu penyerbukan bunga."]
+    },
+    "tags": ["berkebun", "merawat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-0",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Mana sayuran berwarna oranye yang tumbuh di dalam tanah?",
+    "label": "Mana sayuran berwarna oranye yang tumbuh di dalam tanah?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "wortel" },
+        { "t": "art", "k": "tomat" },
+        { "t": "art", "k": "jagung" },
+        { "t": "art", "k": "apel" }
+      ]
+    },
+    "tags": ["berkebun", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana buah merah yang bisa dijadikan sambal?",
+    "label": "Mana buah merah yang bisa dijadikan sambal?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "tomat" },
+        { "t": "art", "k": "wortel" },
+        { "t": "art", "k": "pisang" },
+        { "t": "art", "k": "anggur" }
+      ]
+    },
+    "tags": ["berkebun", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Mana jagung?",
+    "label": "Mana jagung?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "jagung" },
+        { "t": "art", "k": "wortel" },
+        { "t": "art", "k": "nanas" },
+        { "t": "art", "k": "tomat" }
+      ]
+    },
+    "tags": ["berkebun", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-3",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana buah yang berduri dan berbau tajam?",
+    "label": "Mana buah yang berduri dan berbau tajam?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "durian" },
+        { "t": "art", "k": "apel" },
+        { "t": "art", "k": "pisang" },
+        { "t": "art", "k": "jeruk" }
+      ]
+    },
+    "tags": ["berkebun", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-4",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana buah yang kulitnya berambut?",
+    "label": "Mana buah yang kulitnya berambut?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "rambutan" },
+        { "t": "art", "k": "apel" },
+        { "t": "art", "k": "jeruk" },
+        { "t": "art", "k": "mangga" }
+      ]
+    },
+    "tags": ["berkebun", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-5",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana buah semangka?",
+    "label": "Mana buah semangka?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "semangka" },
+        { "t": "art", "k": "nanas" },
+        { "t": "art", "k": "apel" },
+        { "t": "art", "k": "anggur" }
+      ]
+    },
+    "tags": ["berkebun", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-6",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana buah anggur?",
+    "label": "Mana buah anggur?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "anggur" },
+        { "t": "art", "k": "stroberi" },
+        { "t": "art", "k": "jeruk" },
+        { "t": "art", "k": "pisang" }
+      ]
+    },
+    "tags": ["berkebun", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-7",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana buah stroberi?",
+    "label": "Mana buah stroberi?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "stroberi" },
+        { "t": "art", "k": "anggur" },
+        { "t": "art", "k": "tomat" },
+        { "t": "art", "k": "apel" }
+      ]
+    },
+    "tags": ["berkebun", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-8",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana buah mangga?",
+    "label": "Mana buah mangga?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "mangga" },
+        { "t": "art", "k": "apel" },
+        { "t": "art", "k": "pisang" },
+        { "t": "art", "k": "nanas" }
+      ]
+    },
+    "tags": ["berkebun", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-9",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana buah nanas?",
+    "label": "Mana buah nanas?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "nanas" },
+        { "t": "art", "k": "jagung" },
+        { "t": "art", "k": "durian" },
+        { "t": "art", "k": "jeruk" }
+      ]
+    },
+    "tags": ["berkebun", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-10",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana sayur yang bisa dimasak menjadi sup jagung?",
+    "label": "Mana sayur yang bisa dimasak menjadi sup jagung?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "jagung" },
+        { "t": "art", "k": "durian" },
+        { "t": "art", "k": "stroberi" },
+        { "t": "art", "k": "anggur" }
+      ]
+    },
+    "tags": ["berkebun", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-11",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana buah yang tumbuh dari bunga di pohon jeruk?",
+    "label": "Mana buah yang tumbuh dari bunga di pohon jeruk?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "jeruk" },
+        { "t": "art", "k": "apel" },
+        { "t": "art", "k": "tomat" },
+        { "t": "art", "k": "wortel" }
+      ]
+    },
+    "tags": ["berkebun", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-12",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana buah apel?",
+    "label": "Mana buah apel?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "apel" },
+        { "t": "art", "k": "tomat" },
+        { "t": "art", "k": "jeruk" },
+        { "t": "art", "k": "rambutan" }
+      ]
+    },
+    "tags": ["berkebun", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-13",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana buah pisang?",
+    "label": "Mana buah pisang?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "pisang" },
+        { "t": "art", "k": "jagung" },
+        { "t": "art", "k": "mangga" },
+        { "t": "art", "k": "wortel" }
+      ]
+    },
+    "tags": ["berkebun", "hasil"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hasil-14",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana padi, tanaman yang menghasilkan beras?",
+    "label": "Mana padi, tanaman yang menghasilkan beras?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "padi" },
+        { "t": "art", "k": "gandum" },
+        { "t": "art", "k": "tebu" },
+        { "t": "art", "k": "jagung" }
+      ]
+    },
+    "tags": ["berkebun", "hasil"],
+    "review": "ditinjau"
+  }
+]

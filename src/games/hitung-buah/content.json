@@ -1,0 +1,1065 @@
+[
+  {
+    "id": "cocok-apel-1",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana yang sama banyak dengan apel ini?",
+    "label": "Mana yang sama banyak dengan apel ini?",
+    "data": {
+      "countable": { "t": "group", "k": "apel", "n": 1 },
+      "options": [
+        { "t": "group", "k": "apel", "n": 1 },
+        { "t": "group", "k": "apel", "n": 4 },
+        { "t": "group", "k": "apel", "n": 2 },
+        { "t": "group", "k": "apel", "n": 3 }
+      ],
+      "speakAlso": ["Sama banyak: satu!"]
+    },
+    "tags": ["hitung", "cocok"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cocok-jeruk-2",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana yang sama banyak dengan jeruk ini?",
+    "label": "Mana yang sama banyak dengan jeruk ini?",
+    "data": {
+      "countable": { "t": "group", "k": "jeruk", "n": 2 },
+      "options": [
+        { "t": "group", "k": "jeruk", "n": 2 },
+        { "t": "group", "k": "jeruk", "n": 5 },
+        { "t": "group", "k": "jeruk", "n": 3 },
+        { "t": "group", "k": "jeruk", "n": 1 }
+      ],
+      "speakAlso": ["Sama banyak: dua!"]
+    },
+    "tags": ["hitung", "cocok"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cocok-pisang-3",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana yang sama banyak dengan pisang ini?",
+    "label": "Mana yang sama banyak dengan pisang ini?",
+    "data": {
+      "countable": { "t": "group", "k": "pisang", "n": 3 },
+      "options": [
+        { "t": "group", "k": "pisang", "n": 3 },
+        { "t": "group", "k": "pisang", "n": 6 },
+        { "t": "group", "k": "pisang", "n": 1 },
+        { "t": "group", "k": "pisang", "n": 4 }
+      ],
+      "speakAlso": ["Sama banyak: tiga!"]
+    },
+    "tags": ["hitung", "cocok"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cocok-mangga-4",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana yang sama banyak dengan mangga ini?",
+    "label": "Mana yang sama banyak dengan mangga ini?",
+    "data": {
+      "countable": { "t": "group", "k": "mangga", "n": 4 },
+      "options": [
+        { "t": "group", "k": "mangga", "n": 4 },
+        { "t": "group", "k": "mangga", "n": 2 },
+        { "t": "group", "k": "mangga", "n": 5 },
+        { "t": "group", "k": "mangga", "n": 3 }
+      ],
+      "speakAlso": ["Sama banyak: empat!"]
+    },
+    "tags": ["hitung", "cocok"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cocok-stroberi-5",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana yang sama banyak dengan stroberi ini?",
+    "label": "Mana yang sama banyak dengan stroberi ini?",
+    "data": {
+      "countable": { "t": "group", "k": "stroberi", "n": 5 },
+      "options": [
+        { "t": "group", "k": "stroberi", "n": 5 },
+        { "t": "group", "k": "stroberi", "n": 3 },
+        { "t": "group", "k": "stroberi", "n": 6 },
+        { "t": "group", "k": "stroberi", "n": 4 }
+      ],
+      "speakAlso": ["Sama banyak: lima!"]
+    },
+    "tags": ["hitung", "cocok"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cocok-tomat-3",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana yang sama banyak dengan tomat ini?",
+    "label": "Mana yang sama banyak dengan tomat ini?",
+    "data": {
+      "countable": { "t": "group", "k": "tomat", "n": 3 },
+      "options": [
+        { "t": "group", "k": "tomat", "n": 3 },
+        { "t": "group", "k": "tomat", "n": 6 },
+        { "t": "group", "k": "tomat", "n": 1 },
+        { "t": "group", "k": "tomat", "n": 4 }
+      ],
+      "speakAlso": ["Sama banyak: tiga!"]
+    },
+    "tags": ["hitung", "cocok"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cocok-rambutan-2",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana yang sama banyak dengan rambutan ini?",
+    "label": "Mana yang sama banyak dengan rambutan ini?",
+    "data": {
+      "countable": { "t": "group", "k": "rambutan", "n": 2 },
+      "options": [
+        { "t": "group", "k": "rambutan", "n": 2 },
+        { "t": "group", "k": "rambutan", "n": 5 },
+        { "t": "group", "k": "rambutan", "n": 3 },
+        { "t": "group", "k": "rambutan", "n": 1 }
+      ],
+      "speakAlso": ["Sama banyak: dua!"]
+    },
+    "tags": ["hitung", "cocok"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cocok-nanas-4",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Mana yang sama banyak dengan nanas ini?",
+    "label": "Mana yang sama banyak dengan nanas ini?",
+    "data": {
+      "countable": { "t": "group", "k": "nanas", "n": 4 },
+      "options": [
+        { "t": "group", "k": "nanas", "n": 4 },
+        { "t": "group", "k": "nanas", "n": 2 },
+        { "t": "group", "k": "nanas", "n": 5 },
+        { "t": "group", "k": "nanas", "n": 3 }
+      ],
+      "speakAlso": ["Sama banyak: empat!"]
+    },
+    "tags": ["hitung", "cocok"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hitung-jeruk-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ketuk dan hitung jeruknya. Ada berapa?",
+    "label": "Ketuk dan hitung jeruknya. Ada berapa?",
+    "data": {
+      "countable": { "t": "group", "k": "jeruk", "n": 1 },
+      "options": [
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 3 }
+      ],
+      "speakAlso": ["Ada satu jeruk!"]
+    },
+    "tags": ["hitung", "hitung"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hitung-pisang-2",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ketuk dan hitung pisangnya. Ada berapa?",
+    "label": "Ketuk dan hitung pisangnya. Ada berapa?",
+    "data": {
+      "countable": { "t": "group", "k": "pisang", "n": 2 },
+      "options": [
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 1 }
+      ],
+      "speakAlso": ["Ada dua pisang!"]
+    },
+    "tags": ["hitung", "hitung"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hitung-mangga-3",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ketuk dan hitung mangganya. Ada berapa?",
+    "label": "Ketuk dan hitung mangganya. Ada berapa?",
+    "data": {
+      "countable": { "t": "group", "k": "mangga", "n": 3 },
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 4 }
+      ],
+      "speakAlso": ["Ada tiga mangga!"]
+    },
+    "tags": ["hitung", "hitung"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hitung-stroberi-4",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ketuk dan hitung stroberinya. Ada berapa?",
+    "label": "Ketuk dan hitung stroberinya. Ada berapa?",
+    "data": {
+      "countable": { "t": "group", "k": "stroberi", "n": 4 },
+      "options": [
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 5 }
+      ],
+      "speakAlso": ["Ada empat stroberi!"]
+    },
+    "tags": ["hitung", "hitung"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hitung-tomat-5",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ketuk dan hitung tomatnya. Ada berapa?",
+    "label": "Ketuk dan hitung tomatnya. Ada berapa?",
+    "data": {
+      "countable": { "t": "group", "k": "tomat", "n": 5 },
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["Ada lima tomat!"]
+    },
+    "tags": ["hitung", "hitung"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hitung-rambutan-6",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ketuk dan hitung rambutannya. Ada berapa?",
+    "label": "Ketuk dan hitung rambutannya. Ada berapa?",
+    "data": {
+      "countable": { "t": "group", "k": "rambutan", "n": 6 },
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 7 }
+      ],
+      "speakAlso": ["Ada enam rambutan!"]
+    },
+    "tags": ["hitung", "hitung"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hitung-nanas-7",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ketuk dan hitung nanasnya. Ada berapa?",
+    "label": "Ketuk dan hitung nanasnya. Ada berapa?",
+    "data": {
+      "countable": { "t": "group", "k": "nanas", "n": 7 },
+      "options": [
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 8 }
+      ],
+      "speakAlso": ["Ada tujuh nanas!"]
+    },
+    "tags": ["hitung", "hitung"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hitung-semangka-8",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ketuk dan hitung semangkanya. Ada berapa?",
+    "label": "Ketuk dan hitung semangkanya. Ada berapa?",
+    "data": {
+      "countable": { "t": "group", "k": "semangka", "n": 8 },
+      "options": [
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 7 }
+      ],
+      "speakAlso": ["Ada delapan semangka!"]
+    },
+    "tags": ["hitung", "hitung"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hitung-anggur-9",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ketuk dan hitung anggurnya. Ada berapa?",
+    "label": "Ketuk dan hitung anggurnya. Ada berapa?",
+    "data": {
+      "countable": { "t": "group", "k": "anggur", "n": 9 },
+      "options": [
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 8 }
+      ],
+      "speakAlso": ["Ada sembilan anggur!"]
+    },
+    "tags": ["hitung", "hitung"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "hitung-apel-10",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ketuk dan hitung apelnya. Ada berapa?",
+    "label": "Ketuk dan hitung apelnya. Ada berapa?",
+    "data": {
+      "countable": { "t": "group", "k": "apel", "n": 10 },
+      "options": [
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 9 }
+      ],
+      "speakAlso": ["Ada sepuluh apel!"]
+    },
+    "tags": ["hitung", "hitung"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "banyak-0",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana pisang yang lebih banyak?",
+    "label": "Mana pisang yang lebih banyak?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "pisang", "n": 3 },
+        { "t": "group", "k": "pisang", "n": 1 }
+      ]
+    },
+    "tags": ["hitung", "banyak"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "banyak-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana mangga yang lebih banyak?",
+    "label": "Mana mangga yang lebih banyak?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "mangga", "n": 5 },
+        { "t": "group", "k": "mangga", "n": 2 }
+      ]
+    },
+    "tags": ["hitung", "banyak"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "banyak-2",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana stroberi yang lebih banyak?",
+    "label": "Mana stroberi yang lebih banyak?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "stroberi", "n": 6 },
+        { "t": "group", "k": "stroberi", "n": 4 }
+      ]
+    },
+    "tags": ["hitung", "banyak"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "banyak-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana tomat yang lebih banyak?",
+    "label": "Mana tomat yang lebih banyak?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "tomat", "n": 4 },
+        { "t": "group", "k": "tomat", "n": 1 }
+      ]
+    },
+    "tags": ["hitung", "banyak"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "banyak-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana rambutan yang lebih banyak?",
+    "label": "Mana rambutan yang lebih banyak?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "rambutan", "n": 7 },
+        { "t": "group", "k": "rambutan", "n": 3 }
+      ]
+    },
+    "tags": ["hitung", "banyak"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "banyak-5",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana nanas yang lebih banyak?",
+    "label": "Mana nanas yang lebih banyak?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "nanas", "n": 6 },
+        { "t": "group", "k": "nanas", "n": 5 }
+      ]
+    },
+    "tags": ["hitung", "banyak"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sedikit-0",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana tomat yang lebih sedikit?",
+    "label": "Mana tomat yang lebih sedikit?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "tomat", "n": 2 },
+        { "t": "group", "k": "tomat", "n": 5 }
+      ]
+    },
+    "tags": ["hitung", "sedikit"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sedikit-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana rambutan yang lebih sedikit?",
+    "label": "Mana rambutan yang lebih sedikit?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "rambutan", "n": 3 },
+        { "t": "group", "k": "rambutan", "n": 6 }
+      ]
+    },
+    "tags": ["hitung", "sedikit"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sedikit-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana nanas yang lebih sedikit?",
+    "label": "Mana nanas yang lebih sedikit?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "nanas", "n": 4 },
+        { "t": "group", "k": "nanas", "n": 8 }
+      ]
+    },
+    "tags": ["hitung", "sedikit"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sedikit-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana semangka yang lebih sedikit?",
+    "label": "Mana semangka yang lebih sedikit?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "semangka", "n": 7 },
+        { "t": "group", "k": "semangka", "n": 9 }
+      ]
+    },
+    "tags": ["hitung", "sedikit"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tambah-1-1",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada satu apel, ditambah satu apel. Jadi berapa?",
+    "label": "Ada satu apel, ditambah satu apel. Jadi berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "apel", "n": 1, "slots": 1 },
+          { "t": "text", "s": "+" },
+          { "t": "group", "k": "apel", "n": 1, "slots": 1 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 1 }
+      ],
+      "speakAlso": ["1 tambah 1 sama dengan 2."]
+    },
+    "tags": ["hitung", "tambah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tambah-2-1",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada dua jeruk, ditambah satu jeruk. Jadi berapa?",
+    "label": "Ada dua jeruk, ditambah satu jeruk. Jadi berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "jeruk", "n": 2, "slots": 2 },
+          { "t": "text", "s": "+" },
+          { "t": "group", "k": "jeruk", "n": 1, "slots": 2 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 4 }
+      ],
+      "speakAlso": ["2 tambah 1 sama dengan 3."]
+    },
+    "tags": ["hitung", "tambah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tambah-2-2",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada dua pisang, ditambah dua pisang. Jadi berapa?",
+    "label": "Ada dua pisang, ditambah dua pisang. Jadi berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "pisang", "n": 2, "slots": 2 },
+          { "t": "text", "s": "+" },
+          { "t": "group", "k": "pisang", "n": 2, "slots": 2 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 5 }
+      ],
+      "speakAlso": ["2 tambah 2 sama dengan 4."]
+    },
+    "tags": ["hitung", "tambah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tambah-3-1",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada tiga mangga, ditambah satu mangga. Jadi berapa?",
+    "label": "Ada tiga mangga, ditambah satu mangga. Jadi berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "mangga", "n": 3, "slots": 3 },
+          { "t": "text", "s": "+" },
+          { "t": "group", "k": "mangga", "n": 1, "slots": 3 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 5 }
+      ],
+      "speakAlso": ["3 tambah 1 sama dengan 4."]
+    },
+    "tags": ["hitung", "tambah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tambah-3-2",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada tiga stroberi, ditambah dua stroberi. Jadi berapa?",
+    "label": "Ada tiga stroberi, ditambah dua stroberi. Jadi berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "stroberi", "n": 3, "slots": 3 },
+          { "t": "text", "s": "+" },
+          { "t": "group", "k": "stroberi", "n": 2, "slots": 3 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["3 tambah 2 sama dengan 5."]
+    },
+    "tags": ["hitung", "tambah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tambah-4-2",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada empat tomat, ditambah dua tomat. Jadi berapa?",
+    "label": "Ada empat tomat, ditambah dua tomat. Jadi berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "tomat", "n": 4, "slots": 4 },
+          { "t": "text", "s": "+" },
+          { "t": "group", "k": "tomat", "n": 2, "slots": 4 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 7 }
+      ],
+      "speakAlso": ["4 tambah 2 sama dengan 6."]
+    },
+    "tags": ["hitung", "tambah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tambah-5-1",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada lima rambutan, ditambah satu rambutan. Jadi berapa?",
+    "label": "Ada lima rambutan, ditambah satu rambutan. Jadi berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "rambutan", "n": 5, "slots": 5 },
+          { "t": "text", "s": "+" },
+          { "t": "group", "k": "rambutan", "n": 1, "slots": 5 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 7 }
+      ],
+      "speakAlso": ["5 tambah 1 sama dengan 6."]
+    },
+    "tags": ["hitung", "tambah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tambah-3-3",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada tiga nanas, ditambah tiga nanas. Jadi berapa?",
+    "label": "Ada tiga nanas, ditambah tiga nanas. Jadi berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "nanas", "n": 3, "slots": 3 },
+          { "t": "text", "s": "+" },
+          { "t": "group", "k": "nanas", "n": 3, "slots": 3 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 7 }
+      ],
+      "speakAlso": ["3 tambah 3 sama dengan 6."]
+    },
+    "tags": ["hitung", "tambah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tambah-4-4",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada empat semangka, ditambah empat semangka. Jadi berapa?",
+    "label": "Ada empat semangka, ditambah empat semangka. Jadi berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "semangka", "n": 4, "slots": 4 },
+          { "t": "text", "s": "+" },
+          { "t": "group", "k": "semangka", "n": 4, "slots": 4 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 11 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 9 }
+      ],
+      "speakAlso": ["4 tambah 4 sama dengan 8."]
+    },
+    "tags": ["hitung", "tambah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tambah-5-3",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada lima anggur, ditambah tiga anggur. Jadi berapa?",
+    "label": "Ada lima anggur, ditambah tiga anggur. Jadi berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "anggur", "n": 5, "slots": 5 },
+          { "t": "text", "s": "+" },
+          { "t": "group", "k": "anggur", "n": 3, "slots": 5 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 11 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 9 }
+      ],
+      "speakAlso": ["5 tambah 3 sama dengan 8."]
+    },
+    "tags": ["hitung", "tambah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tambah-6-2",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada enam apel, ditambah dua apel. Jadi berapa?",
+    "label": "Ada enam apel, ditambah dua apel. Jadi berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "apel", "n": 6, "slots": 6 },
+          { "t": "text", "s": "+" },
+          { "t": "group", "k": "apel", "n": 2, "slots": 6 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 11 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 9 }
+      ],
+      "speakAlso": ["6 tambah 2 sama dengan 8."]
+    },
+    "tags": ["hitung", "tambah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tambah-5-5",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada lima jeruk, ditambah lima jeruk. Jadi berapa?",
+    "label": "Ada lima jeruk, ditambah lima jeruk. Jadi berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "jeruk", "n": 5, "slots": 5 },
+          { "t": "text", "s": "+" },
+          { "t": "group", "k": "jeruk", "n": 5, "slots": 5 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 11 },
+        { "t": "num", "n": 9 }
+      ],
+      "speakAlso": ["5 tambah 5 sama dengan 10."]
+    },
+    "tags": ["hitung", "tambah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kurang-3-1",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada tiga mangga, dimakan satu. Sisa berapa?",
+    "label": "Ada tiga mangga, dimakan satu. Sisa berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "mangga", "n": 3 },
+          { "t": "text", "s": "−" },
+          { "t": "num", "n": 1 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 0 },
+        { "t": "num", "n": 3 }
+      ],
+      "speakAlso": ["3 kurang 1 sama dengan 2."]
+    },
+    "tags": ["hitung", "kurang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kurang-4-2",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada empat stroberi, dimakan dua. Sisa berapa?",
+    "label": "Ada empat stroberi, dimakan dua. Sisa berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "stroberi", "n": 4 },
+          { "t": "text", "s": "−" },
+          { "t": "num", "n": 2 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 0 },
+        { "t": "num", "n": 3 }
+      ],
+      "speakAlso": ["4 kurang 2 sama dengan 2."]
+    },
+    "tags": ["hitung", "kurang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kurang-5-2",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada lima tomat, dimakan dua. Sisa berapa?",
+    "label": "Ada lima tomat, dimakan dua. Sisa berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "tomat", "n": 5 },
+          { "t": "text", "s": "−" },
+          { "t": "num", "n": 2 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 4 }
+      ],
+      "speakAlso": ["5 kurang 2 sama dengan 3."]
+    },
+    "tags": ["hitung", "kurang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kurang-5-4",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada lima rambutan, dimakan empat. Sisa berapa?",
+    "label": "Ada lima rambutan, dimakan empat. Sisa berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "rambutan", "n": 5 },
+          { "t": "text", "s": "−" },
+          { "t": "num", "n": 4 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 0 }
+      ],
+      "speakAlso": ["5 kurang 4 sama dengan 1."]
+    },
+    "tags": ["hitung", "kurang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kurang-6-3",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada enam nanas, dimakan tiga. Sisa berapa?",
+    "label": "Ada enam nanas, dimakan tiga. Sisa berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "nanas", "n": 6 },
+          { "t": "text", "s": "−" },
+          { "t": "num", "n": 3 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 4 }
+      ],
+      "speakAlso": ["6 kurang 3 sama dengan 3."]
+    },
+    "tags": ["hitung", "kurang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kurang-7-2",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada tujuh semangka, dimakan dua. Sisa berapa?",
+    "label": "Ada tujuh semangka, dimakan dua. Sisa berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "semangka", "n": 7 },
+          { "t": "text", "s": "−" },
+          { "t": "num", "n": 2 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["7 kurang 2 sama dengan 5."]
+    },
+    "tags": ["hitung", "kurang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kurang-8-5",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada delapan anggur, dimakan lima. Sisa berapa?",
+    "label": "Ada delapan anggur, dimakan lima. Sisa berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "anggur", "n": 8 },
+          { "t": "text", "s": "−" },
+          { "t": "num", "n": 5 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 4 }
+      ],
+      "speakAlso": ["8 kurang 5 sama dengan 3."]
+    },
+    "tags": ["hitung", "kurang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kurang-10-4",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada sepuluh apel, dimakan empat. Sisa berapa?",
+    "label": "Ada sepuluh apel, dimakan empat. Sisa berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "apel", "n": 10 },
+          { "t": "text", "s": "−" },
+          { "t": "num", "n": 4 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 7 }
+      ],
+      "speakAlso": ["10 kurang 4 sama dengan 6."]
+    },
+    "tags": ["hitung", "kurang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kurang-9-6",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada sembilan jeruk, dimakan enam. Sisa berapa?",
+    "label": "Ada sembilan jeruk, dimakan enam. Sisa berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "jeruk", "n": 9 },
+          { "t": "text", "s": "−" },
+          { "t": "num", "n": 6 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 4 }
+      ],
+      "speakAlso": ["9 kurang 6 sama dengan 3."]
+    },
+    "tags": ["hitung", "kurang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kurang-6-6",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada enam pisang, dimakan enam. Sisa berapa?",
+    "label": "Ada enam pisang, dimakan enam. Sisa berapa?",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "pisang", "n": 6 },
+          { "t": "text", "s": "−" },
+          { "t": "num", "n": 6 }
+        ]
+      },
+      "options": [
+        { "t": "num", "n": 0 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 2 }
+      ],
+      "speakAlso": ["6 kurang 6 sama dengan nol. Habis!"]
+    },
+    "tags": ["hitung", "kurang"],
+    "review": "ditinjau"
+  }
+]

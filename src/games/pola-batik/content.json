@@ -1,0 +1,1275 @@
+[
+  {
+    "id": "ab-0",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Lingkaran, belah ketupat, lingkaran, belah ketupat, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+          { "t": "shape", "s": "belahKetupat", "color": "biru" },
+          { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+          { "t": "shape", "s": "belahKetupat", "color": "biru" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "belahKetupat", "color": "biru" },
+        { "t": "shape", "s": "bintang", "color": "kuning" },
+        { "t": "shape", "s": "belahKetupat", "color": "biru" }
+      ],
+      "labels": ["lingkaran", "belah ketupat", "bintang", "belah ketupat"],
+      "speakAlso": ["Lingkaran!"]
+    },
+    "tags": ["pola", "AB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ab-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Bintang, hati, bintang, hati, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "bintang", "color": "kuning" },
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "bintang", "color": "kuning" },
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "bintang", "color": "kuning" },
+        { "t": "shape", "s": "hati", "color": "merah" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "belahKetupat", "color": "biru" }
+      ],
+      "labels": ["bintang", "hati", "lingkaran", "belah ketupat"],
+      "speakAlso": ["Bintang!"]
+    },
+    "tags": ["pola", "AB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ab-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Belah ketupat, segitiga, belah ketupat, segitiga, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "belahKetupat", "color": "biru" },
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "shape", "s": "belahKetupat", "color": "biru" },
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "belahKetupat", "color": "biru" },
+        { "t": "shape", "s": "segitiga", "color": "hijau" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "bintang", "color": "kuning" }
+      ],
+      "labels": ["belah ketupat", "segitiga", "lingkaran", "bintang"],
+      "speakAlso": ["Belah ketupat!"]
+    },
+    "tags": ["pola", "AB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ab-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Hati, bulan sabit, hati, bulan sabit, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "hati", "color": "merah" },
+        { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "bintang", "color": "kuning" }
+      ],
+      "labels": ["hati", "bulan sabit", "lingkaran", "bintang"],
+      "speakAlso": ["Hati!"]
+    },
+    "tags": ["pola", "AB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ab-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Segitiga, lingkaran, segitiga, lingkaran, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "segitiga", "color": "hijau" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "bintang", "color": "kuning" }
+      ],
+      "labels": ["segitiga", "lingkaran", "lingkaran", "bintang"],
+      "speakAlso": ["Segitiga!"]
+    },
+    "tags": ["pola", "AB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ab-5",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kawung, truntum, kawung, truntum, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "batikKawung" },
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "batikKawung" },
+          { "t": "art", "k": "truntum" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "truntum" },
+        { "t": "art", "k": "parang" },
+        { "t": "art", "k": "truntum" }
+      ],
+      "labels": ["kawung", "truntum", "parang", "truntum"],
+      "speakAlso": ["Kawung!"]
+    },
+    "tags": ["pola", "AB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ab-6",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Parang, mega mendung, parang, mega mendung, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "megaMendung" },
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "megaMendung" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "parang" },
+        { "t": "art", "k": "megaMendung" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "truntum" }
+      ],
+      "labels": ["parang", "mega mendung", "kawung", "truntum"],
+      "speakAlso": ["Parang!"]
+    },
+    "tags": ["pola", "AB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ab-7",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Truntum, ceplok, truntum, ceplok, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "ceplok" },
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "ceplok" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "truntum" },
+        { "t": "art", "k": "ceplok" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "parang" }
+      ],
+      "labels": ["truntum", "ceplok", "kawung", "parang"],
+      "speakAlso": ["Truntum!"]
+    },
+    "tags": ["pola", "AB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ab-8",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mega mendung, kawung, mega mendung, kawung, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "megaMendung" },
+          { "t": "art", "k": "batikKawung" },
+          { "t": "art", "k": "megaMendung" },
+          { "t": "art", "k": "batikKawung" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "megaMendung" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "parang" }
+      ],
+      "labels": ["mega mendung", "kawung", "kawung", "parang"],
+      "speakAlso": ["Mega mendung!"]
+    },
+    "tags": ["pola", "AB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ab-9",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ceplok, parang, ceplok, parang, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "ceplok" },
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "ceplok" },
+          { "t": "art", "k": "parang" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "ceplok" },
+        { "t": "art", "k": "parang" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "parang" }
+      ],
+      "labels": ["ceplok", "parang", "kawung", "parang"],
+      "speakAlso": ["Ceplok!"]
+    },
+    "tags": ["pola", "AB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "aab-0",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Bintang, bintang, hati, bintang, bintang, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "bintang", "color": "kuning" },
+          { "t": "shape", "s": "bintang", "color": "kuning" },
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "bintang", "color": "kuning" },
+          { "t": "shape", "s": "bintang", "color": "kuning" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "hati", "color": "merah" },
+        { "t": "shape", "s": "bintang", "color": "kuning" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "bintang", "color": "kuning" }
+      ],
+      "labels": ["hati", "bintang", "lingkaran", "bintang"],
+      "speakAlso": ["Hati!"]
+    },
+    "tags": ["pola", "AAB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "aab-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Belah ketupat, belah ketupat, segitiga, belah ketupat, belah ketupat, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "belahKetupat", "color": "biru" },
+          { "t": "shape", "s": "belahKetupat", "color": "biru" },
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "shape", "s": "belahKetupat", "color": "biru" },
+          { "t": "shape", "s": "belahKetupat", "color": "biru" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "segitiga", "color": "hijau" },
+        { "t": "shape", "s": "belahKetupat", "color": "biru" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "bintang", "color": "kuning" }
+      ],
+      "labels": ["segitiga", "belah ketupat", "lingkaran", "bintang"],
+      "speakAlso": ["Segitiga!"]
+    },
+    "tags": ["pola", "AAB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "aab-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Hati, hati, bulan sabit, hati, hati, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+        { "t": "shape", "s": "hati", "color": "merah" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "bintang", "color": "kuning" }
+      ],
+      "labels": ["bulan sabit", "hati", "lingkaran", "bintang"],
+      "speakAlso": ["Bulan sabit!"]
+    },
+    "tags": ["pola", "AAB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "aab-3",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Ceplok, ceplok, parang, ceplok, ceplok, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "ceplok" },
+          { "t": "art", "k": "ceplok" },
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "ceplok" },
+          { "t": "art", "k": "ceplok" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "parang" },
+        { "t": "art", "k": "ceplok" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "truntum" }
+      ],
+      "labels": ["parang", "ceplok", "kawung", "truntum"],
+      "speakAlso": ["Parang!"]
+    },
+    "tags": ["pola", "AAB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "aab-4",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Kawung, kawung, truntum, kawung, kawung, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "batikKawung" },
+          { "t": "art", "k": "batikKawung" },
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "batikKawung" },
+          { "t": "art", "k": "batikKawung" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "truntum" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "parang" }
+      ],
+      "labels": ["truntum", "kawung", "kawung", "parang"],
+      "speakAlso": ["Truntum!"]
+    },
+    "tags": ["pola", "AAB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "aab-5",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Parang, parang, mega mendung, parang, parang, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "megaMendung" },
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "parang" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "megaMendung" },
+        { "t": "art", "k": "parang" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "parang" }
+      ],
+      "labels": ["mega mendung", "parang", "kawung", "parang"],
+      "speakAlso": ["Mega mendung!"]
+    },
+    "tags": ["pola", "AAB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "abb-0",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Belah ketupat, segitiga, segitiga, belah ketupat, segitiga, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "belahKetupat", "color": "biru" },
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "shape", "s": "belahKetupat", "color": "biru" },
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "segitiga", "color": "hijau" },
+        { "t": "shape", "s": "belahKetupat", "color": "biru" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "bintang", "color": "kuning" }
+      ],
+      "labels": ["segitiga", "belah ketupat", "lingkaran", "bintang"],
+      "speakAlso": ["Segitiga!"]
+    },
+    "tags": ["pola", "ABB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "abb-1",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Hati, bulan sabit, bulan sabit, hati, bulan sabit, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+          { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+        { "t": "shape", "s": "hati", "color": "merah" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "bintang", "color": "kuning" }
+      ],
+      "labels": ["bulan sabit", "hati", "lingkaran", "bintang"],
+      "speakAlso": ["Bulan sabit!"]
+    },
+    "tags": ["pola", "ABB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "abb-2",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Segitiga, lingkaran, lingkaran, segitiga, lingkaran, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+          { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "segitiga", "color": "hijau" },
+        { "t": "shape", "s": "bintang", "color": "kuning" },
+        { "t": "shape", "s": "belahKetupat", "color": "biru" }
+      ],
+      "labels": ["lingkaran", "segitiga", "bintang", "belah ketupat"],
+      "speakAlso": ["Lingkaran!"]
+    },
+    "tags": ["pola", "ABB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "abb-3",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kawung, truntum, truntum, kawung, truntum, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "batikKawung" },
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "batikKawung" },
+          { "t": "art", "k": "truntum" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "truntum" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "parang" }
+      ],
+      "labels": ["truntum", "kawung", "kawung", "parang"],
+      "speakAlso": ["Truntum!"]
+    },
+    "tags": ["pola", "ABB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "abb-4",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Parang, mega mendung, mega mendung, parang, mega mendung, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "megaMendung" },
+          { "t": "art", "k": "megaMendung" },
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "megaMendung" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "megaMendung" },
+        { "t": "art", "k": "parang" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "parang" }
+      ],
+      "labels": ["mega mendung", "parang", "kawung", "parang"],
+      "speakAlso": ["Mega mendung!"]
+    },
+    "tags": ["pola", "ABB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "abb-5",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Truntum, ceplok, ceplok, truntum, ceplok, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "ceplok" },
+          { "t": "art", "k": "ceplok" },
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "ceplok" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "ceplok" },
+        { "t": "art", "k": "truntum" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "parang" }
+      ],
+      "labels": ["ceplok", "truntum", "kawung", "parang"],
+      "speakAlso": ["Ceplok!"]
+    },
+    "tags": ["pola", "ABB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "abc-0",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Lingkaran, bintang, belah ketupat, lingkaran, bintang, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+          { "t": "shape", "s": "bintang", "color": "kuning" },
+          { "t": "shape", "s": "belahKetupat", "color": "biru" },
+          { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+          { "t": "shape", "s": "bintang", "color": "kuning" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "belahKetupat", "color": "biru" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "bintang", "color": "kuning" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" }
+      ],
+      "labels": ["belah ketupat", "lingkaran", "bintang", "lingkaran"],
+      "speakAlso": ["Belah ketupat!"]
+    },
+    "tags": ["pola", "ABC"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "abc-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Bintang, belah ketupat, hati, bintang, belah ketupat, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "bintang", "color": "kuning" },
+          { "t": "shape", "s": "belahKetupat", "color": "biru" },
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "bintang", "color": "kuning" },
+          { "t": "shape", "s": "belahKetupat", "color": "biru" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "hati", "color": "merah" },
+        { "t": "shape", "s": "bintang", "color": "kuning" },
+        { "t": "shape", "s": "belahKetupat", "color": "biru" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" }
+      ],
+      "labels": ["hati", "bintang", "belah ketupat", "lingkaran"],
+      "speakAlso": ["Hati!"]
+    },
+    "tags": ["pola", "ABC"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "abc-2",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Belah ketupat, hati, segitiga, belah ketupat, hati, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "belahKetupat", "color": "biru" },
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "shape", "s": "belahKetupat", "color": "biru" },
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "segitiga", "color": "hijau" },
+        { "t": "shape", "s": "belahKetupat", "color": "biru" },
+        { "t": "shape", "s": "hati", "color": "merah" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" }
+      ],
+      "labels": ["segitiga", "belah ketupat", "hati", "lingkaran"],
+      "speakAlso": ["Segitiga!"]
+    },
+    "tags": ["pola", "ABC"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "abc-3",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Hati, segitiga, bulan sabit, hati, segitiga, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+        { "t": "shape", "s": "hati", "color": "merah" },
+        { "t": "shape", "s": "segitiga", "color": "hijau" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" }
+      ],
+      "labels": ["bulan sabit", "hati", "segitiga", "lingkaran"],
+      "speakAlso": ["Bulan sabit!"]
+    },
+    "tags": ["pola", "ABC"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "abc-4",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ceplok, kawung, parang, ceplok, kawung, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "ceplok" },
+          { "t": "art", "k": "batikKawung" },
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "ceplok" },
+          { "t": "art", "k": "batikKawung" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "parang" },
+        { "t": "art", "k": "ceplok" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "batikKawung" }
+      ],
+      "labels": ["parang", "ceplok", "kawung", "kawung"],
+      "speakAlso": ["Parang!"]
+    },
+    "tags": ["pola", "ABC"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "abc-5",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kawung, parang, truntum, kawung, parang, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "batikKawung" },
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "batikKawung" },
+          { "t": "art", "k": "parang" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "truntum" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "parang" },
+        { "t": "art", "k": "batikKawung" }
+      ],
+      "labels": ["truntum", "kawung", "parang", "kawung"],
+      "speakAlso": ["Truntum!"]
+    },
+    "tags": ["pola", "ABC"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "abc-6",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Parang, truntum, mega mendung, parang, truntum, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "megaMendung" },
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "truntum" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "megaMendung" },
+        { "t": "art", "k": "parang" },
+        { "t": "art", "k": "truntum" },
+        { "t": "art", "k": "batikKawung" }
+      ],
+      "labels": ["mega mendung", "parang", "truntum", "kawung"],
+      "speakAlso": ["Mega mendung!"]
+    },
+    "tags": ["pola", "ABC"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "abc-7",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Truntum, mega mendung, ceplok, truntum, mega mendung, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "megaMendung" },
+          { "t": "art", "k": "ceplok" },
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "megaMendung" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "ceplok" },
+        { "t": "art", "k": "truntum" },
+        { "t": "art", "k": "megaMendung" },
+        { "t": "art", "k": "batikKawung" }
+      ],
+      "labels": ["ceplok", "truntum", "mega mendung", "kawung"],
+      "speakAlso": ["Ceplok!"]
+    },
+    "tags": ["pola", "ABC"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "aabb-0",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Hati, hati, bulan sabit, bulan sabit, hati, hati, bulan sabit, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+          { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "hati", "color": "merah" },
+          { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+        { "t": "shape", "s": "hati", "color": "merah" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "bintang", "color": "kuning" }
+      ],
+      "labels": ["bulan sabit", "hati", "lingkaran", "bintang"],
+      "speakAlso": ["Bulan sabit!"]
+    },
+    "tags": ["pola", "AABB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "aabb-1",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Segitiga, segitiga, lingkaran, lingkaran, segitiga, segitiga, lingkaran, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+          { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "shape", "s": "segitiga", "color": "hijau" },
+          { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "segitiga", "color": "hijau" },
+        { "t": "shape", "s": "bintang", "color": "kuning" },
+        { "t": "shape", "s": "belahKetupat", "color": "biru" }
+      ],
+      "labels": ["lingkaran", "segitiga", "bintang", "belah ketupat"],
+      "speakAlso": ["Lingkaran!"]
+    },
+    "tags": ["pola", "AABB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "aabb-2",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Bulan sabit, bulan sabit, bintang, bintang, bulan sabit, bulan sabit, bintang, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+          { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+          { "t": "shape", "s": "bintang", "color": "kuning" },
+          { "t": "shape", "s": "bintang", "color": "kuning" },
+          { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+          { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+          { "t": "shape", "s": "bintang", "color": "kuning" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "shape", "s": "bintang", "color": "kuning" },
+        { "t": "shape", "s": "bulanSabit", "color": "oranye" },
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "belahKetupat", "color": "biru" }
+      ],
+      "labels": ["bintang", "bulan sabit", "lingkaran", "belah ketupat"],
+      "speakAlso": ["Bintang!"]
+    },
+    "tags": ["pola", "AABB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "aabb-3",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Parang, parang, mega mendung, mega mendung, parang, parang, mega mendung, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "megaMendung" },
+          { "t": "art", "k": "megaMendung" },
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "parang" },
+          { "t": "art", "k": "megaMendung" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "megaMendung" },
+        { "t": "art", "k": "parang" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "parang" }
+      ],
+      "labels": ["mega mendung", "parang", "kawung", "parang"],
+      "speakAlso": ["Mega mendung!"]
+    },
+    "tags": ["pola", "AABB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "aabb-4",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Truntum, truntum, ceplok, ceplok, truntum, truntum, ceplok, lalu apa?",
+    "label": "Lanjutkan polanya",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "ceplok" },
+          { "t": "art", "k": "ceplok" },
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "truntum" },
+          { "t": "art", "k": "ceplok" },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "art", "k": "ceplok" },
+        { "t": "art", "k": "truntum" },
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "parang" }
+      ],
+      "labels": ["ceplok", "truntum", "kawung", "parang"],
+      "speakAlso": ["Ceplok!"]
+    },
+    "tags": ["pola", "AABB"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tumbuh-0",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "1 bintang, 2 bintang, 3 bintang, lalu berapa bintang?",
+    "label": "Pola tumbuh: lanjutkan",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "bintang", "n": 1, "slots": 4 },
+          { "t": "group", "k": "bintang", "n": 2, "slots": 4 },
+          { "t": "group", "k": "bintang", "n": 3, "slots": 4 },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "group", "k": "bintang", "n": 4 },
+        { "t": "group", "k": "bintang", "n": 6 },
+        { "t": "group", "k": "bintang", "n": 2 },
+        { "t": "group", "k": "bintang", "n": 5 }
+      ],
+      "speakAlso": ["Bertambah satu setiap kali: 4 bintang."]
+    },
+    "tags": ["pola", "tumbuh"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tumbuh-1",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "1 bunga, 2 bunga, 3 bunga, lalu berapa bunga?",
+    "label": "Pola tumbuh: lanjutkan",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "bunga", "n": 1, "slots": 4 },
+          { "t": "group", "k": "bunga", "n": 2, "slots": 4 },
+          { "t": "group", "k": "bunga", "n": 3, "slots": 4 },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "group", "k": "bunga", "n": 4 },
+        { "t": "group", "k": "bunga", "n": 6 },
+        { "t": "group", "k": "bunga", "n": 2 },
+        { "t": "group", "k": "bunga", "n": 5 }
+      ],
+      "speakAlso": ["Bertambah satu setiap kali: 4 bunga."]
+    },
+    "tags": ["pola", "tumbuh"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tumbuh-2",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "2 apel, 3 apel, 4 apel, lalu berapa apel?",
+    "label": "Pola tumbuh: lanjutkan",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "apel", "n": 2, "slots": 5 },
+          { "t": "group", "k": "apel", "n": 3, "slots": 5 },
+          { "t": "group", "k": "apel", "n": 4, "slots": 5 },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "group", "k": "apel", "n": 5 },
+        { "t": "group", "k": "apel", "n": 7 },
+        { "t": "group", "k": "apel", "n": 3 },
+        { "t": "group", "k": "apel", "n": 6 }
+      ],
+      "speakAlso": ["Bertambah satu setiap kali: 5 apel."]
+    },
+    "tags": ["pola", "tumbuh"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tumbuh-3",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "1 ikan, 2 ikan, 3 ikan, lalu berapa ikan?",
+    "label": "Pola tumbuh: lanjutkan",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "ikan", "n": 1, "slots": 4 },
+          { "t": "group", "k": "ikan", "n": 2, "slots": 4 },
+          { "t": "group", "k": "ikan", "n": 3, "slots": 4 },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "group", "k": "ikan", "n": 4 },
+        { "t": "group", "k": "ikan", "n": 6 },
+        { "t": "group", "k": "ikan", "n": 2 },
+        { "t": "group", "k": "ikan", "n": 5 }
+      ],
+      "speakAlso": ["Bertambah satu setiap kali: 4 ikan."]
+    },
+    "tags": ["pola", "tumbuh"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tumbuh-4",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "2 bola, 3 bola, 4 bola, lalu berapa bola?",
+    "label": "Pola tumbuh: lanjutkan",
+    "data": {
+      "cue": {
+        "t": "row",
+        "items": [
+          { "t": "group", "k": "bola", "n": 2, "slots": 5 },
+          { "t": "group", "k": "bola", "n": 3, "slots": 5 },
+          { "t": "group", "k": "bola", "n": 4, "slots": 5 },
+          { "t": "q" }
+        ]
+      },
+      "options": [
+        { "t": "group", "k": "bola", "n": 5 },
+        { "t": "group", "k": "bola", "n": 7 },
+        { "t": "group", "k": "bola", "n": 3 },
+        { "t": "group", "k": "bola", "n": 6 }
+      ],
+      "speakAlso": ["Bertambah satu setiap kali: 5 bola."]
+    },
+    "tags": ["pola", "tumbuh"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buat-0",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Buat polamu sendiri dengan kawung dan parang!",
+    "label": "Buat polamu sendiri",
+    "data": {
+      "mode": "buat",
+      "palette": [
+        { "t": "art", "k": "batikKawung" },
+        { "t": "art", "k": "parang" }
+      ],
+      "tileSay": ["kawung", "parang"]
+    },
+    "tags": ["pola", "kreasi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buat-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Buat polamu sendiri dengan lingkaran, bintang, dan hati!",
+    "label": "Buat polamu sendiri",
+    "data": {
+      "mode": "buat",
+      "palette": [
+        { "t": "shape", "s": "lingkaran", "color": "cokelat" },
+        { "t": "shape", "s": "bintang", "color": "kuning" },
+        { "t": "shape", "s": "hati", "color": "merah" }
+      ],
+      "tileSay": ["lingkaran", "bintang", "hati"]
+    },
+    "tags": ["pola", "kreasi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buat-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Buat polamu sendiri dengan motif truntum, mega mendung, dan ceplok!",
+    "label": "Buat polamu sendiri",
+    "data": {
+      "mode": "buat",
+      "palette": [
+        { "t": "art", "k": "truntum" },
+        { "t": "art", "k": "megaMendung" },
+        { "t": "art", "k": "ceplok" }
+      ],
+      "tileSay": ["truntum", "mega mendung", "ceplok"]
+    },
+    "tags": ["pola", "kreasi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buat-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Buat polamu sendiri dengan belah ketupat dan segitiga!",
+    "label": "Buat polamu sendiri",
+    "data": {
+      "mode": "buat",
+      "palette": [
+        { "t": "shape", "s": "belahKetupat", "color": "biru" },
+        { "t": "shape", "s": "segitiga", "color": "hijau" }
+      ],
+      "tileSay": ["belah ketupat", "segitiga"]
+    },
+    "tags": ["pola", "kreasi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buat-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Buat polamu sendiri dengan kawung, bintang, dan ceplok!",
+    "label": "Buat polamu sendiri",
+    "data": {
+      "mode": "buat",
+      "palette": [
+        { "t": "art", "k": "batikKawung" },
+        { "t": "shape", "s": "bintang", "color": "kuning" },
+        { "t": "art", "k": "ceplok" }
+      ],
+      "tileSay": ["kawung", "bintang", "ceplok"]
+    },
+    "tags": ["pola", "kreasi"],
+    "review": "ditinjau"
+  }
+]

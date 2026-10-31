@@ -18,7 +18,7 @@ export function App() {
   if (!started) return <StartScreen />;
 
   return (
-    <HashRouter>
+    <HashRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <Suspense fallback={<Loading />}>
         <Routes>
           <Route path="/" element={<Home />} />

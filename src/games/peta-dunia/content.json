@@ -1,0 +1,985 @@
+[
+  {
+    "id": "indonesia",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Indonesia?",
+    "label": "Mana bendera Indonesia?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "indonesia" },
+        { "t": "flag", "c": "malaysia" },
+        { "t": "flag", "c": "brasil" },
+        { "t": "flag", "c": "afrikaSelatan" }
+      ],
+      "labels": ["Indonesia"],
+      "speakAlso": [
+        "Indonesia! Orang di sana menyapa: Halo, selamat pagi!",
+        "Hewan khasnya komodo."
+      ]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "malaysia",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Malaysia?",
+    "label": "Mana bendera Malaysia?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "malaysia" },
+        { "t": "flag", "c": "jerman" },
+        { "t": "flag", "c": "brasil" },
+        { "t": "flag", "c": "peru" }
+      ],
+      "labels": ["Malaysia"],
+      "speakAlso": ["Malaysia! Orang di sana menyapa: Selamat pagi!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "singapura",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Singapura?",
+    "label": "Mana bendera Singapura?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "singapura" },
+        { "t": "flag", "c": "tiongkok" },
+        { "t": "flag", "c": "koreaSelatan" },
+        { "t": "flag", "c": "jerman" }
+      ],
+      "labels": ["Singapura"],
+      "speakAlso": ["Singapura! Orang di sana menyapa: Hello!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "thailand",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Thailand?",
+    "label": "Mana bendera Thailand?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "thailand" },
+        { "t": "flag", "c": "indonesia" },
+        { "t": "flag", "c": "amerikaSerikat" },
+        { "t": "flag", "c": "kuba" }
+      ],
+      "labels": ["Thailand"],
+      "speakAlso": [
+        "Thailand! Orang di sana menyapa: Sawasdee!",
+        "Gajah adalah hewan yang disayang di Thailand."
+      ]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "vietnam",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Vietnam?",
+    "label": "Mana bendera Vietnam?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "vietnam" },
+        { "t": "flag", "c": "rusia" },
+        { "t": "flag", "c": "indonesia" },
+        { "t": "flag", "c": "jamaika" }
+      ],
+      "labels": ["Vietnam"],
+      "speakAlso": ["Vietnam! Orang di sana menyapa: Xin chào!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "filipina",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Filipina?",
+    "label": "Mana bendera Filipina?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "filipina" },
+        { "t": "flag", "c": "rusia" },
+        { "t": "flag", "c": "singapura" },
+        { "t": "flag", "c": "india" }
+      ],
+      "labels": ["Filipina"],
+      "speakAlso": ["Filipina! Orang di sana menyapa: Kumusta!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "myanmar",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Myanmar?",
+    "label": "Mana bendera Myanmar?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "myanmar" },
+        { "t": "flag", "c": "india" },
+        { "t": "flag", "c": "indonesia" },
+        { "t": "flag", "c": "kolombia" }
+      ],
+      "labels": ["Myanmar"],
+      "speakAlso": ["Myanmar! Orang di sana menyapa: Mingalaba!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "laos",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Laos?",
+    "label": "Mana bendera Laos?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "laos" },
+        { "t": "flag", "c": "inggris" },
+        { "t": "flag", "c": "italia" },
+        { "t": "flag", "c": "swedia" }
+      ],
+      "labels": ["Laos"],
+      "speakAlso": ["Laos! Orang di sana menyapa: Sabaidee!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "timorLeste",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Timor Leste?",
+    "label": "Mana bendera Timor Leste?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "timorLeste" },
+        { "t": "flag", "c": "koreaSelatan" },
+        { "t": "flag", "c": "belanda" },
+        { "t": "flag", "c": "polandia" }
+      ],
+      "labels": ["Timor Leste"],
+      "speakAlso": ["Timor Leste! Orang di sana menyapa: Bondia!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "jepang",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Jepang?",
+    "label": "Mana bendera Jepang?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "jepang" },
+        { "t": "flag", "c": "prancis" },
+        { "t": "flag", "c": "india" },
+        { "t": "flag", "c": "malaysia" }
+      ],
+      "labels": ["Jepang"],
+      "speakAlso": ["Jepang! Orang di sana menyapa: Konnichiwa!", "Makanan khasnya sushi."]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "koreaSelatan",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Korea Selatan?",
+    "label": "Mana bendera Korea Selatan?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "koreaSelatan" },
+        { "t": "flag", "c": "filipina" },
+        { "t": "flag", "c": "spanyol" },
+        { "t": "flag", "c": "lituania" }
+      ],
+      "labels": ["Korea Selatan"],
+      "speakAlso": [
+        "Korea Selatan! Orang di sana menyapa: Annyeonghaseyo!",
+        "Makanan khasnya kimchi."
+      ]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "tiongkok",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Tiongkok?",
+    "label": "Mana bendera Tiongkok?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "tiongkok" },
+        { "t": "flag", "c": "koreaSelatan" },
+        { "t": "flag", "c": "malaysia" },
+        { "t": "flag", "c": "ukraina" }
+      ],
+      "labels": ["Tiongkok"],
+      "speakAlso": ["Tiongkok! Orang di sana menyapa: Nǐ hǎo!", "Hewan khasnya panda."]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "india",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera India?",
+    "label": "Mana bendera India?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "india" },
+        { "t": "flag", "c": "brasil" },
+        { "t": "flag", "c": "prancis" },
+        { "t": "flag", "c": "belgia" }
+      ],
+      "labels": ["India"],
+      "speakAlso": ["India! Orang di sana menyapa: Namaste!", "Makanan khasnya kari."]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "turki",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Turki?",
+    "label": "Mana bendera Turki?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "turki" },
+        { "t": "flag", "c": "brasil" },
+        { "t": "flag", "c": "koreaSelatan" },
+        { "t": "flag", "c": "yunani" }
+      ],
+      "labels": ["Turki"],
+      "speakAlso": ["Turki! Orang di sana menyapa: Merhaba!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "uea",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Uni Emirat Arab?",
+    "label": "Mana bendera Uni Emirat Arab?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "uea" },
+        { "t": "flag", "c": "inggris" },
+        { "t": "flag", "c": "india" },
+        { "t": "flag", "c": "timorLeste" }
+      ],
+      "labels": ["Uni Emirat Arab"],
+      "speakAlso": [
+        "Uni Emirat Arab! Orang di sana menyapa: Marhaba!",
+        "Di sana banyak unta dan gurun pasir."
+      ]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "amerikaSerikat",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Amerika Serikat?",
+    "label": "Mana bendera Amerika Serikat?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "amerikaSerikat" },
+        { "t": "flag", "c": "brasil" },
+        { "t": "flag", "c": "india" },
+        { "t": "flag", "c": "timorLeste" }
+      ],
+      "labels": ["Amerika Serikat"],
+      "speakAlso": [
+        "Amerika Serikat! Orang di sana menyapa: Hello!",
+        "Hewan lambangnya burung elang."
+      ]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "inggris",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Inggris?",
+    "label": "Mana bendera Inggris?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "inggris" },
+        { "t": "flag", "c": "malaysia" },
+        { "t": "flag", "c": "brasil" },
+        { "t": "flag", "c": "prancis" }
+      ],
+      "labels": ["Inggris"],
+      "speakAlso": [
+        "Inggris! Orang di sana menyapa: Hello!",
+        "Di kota London ada bus tingkat berwarna merah."
+      ]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "prancis",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Prancis?",
+    "label": "Mana bendera Prancis?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "prancis" },
+        { "t": "flag", "c": "singapura" },
+        { "t": "flag", "c": "filipina" },
+        { "t": "flag", "c": "hungaria" }
+      ],
+      "labels": ["Prancis"],
+      "speakAlso": [
+        "Prancis! Orang di sana menyapa: Bonjour!",
+        "Makanan khasnya roti panjang bernama baguette."
+      ]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "italia",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Italia?",
+    "label": "Mana bendera Italia?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "italia" },
+        { "t": "flag", "c": "brasil" },
+        { "t": "flag", "c": "amerikaSerikat" },
+        { "t": "flag", "c": "norwegia" }
+      ],
+      "labels": ["Italia"],
+      "speakAlso": ["Italia! Orang di sana menyapa: Ciao!", "Makanan khasnya pizza."]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "jerman",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Jerman?",
+    "label": "Mana bendera Jerman?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "jerman" },
+        { "t": "flag", "c": "vietnam" },
+        { "t": "flag", "c": "belanda" },
+        { "t": "flag", "c": "myanmar" }
+      ],
+      "labels": ["Jerman"],
+      "speakAlso": ["Jerman! Orang di sana menyapa: Hallo!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "belanda",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Belanda?",
+    "label": "Mana bendera Belanda?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "belanda" },
+        { "t": "flag", "c": "singapura" },
+        { "t": "flag", "c": "india" },
+        { "t": "flag", "c": "peru" }
+      ],
+      "labels": ["Belanda"],
+      "speakAlso": [
+        "Belanda! Orang di sana menyapa: Hallo!",
+        "Terkenal dengan kincir angin dan bunga tulip."
+      ]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "spanyol",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Spanyol?",
+    "label": "Mana bendera Spanyol?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "spanyol" },
+        { "t": "flag", "c": "amerikaSerikat" },
+        { "t": "flag", "c": "jerman" },
+        { "t": "flag", "c": "islandia" }
+      ],
+      "labels": ["Spanyol"],
+      "speakAlso": ["Spanyol! Orang di sana menyapa: Hola!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "rusia",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Rusia?",
+    "label": "Mana bendera Rusia?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "rusia" },
+        { "t": "flag", "c": "prancis" },
+        { "t": "flag", "c": "koreaSelatan" },
+        { "t": "flag", "c": "indonesia" }
+      ],
+      "labels": ["Rusia"],
+      "speakAlso": [
+        "Rusia! Orang di sana menyapa: Privet!",
+        "Rusia adalah negara paling luas di dunia."
+      ]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "swiss",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Swiss?",
+    "label": "Mana bendera Swiss?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "swiss" },
+        { "t": "flag", "c": "india" },
+        { "t": "flag", "c": "filipina" },
+        { "t": "flag", "c": "belanda" }
+      ],
+      "labels": ["Swiss"],
+      "speakAlso": ["Swiss! Orang di sana menyapa: Grüezi!", "Terkenal dengan gunung bersalju."]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "brasil",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bendera Brasil?",
+    "label": "Mana bendera Brasil?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "brasil" },
+        { "t": "flag", "c": "spanyol" },
+        { "t": "flag", "c": "belanda" },
+        { "t": "flag", "c": "tiongkok" }
+      ],
+      "labels": ["Brasil"],
+      "speakAlso": [
+        "Brasil! Orang di sana menyapa: Olá!",
+        "Di sana ada hutan Amazon yang sangat luas."
+      ]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "argentina",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Argentina?",
+    "label": "Mana bendera Argentina?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "argentina" },
+        { "t": "flag", "c": "india" },
+        { "t": "flag", "c": "spanyol" },
+        { "t": "flag", "c": "filipina" }
+      ],
+      "labels": ["Argentina"],
+      "speakAlso": ["Argentina! Orang di sana menyapa: Hola!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "kolombia",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Kolombia?",
+    "label": "Mana bendera Kolombia?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "kolombia" },
+        { "t": "flag", "c": "belanda" },
+        { "t": "flag", "c": "italia" },
+        { "t": "flag", "c": "swiss" }
+      ],
+      "labels": ["Kolombia"],
+      "speakAlso": ["Kolombia! Orang di sana menyapa: Hola!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "chile",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Chile?",
+    "label": "Mana bendera Chile?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "chile" },
+        { "t": "flag", "c": "prancis" },
+        { "t": "flag", "c": "indonesia" },
+        { "t": "flag", "c": "estonia" }
+      ],
+      "labels": ["Chile"],
+      "speakAlso": ["Chile! Orang di sana menyapa: Hola!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "peru",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Peru?",
+    "label": "Mana bendera Peru?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "peru" },
+        { "t": "flag", "c": "malaysia" },
+        { "t": "flag", "c": "jerman" },
+        { "t": "flag", "c": "islandia" }
+      ],
+      "labels": ["Peru"],
+      "speakAlso": ["Peru! Orang di sana menyapa: Hola!", "Hewan khasnya llama."]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "kuba",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Kuba?",
+    "label": "Mana bendera Kuba?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "kuba" },
+        { "t": "flag", "c": "prancis" },
+        { "t": "flag", "c": "brasil" },
+        { "t": "flag", "c": "jepang" }
+      ],
+      "labels": ["Kuba"],
+      "speakAlso": ["Kuba! Orang di sana menyapa: Hola!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "jamaika",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Jamaika?",
+    "label": "Mana bendera Jamaika?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "jamaika" },
+        { "t": "flag", "c": "amerikaSerikat" },
+        { "t": "flag", "c": "koreaSelatan" },
+        { "t": "flag", "c": "belgia" }
+      ],
+      "labels": ["Jamaika"],
+      "speakAlso": ["Jamaika! Orang di sana menyapa: Wah gwaan!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "nigeria",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Nigeria?",
+    "label": "Mana bendera Nigeria?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "nigeria" },
+        { "t": "flag", "c": "koreaSelatan" },
+        { "t": "flag", "c": "jepang" },
+        { "t": "flag", "c": "india" }
+      ],
+      "labels": ["Nigeria"],
+      "speakAlso": ["Nigeria! Orang di sana menyapa: Bawo!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "mali",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Mali?",
+    "label": "Mana bendera Mali?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "mali" },
+        { "t": "flag", "c": "malaysia" },
+        { "t": "flag", "c": "india" },
+        { "t": "flag", "c": "filipina" }
+      ],
+      "labels": ["Mali"],
+      "speakAlso": ["Mali! Orang di sana menyapa: I ni ce!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "afrikaSelatan",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Afrika Selatan?",
+    "label": "Mana bendera Afrika Selatan?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "afrikaSelatan" },
+        { "t": "flag", "c": "indonesia" },
+        { "t": "flag", "c": "prancis" },
+        { "t": "flag", "c": "jamaika" }
+      ],
+      "labels": ["Afrika Selatan"],
+      "speakAlso": [
+        "Afrika Selatan! Orang di sana menyapa: Sawubona!",
+        "Di sana ada singa, gajah, dan zebra."
+      ]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "yunani",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Yunani?",
+    "label": "Mana bendera Yunani?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "yunani" },
+        { "t": "flag", "c": "singapura" },
+        { "t": "flag", "c": "malaysia" },
+        { "t": "flag", "c": "islandia" }
+      ],
+      "labels": ["Yunani"],
+      "speakAlso": ["Yunani! Orang di sana menyapa: Yassou!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "irlandia",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Irlandia?",
+    "label": "Mana bendera Irlandia?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "irlandia" },
+        { "t": "flag", "c": "indonesia" },
+        { "t": "flag", "c": "brasil" },
+        { "t": "flag", "c": "mali" }
+      ],
+      "labels": ["Irlandia"],
+      "speakAlso": ["Irlandia! Orang di sana menyapa: Dia duit!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "belgia",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Belgia?",
+    "label": "Mana bendera Belgia?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "belgia" },
+        { "t": "flag", "c": "tiongkok" },
+        { "t": "flag", "c": "prancis" },
+        { "t": "flag", "c": "irlandia" }
+      ],
+      "labels": ["Belgia"],
+      "speakAlso": ["Belgia! Orang di sana menyapa: Hallo!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "austria",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Austria?",
+    "label": "Mana bendera Austria?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "austria" },
+        { "t": "flag", "c": "jerman" },
+        { "t": "flag", "c": "vietnam" },
+        { "t": "flag", "c": "hungaria" }
+      ],
+      "labels": ["Austria"],
+      "speakAlso": ["Austria! Orang di sana menyapa: Servus!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "polandia",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Polandia?",
+    "label": "Mana bendera Polandia?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "polandia" },
+        { "t": "flag", "c": "koreaSelatan" },
+        { "t": "flag", "c": "tiongkok" },
+        { "t": "flag", "c": "swedia" }
+      ],
+      "labels": ["Polandia"],
+      "speakAlso": ["Polandia! Orang di sana menyapa: Dzień dobry!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "hungaria",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Hungaria?",
+    "label": "Mana bendera Hungaria?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "hungaria" },
+        { "t": "flag", "c": "italia" },
+        { "t": "flag", "c": "vietnam" },
+        { "t": "flag", "c": "rusia" }
+      ],
+      "labels": ["Hungaria"],
+      "speakAlso": ["Hungaria! Orang di sana menyapa: Szia!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "rumania",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Rumania?",
+    "label": "Mana bendera Rumania?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "rumania" },
+        { "t": "flag", "c": "belanda" },
+        { "t": "flag", "c": "filipina" },
+        { "t": "flag", "c": "myanmar" }
+      ],
+      "labels": ["Rumania"],
+      "speakAlso": ["Rumania! Orang di sana menyapa: Bună!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "bulgaria",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Bulgaria?",
+    "label": "Mana bendera Bulgaria?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "bulgaria" },
+        { "t": "flag", "c": "thailand" },
+        { "t": "flag", "c": "tiongkok" },
+        { "t": "flag", "c": "argentina" }
+      ],
+      "labels": ["Bulgaria"],
+      "speakAlso": ["Bulgaria! Orang di sana menyapa: Zdravei!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "ukraina",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Ukraina?",
+    "label": "Mana bendera Ukraina?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "ukraina" },
+        { "t": "flag", "c": "inggris" },
+        { "t": "flag", "c": "amerikaSerikat" },
+        { "t": "flag", "c": "brasil" }
+      ],
+      "labels": ["Ukraina"],
+      "speakAlso": ["Ukraina! Orang di sana menyapa: Pryvit!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "lituania",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Lituania?",
+    "label": "Mana bendera Lituania?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "lituania" },
+        { "t": "flag", "c": "tiongkok" },
+        { "t": "flag", "c": "inggris" },
+        { "t": "flag", "c": "jamaika" }
+      ],
+      "labels": ["Lituania"],
+      "speakAlso": ["Lituania! Orang di sana menyapa: Labas!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "estonia",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Estonia?",
+    "label": "Mana bendera Estonia?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "estonia" },
+        { "t": "flag", "c": "brasil" },
+        { "t": "flag", "c": "koreaSelatan" },
+        { "t": "flag", "c": "jamaika" }
+      ],
+      "labels": ["Estonia"],
+      "speakAlso": ["Estonia! Orang di sana menyapa: Tere!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "swedia",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Swedia?",
+    "label": "Mana bendera Swedia?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "swedia" },
+        { "t": "flag", "c": "jepang" },
+        { "t": "flag", "c": "italia" },
+        { "t": "flag", "c": "mali" }
+      ],
+      "labels": ["Swedia"],
+      "speakAlso": ["Swedia! Orang di sana menyapa: Hej!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "norwegia",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Norwegia?",
+    "label": "Mana bendera Norwegia?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "norwegia" },
+        { "t": "flag", "c": "italia" },
+        { "t": "flag", "c": "tiongkok" },
+        { "t": "flag", "c": "brasil" }
+      ],
+      "labels": ["Norwegia"],
+      "speakAlso": ["Norwegia! Orang di sana menyapa: Hei!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "denmark",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Denmark?",
+    "label": "Mana bendera Denmark?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "denmark" },
+        { "t": "flag", "c": "vietnam" },
+        { "t": "flag", "c": "filipina" },
+        { "t": "flag", "c": "norwegia" }
+      ],
+      "labels": ["Denmark"],
+      "speakAlso": ["Denmark! Orang di sana menyapa: Hej!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "finlandia",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Finlandia?",
+    "label": "Mana bendera Finlandia?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "finlandia" },
+        { "t": "flag", "c": "amerikaSerikat" },
+        { "t": "flag", "c": "prancis" },
+        { "t": "flag", "c": "swedia" }
+      ],
+      "labels": ["Finlandia"],
+      "speakAlso": ["Finlandia! Orang di sana menyapa: Moi!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "islandia",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bendera Islandia?",
+    "label": "Mana bendera Islandia?",
+    "data": {
+      "options": [
+        { "t": "flag", "c": "islandia" },
+        { "t": "flag", "c": "belanda" },
+        { "t": "flag", "c": "jerman" },
+        { "t": "flag", "c": "finlandia" }
+      ],
+      "labels": ["Islandia"],
+      "speakAlso": ["Islandia! Orang di sana menyapa: Halló!"]
+    },
+    "tags": ["negara"],
+    "review": "perlu-ditinjau"
+  }
+]

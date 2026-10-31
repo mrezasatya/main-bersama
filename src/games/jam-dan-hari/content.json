@@ -1,0 +1,750 @@
+[
+  {
+    "id": "kapan-0",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Kapan kita sarapan?",
+    "label": "Kapan kita sarapan?",
+    "data": {
+      "instr": { "t": "clock", "h": 7 },
+      "options": [
+        { "t": "scene", "s": "pagi" },
+        { "t": "scene", "s": "malam" },
+        { "t": "scene", "s": "sore" },
+        { "t": "scene", "s": "siang" }
+      ],
+      "labels": ["Pagi", "Malam", "Sore", "Siang"],
+      "showLabels": true,
+      "speakAlso": ["Pagi!"]
+    },
+    "tags": ["waktu"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kapan-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Kapan kita tidur malam?",
+    "label": "Kapan kita tidur malam?",
+    "data": {
+      "instr": { "t": "clock", "h": 7 },
+      "options": [
+        { "t": "scene", "s": "malam" },
+        { "t": "scene", "s": "siang" },
+        { "t": "scene", "s": "pagi" },
+        { "t": "scene", "s": "sore" }
+      ],
+      "labels": ["Malam", "Siang", "Pagi", "Sore"],
+      "showLabels": true,
+      "speakAlso": ["Malam!"]
+    },
+    "tags": ["waktu"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kapan-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Kapan matahari terbit?",
+    "label": "Kapan matahari terbit?",
+    "data": {
+      "instr": { "t": "clock", "h": 7 },
+      "options": [
+        { "t": "scene", "s": "pagi" },
+        { "t": "scene", "s": "malam" },
+        { "t": "scene", "s": "siang" },
+        { "t": "scene", "s": "sore" }
+      ],
+      "labels": ["Pagi", "Malam", "Siang", "Sore"],
+      "showLabels": true,
+      "speakAlso": ["Pagi!"]
+    },
+    "tags": ["waktu"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kapan-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Kapan matahari terbenam?",
+    "label": "Kapan matahari terbenam?",
+    "data": {
+      "instr": { "t": "clock", "h": 7 },
+      "options": [
+        { "t": "scene", "s": "sore" },
+        { "t": "scene", "s": "pagi" },
+        { "t": "scene", "s": "malam" },
+        { "t": "scene", "s": "siang" }
+      ],
+      "labels": ["Sore", "Pagi", "Malam", "Siang"],
+      "showLabels": true,
+      "speakAlso": ["Sore!"]
+    },
+    "tags": ["waktu"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kapan-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Kapan bulan dan bintang terlihat?",
+    "label": "Kapan bulan dan bintang terlihat?",
+    "data": {
+      "instr": { "t": "clock", "h": 7 },
+      "options": [
+        { "t": "scene", "s": "malam" },
+        { "t": "scene", "s": "siang" },
+        { "t": "scene", "s": "pagi" },
+        { "t": "scene", "s": "sore" }
+      ],
+      "labels": ["Malam", "Siang", "Pagi", "Sore"],
+      "showLabels": true,
+      "speakAlso": ["Malam!"]
+    },
+    "tags": ["waktu"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kapan-5",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Kapan matahari bersinar paling tinggi?",
+    "label": "Kapan matahari bersinar paling tinggi?",
+    "data": {
+      "instr": { "t": "clock", "h": 7 },
+      "options": [
+        { "t": "scene", "s": "siang" },
+        { "t": "scene", "s": "malam" },
+        { "t": "scene", "s": "pagi" },
+        { "t": "scene", "s": "sore" }
+      ],
+      "labels": ["Siang", "Malam", "Pagi", "Sore"],
+      "showLabels": true,
+      "speakAlso": ["Siang!"]
+    },
+    "tags": ["waktu"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kapan-6",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Kapan kita berangkat sekolah?",
+    "label": "Kapan kita berangkat sekolah?",
+    "data": {
+      "instr": { "t": "clock", "h": 7 },
+      "options": [
+        { "t": "scene", "s": "pagi" },
+        { "t": "scene", "s": "malam" },
+        { "t": "scene", "s": "sore" },
+        { "t": "scene", "s": "siang" }
+      ],
+      "labels": ["Pagi", "Malam", "Sore", "Siang"],
+      "showLabels": true,
+      "speakAlso": ["Pagi!"]
+    },
+    "tags": ["waktu"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kapan-7",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Kapan kita makan siang?",
+    "label": "Kapan kita makan siang?",
+    "data": {
+      "instr": { "t": "clock", "h": 7 },
+      "options": [
+        { "t": "scene", "s": "siang" },
+        { "t": "scene", "s": "malam" },
+        { "t": "scene", "s": "pagi" },
+        { "t": "scene", "s": "sore" }
+      ],
+      "labels": ["Siang", "Malam", "Pagi", "Sore"],
+      "showLabels": true,
+      "speakAlso": ["Siang!"]
+    },
+    "tags": ["waktu"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kegiatan-0",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Apa yang kita lakukan sesudah bangun tidur pagi?",
+    "label": "Apa yang kita lakukan sesudah bangun tidur pagi?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "sikatGigiPasta" },
+        { "t": "art", "k": "tempatTidur" },
+        { "t": "art", "k": "bulan" }
+      ],
+      "speakAlso": ["Menggosok gigi, lalu mandi."]
+    },
+    "tags": ["kegiatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kegiatan-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Apa yang kita lakukan sebelum tidur malam?",
+    "label": "Apa yang kita lakukan sebelum tidur malam?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "sikatGigiPasta" },
+        { "t": "art", "k": "tasSekolah" },
+        { "t": "art", "k": "matahari" }
+      ],
+      "speakAlso": ["Menggosok gigi sebelum tidur."]
+    },
+    "tags": ["kegiatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kegiatan-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Apa yang kita bawa saat berangkat sekolah?",
+    "label": "Apa yang kita bawa saat berangkat sekolah?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "tasSekolah" },
+        { "t": "art", "k": "tempatTidur" },
+        { "t": "art", "k": "bulan" }
+      ],
+      "speakAlso": ["Tas sekolah!"]
+    },
+    "tags": ["kegiatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kegiatan-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Apa yang kita lakukan saat malam sudah larut?",
+    "label": "Apa yang kita lakukan saat malam sudah larut?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "tempatTidur" },
+        { "t": "art", "k": "tasSekolah" },
+        { "t": "art", "k": "bola" }
+      ],
+      "speakAlso": ["Tidur supaya badan segar besok."]
+    },
+    "tags": ["kegiatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-Senin",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Hari apa sesudah Senin?",
+    "label": "Hari apa sesudah Senin?",
+    "data": {
+      "options": [
+        { "t": "text", "s": "Selasa", "size": "m" },
+        { "t": "text", "s": "Kamis", "size": "m" },
+        { "t": "text", "s": "Sabtu", "size": "m" },
+        { "t": "text", "s": "Senin", "size": "m" }
+      ],
+      "speakAlso": ["Sesudah Senin adalah Selasa."]
+    },
+    "tags": ["hari"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-Selasa",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Hari apa sesudah Selasa?",
+    "label": "Hari apa sesudah Selasa?",
+    "data": {
+      "options": [
+        { "t": "text", "s": "Rabu", "size": "m" },
+        { "t": "text", "s": "Jumat", "size": "m" },
+        { "t": "text", "s": "Minggu", "size": "m" },
+        { "t": "text", "s": "Selasa", "size": "m" }
+      ],
+      "speakAlso": ["Sesudah Selasa adalah Rabu."]
+    },
+    "tags": ["hari"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-Rabu",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Hari apa sesudah Rabu?",
+    "label": "Hari apa sesudah Rabu?",
+    "data": {
+      "options": [
+        { "t": "text", "s": "Kamis", "size": "m" },
+        { "t": "text", "s": "Sabtu", "size": "m" },
+        { "t": "text", "s": "Senin", "size": "m" },
+        { "t": "text", "s": "Rabu", "size": "m" }
+      ],
+      "speakAlso": ["Sesudah Rabu adalah Kamis."]
+    },
+    "tags": ["hari"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-Kamis",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Hari apa sesudah Kamis?",
+    "label": "Hari apa sesudah Kamis?",
+    "data": {
+      "options": [
+        { "t": "text", "s": "Jumat", "size": "m" },
+        { "t": "text", "s": "Minggu", "size": "m" },
+        { "t": "text", "s": "Selasa", "size": "m" },
+        { "t": "text", "s": "Kamis", "size": "m" }
+      ],
+      "speakAlso": ["Sesudah Kamis adalah Jumat."]
+    },
+    "tags": ["hari"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-Jumat",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Hari apa sesudah Jumat?",
+    "label": "Hari apa sesudah Jumat?",
+    "data": {
+      "options": [
+        { "t": "text", "s": "Sabtu", "size": "m" },
+        { "t": "text", "s": "Senin", "size": "m" },
+        { "t": "text", "s": "Rabu", "size": "m" },
+        { "t": "text", "s": "Jumat", "size": "m" }
+      ],
+      "speakAlso": ["Sesudah Jumat adalah Sabtu."]
+    },
+    "tags": ["hari"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-Sabtu",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Hari apa sesudah Sabtu?",
+    "label": "Hari apa sesudah Sabtu?",
+    "data": {
+      "options": [
+        { "t": "text", "s": "Minggu", "size": "m" },
+        { "t": "text", "s": "Selasa", "size": "m" },
+        { "t": "text", "s": "Kamis", "size": "m" },
+        { "t": "text", "s": "Sabtu", "size": "m" }
+      ],
+      "speakAlso": ["Sesudah Sabtu adalah Minggu."]
+    },
+    "tags": ["hari"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sesudah-Minggu",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Hari apa sesudah Minggu?",
+    "label": "Hari apa sesudah Minggu?",
+    "data": {
+      "options": [
+        { "t": "text", "s": "Senin", "size": "m" },
+        { "t": "text", "s": "Rabu", "size": "m" },
+        { "t": "text", "s": "Jumat", "size": "m" },
+        { "t": "text", "s": "Minggu", "size": "m" }
+      ],
+      "speakAlso": ["Sesudah Minggu adalah Senin."]
+    },
+    "tags": ["hari"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sebelum-Rabu",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Hari apa sebelum Rabu?",
+    "label": "Hari apa sebelum Rabu?",
+    "data": {
+      "options": [
+        { "t": "text", "s": "Selasa", "size": "m" },
+        { "t": "text", "s": "Jumat", "size": "m" },
+        { "t": "text", "s": "Minggu", "size": "m" },
+        { "t": "text", "s": "Rabu", "size": "m" }
+      ],
+      "speakAlso": ["Sebelum Rabu adalah Selasa."]
+    },
+    "tags": ["hari"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sebelum-Sabtu",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Hari apa sebelum Sabtu?",
+    "label": "Hari apa sebelum Sabtu?",
+    "data": {
+      "options": [
+        { "t": "text", "s": "Jumat", "size": "m" },
+        { "t": "text", "s": "Senin", "size": "m" },
+        { "t": "text", "s": "Rabu", "size": "m" },
+        { "t": "text", "s": "Sabtu", "size": "m" }
+      ],
+      "speakAlso": ["Sebelum Sabtu adalah Jumat."]
+    },
+    "tags": ["hari"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sebelum-Senin",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Hari apa sebelum Senin?",
+    "label": "Hari apa sebelum Senin?",
+    "data": {
+      "options": [
+        { "t": "text", "s": "Minggu", "size": "m" },
+        { "t": "text", "s": "Rabu", "size": "m" },
+        { "t": "text", "s": "Jumat", "size": "m" },
+        { "t": "text", "s": "Senin", "size": "m" }
+      ],
+      "speakAlso": ["Sebelum Senin adalah Minggu."]
+    },
+    "tags": ["hari"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jam-berapa-3",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Jarum pendek menunjuk angka 3. Jam berapa ini?",
+    "label": "Jarum pendek menunjuk angka 3. Jam berapa ini?",
+    "data": {
+      "cue": { "t": "clock", "h": 3 },
+      "options": [
+        { "t": "text", "s": "Jam 3", "size": "m" },
+        { "t": "text", "s": "Jam 9", "size": "m" },
+        { "t": "text", "s": "Jam 6", "size": "m" },
+        { "t": "text", "s": "Jam 12", "size": "m" }
+      ],
+      "speakAlso": ["Jam tiga!"]
+    },
+    "tags": ["jam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jam-berapa-7",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Jarum pendek menunjuk angka 7. Jam berapa ini?",
+    "label": "Jarum pendek menunjuk angka 7. Jam berapa ini?",
+    "data": {
+      "cue": { "t": "clock", "h": 7 },
+      "options": [
+        { "t": "text", "s": "Jam 7", "size": "m" },
+        { "t": "text", "s": "Jam 1", "size": "m" },
+        { "t": "text", "s": "Jam 10", "size": "m" },
+        { "t": "text", "s": "Jam 4", "size": "m" }
+      ],
+      "speakAlso": ["Jam tujuh!"]
+    },
+    "tags": ["jam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jam-berapa-9",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Jarum pendek menunjuk angka 9. Jam berapa ini?",
+    "label": "Jarum pendek menunjuk angka 9. Jam berapa ini?",
+    "data": {
+      "cue": { "t": "clock", "h": 9 },
+      "options": [
+        { "t": "text", "s": "Jam 9", "size": "m" },
+        { "t": "text", "s": "Jam 3", "size": "m" },
+        { "t": "text", "s": "Jam 12", "size": "m" },
+        { "t": "text", "s": "Jam 6", "size": "m" }
+      ],
+      "speakAlso": ["Jam sembilan!"]
+    },
+    "tags": ["jam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jam-berapa-12",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Jarum pendek menunjuk angka 12. Jam berapa ini?",
+    "label": "Jarum pendek menunjuk angka 12. Jam berapa ini?",
+    "data": {
+      "cue": { "t": "clock", "h": 12 },
+      "options": [
+        { "t": "text", "s": "Jam 12", "size": "m" },
+        { "t": "text", "s": "Jam 6", "size": "m" },
+        { "t": "text", "s": "Jam 3", "size": "m" },
+        { "t": "text", "s": "Jam 9", "size": "m" }
+      ],
+      "speakAlso": ["Jam dua belas!"]
+    },
+    "tags": ["jam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jam-berapa-1",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Jarum pendek menunjuk angka 1. Jam berapa ini?",
+    "label": "Jarum pendek menunjuk angka 1. Jam berapa ini?",
+    "data": {
+      "cue": { "t": "clock", "h": 1 },
+      "options": [
+        { "t": "text", "s": "Jam 1", "size": "m" },
+        { "t": "text", "s": "Jam 7", "size": "m" },
+        { "t": "text", "s": "Jam 4", "size": "m" },
+        { "t": "text", "s": "Jam 10", "size": "m" }
+      ],
+      "speakAlso": ["Jam satu!"]
+    },
+    "tags": ["jam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jam-berapa-5",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Jarum pendek menunjuk angka 5. Jam berapa ini?",
+    "label": "Jarum pendek menunjuk angka 5. Jam berapa ini?",
+    "data": {
+      "cue": { "t": "clock", "h": 5 },
+      "options": [
+        { "t": "text", "s": "Jam 5", "size": "m" },
+        { "t": "text", "s": "Jam 11", "size": "m" },
+        { "t": "text", "s": "Jam 8", "size": "m" },
+        { "t": "text", "s": "Jam 2", "size": "m" }
+      ],
+      "speakAlso": ["Jam lima!"]
+    },
+    "tags": ["jam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jam-berapa-8",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Jarum pendek menunjuk angka 8. Jam berapa ini?",
+    "label": "Jarum pendek menunjuk angka 8. Jam berapa ini?",
+    "data": {
+      "cue": { "t": "clock", "h": 8 },
+      "options": [
+        { "t": "text", "s": "Jam 8", "size": "m" },
+        { "t": "text", "s": "Jam 2", "size": "m" },
+        { "t": "text", "s": "Jam 11", "size": "m" },
+        { "t": "text", "s": "Jam 5", "size": "m" }
+      ],
+      "speakAlso": ["Jam delapan!"]
+    },
+    "tags": ["jam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jam-berapa-11",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Jarum pendek menunjuk angka 11. Jam berapa ini?",
+    "label": "Jarum pendek menunjuk angka 11. Jam berapa ini?",
+    "data": {
+      "cue": { "t": "clock", "h": 11 },
+      "options": [
+        { "t": "text", "s": "Jam 11", "size": "m" },
+        { "t": "text", "s": "Jam 5", "size": "m" },
+        { "t": "text", "s": "Jam 2", "size": "m" },
+        { "t": "text", "s": "Jam 8", "size": "m" }
+      ],
+      "speakAlso": ["Jam sebelas!"]
+    },
+    "tags": ["jam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "mana-jam-12",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana jam dua belas?",
+    "label": "Mana jam dua belas?",
+    "data": {
+      "options": [
+        { "t": "clock", "h": 12 },
+        { "t": "clock", "h": 6 },
+        { "t": "clock", "h": 3 },
+        { "t": "clock", "h": 9 }
+      ],
+      "speakAlso": ["Jam dua belas: jarum panjang di angka dua belas, jarum pendek di angka 12."]
+    },
+    "tags": ["jam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "mana-jam-6",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana jam enam?",
+    "label": "Mana jam enam?",
+    "data": {
+      "options": [
+        { "t": "clock", "h": 6 },
+        { "t": "clock", "h": 12 },
+        { "t": "clock", "h": 9 },
+        { "t": "clock", "h": 3 }
+      ],
+      "speakAlso": ["Jam enam: jarum panjang di angka dua belas, jarum pendek di angka 6."]
+    },
+    "tags": ["jam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "mana-jam-3",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana jam tiga?",
+    "label": "Mana jam tiga?",
+    "data": {
+      "options": [
+        { "t": "clock", "h": 3 },
+        { "t": "clock", "h": 9 },
+        { "t": "clock", "h": 6 },
+        { "t": "clock", "h": 12 }
+      ],
+      "speakAlso": ["Jam tiga: jarum panjang di angka dua belas, jarum pendek di angka 3."]
+    },
+    "tags": ["jam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "mana-jam-9",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana jam sembilan?",
+    "label": "Mana jam sembilan?",
+    "data": {
+      "options": [
+        { "t": "clock", "h": 9 },
+        { "t": "clock", "h": 3 },
+        { "t": "clock", "h": 12 },
+        { "t": "clock", "h": 6 }
+      ],
+      "speakAlso": ["Jam sembilan: jarum panjang di angka dua belas, jarum pendek di angka 9."]
+    },
+    "tags": ["jam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "mana-jam-2",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana jam dua?",
+    "label": "Mana jam dua?",
+    "data": {
+      "options": [
+        { "t": "clock", "h": 2 },
+        { "t": "clock", "h": 8 },
+        { "t": "clock", "h": 5 },
+        { "t": "clock", "h": 11 }
+      ],
+      "speakAlso": ["Jam dua: jarum panjang di angka dua belas, jarum pendek di angka 2."]
+    },
+    "tags": ["jam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "mana-jam-10",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana jam sepuluh?",
+    "label": "Mana jam sepuluh?",
+    "data": {
+      "options": [
+        { "t": "clock", "h": 10 },
+        { "t": "clock", "h": 4 },
+        { "t": "clock", "h": 1 },
+        { "t": "clock", "h": 7 }
+      ],
+      "speakAlso": ["Jam sepuluh: jarum panjang di angka dua belas, jarum pendek di angka 10."]
+    },
+    "tags": ["jam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bulan-Januari",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Bulan apa sesudah Januari?",
+    "label": "Bulan apa sesudah Januari?",
+    "data": {
+      "options": [
+        { "t": "text", "s": "Februari", "size": "m" },
+        { "t": "text", "s": "Mei", "size": "m" },
+        { "t": "text", "s": "Agustus", "size": "m" },
+        { "t": "text", "s": "Januari", "size": "m" }
+      ],
+      "speakAlso": ["Sesudah Januari adalah Februari."]
+    },
+    "tags": ["bulan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bulan-April",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Bulan apa sesudah April?",
+    "label": "Bulan apa sesudah April?",
+    "data": {
+      "options": [
+        { "t": "text", "s": "Mei", "size": "m" },
+        { "t": "text", "s": "Agustus", "size": "m" },
+        { "t": "text", "s": "November", "size": "m" },
+        { "t": "text", "s": "April", "size": "m" }
+      ],
+      "speakAlso": ["Sesudah April adalah Mei."]
+    },
+    "tags": ["bulan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bulan-Juli",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Bulan apa sesudah Juli?",
+    "label": "Bulan apa sesudah Juli?",
+    "data": {
+      "options": [
+        { "t": "text", "s": "Agustus", "size": "m" },
+        { "t": "text", "s": "November", "size": "m" },
+        { "t": "text", "s": "Februari", "size": "m" },
+        { "t": "text", "s": "Juli", "size": "m" }
+      ],
+      "speakAlso": ["Sesudah Juli adalah Agustus."]
+    },
+    "tags": ["bulan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bulan-November",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Bulan apa sesudah November?",
+    "label": "Bulan apa sesudah November?",
+    "data": {
+      "options": [
+        { "t": "text", "s": "Desember", "size": "m" },
+        { "t": "text", "s": "Maret", "size": "m" },
+        { "t": "text", "s": "Juni", "size": "m" },
+        { "t": "text", "s": "November", "size": "m" }
+      ],
+      "speakAlso": ["Sesudah November adalah Desember."]
+    },
+    "tags": ["bulan"],
+    "review": "ditinjau"
+  }
+]

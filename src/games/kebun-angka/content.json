@@ -1,0 +1,857 @@
+[
+  {
+    "id": "tenframe-3",
+    "ageGroup": ["C"],
+    "difficulty": 1,
+    "speak": "Berapa apel di kotak sepuluh ini?",
+    "label": "Berapa apel di kotak sepuluh ini?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 3, "k": "apel" },
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 4 }
+      ],
+      "speakAlso": ["Ada tiga apel."]
+    },
+    "tags": ["bilangan", "ten-frame"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tenframe-5",
+    "ageGroup": ["C"],
+    "difficulty": 1,
+    "speak": "Berapa jeruk di kotak sepuluh ini?",
+    "label": "Berapa jeruk di kotak sepuluh ini?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 5, "k": "jeruk" },
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["Ada lima jeruk."]
+    },
+    "tags": ["bilangan", "ten-frame"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tenframe-7",
+    "ageGroup": ["C"],
+    "difficulty": 1,
+    "speak": "Berapa tomat di kotak sepuluh ini?",
+    "label": "Berapa tomat di kotak sepuluh ini?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 7, "k": "tomat" },
+      "options": [
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 8 }
+      ],
+      "speakAlso": ["Ada tujuh tomat."]
+    },
+    "tags": ["bilangan", "ten-frame"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tenframe-8",
+    "ageGroup": ["C"],
+    "difficulty": 1,
+    "speak": "Berapa stroberi di kotak sepuluh ini?",
+    "label": "Berapa stroberi di kotak sepuluh ini?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 8, "k": "stroberi" },
+      "options": [
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 9 }
+      ],
+      "speakAlso": ["Ada delapan stroberi."]
+    },
+    "tags": ["bilangan", "ten-frame"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tenframe-10",
+    "ageGroup": ["C"],
+    "difficulty": 1,
+    "speak": "Berapa mangga di kotak sepuluh ini?",
+    "label": "Berapa mangga di kotak sepuluh ini?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 10, "k": "mangga" },
+      "options": [
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 12 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 11 }
+      ],
+      "speakAlso": ["Ada sepuluh mangga."]
+    },
+    "tags": ["bilangan", "ten-frame"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tenframe-6",
+    "ageGroup": ["C"],
+    "difficulty": 1,
+    "speak": "Berapa rambutan di kotak sepuluh ini?",
+    "label": "Berapa rambutan di kotak sepuluh ini?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 6, "k": "rambutan" },
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 7 }
+      ],
+      "speakAlso": ["Ada enam rambutan."]
+    },
+    "tags": ["bilangan", "ten-frame"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tenframe-9",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Berapa telur di kotak sepuluh ini?",
+    "label": "Berapa telur di kotak sepuluh ini?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 9, "k": "telur" },
+      "options": [
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 11 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 10 }
+      ],
+      "speakAlso": ["Ada sembilan telur."]
+    },
+    "tags": ["bilangan", "ten-frame"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tenframe-12",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Berapa bintang di kotak sepuluh ini?",
+    "label": "Berapa bintang di kotak sepuluh ini?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 12, "k": "bintang" },
+      "options": [
+        { "t": "num", "n": 12 },
+        { "t": "num", "n": 14 },
+        { "t": "num", "n": 11 },
+        { "t": "num", "n": 13 }
+      ],
+      "speakAlso": ["Ada dua belas bintang."]
+    },
+    "tags": ["bilangan", "ten-frame"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tenframe-15",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Berapa bola di kotak sepuluh ini?",
+    "label": "Berapa bola di kotak sepuluh ini?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 15, "k": "bola" },
+      "options": [
+        { "t": "num", "n": 15 },
+        { "t": "num", "n": 17 },
+        { "t": "num", "n": 14 },
+        { "t": "num", "n": 16 }
+      ],
+      "speakAlso": ["Ada lima belas bola."]
+    },
+    "tags": ["bilangan", "ten-frame"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tenframe-18",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Berapa kue di kotak sepuluh ini?",
+    "label": "Berapa kue di kotak sepuluh ini?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 18, "k": "kue" },
+      "options": [
+        { "t": "num", "n": 18 },
+        { "t": "num", "n": 20 },
+        { "t": "num", "n": 17 },
+        { "t": "num", "n": 19 }
+      ],
+      "speakAlso": ["Ada delapan belas kue."]
+    },
+    "tags": ["bilangan", "ten-frame"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ke-sepuluh-9",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada sembilan. Berapa lagi supaya jadi sepuluh?",
+    "label": "Ada sembilan. Berapa lagi supaya jadi sepuluh?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 9 },
+      "options": [
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 4 }
+      ],
+      "speakAlso": ["9 dan 1 jadi sepuluh."]
+    },
+    "tags": ["bilangan", "pasangan-10"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ke-sepuluh-7",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada tujuh. Berapa lagi supaya jadi sepuluh?",
+    "label": "Ada tujuh. Berapa lagi supaya jadi sepuluh?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 7 },
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 4 }
+      ],
+      "speakAlso": ["7 dan 3 jadi sepuluh."]
+    },
+    "tags": ["bilangan", "pasangan-10"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ke-sepuluh-6",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada enam. Berapa lagi supaya jadi sepuluh?",
+    "label": "Ada enam. Berapa lagi supaya jadi sepuluh?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 6 },
+      "options": [
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 5 }
+      ],
+      "speakAlso": ["6 dan 4 jadi sepuluh."]
+    },
+    "tags": ["bilangan", "pasangan-10"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ke-sepuluh-8",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada delapan. Berapa lagi supaya jadi sepuluh?",
+    "label": "Ada delapan. Berapa lagi supaya jadi sepuluh?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 8 },
+      "options": [
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 3 }
+      ],
+      "speakAlso": ["8 dan 2 jadi sepuluh."]
+    },
+    "tags": ["bilangan", "pasangan-10"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ke-sepuluh-5",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada lima. Berapa lagi supaya jadi sepuluh?",
+    "label": "Ada lima. Berapa lagi supaya jadi sepuluh?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 5 },
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["5 dan 5 jadi sepuluh."]
+    },
+    "tags": ["bilangan", "pasangan-10"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ke-sepuluh-4",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada empat. Berapa lagi supaya jadi sepuluh?",
+    "label": "Ada empat. Berapa lagi supaya jadi sepuluh?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 4 },
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 7 }
+      ],
+      "speakAlso": ["4 dan 6 jadi sepuluh."]
+    },
+    "tags": ["bilangan", "pasangan-10"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ke-sepuluh-3",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada tiga. Berapa lagi supaya jadi sepuluh?",
+    "label": "Ada tiga. Berapa lagi supaya jadi sepuluh?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 3 },
+      "options": [
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 8 }
+      ],
+      "speakAlso": ["3 dan 7 jadi sepuluh."]
+    },
+    "tags": ["bilangan", "pasangan-10"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ke-sepuluh-2",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada dua. Berapa lagi supaya jadi sepuluh?",
+    "label": "Ada dua. Berapa lagi supaya jadi sepuluh?",
+    "data": {
+      "cue": { "t": "tenframe", "n": 2 },
+      "options": [
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["2 dan 8 jadi sepuluh."]
+    },
+    "tags": ["bilangan", "pasangan-10"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-utuh-2-3",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Dua dan tiga, jadi berapa?",
+    "label": "Dua dan tiga, jadi berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": null, "a": 2, "b": 3 },
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["2 dan 3 jadi 5."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-utuh-4-1",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Empat dan satu, jadi berapa?",
+    "label": "Empat dan satu, jadi berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": null, "a": 4, "b": 1 },
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["4 dan 1 jadi 5."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-utuh-3-3",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Tiga dan tiga, jadi berapa?",
+    "label": "Tiga dan tiga, jadi berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": null, "a": 3, "b": 3 },
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 7 }
+      ],
+      "speakAlso": ["3 dan 3 jadi 6."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-utuh-5-2",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Lima dan dua, jadi berapa?",
+    "label": "Lima dan dua, jadi berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": null, "a": 5, "b": 2 },
+      "options": [
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 8 }
+      ],
+      "speakAlso": ["5 dan 2 jadi 7."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-utuh-4-4",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Empat dan empat, jadi berapa?",
+    "label": "Empat dan empat, jadi berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": null, "a": 4, "b": 4 },
+      "options": [
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 9 }
+      ],
+      "speakAlso": ["4 dan 4 jadi 8."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-utuh-6-3",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Enam dan tiga, jadi berapa?",
+    "label": "Enam dan tiga, jadi berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": null, "a": 6, "b": 3 },
+      "options": [
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 11 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 10 }
+      ],
+      "speakAlso": ["6 dan 3 jadi 9."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-utuh-5-5",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Lima dan lima, jadi berapa?",
+    "label": "Lima dan lima, jadi berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": null, "a": 5, "b": 5 },
+      "options": [
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 12 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 11 }
+      ],
+      "speakAlso": ["5 dan 5 jadi 10."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-utuh-7-2",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Tujuh dan dua, jadi berapa?",
+    "label": "Tujuh dan dua, jadi berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": null, "a": 7, "b": 2 },
+      "options": [
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 11 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 10 }
+      ],
+      "speakAlso": ["7 dan 2 jadi 9."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-utuh-6-4",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Enam dan empat, jadi berapa?",
+    "label": "Enam dan empat, jadi berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": null, "a": 6, "b": 4 },
+      "options": [
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 12 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 11 }
+      ],
+      "speakAlso": ["6 dan 4 jadi 10."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-bagian-5-2",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Lima itu dua dan berapa?",
+    "label": "Lima itu dua dan berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": 5, "a": 2, "b": null },
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 4 }
+      ],
+      "speakAlso": ["5 itu 2 dan 3."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-bagian-6-4",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Enam itu empat dan berapa?",
+    "label": "Enam itu empat dan berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": 6, "a": 4, "b": null },
+      "options": [
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 3 }
+      ],
+      "speakAlso": ["6 itu 4 dan 2."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-bagian-7-3",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Tujuh itu tiga dan berapa?",
+    "label": "Tujuh itu tiga dan berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": 7, "a": 3, "b": null },
+      "options": [
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 5 }
+      ],
+      "speakAlso": ["7 itu 3 dan 4."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-bagian-8-5",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Delapan itu lima dan berapa?",
+    "label": "Delapan itu lima dan berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": 8, "a": 5, "b": null },
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 4 }
+      ],
+      "speakAlso": ["8 itu 5 dan 3."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-bagian-9-4",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Sembilan itu empat dan berapa?",
+    "label": "Sembilan itu empat dan berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": 9, "a": 4, "b": null },
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["9 itu 4 dan 5."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-bagian-10-7",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Sepuluh itu tujuh dan berapa?",
+    "label": "Sepuluh itu tujuh dan berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": 10, "a": 7, "b": null },
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 4 }
+      ],
+      "speakAlso": ["10 itu 7 dan 3."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-bagian-8-2",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Delapan itu dua dan berapa?",
+    "label": "Delapan itu dua dan berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": 8, "a": 2, "b": null },
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 7 }
+      ],
+      "speakAlso": ["8 itu 2 dan 6."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-bagian-6-1",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Enam itu satu dan berapa?",
+    "label": "Enam itu satu dan berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": 6, "a": 1, "b": null },
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["6 itu 1 dan 5."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ikatan-bagian-10-5",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Sepuluh itu lima dan berapa?",
+    "label": "Sepuluh itu lima dan berapa?",
+    "data": {
+      "cue": { "t": "bond", "whole": 10, "a": 5, "b": null },
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["10 itu 5 dan 5."]
+    },
+    "tags": ["bilangan", "ikatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "batang-tambah-3-2",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada tiga bebek di kolam, datang lagi dua. Berapa semuanya?",
+    "label": "Ada tiga bebek di kolam, datang lagi dua. Berapa semuanya?",
+    "data": {
+      "cue": { "t": "bar", "parts": [3, 2], "total": null },
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["3 tambah 2 sama dengan 5."]
+    },
+    "tags": ["bilangan", "model-batang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "batang-tambah-4-3",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada empat burung di pohon, hinggap lagi tiga. Berapa semuanya?",
+    "label": "Ada empat burung di pohon, hinggap lagi tiga. Berapa semuanya?",
+    "data": {
+      "cue": { "t": "bar", "parts": [4, 3], "total": null },
+      "options": [
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 8 }
+      ],
+      "speakAlso": ["4 tambah 3 sama dengan 7."]
+    },
+    "tags": ["bilangan", "model-batang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "batang-tambah-5-4",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada lima kelereng di toples, dimasukkan lagi empat. Berapa semuanya?",
+    "label": "Ada lima kelereng di toples, dimasukkan lagi empat. Berapa semuanya?",
+    "data": {
+      "cue": { "t": "bar", "parts": [5, 4], "total": null },
+      "options": [
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 11 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 10 }
+      ],
+      "speakAlso": ["5 tambah 4 sama dengan 9."]
+    },
+    "tags": ["bilangan", "model-batang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "batang-tambah-6-2",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada enam ikan di akuarium, dimasukkan lagi dua. Berapa semuanya?",
+    "label": "Ada enam ikan di akuarium, dimasukkan lagi dua. Berapa semuanya?",
+    "data": {
+      "cue": { "t": "bar", "parts": [6, 2], "total": null },
+      "options": [
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 9 }
+      ],
+      "speakAlso": ["6 tambah 2 sama dengan 8."]
+    },
+    "tags": ["bilangan", "model-batang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "batang-tambah-2-7",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada dua kupu-kupu di taman, datang lagi tujuh. Berapa semuanya?",
+    "label": "Ada dua kupu-kupu di taman, datang lagi tujuh. Berapa semuanya?",
+    "data": {
+      "cue": { "t": "bar", "parts": [2, 7], "total": null },
+      "options": [
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 11 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 10 }
+      ],
+      "speakAlso": ["2 tambah 7 sama dengan 9."]
+    },
+    "tags": ["bilangan", "model-batang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "batang-kurang-8-3",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada delapan kue, dimakan tiga. Sisa berapa?",
+    "label": "Ada delapan kue, dimakan tiga. Sisa berapa?",
+    "data": {
+      "cue": { "t": "bar", "parts": [3, null], "total": 8 },
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["8 kurang 3 sama dengan 5."]
+    },
+    "tags": ["bilangan", "model-batang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "batang-kurang-10-4",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada sepuluh balon, terbang empat. Sisa berapa?",
+    "label": "Ada sepuluh balon, terbang empat. Sisa berapa?",
+    "data": {
+      "cue": { "t": "bar", "parts": [4, null], "total": 10 },
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 7 }
+      ],
+      "speakAlso": ["10 kurang 4 sama dengan 6."]
+    },
+    "tags": ["bilangan", "model-batang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "batang-kurang-7-5",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada tujuh permen, dibagikan lima. Sisa berapa?",
+    "label": "Ada tujuh permen, dibagikan lima. Sisa berapa?",
+    "data": {
+      "cue": { "t": "bar", "parts": [5, null], "total": 7 },
+      "options": [
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 3 }
+      ],
+      "speakAlso": ["7 kurang 5 sama dengan 2."]
+    },
+    "tags": ["bilangan", "model-batang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "batang-kurang-9-2",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada sembilan apel, dijual dua. Sisa berapa?",
+    "label": "Ada sembilan apel, dijual dua. Sisa berapa?",
+    "data": {
+      "cue": { "t": "bar", "parts": [2, null], "total": 9 },
+      "options": [
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 8 }
+      ],
+      "speakAlso": ["9 kurang 2 sama dengan 7."]
+    },
+    "tags": ["bilangan", "model-batang"],
+    "review": "ditinjau"
+  }
+]

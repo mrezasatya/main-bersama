@@ -1,0 +1,710 @@
+[
+  {
+    "id": "ukuran-bola",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Urutkan bola dari yang paling kecil ke paling besar.",
+    "label": "Urutkan bola dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "bola", "scale": 0.35 },
+        { "t": "art", "k": "bola", "scale": 0.68 },
+        { "t": "art", "k": "bola", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ukuran-apel",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Urutkan apel dari yang paling kecil ke paling besar.",
+    "label": "Urutkan apel dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "apel", "scale": 0.35 },
+        { "t": "art", "k": "apel", "scale": 0.57 },
+        { "t": "art", "k": "apel", "scale": 0.78 },
+        { "t": "art", "k": "apel", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ukuran-bintang",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Urutkan bintang dari yang paling kecil ke paling besar.",
+    "label": "Urutkan bintang dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "bintang", "scale": 0.35 },
+        { "t": "art", "k": "bintang", "scale": 0.51 },
+        { "t": "art", "k": "bintang", "scale": 0.68 },
+        { "t": "art", "k": "bintang", "scale": 0.84 },
+        { "t": "art", "k": "bintang", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ukuran-ikan",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Urutkan ikan dari yang paling kecil ke paling besar.",
+    "label": "Urutkan ikan dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "ikan", "scale": 0.35 },
+        { "t": "art", "k": "ikan", "scale": 0.68 },
+        { "t": "art", "k": "ikan", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ukuran-gajah",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Urutkan gajah dari yang paling kecil ke paling besar.",
+    "label": "Urutkan gajah dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "gajah", "scale": 0.35 },
+        { "t": "art", "k": "gajah", "scale": 0.57 },
+        { "t": "art", "k": "gajah", "scale": 0.78 },
+        { "t": "art", "k": "gajah", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ukuran-kucing",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Urutkan kucing dari yang paling kecil ke paling besar.",
+    "label": "Urutkan kucing dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "kucing", "scale": 0.35 },
+        { "t": "art", "k": "kucing", "scale": 0.51 },
+        { "t": "art", "k": "kucing", "scale": 0.68 },
+        { "t": "art", "k": "kucing", "scale": 0.84 },
+        { "t": "art", "k": "kucing", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ukuran-balon",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Urutkan balon dari yang paling kecil ke paling besar.",
+    "label": "Urutkan balon dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "balon", "scale": 0.35 },
+        { "t": "art", "k": "balon", "scale": 0.68 },
+        { "t": "art", "k": "balon", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ukuran-pohon",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Urutkan pohon dari yang paling kecil ke paling besar.",
+    "label": "Urutkan pohon dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "pohon", "scale": 0.35 },
+        { "t": "art", "k": "pohon", "scale": 0.57 },
+        { "t": "art", "k": "pohon", "scale": 0.78 },
+        { "t": "art", "k": "pohon", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ukuran-rumahJoglo",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Urutkan rumah dari yang paling kecil ke paling besar.",
+    "label": "Urutkan rumah dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "rumahJoglo", "scale": 0.35 },
+        { "t": "art", "k": "rumahJoglo", "scale": 0.51 },
+        { "t": "art", "k": "rumahJoglo", "scale": 0.68 },
+        { "t": "art", "k": "rumahJoglo", "scale": 0.84 },
+        { "t": "art", "k": "rumahJoglo", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ukuran-mobil",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Urutkan mobil dari yang paling kecil ke paling besar.",
+    "label": "Urutkan mobil dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "mobil", "scale": 0.35 },
+        { "t": "art", "k": "mobil", "scale": 0.68 },
+        { "t": "art", "k": "mobil", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ukuran-bunga",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Urutkan bunga dari yang paling kecil ke paling besar.",
+    "label": "Urutkan bunga dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "bunga", "scale": 0.35 },
+        { "t": "art", "k": "bunga", "scale": 0.57 },
+        { "t": "art", "k": "bunga", "scale": 0.78 },
+        { "t": "art", "k": "bunga", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ukuran-jeruk",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Urutkan jeruk dari yang paling kecil ke paling besar.",
+    "label": "Urutkan jeruk dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "jeruk", "scale": 0.35 },
+        { "t": "art", "k": "jeruk", "scale": 0.51 },
+        { "t": "art", "k": "jeruk", "scale": 0.68 },
+        { "t": "art", "k": "jeruk", "scale": 0.84 },
+        { "t": "art", "k": "jeruk", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ukuran-kue",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Urutkan kue dari yang paling kecil ke paling besar.",
+    "label": "Urutkan kue dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "kue", "scale": 0.35 },
+        { "t": "art", "k": "kue", "scale": 0.68 },
+        { "t": "art", "k": "kue", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ukuran-katak",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Urutkan katak dari yang paling kecil ke paling besar.",
+    "label": "Urutkan katak dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "katak", "scale": 0.35 },
+        { "t": "art", "k": "katak", "scale": 0.57 },
+        { "t": "art", "k": "katak", "scale": 0.78 },
+        { "t": "art", "k": "katak", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ukuran-semangka",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Urutkan semangka dari yang paling kecil ke paling besar.",
+    "label": "Urutkan semangka dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "semangka", "scale": 0.35 },
+        { "t": "art", "k": "semangka", "scale": 0.51 },
+        { "t": "art", "k": "semangka", "scale": 0.68 },
+        { "t": "art", "k": "semangka", "scale": 0.84 },
+        { "t": "art", "k": "semangka", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ukuran-beruang",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Urutkan beruang dari yang paling kecil ke paling besar.",
+    "label": "Urutkan beruang dari yang paling kecil ke paling besar.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "beruang", "scale": 0.35 },
+        { "t": "art", "k": "beruang", "scale": 0.68 },
+        { "t": "art", "k": "beruang", "scale": 1 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-bola",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Urutkan bola dari yang paling besar ke paling kecil.",
+    "label": "Urutkan bola dari yang paling besar ke paling kecil.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "bola", "scale": 1 },
+        { "t": "art", "k": "bola", "scale": 0.84 },
+        { "t": "art", "k": "bola", "scale": 0.68 },
+        { "t": "art", "k": "bola", "scale": 0.51 },
+        { "t": "art", "k": "bola", "scale": 0.35 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-apel",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Urutkan apel dari yang paling besar ke paling kecil.",
+    "label": "Urutkan apel dari yang paling besar ke paling kecil.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "apel", "scale": 1 },
+        { "t": "art", "k": "apel", "scale": 0.87 },
+        { "t": "art", "k": "apel", "scale": 0.74 },
+        { "t": "art", "k": "apel", "scale": 0.61 },
+        { "t": "art", "k": "apel", "scale": 0.48 },
+        { "t": "art", "k": "apel", "scale": 0.35 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-bintang",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Urutkan bintang dari yang paling besar ke paling kecil.",
+    "label": "Urutkan bintang dari yang paling besar ke paling kecil.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "bintang", "scale": 1 },
+        { "t": "art", "k": "bintang", "scale": 0.84 },
+        { "t": "art", "k": "bintang", "scale": 0.68 },
+        { "t": "art", "k": "bintang", "scale": 0.51 },
+        { "t": "art", "k": "bintang", "scale": 0.35 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-ikan",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Urutkan ikan dari yang paling besar ke paling kecil.",
+    "label": "Urutkan ikan dari yang paling besar ke paling kecil.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "ikan", "scale": 1 },
+        { "t": "art", "k": "ikan", "scale": 0.87 },
+        { "t": "art", "k": "ikan", "scale": 0.74 },
+        { "t": "art", "k": "ikan", "scale": 0.61 },
+        { "t": "art", "k": "ikan", "scale": 0.48 },
+        { "t": "art", "k": "ikan", "scale": 0.35 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-gajah",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Urutkan gajah dari yang paling besar ke paling kecil.",
+    "label": "Urutkan gajah dari yang paling besar ke paling kecil.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "gajah", "scale": 1 },
+        { "t": "art", "k": "gajah", "scale": 0.84 },
+        { "t": "art", "k": "gajah", "scale": 0.68 },
+        { "t": "art", "k": "gajah", "scale": 0.51 },
+        { "t": "art", "k": "gajah", "scale": 0.35 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "besar-kucing",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Urutkan kucing dari yang paling besar ke paling kecil.",
+    "label": "Urutkan kucing dari yang paling besar ke paling kecil.",
+    "data": {
+      "tiles": [
+        { "t": "art", "k": "kucing", "scale": 1 },
+        { "t": "art", "k": "kucing", "scale": 0.87 },
+        { "t": "art", "k": "kucing", "scale": 0.74 },
+        { "t": "art", "k": "kucing", "scale": 0.61 },
+        { "t": "art", "k": "kucing", "scale": 0.48 },
+        { "t": "art", "k": "kucing", "scale": 0.35 }
+      ]
+    },
+    "tags": ["urutan", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "panjang-pensil-3",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Urutkan pensil dari yang paling pendek ke paling panjang.",
+    "label": "Urutkan pensil dari yang paling pendek ke paling panjang.",
+    "data": {
+      "tiles": [
+        { "t": "len", "n": 2, "k": "pensil" },
+        { "t": "len", "n": 4, "k": "pensil" },
+        { "t": "len", "n": 6, "k": "pensil" }
+      ]
+    },
+    "tags": ["urutan", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "panjang-pensil-5",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Urutkan pensil dari yang paling pendek ke paling panjang, ada lebih banyak.",
+    "label": "Urutkan pensil dari yang paling pendek ke paling panjang, ada lebih banyak.",
+    "data": {
+      "tiles": [
+        { "t": "len", "n": 2, "k": "pensil" },
+        { "t": "len", "n": 4, "k": "pensil" },
+        { "t": "len", "n": 6, "k": "pensil" },
+        { "t": "len", "n": 8, "k": "pensil" },
+        { "t": "len", "n": 10, "k": "pensil" }
+      ]
+    },
+    "tags": ["urutan", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "panjang-pita-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Urutkan pita dari yang paling pendek ke paling panjang.",
+    "label": "Urutkan pita dari yang paling pendek ke paling panjang.",
+    "data": {
+      "tiles": [
+        { "t": "len", "n": 2, "k": "pita" },
+        { "t": "len", "n": 4, "k": "pita" },
+        { "t": "len", "n": 6, "k": "pita" },
+        { "t": "len", "n": 8, "k": "pita" }
+      ]
+    },
+    "tags": ["urutan", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "panjang-pita-5",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Urutkan pita dari yang paling pendek ke paling panjang, ada lebih banyak.",
+    "label": "Urutkan pita dari yang paling pendek ke paling panjang, ada lebih banyak.",
+    "data": {
+      "tiles": [
+        { "t": "len", "n": 2, "k": "pita" },
+        { "t": "len", "n": 4, "k": "pita" },
+        { "t": "len", "n": 6, "k": "pita" },
+        { "t": "len", "n": 8, "k": "pita" },
+        { "t": "len", "n": 10, "k": "pita" },
+        { "t": "len", "n": 12, "k": "pita" }
+      ]
+    },
+    "tags": ["urutan", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "panjang-ular-3",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Urutkan ular dari yang paling pendek ke paling panjang.",
+    "label": "Urutkan ular dari yang paling pendek ke paling panjang.",
+    "data": {
+      "tiles": [
+        { "t": "len", "n": 2, "k": "ular" },
+        { "t": "len", "n": 4, "k": "ular" },
+        { "t": "len", "n": 6, "k": "ular" }
+      ]
+    },
+    "tags": ["urutan", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "panjang-ular-5",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Urutkan ular dari yang paling pendek ke paling panjang, ada lebih banyak.",
+    "label": "Urutkan ular dari yang paling pendek ke paling panjang, ada lebih banyak.",
+    "data": {
+      "tiles": [
+        { "t": "len", "n": 2, "k": "ular" },
+        { "t": "len", "n": 4, "k": "ular" },
+        { "t": "len", "n": 6, "k": "ular" },
+        { "t": "len", "n": 8, "k": "ular" },
+        { "t": "len", "n": 10, "k": "ular" }
+      ]
+    },
+    "tags": ["urutan", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "panjang-kereta-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Urutkan kereta dari yang paling pendek ke paling panjang.",
+    "label": "Urutkan kereta dari yang paling pendek ke paling panjang.",
+    "data": {
+      "tiles": [
+        { "t": "len", "n": 2, "k": "kereta" },
+        { "t": "len", "n": 4, "k": "kereta" },
+        { "t": "len", "n": 6, "k": "kereta" },
+        { "t": "len", "n": 8, "k": "kereta" }
+      ]
+    },
+    "tags": ["urutan", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "panjang-kereta-5",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Urutkan kereta dari yang paling pendek ke paling panjang, ada lebih banyak.",
+    "label": "Urutkan kereta dari yang paling pendek ke paling panjang, ada lebih banyak.",
+    "data": {
+      "tiles": [
+        { "t": "len", "n": 2, "k": "kereta" },
+        { "t": "len", "n": 4, "k": "kereta" },
+        { "t": "len", "n": 6, "k": "kereta" },
+        { "t": "len", "n": 8, "k": "kereta" },
+        { "t": "len", "n": 10, "k": "kereta" },
+        { "t": "len", "n": 12, "k": "kereta" }
+      ]
+    },
+    "tags": ["urutan", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-apel",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Urutkan dari apel yang paling sedikit ke paling banyak.",
+    "label": "Urutkan dari apel yang paling sedikit ke paling banyak.",
+    "data": {
+      "tiles": [
+        { "t": "group", "k": "apel", "n": 1 },
+        { "t": "group", "k": "apel", "n": 2 },
+        { "t": "group", "k": "apel", "n": 3 }
+      ]
+    },
+    "tags": ["urutan", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-bintang",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Urutkan dari bintang yang paling sedikit ke paling banyak.",
+    "label": "Urutkan dari bintang yang paling sedikit ke paling banyak.",
+    "data": {
+      "tiles": [
+        { "t": "group", "k": "bintang", "n": 2 },
+        { "t": "group", "k": "bintang", "n": 4 },
+        { "t": "group", "k": "bintang", "n": 6 }
+      ]
+    },
+    "tags": ["urutan", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-ikan",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Urutkan dari ikan yang paling sedikit ke paling banyak.",
+    "label": "Urutkan dari ikan yang paling sedikit ke paling banyak.",
+    "data": {
+      "tiles": [
+        { "t": "group", "k": "ikan", "n": 1 },
+        { "t": "group", "k": "ikan", "n": 3 },
+        { "t": "group", "k": "ikan", "n": 5 },
+        { "t": "group", "k": "ikan", "n": 7 }
+      ]
+    },
+    "tags": ["urutan", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-bola",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Urutkan dari bola yang paling sedikit ke paling banyak.",
+    "label": "Urutkan dari bola yang paling sedikit ke paling banyak.",
+    "data": {
+      "tiles": [
+        { "t": "group", "k": "bola", "n": 3 },
+        { "t": "group", "k": "bola", "n": 5 },
+        { "t": "group", "k": "bola", "n": 8 },
+        { "t": "group", "k": "bola", "n": 10 }
+      ]
+    },
+    "tags": ["urutan", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-bunga",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Urutkan dari bunga yang paling sedikit ke paling banyak.",
+    "label": "Urutkan dari bunga yang paling sedikit ke paling banyak.",
+    "data": {
+      "tiles": [
+        { "t": "group", "k": "bunga", "n": 2 },
+        { "t": "group", "k": "bunga", "n": 3 },
+        { "t": "group", "k": "bunga", "n": 4 },
+        { "t": "group", "k": "bunga", "n": 5 },
+        { "t": "group", "k": "bunga", "n": 6 }
+      ]
+    },
+    "tags": ["urutan", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-jeruk",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Urutkan dari jeruk yang paling sedikit ke paling banyak.",
+    "label": "Urutkan dari jeruk yang paling sedikit ke paling banyak.",
+    "data": {
+      "tiles": [
+        { "t": "group", "k": "jeruk", "n": 1 },
+        { "t": "group", "k": "jeruk", "n": 4 },
+        { "t": "group", "k": "jeruk", "n": 7 },
+        { "t": "group", "k": "jeruk", "n": 10 }
+      ]
+    },
+    "tags": ["urutan", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-kue",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Urutkan dari kue yang paling sedikit ke paling banyak.",
+    "label": "Urutkan dari kue yang paling sedikit ke paling banyak.",
+    "data": {
+      "tiles": [
+        { "t": "group", "k": "kue", "n": 5 },
+        { "t": "group", "k": "kue", "n": 6 },
+        { "t": "group", "k": "kue", "n": 7 }
+      ]
+    },
+    "tags": ["urutan", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-telur",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Urutkan dari telur yang paling sedikit ke paling banyak.",
+    "label": "Urutkan dari telur yang paling sedikit ke paling banyak.",
+    "data": {
+      "tiles": [
+        { "t": "group", "k": "telur", "n": 2 },
+        { "t": "group", "k": "telur", "n": 5 },
+        { "t": "group", "k": "telur", "n": 6 },
+        { "t": "group", "k": "telur", "n": 9 },
+        { "t": "group", "k": "telur", "n": 10 }
+      ]
+    },
+    "tags": ["urutan", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "isi-0",
+    "ageGroup": ["A", "B"],
+    "difficulty": 1,
+    "speak": "Urutkan gelas dari yang isinya paling sedikit ke paling banyak.",
+    "label": "Urutkan gelas dari yang isinya paling sedikit ke paling banyak.",
+    "data": {
+      "tiles": [
+        { "t": "gelas", "fill": 0.2 },
+        { "t": "gelas", "fill": 0.55 },
+        { "t": "gelas", "fill": 0.9 }
+      ]
+    },
+    "tags": ["urutan", "isi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "isi-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Urutkan gelas dari yang isinya paling sedikit ke paling banyak, 4 gelas.",
+    "label": "Urutkan gelas dari yang isinya paling sedikit ke paling banyak, 4 gelas.",
+    "data": {
+      "tiles": [
+        { "t": "gelas", "fill": 0.15 },
+        { "t": "gelas", "fill": 0.4 },
+        { "t": "gelas", "fill": 0.65 },
+        { "t": "gelas", "fill": 0.9 }
+      ]
+    },
+    "tags": ["urutan", "isi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "isi-2",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Urutkan gelas dari yang isinya paling sedikit ke paling banyak, 5 gelas.",
+    "label": "Urutkan gelas dari yang isinya paling sedikit ke paling banyak, 5 gelas.",
+    "data": {
+      "tiles": [
+        { "t": "gelas", "fill": 0.1 },
+        { "t": "gelas", "fill": 0.3 },
+        { "t": "gelas", "fill": 0.5 },
+        { "t": "gelas", "fill": 0.7 },
+        { "t": "gelas", "fill": 0.9 }
+      ]
+    },
+    "tags": ["urutan", "isi"],
+    "review": "ditinjau"
+  }
+]

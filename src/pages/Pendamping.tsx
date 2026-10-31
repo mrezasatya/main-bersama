@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AgePicker } from '../app/AgePicker';
-import { usePwa } from '../app/pwa';
+import { usePwa, type CheckStatus } from '../app/pwa';
 import { IconBack } from '../core/art';
 import { useVoiceStatus } from '../core/audio';
 import { useProgress, useSettings } from '../core/progress';
@@ -74,10 +74,64 @@ function ResetProgress() {
   return <p className="notice">Progres sudah disetel ulang.</p>;
 }
 
+const STATUS_TEXT: Record<CheckStatus, string> = {
+  idle: '',
+  memeriksa: 'Memeriksa…',
+  terbaru: 'Aplikasi sudah versi terbaru.',
+  ada: 'Versi baru siap dipasang.',
+  gagal: 'Tidak bisa memeriksa. Pastikan tersambung ke internet, lalu coba lagi.',
+  'tidak-didukung': 'Pemeriksaan pembaruan tidak tersedia di browser ini. Muat ulang halaman.',
+};
+
+const buildLabel = () =>
+  new Date(__BUILD_TIME__).toLocaleString('id-ID', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+  });
+
+function UpdatePanel() {
+  const { needRefresh, offlineReady, status, update, check } = usePwa();
+  return (
+    <section className="panel">
+      <h2>Pembaruan aplikasi</h2>
+      <p>
+        Versi yang dipakai: <strong>{buildLabel()}</strong>
+      </p>
+      {needRefresh ? (
+        <div className="notice notice-info">
+          Versi baru tersedia.
+          <div className="btn-row">
+            <BigButton size="md" onClick={update}>
+              Perbarui sekarang
+            </BigButton>
+          </div>
+        </div>
+      ) : (
+        <div className="btn-row">
+          <BigButton
+            variant="soft"
+            size="md"
+            disabled={status === 'memeriksa'}
+            onClick={() => void check()}
+          >
+            Periksa pembaruan
+          </BigButton>
+        </div>
+      )}
+      {status !== 'idle' && !needRefresh && <p className="muted">{STATUS_TEXT[status]}</p>}
+      {offlineReady && !needRefresh && (
+        <p className="muted">Aplikasi siap dimainkan tanpa internet.</p>
+      )}
+    </section>
+  );
+}
+
 export default function Pendamping() {
   const navigate = useNavigate();
   const settings = useSettings();
-  const { needRefresh, offlineReady, update } = usePwa();
 
   return (
     <div className="page parent">
@@ -88,18 +142,7 @@ export default function Pendamping() {
         <h1>Untuk Pendamping</h1>
       </header>
 
-      {needRefresh && (
-        <div className="notice notice-info">
-          Versi baru tersedia.{' '}
-          <button type="button" className="link-btn" onClick={update}>
-            Perbarui sekarang
-          </button>{' '}
-          (atau otomatis saat aplikasi dibuka ulang).
-        </div>
-      )}
-      {offlineReady && !needRefresh && (
-        <div className="notice">Aplikasi siap dimainkan tanpa internet.</div>
-      )}
+      <UpdatePanel />
       <VoiceWarning />
 
       <section className="panel">
@@ -231,15 +274,20 @@ export default function Pendamping() {
       <section className="panel">
         <h2>Aktivitas nyata per permainan</h2>
         {GAMES.map(({ meta, guide }) => (
-          <div key={meta.id} className="guide">
-            <h3>{meta.title}</h3>
+          <details key={meta.id} className="guide">
+            <summary>
+              <strong>{meta.title}</strong>{' '}
+              <span className="muted">
+                ({meta.ageMin}-{meta.ageMax} tahun)
+              </span>
+            </summary>
             <p>{guide.tujuan}</p>
             <ul>
               {guide.aktivitas.map((a) => (
                 <li key={a}>{a}</li>
               ))}
             </ul>
-          </div>
+          </details>
         ))}
       </section>
 
@@ -269,7 +317,7 @@ export default function Pendamping() {
         <h2>Privasi</h2>
         <p>
           Tanpa akun, tanpa iklan, tanpa pelacak. Progres hanya tersimpan di perangkat ini. Versi{' '}
-          {__APP_VERSION__}.
+          {__APP_VERSION__} ({buildLabel()}).
         </p>
       </section>
     </div>

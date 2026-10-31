@@ -1,0 +1,857 @@
+[
+  {
+    "id": "warna-0",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ada bola merah. Mana bola yang warnanya berbeda?",
+    "label": "Ada bola merah. Mana bola yang warnanya berbeda?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "bola", "color": "biru" },
+        { "t": "art", "k": "bola", "color": "merah" },
+        { "t": "art", "k": "bola", "color": "merah" },
+        { "t": "art", "k": "bola", "color": "merah" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini biru!"]
+    },
+    "tags": ["beda", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ada balon kuning. Mana balon yang warnanya berbeda?",
+    "label": "Ada balon kuning. Mana balon yang warnanya berbeda?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "balon", "color": "hijau" },
+        { "t": "art", "k": "balon", "color": "kuning" },
+        { "t": "art", "k": "balon", "color": "kuning" },
+        { "t": "art", "k": "balon", "color": "kuning" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini hijau!"]
+    },
+    "tags": ["beda", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna-2",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ada bintang kuning. Mana bintang yang warnanya berbeda?",
+    "label": "Ada bintang kuning. Mana bintang yang warnanya berbeda?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "bintang", "color": "ungu" },
+        { "t": "art", "k": "bintang", "color": "kuning" },
+        { "t": "art", "k": "bintang", "color": "kuning" },
+        { "t": "art", "k": "bintang", "color": "kuning" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini ungu!"]
+    },
+    "tags": ["beda", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna-3",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ada bunga merah muda. Mana bunga yang warnanya berbeda?",
+    "label": "Ada bunga merah muda. Mana bunga yang warnanya berbeda?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "bunga", "color": "oranye" },
+        { "t": "art", "k": "bunga", "color": "merah muda" },
+        { "t": "art", "k": "bunga", "color": "merah muda" },
+        { "t": "art", "k": "bunga", "color": "merah muda" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini oranye!"]
+    },
+    "tags": ["beda", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna-4",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ada ikan oranye. Mana ikan yang warnanya berbeda?",
+    "label": "Ada ikan oranye. Mana ikan yang warnanya berbeda?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "ikan", "color": "biru" },
+        { "t": "art", "k": "ikan", "color": "oranye" },
+        { "t": "art", "k": "ikan", "color": "oranye" },
+        { "t": "art", "k": "ikan", "color": "oranye" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini biru!"]
+    },
+    "tags": ["beda", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna-5",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ada bola hijau. Mana bola yang warnanya berbeda?",
+    "label": "Ada bola hijau. Mana bola yang warnanya berbeda?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "bola", "color": "merah" },
+        { "t": "art", "k": "bola", "color": "hijau" },
+        { "t": "art", "k": "bola", "color": "hijau" },
+        { "t": "art", "k": "bola", "color": "hijau" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini merah!"]
+    },
+    "tags": ["beda", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna-6",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ada balon biru. Mana balon yang warnanya berbeda?",
+    "label": "Ada balon biru. Mana balon yang warnanya berbeda?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "balon", "color": "merah" },
+        { "t": "art", "k": "balon", "color": "biru" },
+        { "t": "art", "k": "balon", "color": "biru" },
+        { "t": "art", "k": "balon", "color": "biru" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini merah!"]
+    },
+    "tags": ["beda", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna-7",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ada bintang hijau. Mana bintang yang warnanya berbeda?",
+    "label": "Ada bintang hijau. Mana bintang yang warnanya berbeda?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "bintang", "color": "merah" },
+        { "t": "art", "k": "bintang", "color": "hijau" },
+        { "t": "art", "k": "bintang", "color": "hijau" },
+        { "t": "art", "k": "bintang", "color": "hijau" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini merah!"]
+    },
+    "tags": ["beda", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna-8",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ada bunga ungu. Mana bunga yang warnanya berbeda?",
+    "label": "Ada bunga ungu. Mana bunga yang warnanya berbeda?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "bunga", "color": "kuning" },
+        { "t": "art", "k": "bunga", "color": "ungu" },
+        { "t": "art", "k": "bunga", "color": "ungu" },
+        { "t": "art", "k": "bunga", "color": "ungu" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini kuning!"]
+    },
+    "tags": ["beda", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna-9",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada ikan kuning. Mana ikan yang warnanya berbeda?",
+    "label": "Ada ikan kuning. Mana ikan yang warnanya berbeda?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "ikan", "color": "merah muda" },
+        { "t": "art", "k": "ikan", "color": "kuning" },
+        { "t": "art", "k": "ikan", "color": "kuning" },
+        { "t": "art", "k": "ikan", "color": "kuning" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini merah muda!"]
+    },
+    "tags": ["beda", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna-10",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada bola oranye. Mana bola yang warnanya berbeda?",
+    "label": "Ada bola oranye. Mana bola yang warnanya berbeda?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "bola", "color": "merah" },
+        { "t": "art", "k": "bola", "color": "oranye" },
+        { "t": "art", "k": "bola", "color": "oranye" },
+        { "t": "art", "k": "bola", "color": "oranye" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini merah!"]
+    },
+    "tags": ["beda", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna-11",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Ada balon merah muda. Mana balon yang warnanya berbeda?",
+    "label": "Ada balon merah muda. Mana balon yang warnanya berbeda?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "balon", "color": "merah" },
+        { "t": "art", "k": "balon", "color": "merah muda" },
+        { "t": "art", "k": "balon", "color": "merah muda" },
+        { "t": "art", "k": "balon", "color": "merah muda" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini merah!"]
+    },
+    "tags": ["beda", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-0",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ada beberapa lingkaran. Mana yang bentuknya berbeda?",
+    "label": "Ada beberapa lingkaran. Mana yang bentuknya berbeda?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "segitiga", "color": "merah" },
+        { "t": "shape", "s": "lingkaran", "color": "merah" },
+        { "t": "shape", "s": "lingkaran", "color": "merah" },
+        { "t": "shape", "s": "lingkaran", "color": "merah" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini segitiga!"]
+    },
+    "tags": ["beda", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ada banyak persegi. Mana yang bentuknya berbeda?",
+    "label": "Ada banyak persegi. Mana yang bentuknya berbeda?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "bintang", "color": "biru" },
+        { "t": "shape", "s": "persegi", "color": "biru" },
+        { "t": "shape", "s": "persegi", "color": "biru" },
+        { "t": "shape", "s": "persegi", "color": "biru" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini bintang!"]
+    },
+    "tags": ["beda", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-2",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ada beberapa segitiga. Mana yang bentuknya berbeda?",
+    "label": "Ada beberapa segitiga. Mana yang bentuknya berbeda?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "hati", "color": "hijau" },
+        { "t": "shape", "s": "segitiga", "color": "hijau" },
+        { "t": "shape", "s": "segitiga", "color": "hijau" },
+        { "t": "shape", "s": "segitiga", "color": "hijau" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini hati!"]
+    },
+    "tags": ["beda", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-3",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ada banyak bintang. Mana yang bentuknya berbeda?",
+    "label": "Ada banyak bintang. Mana yang bentuknya berbeda?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "lingkaran", "color": "kuning" },
+        { "t": "shape", "s": "bintang", "color": "kuning" },
+        { "t": "shape", "s": "bintang", "color": "kuning" },
+        { "t": "shape", "s": "bintang", "color": "kuning" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini lingkaran!"]
+    },
+    "tags": ["beda", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-4",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Ada beberapa hati. Mana yang bentuknya berbeda?",
+    "label": "Ada beberapa hati. Mana yang bentuknya berbeda?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "persegi", "color": "merah muda" },
+        { "t": "shape", "s": "hati", "color": "merah muda" },
+        { "t": "shape", "s": "hati", "color": "merah muda" },
+        { "t": "shape", "s": "hati", "color": "merah muda" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini persegi!"]
+    },
+    "tags": ["beda", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-5",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ada banyak oval. Mana yang bentuknya berbeda?",
+    "label": "Ada banyak oval. Mana yang bentuknya berbeda?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "segitiga", "color": "ungu" },
+        { "t": "shape", "s": "oval", "color": "ungu" },
+        { "t": "shape", "s": "oval", "color": "ungu" },
+        { "t": "shape", "s": "oval", "color": "ungu" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini segitiga!"]
+    },
+    "tags": ["beda", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-6",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ada beberapa persegi. Mana yang bentuknya berbeda?",
+    "label": "Ada beberapa persegi. Mana yang bentuknya berbeda?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "persegiPanjang", "color": "oranye" },
+        { "t": "shape", "s": "persegi", "color": "oranye" },
+        { "t": "shape", "s": "persegi", "color": "oranye" },
+        { "t": "shape", "s": "persegi", "color": "oranye" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini persegi panjang!"]
+    },
+    "tags": ["beda", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-7",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ada banyak lingkaran. Mana yang bentuknya berbeda?",
+    "label": "Ada banyak lingkaran. Mana yang bentuknya berbeda?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "oval", "color": "biru" },
+        { "t": "shape", "s": "lingkaran", "color": "biru" },
+        { "t": "shape", "s": "lingkaran", "color": "biru" },
+        { "t": "shape", "s": "lingkaran", "color": "biru" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini oval!"]
+    },
+    "tags": ["beda", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-8",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada beberapa segi lima. Mana yang bentuknya berbeda? Lihat baik-baik.",
+    "label": "Ada beberapa segi lima. Mana yang bentuknya berbeda? Lihat baik-baik.",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "segiEnam", "color": "hijau" },
+        { "t": "shape", "s": "segiLima", "color": "hijau" },
+        { "t": "shape", "s": "segiLima", "color": "hijau" },
+        { "t": "shape", "s": "segiLima", "color": "hijau" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini segi enam!"]
+    },
+    "tags": ["beda", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-9",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada banyak persegi. Mana yang bentuknya berbeda? Lihat baik-baik.",
+    "label": "Ada banyak persegi. Mana yang bentuknya berbeda? Lihat baik-baik.",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "belahKetupat", "color": "merah" },
+        { "t": "shape", "s": "persegi", "color": "merah" },
+        { "t": "shape", "s": "persegi", "color": "merah" },
+        { "t": "shape", "s": "persegi", "color": "merah" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini belah ketupat!"]
+    },
+    "tags": ["beda", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-10",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada beberapa kubus. Mana yang bentuknya berbeda? Lihat baik-baik.",
+    "label": "Ada beberapa kubus. Mana yang bentuknya berbeda? Lihat baik-baik.",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "balok", "color": "kuning" },
+        { "t": "shape", "s": "kubus", "color": "kuning" },
+        { "t": "shape", "s": "kubus", "color": "kuning" },
+        { "t": "shape", "s": "kubus", "color": "kuning" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini balok!"]
+    },
+    "tags": ["beda", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-11",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada banyak tabung. Mana yang bentuknya berbeda? Lihat baik-baik.",
+    "label": "Ada banyak tabung. Mana yang bentuknya berbeda? Lihat baik-baik.",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "kerucut", "color": "biru" },
+        { "t": "shape", "s": "tabung", "color": "biru" },
+        { "t": "shape", "s": "tabung", "color": "biru" },
+        { "t": "shape", "s": "tabung", "color": "biru" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini kerucut!"]
+    },
+    "tags": ["beda", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-0",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana kelompok apel yang jumlahnya berbeda?",
+    "label": "Mana kelompok apel yang jumlahnya berbeda?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "apel", "n": 2 },
+        { "t": "group", "k": "apel", "n": 3 },
+        { "t": "group", "k": "apel", "n": 3 },
+        { "t": "group", "k": "apel", "n": 3 }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini ada 2."]
+    },
+    "tags": ["beda", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana kelompok bintang yang jumlahnya berbeda?",
+    "label": "Mana kelompok bintang yang jumlahnya berbeda?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "bintang", "n": 5 },
+        { "t": "group", "k": "bintang", "n": 4 },
+        { "t": "group", "k": "bintang", "n": 4 },
+        { "t": "group", "k": "bintang", "n": 4 }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini ada 5."]
+    },
+    "tags": ["beda", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Mana kelompok ikan yang jumlahnya berbeda?",
+    "label": "Mana kelompok ikan yang jumlahnya berbeda?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "ikan", "n": 4 },
+        { "t": "group", "k": "ikan", "n": 2 },
+        { "t": "group", "k": "ikan", "n": 2 },
+        { "t": "group", "k": "ikan", "n": 2 }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini ada 4."]
+    },
+    "tags": ["beda", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-3",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Mana kelompok jeruk yang jumlahnya berbeda?",
+    "label": "Mana kelompok jeruk yang jumlahnya berbeda?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "jeruk", "n": 3 },
+        { "t": "group", "k": "jeruk", "n": 5 },
+        { "t": "group", "k": "jeruk", "n": 5 },
+        { "t": "group", "k": "jeruk", "n": 5 }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini ada 3."]
+    },
+    "tags": ["beda", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-4",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Mana kelompok telur yang jumlahnya berbeda?",
+    "label": "Mana kelompok telur yang jumlahnya berbeda?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "telur", "n": 5 },
+        { "t": "group", "k": "telur", "n": 6 },
+        { "t": "group", "k": "telur", "n": 6 },
+        { "t": "group", "k": "telur", "n": 6 }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini ada 5."]
+    },
+    "tags": ["beda", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-5",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Mana kelompok kue yang jumlahnya berbeda?",
+    "label": "Mana kelompok kue yang jumlahnya berbeda?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "kue", "n": 4 },
+        { "t": "group", "k": "kue", "n": 3 },
+        { "t": "group", "k": "kue", "n": 3 },
+        { "t": "group", "k": "kue", "n": 3 }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini ada 4."]
+    },
+    "tags": ["beda", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-6",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Mana kelompok bola yang jumlahnya berbeda?",
+    "label": "Mana kelompok bola yang jumlahnya berbeda?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "bola", "n": 6 },
+        { "t": "group", "k": "bola", "n": 7 },
+        { "t": "group", "k": "bola", "n": 7 },
+        { "t": "group", "k": "bola", "n": 7 }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini ada 6."]
+    },
+    "tags": ["beda", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "jumlah-7",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Mana kelompok bunga yang jumlahnya berbeda?",
+    "label": "Mana kelompok bunga yang jumlahnya berbeda?",
+    "data": {
+      "options": [
+        { "t": "group", "k": "bunga", "n": 9 },
+        { "t": "group", "k": "bunga", "n": 8 },
+        { "t": "group", "k": "bunga", "n": 8 },
+        { "t": "group", "k": "bunga", "n": 8 }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Yang ini ada 9."]
+    },
+    "tags": ["beda", "jumlah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kategori-0",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Ada beberapa hewan. Mana yang bukan hewan?",
+    "label": "Ada beberapa hewan. Mana yang bukan hewan?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "mobil" },
+        { "t": "art", "k": "kucing" },
+        { "t": "art", "k": "sapi" },
+        { "t": "art", "k": "ayamJago" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Mobil bukan hewan."]
+    },
+    "tags": ["beda", "kategori"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kategori-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Ada beberapa buah. Mana yang bukan buah?",
+    "label": "Ada beberapa buah. Mana yang bukan buah?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "bus" },
+        { "t": "art", "k": "apel" },
+        { "t": "art", "k": "jeruk" },
+        { "t": "art", "k": "pisang" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Bus bukan buah."]
+    },
+    "tags": ["beda", "kategori"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kategori-2",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Ada beberapa kendaraan. Mana yang bukan kendaraan?",
+    "label": "Ada beberapa kendaraan. Mana yang bukan kendaraan?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "pisang" },
+        { "t": "art", "k": "mobil" },
+        { "t": "art", "k": "pesawat" },
+        { "t": "art", "k": "perahuLayar" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Pisang bukan kendaraan."]
+    },
+    "tags": ["beda", "kategori"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kategori-3",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Ada beberapa hewan laut. Mana yang bukan hewan laut?",
+    "label": "Ada beberapa hewan laut. Mana yang bukan hewan laut?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "kucing" },
+        { "t": "art", "k": "ikan" },
+        { "t": "art", "k": "paus" },
+        { "t": "art", "k": "lumbaLumba" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Kucing tidak hidup di laut."]
+    },
+    "tags": ["beda", "kategori"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kategori-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ada beberapa burung. Mana yang bukan burung?",
+    "label": "Ada beberapa burung. Mana yang bukan burung?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "katak" },
+        { "t": "art", "k": "merpati" },
+        { "t": "art", "k": "elang" },
+        { "t": "art", "k": "beo" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Katak bukan burung."]
+    },
+    "tags": ["beda", "kategori"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kategori-5",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ada beberapa alat musik. Mana yang bukan alat musik?",
+    "label": "Ada beberapa alat musik. Mana yang bukan alat musik?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "apel" },
+        { "t": "art", "k": "gitar" },
+        { "t": "art", "k": "angklung" },
+        { "t": "art", "k": "gong" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Apel bukan alat musik."]
+    },
+    "tags": ["beda", "kategori"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kategori-6",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ada beberapa makanan. Mana yang bukan makanan?",
+    "label": "Ada beberapa makanan. Mana yang bukan makanan?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "palu" },
+        { "t": "art", "k": "roti" },
+        { "t": "art", "k": "kue" },
+        { "t": "art", "k": "sate" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Palu tidak bisa dimakan."]
+    },
+    "tags": ["beda", "kategori"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kategori-7",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ada beberapa sayuran. Mana yang bukan sayuran?",
+    "label": "Ada beberapa sayuran. Mana yang bukan sayuran?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "bola" },
+        { "t": "art", "k": "wortel" },
+        { "t": "art", "k": "tomat" },
+        { "t": "art", "k": "jagung" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Bola bukan sayuran."]
+    },
+    "tags": ["beda", "kategori"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kategori-8",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Ada beberapa kendaraan udara. Mana yang bukan kendaraan udara?",
+    "label": "Ada beberapa kendaraan udara. Mana yang bukan kendaraan udara?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "bus" },
+        { "t": "art", "k": "pesawat" },
+        { "t": "art", "k": "helikopter" },
+        { "t": "art", "k": "balonUdara" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Bus tidak terbang."]
+    },
+    "tags": ["beda", "kategori"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kategori-9",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada beberapa serangga. Mana yang bukan serangga?",
+    "label": "Ada beberapa serangga. Mana yang bukan serangga?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "ikan" },
+        { "t": "art", "k": "lebah" },
+        { "t": "art", "k": "nyamuk" },
+        { "t": "art", "k": "jangkrik" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Ikan bukan serangga."]
+    },
+    "tags": ["beda", "kategori"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kategori-10",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada beberapa rumah adat. Mana yang bukan rumah adat?",
+    "label": "Ada beberapa rumah adat. Mana yang bukan rumah adat?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "roket" },
+        { "t": "art", "k": "rumahGadang" },
+        { "t": "art", "k": "rumahJoglo" },
+        { "t": "art", "k": "rumahHonai" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Roket bukan rumah."]
+    },
+    "tags": ["beda", "kategori"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kategori-11",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada beberapa alat tulis dan gambar. Mana yang bukan alat tulis dan gambar?",
+    "label": "Ada beberapa alat tulis dan gambar. Mana yang bukan alat tulis dan gambar?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "jeruk" },
+        { "t": "art", "k": "kuas" },
+        { "t": "art", "k": "buku" },
+        { "t": "art", "k": "kertas" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Jeruk bukan alat tulis."]
+    },
+    "tags": ["beda", "kategori"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kategori-12",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Ada beberapa hewan berkaki empat. Mana yang bukan hewan berkaki empat?",
+    "label": "Ada beberapa hewan berkaki empat. Mana yang bukan hewan berkaki empat?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "ayamJago" },
+        { "t": "art", "k": "sapi" },
+        { "t": "art", "k": "kuda" },
+        { "t": "art", "k": "kambing" }
+      ],
+      "minOptions": 3,
+      "speakAlso": ["Ayam berkaki dua."]
+    },
+    "tags": ["beda", "kategori"],
+    "review": "ditinjau"
+  }
+]

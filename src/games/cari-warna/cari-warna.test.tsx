@@ -18,7 +18,7 @@ describe('Cari Warna (permainan contoh)', () => {
 
   it('kelompok A mendapat 2 pilihan dan sesi berakhir di layar hadiah', async () => {
     render(
-      <MemoryRouter>
+      <MemoryRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <CariWarna />
       </MemoryRouter>,
     );

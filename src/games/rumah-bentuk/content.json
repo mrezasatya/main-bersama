@@ -1,0 +1,732 @@
+[
+  {
+    "id": "datar-lingkaran",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana lingkaran?",
+    "label": "Mana lingkaran?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "lingkaran", "color": "merah" },
+        { "t": "shape", "s": "segitiga", "color": "biru" },
+        { "t": "shape", "s": "persegi", "color": "kuning" },
+        { "t": "shape", "s": "bintang", "color": "hijau" }
+      ],
+      "speakAlso": ["Ini lingkaran."]
+    },
+    "tags": ["bentuk", "datar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "datar-segitiga",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana segitiga?",
+    "label": "Mana segitiga?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "segitiga", "color": "biru" },
+        { "t": "shape", "s": "lingkaran", "color": "kuning" },
+        { "t": "shape", "s": "hati", "color": "hijau" },
+        { "t": "shape", "s": "persegi", "color": "oranye" }
+      ],
+      "speakAlso": ["Ini segitiga."]
+    },
+    "tags": ["bentuk", "datar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "datar-persegi",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana persegi?",
+    "label": "Mana persegi?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "persegi", "color": "kuning" },
+        { "t": "shape", "s": "lingkaran", "color": "hijau" },
+        { "t": "shape", "s": "segitiga", "color": "oranye" },
+        { "t": "shape", "s": "hati", "color": "ungu" }
+      ],
+      "speakAlso": ["Ini persegi."]
+    },
+    "tags": ["bentuk", "datar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "datar-bintang",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana bintang?",
+    "label": "Mana bintang?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "bintang", "color": "hijau" },
+        { "t": "shape", "s": "lingkaran", "color": "oranye" },
+        { "t": "shape", "s": "persegi", "color": "ungu" },
+        { "t": "shape", "s": "segitiga", "color": "merah" }
+      ],
+      "speakAlso": ["Ini bintang."]
+    },
+    "tags": ["bentuk", "datar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "datar-hati",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana hati?",
+    "label": "Mana hati?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "hati", "color": "oranye" },
+        { "t": "shape", "s": "segitiga", "color": "ungu" },
+        { "t": "shape", "s": "persegi", "color": "merah" },
+        { "t": "shape", "s": "lingkaran", "color": "biru" }
+      ],
+      "speakAlso": ["Ini hati."]
+    },
+    "tags": ["bentuk", "datar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "datar-persegiPanjang",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana persegi panjang?",
+    "label": "Mana persegi panjang?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "persegiPanjang", "color": "ungu" },
+        { "t": "shape", "s": "lingkaran", "color": "merah" },
+        { "t": "shape", "s": "segitiga", "color": "biru" },
+        { "t": "shape", "s": "hati", "color": "kuning" }
+      ],
+      "speakAlso": ["Ini persegi panjang."]
+    },
+    "tags": ["bentuk", "datar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "datar-oval",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana oval?",
+    "label": "Mana oval?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "oval", "color": "merah" },
+        { "t": "shape", "s": "segitiga", "color": "biru" },
+        { "t": "shape", "s": "persegi", "color": "kuning" },
+        { "t": "shape", "s": "bintang", "color": "hijau" }
+      ],
+      "speakAlso": ["Ini oval."]
+    },
+    "tags": ["bentuk", "datar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "datar-bulanSabit",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Mana bulan sabit?",
+    "label": "Mana bulan sabit?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "bulanSabit", "color": "biru" },
+        { "t": "shape", "s": "persegi", "color": "kuning" },
+        { "t": "shape", "s": "segitiga", "color": "hijau" },
+        { "t": "shape", "s": "lingkaran", "color": "oranye" }
+      ],
+      "speakAlso": ["Ini bulan sabit."]
+    },
+    "tags": ["bentuk", "datar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "datar-belahKetupat",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana belah ketupat?",
+    "label": "Mana belah ketupat?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "belahKetupat", "color": "kuning" },
+        { "t": "shape", "s": "persegi", "color": "hijau" },
+        { "t": "shape", "s": "segitiga", "color": "oranye" },
+        { "t": "shape", "s": "oval", "color": "ungu" }
+      ],
+      "speakAlso": ["Ini belah ketupat."]
+    },
+    "tags": ["bentuk", "datar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "datar-trapesium",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana trapesium?",
+    "label": "Mana trapesium?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "trapesium", "color": "hijau" },
+        { "t": "shape", "s": "persegiPanjang", "color": "oranye" },
+        { "t": "shape", "s": "segitiga", "color": "ungu" },
+        { "t": "shape", "s": "belahKetupat", "color": "merah" }
+      ],
+      "speakAlso": ["Ini trapesium."]
+    },
+    "tags": ["bentuk", "datar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "datar-segiLima",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana segi lima?",
+    "label": "Mana segi lima?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "segiLima", "color": "oranye" },
+        { "t": "shape", "s": "segiEnam", "color": "ungu" },
+        { "t": "shape", "s": "persegi", "color": "merah" },
+        { "t": "shape", "s": "lingkaran", "color": "biru" }
+      ],
+      "speakAlso": ["Ini segi lima."]
+    },
+    "tags": ["bentuk", "datar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "datar-segiEnam",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana segi enam?",
+    "label": "Mana segi enam?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "segiEnam", "color": "ungu" },
+        { "t": "shape", "s": "segiLima", "color": "merah" },
+        { "t": "shape", "s": "lingkaran", "color": "biru" },
+        { "t": "shape", "s": "belahKetupat", "color": "kuning" }
+      ],
+      "speakAlso": ["Ini segi enam."]
+    },
+    "tags": ["bentuk", "datar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ruang-kubus",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bangun ruang kubus?",
+    "label": "Mana bangun ruang kubus?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "kubus", "color": "kuning" },
+        { "t": "shape", "s": "bola", "color": "hijau" },
+        { "t": "shape", "s": "tabung", "color": "oranye" },
+        { "t": "shape", "s": "kerucut", "color": "ungu" }
+      ],
+      "speakAlso": ["Ini kubus."]
+    },
+    "tags": ["bentuk", "ruang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ruang-bola",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bangun ruang bola?",
+    "label": "Mana bangun ruang bola?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "bola", "color": "hijau" },
+        { "t": "shape", "s": "kubus", "color": "oranye" },
+        { "t": "shape", "s": "limas", "color": "ungu" },
+        { "t": "shape", "s": "balok", "color": "merah" }
+      ],
+      "speakAlso": ["Ini bola."]
+    },
+    "tags": ["bentuk", "ruang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ruang-tabung",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana bangun ruang tabung?",
+    "label": "Mana bangun ruang tabung?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "tabung", "color": "oranye" },
+        { "t": "shape", "s": "kerucut", "color": "ungu" },
+        { "t": "shape", "s": "kubus", "color": "merah" },
+        { "t": "shape", "s": "bola", "color": "biru" }
+      ],
+      "speakAlso": ["Ini tabung."]
+    },
+    "tags": ["bentuk", "ruang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ruang-kerucut",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bangun ruang kerucut?",
+    "label": "Mana bangun ruang kerucut?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "kerucut", "color": "ungu" },
+        { "t": "shape", "s": "tabung", "color": "merah" },
+        { "t": "shape", "s": "limas", "color": "biru" },
+        { "t": "shape", "s": "bola", "color": "kuning" }
+      ],
+      "speakAlso": ["Ini kerucut."]
+    },
+    "tags": ["bentuk", "ruang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ruang-balok",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bangun ruang balok?",
+    "label": "Mana bangun ruang balok?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "balok", "color": "merah" },
+        { "t": "shape", "s": "kubus", "color": "biru" },
+        { "t": "shape", "s": "tabung", "color": "kuning" },
+        { "t": "shape", "s": "kerucut", "color": "hijau" }
+      ],
+      "speakAlso": ["Ini balok."]
+    },
+    "tags": ["bentuk", "ruang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ruang-limas",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bangun ruang limas?",
+    "label": "Mana bangun ruang limas?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "limas", "color": "biru" },
+        { "t": "shape", "s": "kerucut", "color": "kuning" },
+        { "t": "shape", "s": "kubus", "color": "hijau" },
+        { "t": "shape", "s": "balok", "color": "oranye" }
+      ],
+      "speakAlso": ["Ini limas."]
+    },
+    "tags": ["bentuk", "ruang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sisi-segitiga",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Berapa sisi segitiga?",
+    "label": "Berapa sisi segitiga?",
+    "data": {
+      "cue": { "t": "shape", "s": "segitiga", "color": "merah" },
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 5 }
+      ],
+      "speakAlso": ["Segitiga punya 3 sisi."]
+    },
+    "tags": ["bentuk", "sisi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sisi-persegi",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Berapa sisi persegi?",
+    "label": "Berapa sisi persegi?",
+    "data": {
+      "cue": { "t": "shape", "s": "persegi", "color": "biru" },
+      "options": [
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["Persegi punya 4 sisi."]
+    },
+    "tags": ["bentuk", "sisi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sisi-persegiPanjang",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Berapa sisi persegi panjang?",
+    "label": "Berapa sisi persegi panjang?",
+    "data": {
+      "cue": { "t": "shape", "s": "persegiPanjang", "color": "kuning" },
+      "options": [
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["Persegi panjang punya 4 sisi."]
+    },
+    "tags": ["bentuk", "sisi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sisi-segiLima",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Berapa sisi segi lima?",
+    "label": "Berapa sisi segi lima?",
+    "data": {
+      "cue": { "t": "shape", "s": "segiLima", "color": "hijau" },
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 7 }
+      ],
+      "speakAlso": ["Segi lima punya 5 sisi."]
+    },
+    "tags": ["bentuk", "sisi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sisi-segiEnam",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Berapa sisi segi enam?",
+    "label": "Berapa sisi segi enam?",
+    "data": {
+      "cue": { "t": "shape", "s": "segiEnam", "color": "oranye" },
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 8 }
+      ],
+      "speakAlso": ["Segi enam punya 6 sisi."]
+    },
+    "tags": ["bentuk", "sisi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sisi-trapesium",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Berapa sisi trapesium?",
+    "label": "Berapa sisi trapesium?",
+    "data": {
+      "cue": { "t": "shape", "s": "trapesium", "color": "ungu" },
+      "options": [
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["Trapesium punya 4 sisi."]
+    },
+    "tags": ["bentuk", "sisi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "benda-bola",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Bola mirip bentuk apa?",
+    "label": "Bola mirip bentuk apa?",
+    "data": {
+      "cue": { "t": "art", "k": "bola" },
+      "options": [
+        { "t": "shape", "s": "bola", "color": "merah" },
+        { "t": "shape", "s": "kubus", "color": "biru" },
+        { "t": "shape", "s": "kerucut", "color": "kuning" },
+        { "t": "shape", "s": "balok", "color": "hijau" }
+      ],
+      "speakAlso": ["Bola mirip bola."]
+    },
+    "tags": ["bentuk", "sekitar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "benda-tumpeng",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Nasi tumpeng mirip bentuk apa?",
+    "label": "Nasi tumpeng mirip bentuk apa?",
+    "data": {
+      "cue": { "t": "art", "k": "tumpeng" },
+      "options": [
+        { "t": "shape", "s": "kerucut", "color": "biru" },
+        { "t": "shape", "s": "kubus", "color": "kuning" },
+        { "t": "shape", "s": "bola", "color": "hijau" },
+        { "t": "shape", "s": "tabung", "color": "oranye" }
+      ],
+      "speakAlso": ["Nasi tumpeng mirip kerucut."]
+    },
+    "tags": ["bentuk", "sekitar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "benda-hadiah",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kotak hadiah mirip bentuk apa?",
+    "label": "Kotak hadiah mirip bentuk apa?",
+    "data": {
+      "cue": { "t": "art", "k": "hadiah" },
+      "options": [
+        { "t": "shape", "s": "kubus", "color": "kuning" },
+        { "t": "shape", "s": "bola", "color": "hijau" },
+        { "t": "shape", "s": "kerucut", "color": "oranye" },
+        { "t": "shape", "s": "tabung", "color": "ungu" }
+      ],
+      "speakAlso": ["Kotak hadiah mirip kubus."]
+    },
+    "tags": ["bentuk", "sekitar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "benda-piramida",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Piramida mirip bentuk apa?",
+    "label": "Piramida mirip bentuk apa?",
+    "data": {
+      "cue": { "t": "art", "k": "piramida" },
+      "options": [
+        { "t": "shape", "s": "limas", "color": "hijau" },
+        { "t": "shape", "s": "bola", "color": "oranye" },
+        { "t": "shape", "s": "tabung", "color": "ungu" },
+        { "t": "shape", "s": "kubus", "color": "merah" }
+      ],
+      "speakAlso": ["Piramida mirip limas."]
+    },
+    "tags": ["bentuk", "sekitar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "benda-gendang",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kendang mirip bentuk apa?",
+    "label": "Kendang mirip bentuk apa?",
+    "data": {
+      "cue": { "t": "art", "k": "gendang" },
+      "options": [
+        { "t": "shape", "s": "tabung", "color": "oranye" },
+        { "t": "shape", "s": "kubus", "color": "ungu" },
+        { "t": "shape", "s": "kerucut", "color": "merah" },
+        { "t": "shape", "s": "limas", "color": "biru" }
+      ],
+      "speakAlso": ["Kendang mirip tabung."]
+    },
+    "tags": ["bentuk", "sekitar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "benda-buku",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Buku tebal mirip bentuk apa?",
+    "label": "Buku tebal mirip bentuk apa?",
+    "data": {
+      "cue": { "t": "art", "k": "buku" },
+      "options": [
+        { "t": "shape", "s": "balok", "color": "ungu" },
+        { "t": "shape", "s": "bola", "color": "merah" },
+        { "t": "shape", "s": "kerucut", "color": "biru" },
+        { "t": "shape", "s": "tabung", "color": "kuning" }
+      ],
+      "speakAlso": ["Buku tebal mirip balok."]
+    },
+    "tags": ["bentuk", "sekitar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "benda-jeruk",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Jeruk mirip bentuk apa?",
+    "label": "Jeruk mirip bentuk apa?",
+    "data": {
+      "cue": { "t": "art", "k": "jeruk" },
+      "options": [
+        { "t": "shape", "s": "bola", "color": "merah" },
+        { "t": "shape", "s": "kubus", "color": "biru" },
+        { "t": "shape", "s": "limas", "color": "kuning" },
+        { "t": "shape", "s": "balok", "color": "hijau" }
+      ],
+      "speakAlso": ["Jeruk mirip bola."]
+    },
+    "tags": ["bentuk", "sekitar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "benda-susu",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kotak susu mirip bentuk apa?",
+    "label": "Kotak susu mirip bentuk apa?",
+    "data": {
+      "cue": { "t": "art", "k": "susu" },
+      "options": [
+        { "t": "shape", "s": "balok", "color": "biru" },
+        { "t": "shape", "s": "bola", "color": "kuning" },
+        { "t": "shape", "s": "kerucut", "color": "hijau" },
+        { "t": "shape", "s": "tabung", "color": "oranye" }
+      ],
+      "speakAlso": ["Kotak susu mirip balok."]
+    },
+    "tags": ["bentuk", "sekitar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sekitar-datar-0",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Jam dinding ini berbentuk apa?",
+    "label": "Jam dinding ini berbentuk apa?",
+    "data": {
+      "cue": { "t": "clock", "h": 3 },
+      "options": [
+        { "t": "shape", "s": "lingkaran", "color": "merah" },
+        { "t": "shape", "s": "segitiga", "color": "biru" },
+        { "t": "shape", "s": "persegi", "color": "kuning" }
+      ],
+      "speakAlso": ["Berbentuk lingkaran."]
+    },
+    "tags": ["bentuk", "sekitar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sekitar-datar-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Bendera ini berbentuk apa?",
+    "label": "Bendera ini berbentuk apa?",
+    "data": {
+      "cue": { "t": "flag", "c": "indonesia" },
+      "options": [
+        { "t": "shape", "s": "persegiPanjang", "color": "biru" },
+        { "t": "shape", "s": "lingkaran", "color": "kuning" },
+        { "t": "shape", "s": "segitiga", "color": "hijau" }
+      ],
+      "speakAlso": ["Berbentuk persegi panjang."]
+    },
+    "tags": ["bentuk", "sekitar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sekitar-datar-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Uang kertas ini berbentuk apa?",
+    "label": "Uang kertas ini berbentuk apa?",
+    "data": {
+      "cue": { "t": "money", "v": 5000 },
+      "options": [
+        { "t": "shape", "s": "persegiPanjang", "color": "kuning" },
+        { "t": "shape", "s": "lingkaran", "color": "hijau" },
+        { "t": "shape", "s": "hati", "color": "oranye" }
+      ],
+      "speakAlso": ["Berbentuk persegi panjang."]
+    },
+    "tags": ["bentuk", "sekitar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "sekitar-datar-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Uang logam ini berbentuk apa?",
+    "label": "Uang logam ini berbentuk apa?",
+    "data": {
+      "cue": { "t": "money", "v": 500 },
+      "options": [
+        { "t": "shape", "s": "lingkaran", "color": "hijau" },
+        { "t": "shape", "s": "persegi", "color": "oranye" },
+        { "t": "shape", "s": "segitiga", "color": "ungu" }
+      ],
+      "speakAlso": ["Berbentuk lingkaran."]
+    },
+    "tags": ["bentuk", "sekitar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ciri-0",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bentuk yang tidak punya sudut?",
+    "label": "Mana bentuk yang tidak punya sudut?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "lingkaran", "color": "merah" },
+        { "t": "shape", "s": "segitiga", "color": "biru" },
+        { "t": "shape", "s": "persegi", "color": "kuning" },
+        { "t": "shape", "s": "bintang", "color": "hijau" }
+      ]
+    },
+    "tags": ["bentuk", "ciri"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ciri-1",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bentuk yang punya tiga sudut?",
+    "label": "Mana bentuk yang punya tiga sudut?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "segitiga", "color": "biru" },
+        { "t": "shape", "s": "persegi", "color": "kuning" },
+        { "t": "shape", "s": "lingkaran", "color": "hijau" },
+        { "t": "shape", "s": "segiLima", "color": "oranye" }
+      ]
+    },
+    "tags": ["bentuk", "ciri"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ciri-2",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bentuk yang punya empat sisi sama panjang?",
+    "label": "Mana bentuk yang punya empat sisi sama panjang?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "persegi", "color": "kuning" },
+        { "t": "shape", "s": "persegiPanjang", "color": "hijau" },
+        { "t": "shape", "s": "segitiga", "color": "oranye" },
+        { "t": "shape", "s": "oval", "color": "ungu" }
+      ]
+    },
+    "tags": ["bentuk", "ciri"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "ciri-3",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana bangun ruang yang bisa menggelinding ke segala arah?",
+    "label": "Mana bangun ruang yang bisa menggelinding ke segala arah?",
+    "data": {
+      "options": [
+        { "t": "shape", "s": "bola", "color": "hijau" },
+        { "t": "shape", "s": "kubus", "color": "oranye" },
+        { "t": "shape", "s": "balok", "color": "ungu" },
+        { "t": "shape", "s": "limas", "color": "merah" }
+      ]
+    },
+    "tags": ["bentuk", "ciri"],
+    "review": "ditinjau"
+  }
+]

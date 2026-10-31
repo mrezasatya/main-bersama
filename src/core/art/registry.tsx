@@ -2,6 +2,8 @@ import type { ComponentType } from 'react';
 import { AnimalArt } from './animals/Animal';
 import { ANIMALS, ANIMAL_KEYS } from './animals/specs';
 import type { ArtKey, BasicKey } from './keys';
+import { PersonArt } from './people/Person';
+import { PEOPLE, PERSON_KEYS } from './people/specs';
 import { ThingArt } from './things';
 import { THING_KEYS } from './thingKeys';
 import { VehicleArt } from './vehicles/Vehicle';
@@ -31,6 +33,7 @@ const fromSpecs = <K extends string, S>(
 export const ART: Record<ArtKey, ComponentType<ArtProps>> = {
   ...fromSpecs(ANIMAL_KEYS, ANIMALS, AnimalArt),
   ...fromSpecs(VEHICLE_KEYS, VEHICLES, VehicleArt),
+  ...fromSpecs(PERSON_KEYS, PEOPLE, PersonArt),
   ...Object.fromEntries(
     THING_KEYS.map((k) => [
       k,

@@ -1,0 +1,740 @@
+[
+  {
+    "id": "set-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Pasangkan lingkaran dan segitiga ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "shape", "s": "lingkaran", "color": "merah" },
+        { "t": "shape", "s": "segitiga", "color": "biru" },
+        { "t": "shape", "s": "persegi", "color": "kuning" },
+        { "t": "shape", "s": "bintang", "color": "hijau" }
+      ],
+      "tileSay": ["lingkaran", "segitiga", "persegi", "bintang"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-2",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Pasangkan hati dan persegi ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "shape", "s": "hati", "color": "merah muda" },
+        { "t": "shape", "s": "persegi", "color": "oranye" },
+        { "t": "shape", "s": "bulanSabit", "color": "kuning" },
+        { "t": "shape", "s": "segitiga", "color": "ungu" }
+      ],
+      "tileSay": ["hati", "persegi", "bulan sabit", "segitiga"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-3",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Pasangkan bintang dan oval ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "shape", "s": "bintang", "color": "kuning" },
+        { "t": "shape", "s": "oval", "color": "hijau" },
+        { "t": "shape", "s": "persegiPanjang", "color": "biru" },
+        { "t": "shape", "s": "hati", "color": "merah" }
+      ],
+      "tileSay": ["bintang", "oval", "persegi panjang", "hati"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Pasangkan segi enam dan lingkaran ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "shape", "s": "segiEnam", "color": "oranye" },
+        { "t": "shape", "s": "lingkaran", "color": "biru" },
+        { "t": "shape", "s": "belahKetupat", "color": "merah" },
+        { "t": "shape", "s": "trapesium", "color": "hijau" }
+      ],
+      "tileSay": ["segi enam", "lingkaran", "belah ketupat", "trapesium"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-5",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Pasangkan segi lima dan segi enam ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "shape", "s": "segiLima", "color": "ungu" },
+        { "t": "shape", "s": "segiEnam", "color": "kuning" },
+        { "t": "shape", "s": "oval", "color": "merah" },
+        { "t": "shape", "s": "lingkaran", "color": "hijau" }
+      ],
+      "tileSay": ["segi lima", "segi enam", "oval", "lingkaran"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-6",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Pasangkan persegi dan persegi panjang ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "shape", "s": "persegi", "color": "biru" },
+        { "t": "shape", "s": "persegiPanjang", "color": "merah" },
+        { "t": "shape", "s": "belahKetupat", "color": "kuning" },
+        { "t": "shape", "s": "trapesium", "color": "ungu" }
+      ],
+      "tileSay": ["persegi", "persegi panjang", "belah ketupat", "trapesium"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-7",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Pasangkan gajah dan ayam jago ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "gajah" },
+        { "t": "art", "k": "ayamJago" },
+        { "t": "art", "k": "ikan" },
+        { "t": "art", "k": "ular" }
+      ],
+      "tileSay": ["gajah", "ayam jago", "ikan", "ular"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-8",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Pasangkan kucing dan burung hantu ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "kucing" },
+        { "t": "art", "k": "burungHantu" },
+        { "t": "art", "k": "katak" },
+        { "t": "art", "k": "paus" }
+      ],
+      "tileSay": ["kucing", "burung hantu", "katak", "paus"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-9",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Pasangkan kuda dan bebek ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "kuda" },
+        { "t": "art", "k": "bebek" },
+        { "t": "art", "k": "lebah" },
+        { "t": "art", "k": "monyet" }
+      ],
+      "tileSay": ["kuda", "bebek", "lebah", "monyet"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-10",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Pasangkan singa dan angsa ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "singa" },
+        { "t": "art", "k": "angsa" },
+        { "t": "art", "k": "tokek" },
+        { "t": "art", "k": "lumbaLumba" }
+      ],
+      "tileSay": ["singa", "angsa", "tokek", "lumba-lumba"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-11",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Pasangkan sapi dan anak ayam ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "sapi" },
+        { "t": "art", "k": "anakAyam" },
+        { "t": "art", "k": "jangkrik" },
+        { "t": "art", "k": "owa" }
+      ],
+      "tileSay": ["sapi", "anak ayam", "jangkrik", "owa"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-12",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Pasangkan kambing dan merak ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "kambing" },
+        { "t": "art", "k": "merak" },
+        { "t": "art", "k": "nyamuk" },
+        { "t": "art", "k": "anjingLaut" }
+      ],
+      "tileSay": ["kambing", "merak", "nyamuk", "anjing laut"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-13",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Pasangkan beruang dan kakatua ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "beruang" },
+        { "t": "art", "k": "kakatua" },
+        { "t": "art", "k": "komodo" },
+        { "t": "art", "k": "gorila" }
+      ],
+      "tileSay": ["beruang", "kakatua", "komodo", "gorila"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-14",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Pasangkan tikus dan elang ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "tikus" },
+        { "t": "art", "k": "elang" },
+        { "t": "art", "k": "cicak" },
+        { "t": "art", "k": "kudaNil" }
+      ],
+      "tileSay": ["tikus", "elang", "cicak", "kuda nil"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-15",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Pasangkan harimau dan kalkun ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "harimau" },
+        { "t": "art", "k": "kalkun" },
+        { "t": "art", "k": "tonggeret" },
+        { "t": "art", "k": "zebra" }
+      ],
+      "tileSay": ["harimau", "kalkun", "tonggeret", "zebra"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-16",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Pasangkan domba dan gagak ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "domba" },
+        { "t": "art", "k": "gagak" },
+        { "t": "art", "k": "ikan" },
+        { "t": "art", "k": "gajah" }
+      ],
+      "tileSay": ["domba", "gagak", "ikan", "gajah"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-17",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Pasangkan anjing dan pelatuk ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "anjing" },
+        { "t": "art", "k": "pelatuk" },
+        { "t": "art", "k": "ular" },
+        { "t": "art", "k": "paus" }
+      ],
+      "tileSay": ["anjing", "pelatuk", "ular", "paus"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-18",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Pasangkan kerbau dan burung pipit ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "kerbau" },
+        { "t": "art", "k": "pipit" },
+        { "t": "art", "k": "katak" },
+        { "t": "art", "k": "monyet" }
+      ],
+      "tileSay": ["kerbau", "burung pipit", "katak", "monyet"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-19",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Pasangkan keledai dan beo ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "keledai" },
+        { "t": "art", "k": "beo" },
+        { "t": "art", "k": "lebah" },
+        { "t": "art", "k": "lumbaLumba" }
+      ],
+      "tileSay": ["keledai", "beo", "lebah", "lumba-lumba"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-20",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Pasangkan serigala dan merpati ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "serigala" },
+        { "t": "art", "k": "merpati" },
+        { "t": "art", "k": "komodo" },
+        { "t": "art", "k": "anakAyam" }
+      ],
+      "tileSay": ["serigala", "merpati", "komodo", "anak ayam"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-21",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Pasangkan kucing dan anjing ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "kucing" },
+        { "t": "art", "k": "anjing" },
+        { "t": "art", "k": "tikus" },
+        { "t": "art", "k": "singa" }
+      ],
+      "tileSay": ["kucing", "anjing", "tikus", "singa"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-22",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Pasangkan bebek dan angsa ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "bebek" },
+        { "t": "art", "k": "angsa" },
+        { "t": "art", "k": "ayamBetina" },
+        { "t": "art", "k": "kalkun" }
+      ],
+      "tileSay": ["bebek", "angsa", "ayam betina", "kalkun"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-23",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Pasangkan kuda dan zebra ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "kuda" },
+        { "t": "art", "k": "zebra" },
+        { "t": "art", "k": "keledai" },
+        { "t": "art", "k": "kambing" }
+      ],
+      "tileSay": ["kuda", "zebra", "keledai", "kambing"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-24",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Pasangkan lebah dan nyamuk ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "lebah" },
+        { "t": "art", "k": "nyamuk" },
+        { "t": "art", "k": "jangkrik" },
+        { "t": "art", "k": "tonggeret" }
+      ],
+      "tileSay": ["lebah", "nyamuk", "jangkrik", "tonggeret"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-25",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Pasangkan tokek dan cicak ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "tokek" },
+        { "t": "art", "k": "cicak" },
+        { "t": "art", "k": "komodo" },
+        { "t": "art", "k": "ular" }
+      ],
+      "tileSay": ["tokek", "cicak", "komodo", "ular"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-26",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Pasangkan paus dan lumba-lumba ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "paus" },
+        { "t": "art", "k": "lumbaLumba" },
+        { "t": "art", "k": "ikan" },
+        { "t": "art", "k": "anjingLaut" }
+      ],
+      "tileSay": ["paus", "lumba-lumba", "ikan", "anjing laut"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-27",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Pasangkan rumah gadang dan rumah joglo ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "rumahGadang" },
+        { "t": "art", "k": "rumahJoglo" },
+        { "t": "art", "k": "rumahHonai" },
+        { "t": "art", "k": "rumahTongkonan" }
+      ],
+      "tileSay": ["rumah gadang", "rumah joglo", "rumah honai", "rumah tongkonan"]
+    },
+    "tags": ["bentuk"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "set-28",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Pasangkan rumah panggung dan rumah honai ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "rumahPanggung" },
+        { "t": "art", "k": "rumahHonai" },
+        { "t": "art", "k": "monas" },
+        { "t": "art", "k": "borobudur" }
+      ],
+      "tileSay": ["rumah panggung", "rumah honai", "monas", "borobudur"]
+    },
+    "tags": ["bentuk"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "set-29",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Pasangkan angklung dan gong ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "angklung" },
+        { "t": "art", "k": "gong" },
+        { "t": "art", "k": "sasando" },
+        { "t": "art", "k": "suling" }
+      ],
+      "tileSay": ["angklung", "gong", "sasando", "suling"]
+    },
+    "tags": ["bentuk"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "set-30",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Pasangkan wayang dan ondel-ondel ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "wayang" },
+        { "t": "art", "k": "ondelOndel" },
+        { "t": "art", "k": "blangkon" },
+        { "t": "art", "k": "kolintang" }
+      ],
+      "tileSay": ["wayang", "ondel-ondel", "blangkon", "kolintang"]
+    },
+    "tags": ["bentuk"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "set-31",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Pasangkan menara Eiffel dan monas ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "menaraEiffel" },
+        { "t": "art", "k": "monas" },
+        { "t": "art", "k": "borobudur" },
+        { "t": "art", "k": "rumahGadang" }
+      ],
+      "tileSay": ["menara Eiffel", "monas", "borobudur", "rumah gadang"]
+    },
+    "tags": ["bentuk"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "set-32",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Pasangkan mobil dan pesawat ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "mobil" },
+        { "t": "art", "k": "pesawat" },
+        { "t": "art", "k": "perahuLayar" },
+        { "t": "art", "k": "sepeda" }
+      ],
+      "tileSay": ["mobil", "pesawat", "perahu layar", "sepeda"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-33",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Pasangkan bus dan helikopter ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "bus" },
+        { "t": "art", "k": "helikopter" },
+        { "t": "art", "k": "roket" },
+        { "t": "art", "k": "becak" }
+      ],
+      "tileSay": ["bus", "helikopter", "roket", "becak"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-34",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Pasangkan truk dan balon udara ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "truk" },
+        { "t": "art", "k": "balonUdara" },
+        { "t": "art", "k": "kapalSelam" },
+        { "t": "art", "k": "motor" }
+      ],
+      "tileSay": ["truk", "balon udara", "kapal selam", "motor"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-35",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Pasangkan kereta api dan bajaj ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "keretaApi" },
+        { "t": "art", "k": "bajaj" },
+        { "t": "art", "k": "pinisi" },
+        { "t": "art", "k": "traktor" }
+      ],
+      "tileSay": ["kereta api", "bajaj", "pinisi", "traktor"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-36",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Pasangkan ambulans dan delman ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "ambulans" },
+        { "t": "art", "k": "delman" },
+        { "t": "art", "k": "gondola" },
+        { "t": "art", "k": "ekskavator" }
+      ],
+      "tileSay": ["ambulans", "delman", "gondola", "ekskavator"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-37",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Pasangkan taksi dan skuter ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "taksi" },
+        { "t": "art", "k": "skuter" },
+        { "t": "art", "k": "jukung" },
+        { "t": "art", "k": "keretaGantung" }
+      ],
+      "tileSay": ["taksi", "skuter", "jukung", "kereta gantung"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-38",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Pasangkan bus tingkat dan trem ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "busTingkat" },
+        { "t": "art", "k": "trem" },
+        { "t": "art", "k": "keretaUap" },
+        { "t": "art", "k": "keretaCepat" }
+      ],
+      "tileSay": ["bus tingkat", "trem", "kereta uap", "kereta cepat"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-39",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Pasangkan speedboat dan kapal feri ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "speedboat" },
+        { "t": "art", "k": "kapalFeri" },
+        { "t": "art", "k": "sampan" },
+        { "t": "art", "k": "pesawatBaling" }
+      ],
+      "tileSay": ["speedboat", "kapal feri", "sampan", "pesawat baling-baling"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-40",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Pasangkan jip dan jeepney ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "jip" },
+        { "t": "art", "k": "jeepney" },
+        { "t": "art", "k": "angkot" },
+        { "t": "art", "k": "mobilPolisi" }
+      ],
+      "tileSay": ["jip", "jeepney", "angkot", "mobil polisi"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "set-41",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Pasangkan mobil pemadam dan truk molen ke bayangannya.",
+    "label": "Pasangkan ke bayangannya",
+    "data": {
+      "pieces": [
+        { "t": "art", "k": "pemadam" },
+        { "t": "art", "k": "trukMolen" },
+        { "t": "art", "k": "buldoser" },
+        { "t": "art", "k": "trukSampah" }
+      ],
+      "tileSay": ["mobil pemadam", "truk molen", "buldoser", "truk sampah"]
+    },
+    "tags": ["bentuk"],
+    "review": "ditinjau"
+  }
+]

@@ -5,6 +5,10 @@
 Semua ilustrasi (benda, stiker, ikon, ikon aplikasi) adalah SVG orisinal yang dibuat untuk proyek ini
 di `src/core/art/` dan `public/favicon.svg`. Tidak memakai karakter, logo, atau merek berhak cipta.
 
+Bendera negara digambar sederhana (tanpa lambang kecil) untuk pengenalan anak. Uang rupiah digambar
+sebagai bentuk sederhana dengan nilai tertulis, bukan tiruan uang asli. Rumah adat, wayang, ondel-ondel,
+motif batik, dan landmark adalah ilustrasi orisinal yang disederhanakan; mohon ditinjau kesesuaiannya.
+
 ## Font
 
 - **Nunito** oleh Vernon Adams, Cyreal, Jacques Le Bailly — SIL Open Font License 1.1.

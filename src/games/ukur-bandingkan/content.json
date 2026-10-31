@@ -1,0 +1,660 @@
+[
+  {
+    "id": "panjang-pensil-8-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Mana pensil yang lebih panjang?",
+    "label": "Mana pensil yang lebih panjang?",
+    "data": {
+      "options": [
+        { "t": "len", "n": 8, "k": "pensil" },
+        { "t": "len", "n": 4, "k": "pensil" }
+      ]
+    },
+    "tags": ["ukur", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "panjang-pita-9-5",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Mana pita yang lebih panjang?",
+    "label": "Mana pita yang lebih panjang?",
+    "data": {
+      "options": [
+        { "t": "len", "n": 9, "k": "pita" },
+        { "t": "len", "n": 5, "k": "pita" }
+      ]
+    },
+    "tags": ["ukur", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "panjang-ular-10-6",
+    "ageGroup": ["B", "C"],
+    "difficulty": 1,
+    "speak": "Mana ular yang lebih panjang?",
+    "label": "Mana ular yang lebih panjang?",
+    "data": {
+      "options": [
+        { "t": "len", "n": 10, "k": "ular" },
+        { "t": "len", "n": 6, "k": "ular" }
+      ]
+    },
+    "tags": ["ukur", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "panjang-kereta-6-3",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana kereta yang lebih panjang? Lihat baik-baik.",
+    "label": "Mana kereta yang lebih panjang? Lihat baik-baik.",
+    "data": {
+      "options": [
+        { "t": "len", "n": 6, "k": "kereta" },
+        { "t": "len", "n": 3, "k": "kereta" }
+      ]
+    },
+    "tags": ["ukur", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "panjang-pensil-7-5",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana pensil yang lebih panjang? Lihat baik-baik.",
+    "label": "Mana pensil yang lebih panjang? Lihat baik-baik.",
+    "data": {
+      "options": [
+        { "t": "len", "n": 7, "k": "pensil" },
+        { "t": "len", "n": 5, "k": "pensil" }
+      ]
+    },
+    "tags": ["ukur", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "panjang-pita-9-7",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana pita yang lebih panjang? Lihat baik-baik.",
+    "label": "Mana pita yang lebih panjang? Lihat baik-baik.",
+    "data": {
+      "options": [
+        { "t": "len", "n": 9, "k": "pita" },
+        { "t": "len", "n": 7, "k": "pita" }
+      ]
+    },
+    "tags": ["ukur", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pendek-ular-3-8",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana ular yang lebih pendek?",
+    "label": "Mana ular yang lebih pendek?",
+    "data": {
+      "options": [
+        { "t": "len", "n": 3, "k": "ular" },
+        { "t": "len", "n": 8, "k": "ular" }
+      ]
+    },
+    "tags": ["ukur", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pendek-kereta-4-9",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana kereta yang lebih pendek?",
+    "label": "Mana kereta yang lebih pendek?",
+    "data": {
+      "options": [
+        { "t": "len", "n": 4, "k": "kereta" },
+        { "t": "len", "n": 9, "k": "kereta" }
+      ]
+    },
+    "tags": ["ukur", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pendek-pensil-2-6",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Mana pensil yang lebih pendek?",
+    "label": "Mana pensil yang lebih pendek?",
+    "data": {
+      "options": [
+        { "t": "len", "n": 2, "k": "pensil" },
+        { "t": "len", "n": 6, "k": "pensil" }
+      ]
+    },
+    "tags": ["ukur", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pendek-pita-5-7",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Mana pita yang lebih pendek?",
+    "label": "Mana pita yang lebih pendek?",
+    "data": {
+      "options": [
+        { "t": "len", "n": 5, "k": "pita" },
+        { "t": "len", "n": 7, "k": "pita" }
+      ]
+    },
+    "tags": ["ukur", "panjang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tinggi-pohon",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana pohon yang lebih tinggi?",
+    "label": "Mana pohon yang lebih tinggi?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "pohon", "scale": 1 },
+        { "t": "art", "k": "pohon", "scale": 0.55 },
+        { "t": "art", "k": "pohon", "scale": 0.75 }
+      ],
+      "maxOptions": 3
+    },
+    "tags": ["ukur", "tinggi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tinggi-rumahJoglo",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana rumah yang lebih tinggi?",
+    "label": "Mana rumah yang lebih tinggi?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "rumahJoglo", "scale": 1 },
+        { "t": "art", "k": "rumahJoglo", "scale": 0.55 }
+      ],
+      "maxOptions": 3
+    },
+    "tags": ["ukur", "tinggi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "tinggi-monas",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana menara yang lebih tinggi?",
+    "label": "Mana menara yang lebih tinggi?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "monas", "scale": 1 },
+        { "t": "art", "k": "monas", "scale": 0.55 }
+      ],
+      "maxOptions": 3
+    },
+    "tags": ["ukur", "tinggi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rendah-pohon",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana pohon yang paling rendah?",
+    "label": "Mana pohon yang paling rendah?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "pohon", "scale": 0.45 },
+        { "t": "art", "k": "pohon", "scale": 1 },
+        { "t": "art", "k": "pohon", "scale": 0.75 }
+      ]
+    },
+    "tags": ["ukur", "tinggi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "berat-semangka-apel",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Lihat timbangannya. Mana yang lebih berat, semangka atau apel?",
+    "label": "Lihat timbangannya. Mana yang lebih berat, semangka atau apel?",
+    "data": {
+      "cue": { "t": "neraca", "left": "semangka", "right": "apel", "tilt": "kiri" },
+      "options": [
+        { "t": "art", "k": "semangka" },
+        { "t": "art", "k": "apel" }
+      ],
+      "speakAlso": ["Semangka lebih berat, timbangannya turun."]
+    },
+    "tags": ["ukur", "berat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "berat-gajah-kucing",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Lihat timbangannya. Mana yang lebih berat, gajah atau kucing?",
+    "label": "Lihat timbangannya. Mana yang lebih berat, gajah atau kucing?",
+    "data": {
+      "cue": { "t": "neraca", "left": "kucing", "right": "gajah", "tilt": "kanan" },
+      "options": [
+        { "t": "art", "k": "gajah" },
+        { "t": "art", "k": "kucing" }
+      ],
+      "speakAlso": ["Gajah lebih berat, timbangannya turun."]
+    },
+    "tags": ["ukur", "berat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "berat-batu-kapas",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Lihat timbangannya. Mana yang lebih berat, batu atau kapas?",
+    "label": "Lihat timbangannya. Mana yang lebih berat, batu atau kapas?",
+    "data": {
+      "cue": { "t": "neraca", "left": "batu", "right": "kapas", "tilt": "kiri" },
+      "options": [
+        { "t": "art", "k": "batu" },
+        { "t": "art", "k": "kapas" }
+      ],
+      "speakAlso": ["Batu lebih berat, timbangannya turun."]
+    },
+    "tags": ["ukur", "berat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "berat-buku-kertas",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Lihat timbangannya. Mana yang lebih berat, buku atau kertas?",
+    "label": "Lihat timbangannya. Mana yang lebih berat, buku atau kertas?",
+    "data": {
+      "cue": { "t": "neraca", "left": "kertas", "right": "buku", "tilt": "kanan" },
+      "options": [
+        { "t": "art", "k": "buku" },
+        { "t": "art", "k": "kertas" }
+      ],
+      "speakAlso": ["Buku lebih berat, timbangannya turun."]
+    },
+    "tags": ["ukur", "berat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "berat-kerbau-ayamBetina",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Lihat timbangannya. Mana yang lebih berat, kerbau atau ayam?",
+    "label": "Lihat timbangannya. Mana yang lebih berat, kerbau atau ayam?",
+    "data": {
+      "cue": { "t": "neraca", "left": "kerbau", "right": "ayamBetina", "tilt": "kiri" },
+      "options": [
+        { "t": "art", "k": "kerbau" },
+        { "t": "art", "k": "ayamBetina" }
+      ],
+      "speakAlso": ["Kerbau lebih berat, timbangannya turun."]
+    },
+    "tags": ["ukur", "berat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "berat-nanas-stroberi",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Lihat timbangannya. Mana yang lebih berat, nanas atau stroberi?",
+    "label": "Lihat timbangannya. Mana yang lebih berat, nanas atau stroberi?",
+    "data": {
+      "cue": { "t": "neraca", "left": "stroberi", "right": "nanas", "tilt": "kanan" },
+      "options": [
+        { "t": "art", "k": "nanas" },
+        { "t": "art", "k": "stroberi" }
+      ],
+      "speakAlso": ["Nanas lebih berat, timbangannya turun."]
+    },
+    "tags": ["ukur", "berat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "berat-bola-balon",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Lihat timbangannya. Mana yang lebih berat, bola atau balon?",
+    "label": "Lihat timbangannya. Mana yang lebih berat, bola atau balon?",
+    "data": {
+      "cue": { "t": "neraca", "left": "bola", "right": "balon", "tilt": "kiri" },
+      "options": [
+        { "t": "art", "k": "bola" },
+        { "t": "art", "k": "balon" }
+      ],
+      "speakAlso": ["Bola lebih berat, timbangannya turun."]
+    },
+    "tags": ["ukur", "berat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "seimbang",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Timbangannya seimbang. Apa artinya?",
+    "label": "Timbangannya seimbang. Apa artinya?",
+    "data": {
+      "cue": { "t": "neraca", "left": "apel", "right": "apel", "tilt": "seimbang" },
+      "options": [
+        { "t": "text", "s": "Sama berat", "size": "m" },
+        { "t": "text", "s": "Kiri lebih berat", "size": "m" },
+        { "t": "text", "s": "Kanan lebih berat", "size": "m" }
+      ],
+      "speakAlso": ["Seimbang artinya sama berat."]
+    },
+    "tags": ["ukur", "berat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "isi-banyak-0",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana gelas yang isinya lebih banyak?",
+    "label": "Mana gelas yang isinya lebih banyak?",
+    "data": {
+      "options": [
+        { "t": "gelas", "fill": 0.9 },
+        { "t": "gelas", "fill": 0.4 }
+      ]
+    },
+    "tags": ["ukur", "isi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "isi-banyak-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana gelas yang isinya lebih banyak? Lihat airnya.",
+    "label": "Mana gelas yang isinya lebih banyak? Lihat airnya.",
+    "data": {
+      "options": [
+        { "t": "gelas", "fill": 0.8 },
+        { "t": "gelas", "fill": 0.3 }
+      ]
+    },
+    "tags": ["ukur", "isi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "isi-banyak-2",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Mana gelas yang isinya lebih banyak? Perhatikan airnya.",
+    "label": "Mana gelas yang isinya lebih banyak? Perhatikan airnya.",
+    "data": {
+      "options": [
+        { "t": "gelas", "fill": 0.7 },
+        { "t": "gelas", "fill": 0.2 }
+      ]
+    },
+    "tags": ["ukur", "isi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "isi-banyak-3",
+    "ageGroup": ["C"],
+    "difficulty": 2,
+    "speak": "Mana gelas yang isinya lebih banyak? Bandingkan tinggi airnya.",
+    "label": "Mana gelas yang isinya lebih banyak? Bandingkan tinggi airnya.",
+    "data": {
+      "options": [
+        { "t": "gelas", "fill": 0.85 },
+        { "t": "gelas", "fill": 0.5 }
+      ]
+    },
+    "tags": ["ukur", "isi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "isi-sedikit-0",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana gelas yang isinya lebih sedikit?",
+    "label": "Mana gelas yang isinya lebih sedikit?",
+    "data": {
+      "options": [
+        { "t": "gelas", "fill": 0.2 },
+        { "t": "gelas", "fill": 0.7 }
+      ]
+    },
+    "tags": ["ukur", "isi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "isi-sedikit-1",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mana gelas yang isinya lebih sedikit? Lihat airnya.",
+    "label": "Mana gelas yang isinya lebih sedikit? Lihat airnya.",
+    "data": {
+      "options": [
+        { "t": "gelas", "fill": 0.15 },
+        { "t": "gelas", "fill": 0.6 }
+      ]
+    },
+    "tags": ["ukur", "isi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kotak-pensil-4",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Berapa kotak panjang pensil ini?",
+    "label": "Berapa kotak panjang pensil ini?",
+    "data": {
+      "cue": { "t": "len", "n": 4, "k": "pensil", "units": true },
+      "options": [
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 6 }
+      ],
+      "speakAlso": ["Panjangnya 4 kotak."]
+    },
+    "tags": ["ukur", "satuan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kotak-pita-6",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Berapa kotak panjang pita ini?",
+    "label": "Berapa kotak panjang pita ini?",
+    "data": {
+      "cue": { "t": "len", "n": 6, "k": "pita", "units": true },
+      "options": [
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 8 }
+      ],
+      "speakAlso": ["Panjangnya 6 kotak."]
+    },
+    "tags": ["ukur", "satuan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kotak-kereta-3",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Berapa kotak panjang kereta ini?",
+    "label": "Berapa kotak panjang kereta ini?",
+    "data": {
+      "cue": { "t": "len", "n": 3, "k": "kereta", "units": true },
+      "options": [
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 5 }
+      ],
+      "speakAlso": ["Panjangnya 3 kotak."]
+    },
+    "tags": ["ukur", "satuan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kotak-ular-7",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Berapa kotak panjang ular ini?",
+    "label": "Berapa kotak panjang ular ini?",
+    "data": {
+      "cue": { "t": "len", "n": 7, "k": "ular", "units": true },
+      "options": [
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 9 }
+      ],
+      "speakAlso": ["Panjangnya 7 kotak."]
+    },
+    "tags": ["ukur", "satuan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kotak-pensil-5",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Berapa kotak panjang pensil ini? Hitung pelan-pelan.",
+    "label": "Berapa kotak panjang pensil ini? Hitung pelan-pelan.",
+    "data": {
+      "cue": { "t": "len", "n": 5, "k": "pensil", "units": true },
+      "options": [
+        { "t": "num", "n": 5 },
+        { "t": "num", "n": 6 },
+        { "t": "num", "n": 4 },
+        { "t": "num", "n": 7 }
+      ],
+      "speakAlso": ["Panjangnya 5 kotak."]
+    },
+    "tags": ["ukur", "satuan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kotak-pita-8",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Berapa kotak panjang pita ini? Hitung pelan-pelan.",
+    "label": "Berapa kotak panjang pita ini? Hitung pelan-pelan.",
+    "data": {
+      "cue": { "t": "len", "n": 8, "k": "pita", "units": true },
+      "options": [
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 7 },
+        { "t": "num", "n": 10 }
+      ],
+      "speakAlso": ["Panjangnya 8 kotak."]
+    },
+    "tags": ["ukur", "satuan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kotak-kereta-2",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Berapa kotak panjang kereta ini? Hitung pelan-pelan.",
+    "label": "Berapa kotak panjang kereta ini? Hitung pelan-pelan.",
+    "data": {
+      "cue": { "t": "len", "n": 2, "k": "kereta", "units": true },
+      "options": [
+        { "t": "num", "n": 2 },
+        { "t": "num", "n": 3 },
+        { "t": "num", "n": 1 },
+        { "t": "num", "n": 4 }
+      ],
+      "speakAlso": ["Panjangnya 2 kotak."]
+    },
+    "tags": ["ukur", "satuan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kotak-ular-9",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Berapa kotak panjang ular ini? Hitung pelan-pelan.",
+    "label": "Berapa kotak panjang ular ini? Hitung pelan-pelan.",
+    "data": {
+      "cue": { "t": "len", "n": 9, "k": "ular", "units": true },
+      "options": [
+        { "t": "num", "n": 9 },
+        { "t": "num", "n": 10 },
+        { "t": "num", "n": 8 },
+        { "t": "num", "n": 11 }
+      ],
+      "speakAlso": ["Panjangnya 9 kotak."]
+    },
+    "tags": ["ukur", "satuan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pilih-pensil-4",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Mana pensil yang panjangnya 4 kotak?",
+    "label": "Mana pensil yang panjangnya 4 kotak?",
+    "data": {
+      "options": [
+        { "t": "len", "n": 4, "k": "pensil", "units": true },
+        { "t": "len", "n": 6, "k": "pensil", "units": true },
+        { "t": "len", "n": 3, "k": "pensil", "units": true }
+      ]
+    },
+    "tags": ["ukur", "satuan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pilih-pita-6",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Mana pita yang panjangnya 6 kotak?",
+    "label": "Mana pita yang panjangnya 6 kotak?",
+    "data": {
+      "options": [
+        { "t": "len", "n": 6, "k": "pita", "units": true },
+        { "t": "len", "n": 8, "k": "pita", "units": true },
+        { "t": "len", "n": 5, "k": "pita", "units": true }
+      ]
+    },
+    "tags": ["ukur", "satuan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pilih-ular-3",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Mana ular yang panjangnya 3 kotak?",
+    "label": "Mana ular yang panjangnya 3 kotak?",
+    "data": {
+      "options": [
+        { "t": "len", "n": 3, "k": "ular", "units": true },
+        { "t": "len", "n": 5, "k": "ular", "units": true },
+        { "t": "len", "n": 2, "k": "ular", "units": true }
+      ]
+    },
+    "tags": ["ukur", "satuan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "pilih-kereta-5",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Mana kereta yang panjangnya 5 kotak?",
+    "label": "Mana kereta yang panjangnya 5 kotak?",
+    "data": {
+      "options": [
+        { "t": "len", "n": 5, "k": "kereta", "units": true },
+        { "t": "len", "n": 7, "k": "kereta", "units": true },
+        { "t": "len", "n": 4, "k": "kereta", "units": true }
+      ]
+    },
+    "tags": ["ukur", "satuan"],
+    "review": "ditinjau"
+  }
+]

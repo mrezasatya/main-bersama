@@ -63,6 +63,6 @@
   "type": "module",
   "description": "Main Bersama — permainan edukatif untuk anak usia 2-6 tahun",
   "engines": {
-    "node": ">=20"
+    "node": "22.x"
   }
 }

@@ -45,7 +45,10 @@ export default defineConfig({
       },
     }),
   ],
-  define: { __APP_VERSION__: JSON.stringify(process.env.npm_package_version ?? 'dev') },
+  define: {
+    __APP_VERSION__: JSON.stringify(process.env.npm_package_version ?? 'dev'),
+    __BUILD_TIME__: JSON.stringify(new Date().toISOString()),
+  },
   build: { target: 'es2020' },
   test: {
     globals: true,

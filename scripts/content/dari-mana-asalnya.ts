@@ -1,0 +1,386 @@
+/** Bank konten #24 Dari Mana Asalnya: asal makanan dan benda, cuaca, siang-malam, musim (40). */
+import type { ArtKey } from '../../src/core/art/keys';
+import type { SceneKey } from '../../src/core/visual/types';
+import { writeContent } from './lib';
+
+const items: unknown[] = [];
+const art = (k: ArtKey) => ({ t: 'art', k });
+type Row = [string, ArtKey | null, ArtKey, ArtKey[], string, boolean];
+
+/** [pertanyaan, gambar petunjuk, jawaban, pengecoh, penjelasan, cocok usia 4] */
+const ASAL: Row[] = [
+  [
+    'Susu berasal dari hewan apa?',
+    'susu',
+    'sapi',
+    ['ayamBetina', 'lebah', 'ikan'],
+    'Susu berasal dari sapi.',
+    true,
+  ],
+  [
+    'Telur berasal dari hewan apa?',
+    'telur',
+    'ayamBetina',
+    ['sapi', 'kucing', 'lebah'],
+    'Telur berasal dari ayam.',
+    true,
+  ],
+  [
+    'Madu dibuat oleh hewan apa?',
+    'madu',
+    'lebah',
+    ['sapi', 'ayamBetina', 'ikan'],
+    'Madu dibuat oleh lebah dari sari bunga.',
+    true,
+  ],
+  [
+    'Benang wol berasal dari bulu hewan apa?',
+    'wol',
+    'domba',
+    ['ayamBetina', 'ikan', 'lebah'],
+    'Wol berasal dari bulu domba.',
+    false,
+  ],
+  [
+    'Nasi berasal dari tanaman apa?',
+    'nasi',
+    'padi',
+    ['tebu', 'kakao', 'kapas'],
+    'Nasi berasal dari padi yang ditanam petani.',
+    true,
+  ],
+  [
+    'Roti dibuat dari tepung tanaman apa?',
+    'roti',
+    'gandum',
+    ['padi', 'tebu', 'kakao'],
+    'Roti dibuat dari tepung gandum.',
+    false,
+  ],
+  [
+    'Tempe dibuat dari apa?',
+    'tempe',
+    'kedelai',
+    ['padi', 'gandum', 'tebu'],
+    'Tempe dibuat dari kedelai.',
+    false,
+  ],
+  [
+    'Gula pasir dibuat dari tanaman apa?',
+    'gula',
+    'tebu',
+    ['kedelai', 'kapas', 'padi'],
+    'Gula dibuat dari batang tebu.',
+    false,
+  ],
+  [
+    'Cokelat dibuat dari buah apa?',
+    'cokelat',
+    'kakao',
+    ['apel', 'jeruk', 'tebu'],
+    'Cokelat dibuat dari biji buah kakao.',
+    false,
+  ],
+  [
+    'Keju dibuat dari apa?',
+    'keju',
+    'susu',
+    ['madu', 'telur', 'gula'],
+    'Keju dibuat dari susu.',
+    false,
+  ],
+  [
+    'Kertas dibuat dari apa?',
+    'kertas',
+    'pohon',
+    ['batu', 'kapas', 'tebu'],
+    'Kertas dibuat dari kayu pohon.',
+    false,
+  ],
+  [
+    'Meja kayu dibuat dari apa?',
+    'meja',
+    'pohon',
+    ['batu', 'kapas', 'padi'],
+    'Kayu berasal dari pohon.',
+    true,
+  ],
+  [
+    'Air kelapa berasal dari pohon apa?',
+    null,
+    'pohonKelapa',
+    ['pohon', 'tebu', 'padi'],
+    'Air kelapa ada di dalam buah kelapa.',
+    true,
+  ],
+  [
+    'Kain katun dibuat dari apa?',
+    'baju',
+    'kapas',
+    ['wol', 'kertas', 'daun'],
+    'Kain katun dibuat dari kapas.',
+    false,
+  ],
+  [
+    'Anak ayam menetas dari apa?',
+    'anakAyam',
+    'telur',
+    ['susu', 'madu', 'roti'],
+    'Anak ayam menetas dari telur.',
+    true,
+  ],
+  [
+    'Apel tumbuh di mana?',
+    'apel',
+    'pohon',
+    ['awan', 'batu', 'meja'],
+    'Apel tumbuh di pohon.',
+    true,
+  ],
+  [
+    'Ikan hidup di mana?',
+    'ikan',
+    'tetesAir',
+    ['matahari', 'batu', 'pohon'],
+    'Ikan hidup di dalam air.',
+    true,
+  ],
+  [
+    'Pisang tumbuh dari tanaman apa?',
+    'pisang',
+    'pohon',
+    ['awan', 'batu', 'meja'],
+    'Pisang tumbuh di pohon pisang.',
+    true,
+  ],
+  [
+    'Gelas susu cokelat dibuat dari apa saja?',
+    null,
+    'susu',
+    ['batu', 'kertas', 'daun'],
+    'Susu cokelat dibuat dari susu dan cokelat.',
+    false,
+  ],
+  [
+    'Bahan es batu adalah?',
+    'esBatu',
+    'tetesAir',
+    ['madu', 'gula', 'batu'],
+    'Es batu adalah air yang membeku.',
+    true,
+  ],
+  [
+    'Garam dapur banyak dibuat dari air apa?',
+    'garam',
+    'paus',
+    ['sapi', 'pohon', 'lebah'],
+    'Garam dibuat dari air laut, tempat paus hidup.',
+    false,
+  ],
+  [
+    'Siapa yang membuat sarang dan menghasilkan madu?',
+    null,
+    'lebah',
+    ['kucing', 'ikan', 'sapi'],
+    'Lebah tinggal di sarang dan membuat madu.',
+    true,
+  ],
+  [
+    'Kupu-kupu suka mengisap sari apa?',
+    null,
+    'bunga',
+    ['batu', 'roti', 'garam'],
+    'Kupu-kupu mengisap sari bunga.',
+    false,
+  ],
+  [
+    'Jagung tumbuh di mana?',
+    'jagung',
+    'pot',
+    ['awan', 'meja', 'piring'],
+    'Jagung tumbuh di tanah.',
+    false,
+  ],
+];
+ASAL.forEach(([q, cue, ans, others, say, easy], i) =>
+  items.push({
+    id: `asal-${i + 1}`,
+    ageGroup: easy ? ['B', 'C'] : ['C'],
+    difficulty: easy ? 2 : 3,
+    speak: q,
+    label: q,
+    data: {
+      ...(cue ? { cue: art(cue) } : {}),
+      options: [ans, ...others].map(art),
+      speakAlso: [say],
+    },
+    tags: ['asal'],
+    review: 'perlu-ditinjau',
+  }),
+);
+
+/** Cuaca, siang-malam, musim: pilihan gambar suasana atau benda langit. */
+const ALAM: [
+  string,
+  { t: 'scene'; s: SceneKey } | ReturnType<typeof art>,
+  unknown[],
+  string,
+  boolean,
+][] = [
+  [
+    'Hujan turun dari mana?',
+    art('awan'),
+    [art('matahari'), art('bulan'), art('pohon')],
+    'Hujan turun dari awan.',
+    true,
+  ],
+  [
+    'Siang hari terang karena ada apa?',
+    art('matahari'),
+    [art('bulan'), art('awan'), art('lonceng')],
+    'Matahari membuat siang hari terang.',
+    true,
+  ],
+  [
+    'Saat malam, apa yang bersinar di langit?',
+    art('bulan'),
+    [art('matahari'), art('pohon'), art('awan')],
+    'Bulan dan bintang terlihat saat malam.',
+    true,
+  ],
+  [
+    'Pelangi biasanya muncul setelah apa?',
+    { t: 'scene', s: 'hujan' },
+    [
+      { t: 'scene', s: 'malam' },
+      { t: 'scene', s: 'kemarau' },
+    ],
+    'Pelangi muncul setelah hujan, saat matahari bersinar lagi.',
+    false,
+  ],
+  [
+    'Saat musim kemarau, cuaca seperti apa?',
+    { t: 'scene', s: 'kemarau' },
+    [
+      { t: 'scene', s: 'hujan' },
+      { t: 'scene', s: 'malam' },
+    ],
+    'Saat kemarau, cuaca panas dan jarang hujan.',
+    false,
+  ],
+  [
+    'Saat musim hujan, apa yang sering terjadi?',
+    { t: 'scene', s: 'hujan' },
+    [
+      { t: 'scene', s: 'kemarau' },
+      { t: 'scene', s: 'siang' },
+    ],
+    'Saat musim hujan, hujan sering turun.',
+    false,
+  ],
+  [
+    'Langit gelap dan penuh awan. Sebentar lagi akan?',
+    { t: 'scene', s: 'hujan' },
+    [
+      { t: 'scene', s: 'pelangi' },
+      { t: 'scene', s: 'kemarau' },
+    ],
+    'Awan gelap tandanya akan hujan.',
+    false,
+  ],
+  [
+    'Mana gambar langit malam?',
+    { t: 'scene', s: 'malam' },
+    [
+      { t: 'scene', s: 'siang' },
+      { t: 'scene', s: 'pagi' },
+    ],
+    'Malam hari langit gelap dan ada bulan.',
+    true,
+  ],
+  [
+    'Mana gambar langit siang?',
+    { t: 'scene', s: 'siang' },
+    [
+      { t: 'scene', s: 'malam' },
+      { t: 'scene', s: 'sore' },
+    ],
+    'Siang hari langit terang dan matahari tinggi.',
+    true,
+  ],
+  [
+    'Mana gambar pelangi?',
+    { t: 'scene', s: 'pelangi' },
+    [
+      { t: 'scene', s: 'hujan' },
+      { t: 'scene', s: 'malam' },
+    ],
+    'Pelangi punya banyak warna.',
+    true,
+  ],
+  [
+    'Mana gambar langit berawan?',
+    { t: 'scene', s: 'berawan' },
+    [
+      { t: 'scene', s: 'malam' },
+      { t: 'scene', s: 'kemarau' },
+    ],
+    'Langit berawan tertutup banyak awan.',
+    false,
+  ],
+  [
+    'Tanaman layu karena lama tidak ada apa?',
+    art('tetesAir'),
+    [art('batu'), art('televisi'), art('permen')],
+    'Tanaman butuh air supaya tidak layu.',
+    false,
+  ],
+  [
+    'Matahari terbenam pada waktu apa?',
+    { t: 'scene', s: 'sore' },
+    [
+      { t: 'scene', s: 'pagi' },
+      { t: 'scene', s: 'siang' },
+    ],
+    'Matahari terbenam pada sore hari.',
+    false,
+  ],
+  [
+    'Matahari terbit pada waktu apa?',
+    { t: 'scene', s: 'pagi' },
+    [
+      { t: 'scene', s: 'malam' },
+      { t: 'scene', s: 'sore' },
+    ],
+    'Matahari terbit pada pagi hari.',
+    true,
+  ],
+  [
+    'Air untuk sungai berasal dari mana?',
+    art('awan'),
+    [art('batu'), art('meja'), art('televisi')],
+    'Air hujan dari awan mengalir ke sungai.',
+    false,
+  ],
+  [
+    'Kita bisa melihat bayangan saat ada apa?',
+    art('matahari'),
+    [art('bulan'), art('awan'), art('tetesAir')],
+    'Bayangan muncul saat ada cahaya, misalnya matahari.',
+    false,
+  ],
+];
+ALAM.forEach(([q, ans, others, say, easy], i) =>
+  items.push({
+    id: `alam-${i + 1}`,
+    ageGroup: easy ? ['B', 'C'] : ['C'],
+    difficulty: easy ? 2 : 4,
+    speak: q,
+    label: q,
+    data: { options: [ans, ...others], speakAlso: [say] },
+    tags: ['alam'],
+    review: 'perlu-ditinjau',
+  }),
+);
+
+await writeContent('dari-mana-asalnya', items);

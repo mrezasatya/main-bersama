@@ -8,6 +8,8 @@ export const NAMED_COLORS = {
   ungu: '#9A62DD',
   cokelat: '#9C6239',
   'merah muda': '#FF8DB8',
+  'abu-abu': '#9AA1AB',
+  'biru muda': '#8EC9F0',
   putih: '#FFFFFF',
   hitam: '#2B2B33',
 } as const;

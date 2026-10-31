@@ -6,6 +6,9 @@ import type { VoiceManifest } from '../../src/core/audio/voiceKey';
 import { STICKERS } from '../../src/core/progress/stickers';
 import { ROOT, loadGameFolders } from '../lib/games';
 
+/** Kunci di data konten yang berisi kalimat yang dibacakan (larik teks). */
+export const SPOKEN_DATA_KEYS = ['speakAlso', 'optionSay', 'tileSay'] as const;
+
 export const VOICE_DIR = join(ROOT, 'public', 'voice');
 export const MANIFEST_PATH = join(VOICE_DIR, 'manifest.json');
 
@@ -40,10 +43,12 @@ export async function collectPhrases(): Promise<Phrase[]> {
     const meta = g.meta as { id: string; title: string; usesAudio?: boolean };
     add(meta.title, 'judul');
     for (const t of g.phrases) add(t, meta.id);
-    for (const it of g.content as { speak?: string; data?: { speakAlso?: unknown } }[]) {
+    for (const it of g.content as { speak?: string; data?: Record<string, unknown> }[]) {
       if (it.speak) add(it.speak, meta.id);
-      const also = it.data?.speakAlso;
-      if (Array.isArray(also)) for (const t of also) if (typeof t === 'string') add(t, meta.id);
+      for (const key of SPOKEN_DATA_KEYS) {
+        const list = it.data?.[key];
+        if (Array.isArray(list)) for (const t of list) if (typeof t === 'string') add(t, meta.id);
+      }
     }
   }
   return [...map.values()];

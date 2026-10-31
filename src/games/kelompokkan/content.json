@@ -1,0 +1,1196 @@
+[
+  {
+    "id": "warna-merah-biru",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Kelompokkan warna merah dan warna biru.",
+    "label": "Kelompokkan warna merah dan warna biru.",
+    "data": {
+      "bins": [
+        { "label": "merah", "icon": { "t": "swatch", "c": "merah" } },
+        { "label": "biru", "icon": { "t": "swatch", "c": "biru" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "bola", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "balon", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bintang", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bunga", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "ikan", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "ikan", "color": "biru" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bunga", "color": "biru" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bintang", "color": "biru" }, "bin": 1 },
+        { "v": { "t": "art", "k": "balon", "color": "biru" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bola", "color": "biru" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna-kuning-hijau",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Kelompokkan warna kuning dan warna hijau.",
+    "label": "Kelompokkan warna kuning dan warna hijau.",
+    "data": {
+      "bins": [
+        { "label": "kuning", "icon": { "t": "swatch", "c": "kuning" } },
+        { "label": "hijau", "icon": { "t": "swatch", "c": "hijau" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "bola", "color": "kuning" }, "bin": 0 },
+        { "v": { "t": "art", "k": "balon", "color": "kuning" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bintang", "color": "kuning" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bunga", "color": "kuning" }, "bin": 0 },
+        { "v": { "t": "art", "k": "ikan", "color": "kuning" }, "bin": 0 },
+        { "v": { "t": "art", "k": "ikan", "color": "hijau" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bunga", "color": "hijau" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bintang", "color": "hijau" }, "bin": 1 },
+        { "v": { "t": "art", "k": "balon", "color": "hijau" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bola", "color": "hijau" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna-ungu-oranye",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Kelompokkan warna ungu dan warna oranye.",
+    "label": "Kelompokkan warna ungu dan warna oranye.",
+    "data": {
+      "bins": [
+        { "label": "ungu", "icon": { "t": "swatch", "c": "ungu" } },
+        { "label": "oranye", "icon": { "t": "swatch", "c": "oranye" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "bola", "color": "ungu" }, "bin": 0 },
+        { "v": { "t": "art", "k": "balon", "color": "ungu" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bintang", "color": "ungu" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bunga", "color": "ungu" }, "bin": 0 },
+        { "v": { "t": "art", "k": "ikan", "color": "ungu" }, "bin": 0 },
+        { "v": { "t": "art", "k": "ikan", "color": "oranye" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bunga", "color": "oranye" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bintang", "color": "oranye" }, "bin": 1 },
+        { "v": { "t": "art", "k": "balon", "color": "oranye" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bola", "color": "oranye" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna-merah muda-biru muda",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kelompokkan warna merah muda dan warna biru muda.",
+    "label": "Kelompokkan warna merah muda dan warna biru muda.",
+    "data": {
+      "bins": [
+        { "label": "merah muda", "icon": { "t": "swatch", "c": "merah muda" } },
+        { "label": "biru muda", "icon": { "t": "swatch", "c": "biru muda" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "bola", "color": "merah muda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "balon", "color": "merah muda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bintang", "color": "merah muda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bunga", "color": "merah muda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "ikan", "color": "merah muda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "ikan", "color": "biru muda" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bunga", "color": "biru muda" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bintang", "color": "biru muda" }, "bin": 1 },
+        { "v": { "t": "art", "k": "balon", "color": "biru muda" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bola", "color": "biru muda" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna-merah-kuning",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kelompokkan warna merah dan warna kuning.",
+    "label": "Kelompokkan warna merah dan warna kuning.",
+    "data": {
+      "bins": [
+        { "label": "merah", "icon": { "t": "swatch", "c": "merah" } },
+        { "label": "kuning", "icon": { "t": "swatch", "c": "kuning" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "bola", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "balon", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bintang", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bunga", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "ikan", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "ikan", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bunga", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bintang", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "art", "k": "balon", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bola", "color": "kuning" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-lingkaran-segitiga",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Kelompokkan bentuk lingkaran dan segitiga.",
+    "label": "Kelompokkan bentuk lingkaran dan segitiga.",
+    "data": {
+      "bins": [
+        { "label": "lingkaran", "icon": { "t": "shape", "s": "lingkaran", "color": "abu-abu" } },
+        { "label": "segitiga", "icon": { "t": "shape", "s": "segitiga", "color": "abu-abu" } }
+      ],
+      "items": [
+        { "v": { "t": "shape", "s": "lingkaran", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "lingkaran", "color": "biru" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "lingkaran", "color": "kuning" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "lingkaran", "color": "hijau" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "lingkaran", "color": "ungu" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "segitiga", "color": "ungu" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "segitiga", "color": "hijau" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "segitiga", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "segitiga", "color": "biru" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "segitiga", "color": "merah" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-persegi-bintang",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Kelompokkan bentuk persegi dan bintang.",
+    "label": "Kelompokkan bentuk persegi dan bintang.",
+    "data": {
+      "bins": [
+        { "label": "persegi", "icon": { "t": "shape", "s": "persegi", "color": "abu-abu" } },
+        { "label": "bintang", "icon": { "t": "shape", "s": "bintang", "color": "abu-abu" } }
+      ],
+      "items": [
+        { "v": { "t": "shape", "s": "persegi", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "persegi", "color": "biru" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "persegi", "color": "kuning" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "persegi", "color": "hijau" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "persegi", "color": "ungu" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "bintang", "color": "ungu" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "bintang", "color": "hijau" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "bintang", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "bintang", "color": "biru" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "bintang", "color": "merah" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-hati-lingkaran",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Kelompokkan bentuk hati dan lingkaran.",
+    "label": "Kelompokkan bentuk hati dan lingkaran.",
+    "data": {
+      "bins": [
+        { "label": "hati", "icon": { "t": "shape", "s": "hati", "color": "abu-abu" } },
+        { "label": "lingkaran", "icon": { "t": "shape", "s": "lingkaran", "color": "abu-abu" } }
+      ],
+      "items": [
+        { "v": { "t": "shape", "s": "hati", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "hati", "color": "biru" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "hati", "color": "kuning" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "hati", "color": "hijau" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "hati", "color": "ungu" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "lingkaran", "color": "ungu" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "lingkaran", "color": "hijau" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "lingkaran", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "lingkaran", "color": "biru" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "lingkaran", "color": "merah" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-kubus-bola",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Kelompokkan bentuk kubus dan bola.",
+    "label": "Kelompokkan bentuk kubus dan bola.",
+    "data": {
+      "bins": [
+        { "label": "kubus", "icon": { "t": "shape", "s": "kubus", "color": "abu-abu" } },
+        { "label": "bola", "icon": { "t": "shape", "s": "bola", "color": "abu-abu" } }
+      ],
+      "items": [
+        { "v": { "t": "shape", "s": "kubus", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "kubus", "color": "biru" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "kubus", "color": "kuning" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "kubus", "color": "hijau" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "kubus", "color": "ungu" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "bola", "color": "ungu" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "bola", "color": "hijau" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "bola", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "bola", "color": "biru" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "bola", "color": "merah" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk-segitiga-persegi",
+    "ageGroup": ["B", "C"],
+    "difficulty": 3,
+    "speak": "Kelompokkan bentuk segitiga dan persegi.",
+    "label": "Kelompokkan bentuk segitiga dan persegi.",
+    "data": {
+      "bins": [
+        { "label": "segitiga", "icon": { "t": "shape", "s": "segitiga", "color": "abu-abu" } },
+        { "label": "persegi", "icon": { "t": "shape", "s": "persegi", "color": "abu-abu" } }
+      ],
+      "items": [
+        { "v": { "t": "shape", "s": "segitiga", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "segitiga", "color": "biru" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "segitiga", "color": "kuning" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "segitiga", "color": "hijau" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "segitiga", "color": "ungu" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "persegi", "color": "ungu" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "persegi", "color": "hijau" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "persegi", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "persegi", "color": "biru" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "persegi", "color": "merah" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "habitat2-0",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Kelompokkan hewan darat dan hewan air, mulai dari kucing.",
+    "label": "Kelompokkan hewan darat dan hewan air, mulai dari kucing.",
+    "data": {
+      "bins": [
+        { "label": "darat", "icon": { "t": "art", "k": "pohon" } },
+        { "label": "air", "icon": { "t": "art", "k": "tetesAir" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "kucing" }, "bin": 0 },
+        { "v": { "t": "art", "k": "sapi" }, "bin": 0 },
+        { "v": { "t": "art", "k": "kuda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "gajah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "singa" }, "bin": 0 },
+        { "v": { "t": "art", "k": "ikan" }, "bin": 1 },
+        { "v": { "t": "art", "k": "paus" }, "bin": 1 },
+        { "v": { "t": "art", "k": "lumbaLumba" }, "bin": 1 },
+        { "v": { "t": "art", "k": "anjingLaut" }, "bin": 1 },
+        { "v": { "t": "art", "k": "katak" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "habitat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "habitat2-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Kelompokkan hewan darat dan hewan air, mulai dari sapi.",
+    "label": "Kelompokkan hewan darat dan hewan air, mulai dari sapi.",
+    "data": {
+      "bins": [
+        { "label": "darat", "icon": { "t": "art", "k": "pohon" } },
+        { "label": "air", "icon": { "t": "art", "k": "tetesAir" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "sapi" }, "bin": 0 },
+        { "v": { "t": "art", "k": "kuda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "gajah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "singa" }, "bin": 0 },
+        { "v": { "t": "art", "k": "kambing" }, "bin": 0 },
+        { "v": { "t": "art", "k": "paus" }, "bin": 1 },
+        { "v": { "t": "art", "k": "lumbaLumba" }, "bin": 1 },
+        { "v": { "t": "art", "k": "anjingLaut" }, "bin": 1 },
+        { "v": { "t": "art", "k": "katak" }, "bin": 1 },
+        { "v": { "t": "art", "k": "ikan" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "habitat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "habitat3-2",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kelompokkan hewan darat, air, dan udara, mulai dari kuda.",
+    "label": "Kelompokkan hewan darat, air, dan udara, mulai dari kuda.",
+    "data": {
+      "bins": [
+        { "label": "darat", "icon": { "t": "art", "k": "pohon" } },
+        { "label": "air", "icon": { "t": "art", "k": "tetesAir" } },
+        { "label": "udara", "icon": { "t": "art", "k": "awan" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "kuda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "gajah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "singa" }, "bin": 0 },
+        { "v": { "t": "art", "k": "kambing" }, "bin": 0 },
+        { "v": { "t": "art", "k": "harimau" }, "bin": 0 },
+        { "v": { "t": "art", "k": "lumbaLumba" }, "bin": 1 },
+        { "v": { "t": "art", "k": "anjingLaut" }, "bin": 1 },
+        { "v": { "t": "art", "k": "katak" }, "bin": 1 },
+        { "v": { "t": "art", "k": "ikan" }, "bin": 1 },
+        { "v": { "t": "art", "k": "paus" }, "bin": 1 },
+        { "v": { "t": "art", "k": "lebah" }, "bin": 2 },
+        { "v": { "t": "art", "k": "burungHantu" }, "bin": 2 },
+        { "v": { "t": "art", "k": "kakatua" }, "bin": 2 },
+        { "v": { "t": "art", "k": "pipit" }, "bin": 2 },
+        { "v": { "t": "art", "k": "merpati" }, "bin": 2 }
+      ]
+    },
+    "tags": ["kelompok", "habitat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "habitat3-3",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kelompokkan hewan darat, air, dan udara, mulai dari gajah.",
+    "label": "Kelompokkan hewan darat, air, dan udara, mulai dari gajah.",
+    "data": {
+      "bins": [
+        { "label": "darat", "icon": { "t": "art", "k": "pohon" } },
+        { "label": "air", "icon": { "t": "art", "k": "tetesAir" } },
+        { "label": "udara", "icon": { "t": "art", "k": "awan" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "gajah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "singa" }, "bin": 0 },
+        { "v": { "t": "art", "k": "kambing" }, "bin": 0 },
+        { "v": { "t": "art", "k": "harimau" }, "bin": 0 },
+        { "v": { "t": "art", "k": "zebra" }, "bin": 0 },
+        { "v": { "t": "art", "k": "anjingLaut" }, "bin": 1 },
+        { "v": { "t": "art", "k": "katak" }, "bin": 1 },
+        { "v": { "t": "art", "k": "ikan" }, "bin": 1 },
+        { "v": { "t": "art", "k": "paus" }, "bin": 1 },
+        { "v": { "t": "art", "k": "lumbaLumba" }, "bin": 1 },
+        { "v": { "t": "art", "k": "burungHantu" }, "bin": 2 },
+        { "v": { "t": "art", "k": "kakatua" }, "bin": 2 },
+        { "v": { "t": "art", "k": "pipit" }, "bin": 2 },
+        { "v": { "t": "art", "k": "merpati" }, "bin": 2 },
+        { "v": { "t": "art", "k": "elang" }, "bin": 2 }
+      ]
+    },
+    "tags": ["kelompok", "habitat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "habitat3-4",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kelompokkan hewan darat, air, dan udara, mulai dari singa.",
+    "label": "Kelompokkan hewan darat, air, dan udara, mulai dari singa.",
+    "data": {
+      "bins": [
+        { "label": "darat", "icon": { "t": "art", "k": "pohon" } },
+        { "label": "air", "icon": { "t": "art", "k": "tetesAir" } },
+        { "label": "udara", "icon": { "t": "art", "k": "awan" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "singa" }, "bin": 0 },
+        { "v": { "t": "art", "k": "kambing" }, "bin": 0 },
+        { "v": { "t": "art", "k": "harimau" }, "bin": 0 },
+        { "v": { "t": "art", "k": "zebra" }, "bin": 0 },
+        { "v": { "t": "art", "k": "kucing" }, "bin": 0 },
+        { "v": { "t": "art", "k": "katak" }, "bin": 1 },
+        { "v": { "t": "art", "k": "ikan" }, "bin": 1 },
+        { "v": { "t": "art", "k": "paus" }, "bin": 1 },
+        { "v": { "t": "art", "k": "lumbaLumba" }, "bin": 1 },
+        { "v": { "t": "art", "k": "anjingLaut" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kakatua" }, "bin": 2 },
+        { "v": { "t": "art", "k": "pipit" }, "bin": 2 },
+        { "v": { "t": "art", "k": "merpati" }, "bin": 2 },
+        { "v": { "t": "art", "k": "elang" }, "bin": 2 },
+        { "v": { "t": "art", "k": "lebah" }, "bin": 2 }
+      ]
+    },
+    "tags": ["kelompok", "habitat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buah-sayur-0",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Kelompokkan buah dan sayur, mulai dari apel.",
+    "label": "Kelompokkan buah dan sayur, mulai dari apel.",
+    "data": {
+      "bins": [
+        { "label": "buah", "icon": { "t": "art", "k": "apel" } },
+        { "label": "sayur", "icon": { "t": "art", "k": "wortel" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "apel" }, "bin": 0 },
+        { "v": { "t": "art", "k": "jeruk" }, "bin": 0 },
+        { "v": { "t": "art", "k": "pisang" }, "bin": 0 },
+        { "v": { "t": "art", "k": "mangga" }, "bin": 0 },
+        { "v": { "t": "art", "k": "anggur" }, "bin": 0 },
+        { "v": { "t": "art", "k": "wortel" }, "bin": 1 },
+        { "v": { "t": "art", "k": "tomat" }, "bin": 1 },
+        { "v": { "t": "art", "k": "jagung" }, "bin": 1 },
+        { "v": { "t": "art", "k": "cabai" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kedelai" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "buah-sayur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buah-sayur-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Kelompokkan buah dan sayur, mulai dari jeruk.",
+    "label": "Kelompokkan buah dan sayur, mulai dari jeruk.",
+    "data": {
+      "bins": [
+        { "label": "buah", "icon": { "t": "art", "k": "apel" } },
+        { "label": "sayur", "icon": { "t": "art", "k": "wortel" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "jeruk" }, "bin": 0 },
+        { "v": { "t": "art", "k": "pisang" }, "bin": 0 },
+        { "v": { "t": "art", "k": "mangga" }, "bin": 0 },
+        { "v": { "t": "art", "k": "anggur" }, "bin": 0 },
+        { "v": { "t": "art", "k": "stroberi" }, "bin": 0 },
+        { "v": { "t": "art", "k": "tomat" }, "bin": 1 },
+        { "v": { "t": "art", "k": "jagung" }, "bin": 1 },
+        { "v": { "t": "art", "k": "cabai" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kedelai" }, "bin": 1 },
+        { "v": { "t": "art", "k": "wortel" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "buah-sayur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buah-sayur-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kelompokkan buah dan sayur, mulai dari pisang.",
+    "label": "Kelompokkan buah dan sayur, mulai dari pisang.",
+    "data": {
+      "bins": [
+        { "label": "buah", "icon": { "t": "art", "k": "apel" } },
+        { "label": "sayur", "icon": { "t": "art", "k": "wortel" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "pisang" }, "bin": 0 },
+        { "v": { "t": "art", "k": "mangga" }, "bin": 0 },
+        { "v": { "t": "art", "k": "anggur" }, "bin": 0 },
+        { "v": { "t": "art", "k": "stroberi" }, "bin": 0 },
+        { "v": { "t": "art", "k": "semangka" }, "bin": 0 },
+        { "v": { "t": "art", "k": "wortel" }, "bin": 1 },
+        { "v": { "t": "art", "k": "tomat" }, "bin": 1 },
+        { "v": { "t": "art", "k": "jagung" }, "bin": 1 },
+        { "v": { "t": "art", "k": "cabai" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kedelai" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "buah-sayur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "buah-sayur-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kelompokkan buah dan sayur, mulai dari mangga.",
+    "label": "Kelompokkan buah dan sayur, mulai dari mangga.",
+    "data": {
+      "bins": [
+        { "label": "buah", "icon": { "t": "art", "k": "apel" } },
+        { "label": "sayur", "icon": { "t": "art", "k": "wortel" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "mangga" }, "bin": 0 },
+        { "v": { "t": "art", "k": "anggur" }, "bin": 0 },
+        { "v": { "t": "art", "k": "stroberi" }, "bin": 0 },
+        { "v": { "t": "art", "k": "semangka" }, "bin": 0 },
+        { "v": { "t": "art", "k": "nanas" }, "bin": 0 },
+        { "v": { "t": "art", "k": "tomat" }, "bin": 1 },
+        { "v": { "t": "art", "k": "jagung" }, "bin": 1 },
+        { "v": { "t": "art", "k": "cabai" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kedelai" }, "bin": 1 },
+        { "v": { "t": "art", "k": "wortel" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "buah-sayur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendaraan2-0",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Kelompokkan kendaraan darat dan kendaraan laut, mulai dari mobil.",
+    "label": "Kelompokkan kendaraan darat dan kendaraan laut, mulai dari mobil.",
+    "data": {
+      "bins": [
+        { "label": "darat", "icon": { "t": "art", "k": "mobil" } },
+        { "label": "laut", "icon": { "t": "art", "k": "perahuLayar" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "mobil" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bus" }, "bin": 0 },
+        { "v": { "t": "art", "k": "truk" }, "bin": 0 },
+        { "v": { "t": "art", "k": "motor" }, "bin": 0 },
+        { "v": { "t": "art", "k": "sepeda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "perahuLayar" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kapalFeri" }, "bin": 1 },
+        { "v": { "t": "art", "k": "sampan" }, "bin": 1 },
+        { "v": { "t": "art", "k": "pinisi" }, "bin": 1 },
+        { "v": { "t": "art", "k": "speedboat" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "kendaraan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendaraan2-1",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 2,
+    "speak": "Kelompokkan kendaraan darat dan kendaraan laut, mulai dari bus.",
+    "label": "Kelompokkan kendaraan darat dan kendaraan laut, mulai dari bus.",
+    "data": {
+      "bins": [
+        { "label": "darat", "icon": { "t": "art", "k": "mobil" } },
+        { "label": "laut", "icon": { "t": "art", "k": "perahuLayar" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "bus" }, "bin": 0 },
+        { "v": { "t": "art", "k": "truk" }, "bin": 0 },
+        { "v": { "t": "art", "k": "motor" }, "bin": 0 },
+        { "v": { "t": "art", "k": "sepeda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "becak" }, "bin": 0 },
+        { "v": { "t": "art", "k": "kapalFeri" }, "bin": 1 },
+        { "v": { "t": "art", "k": "sampan" }, "bin": 1 },
+        { "v": { "t": "art", "k": "pinisi" }, "bin": 1 },
+        { "v": { "t": "art", "k": "speedboat" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kapalSelam" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "kendaraan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendaraan2-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kelompokkan kendaraan darat dan kendaraan laut, mulai dari truk.",
+    "label": "Kelompokkan kendaraan darat dan kendaraan laut, mulai dari truk.",
+    "data": {
+      "bins": [
+        { "label": "darat", "icon": { "t": "art", "k": "mobil" } },
+        { "label": "laut", "icon": { "t": "art", "k": "perahuLayar" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "truk" }, "bin": 0 },
+        { "v": { "t": "art", "k": "motor" }, "bin": 0 },
+        { "v": { "t": "art", "k": "sepeda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "becak" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bajaj" }, "bin": 0 },
+        { "v": { "t": "art", "k": "sampan" }, "bin": 1 },
+        { "v": { "t": "art", "k": "pinisi" }, "bin": 1 },
+        { "v": { "t": "art", "k": "speedboat" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kapalSelam" }, "bin": 1 },
+        { "v": { "t": "art", "k": "perahuLayar" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "kendaraan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendaraan3-3",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kelompokkan kendaraan darat, laut, dan udara, mulai dari motor.",
+    "label": "Kelompokkan kendaraan darat, laut, dan udara, mulai dari motor.",
+    "data": {
+      "bins": [
+        { "label": "darat", "icon": { "t": "art", "k": "mobil" } },
+        { "label": "laut", "icon": { "t": "art", "k": "perahuLayar" } },
+        { "label": "udara", "icon": { "t": "art", "k": "pesawat" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "motor" }, "bin": 0 },
+        { "v": { "t": "art", "k": "sepeda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "becak" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bajaj" }, "bin": 0 },
+        { "v": { "t": "art", "k": "keretaApi" }, "bin": 0 },
+        { "v": { "t": "art", "k": "pinisi" }, "bin": 1 },
+        { "v": { "t": "art", "k": "speedboat" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kapalSelam" }, "bin": 1 },
+        { "v": { "t": "art", "k": "perahuLayar" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kapalFeri" }, "bin": 1 },
+        { "v": { "t": "art", "k": "roket" }, "bin": 2 },
+        { "v": { "t": "art", "k": "pesawatBaling" }, "bin": 2 },
+        { "v": { "t": "art", "k": "pesawat" }, "bin": 2 },
+        { "v": { "t": "art", "k": "helikopter" }, "bin": 2 },
+        { "v": { "t": "art", "k": "balonUdara" }, "bin": 2 }
+      ]
+    },
+    "tags": ["kelompok", "kendaraan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendaraan3-4",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kelompokkan kendaraan darat, laut, dan udara, mulai dari sepeda.",
+    "label": "Kelompokkan kendaraan darat, laut, dan udara, mulai dari sepeda.",
+    "data": {
+      "bins": [
+        { "label": "darat", "icon": { "t": "art", "k": "mobil" } },
+        { "label": "laut", "icon": { "t": "art", "k": "perahuLayar" } },
+        { "label": "udara", "icon": { "t": "art", "k": "pesawat" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "sepeda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "becak" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bajaj" }, "bin": 0 },
+        { "v": { "t": "art", "k": "keretaApi" }, "bin": 0 },
+        { "v": { "t": "art", "k": "mobil" }, "bin": 0 },
+        { "v": { "t": "art", "k": "speedboat" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kapalSelam" }, "bin": 1 },
+        { "v": { "t": "art", "k": "perahuLayar" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kapalFeri" }, "bin": 1 },
+        { "v": { "t": "art", "k": "sampan" }, "bin": 1 },
+        { "v": { "t": "art", "k": "pesawatBaling" }, "bin": 2 },
+        { "v": { "t": "art", "k": "pesawat" }, "bin": 2 },
+        { "v": { "t": "art", "k": "helikopter" }, "bin": 2 },
+        { "v": { "t": "art", "k": "balonUdara" }, "bin": 2 },
+        { "v": { "t": "art", "k": "roket" }, "bin": 2 }
+      ]
+    },
+    "tags": ["kelompok", "kendaraan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "kendaraan3-5",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kelompokkan kendaraan darat, laut, dan udara, mulai dari becak.",
+    "label": "Kelompokkan kendaraan darat, laut, dan udara, mulai dari becak.",
+    "data": {
+      "bins": [
+        { "label": "darat", "icon": { "t": "art", "k": "mobil" } },
+        { "label": "laut", "icon": { "t": "art", "k": "perahuLayar" } },
+        { "label": "udara", "icon": { "t": "art", "k": "pesawat" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "becak" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bajaj" }, "bin": 0 },
+        { "v": { "t": "art", "k": "keretaApi" }, "bin": 0 },
+        { "v": { "t": "art", "k": "mobil" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bus" }, "bin": 0 },
+        { "v": { "t": "art", "k": "kapalSelam" }, "bin": 1 },
+        { "v": { "t": "art", "k": "perahuLayar" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kapalFeri" }, "bin": 1 },
+        { "v": { "t": "art", "k": "sampan" }, "bin": 1 },
+        { "v": { "t": "art", "k": "pinisi" }, "bin": 1 },
+        { "v": { "t": "art", "k": "pesawat" }, "bin": 2 },
+        { "v": { "t": "art", "k": "helikopter" }, "bin": 2 },
+        { "v": { "t": "art", "k": "balonUdara" }, "bin": 2 },
+        { "v": { "t": "art", "k": "roket" }, "bin": 2 },
+        { "v": { "t": "art", "k": "pesawatBaling" }, "bin": 2 }
+      ]
+    },
+    "tags": ["kelompok", "kendaraan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "lain-makanan",
+    "ageGroup": ["A", "B", "C"],
+    "difficulty": 1,
+    "speak": "Kelompokkan makanan dan mainan.",
+    "label": "Kelompokkan makanan dan mainan.",
+    "data": {
+      "bins": [
+        { "label": "makanan", "icon": { "t": "art", "k": "piring" } },
+        { "label": "mainan", "icon": { "t": "art", "k": "yoyo" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "roti" }, "bin": 0 },
+        { "v": { "t": "art", "k": "kue" }, "bin": 0 },
+        { "v": { "t": "art", "k": "sate" }, "bin": 0 },
+        { "v": { "t": "art", "k": "nasi" }, "bin": 0 },
+        { "v": { "t": "art", "k": "permen" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bola" }, "bin": 1 },
+        { "v": { "t": "art", "k": "yoyo" }, "bin": 1 },
+        { "v": { "t": "art", "k": "balon" }, "bin": 1 },
+        { "v": { "t": "art", "k": "mainanRusak" }, "bin": 1 },
+        { "v": { "t": "art", "k": "gitar" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "makanan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "lain-langit",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Kelompokkan benda di langit siang dan langit malam.",
+    "label": "Kelompokkan benda di langit siang dan langit malam.",
+    "data": {
+      "bins": [
+        { "label": "siang", "icon": { "t": "scene", "s": "siang" } },
+        { "label": "malam", "icon": { "t": "scene", "s": "malam" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "matahari" }, "bin": 0 },
+        { "v": { "t": "art", "k": "awan" }, "bin": 0 },
+        { "v": { "t": "art", "k": "pesawat" }, "bin": 0 },
+        { "v": { "t": "art", "k": "balonUdara" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bintang", "color": "kuning" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bulan" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bintang", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "art", "k": "burungHantu" }, "bin": 1 },
+        { "v": { "t": "art", "k": "tempatTidur" }, "bin": 1 },
+        { "v": { "t": "art", "k": "senter" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "langit"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "lain-kaki",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kelompokkan hewan berkaki dua dan berkaki empat.",
+    "label": "Kelompokkan hewan berkaki dua dan berkaki empat.",
+    "data": {
+      "bins": [
+        { "label": "kaki dua", "icon": { "t": "num", "n": 2 } },
+        { "label": "kaki empat", "icon": { "t": "num", "n": 4 } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "ayamJago" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bebek" }, "bin": 0 },
+        { "v": { "t": "art", "k": "angsa" }, "bin": 0 },
+        { "v": { "t": "art", "k": "merpati" }, "bin": 0 },
+        { "v": { "t": "art", "k": "burungHantu" }, "bin": 0 },
+        { "v": { "t": "art", "k": "kucing" }, "bin": 1 },
+        { "v": { "t": "art", "k": "anjing" }, "bin": 1 },
+        { "v": { "t": "art", "k": "sapi" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kuda" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kambing" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "kaki"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "lain-dingin-panas",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kelompokkan benda dingin dan benda panas.",
+    "label": "Kelompokkan benda dingin dan benda panas.",
+    "data": {
+      "bins": [
+        { "label": "dingin", "icon": { "t": "art", "k": "esBatu" } },
+        { "label": "panas", "icon": { "t": "art", "k": "matahari" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "esBatu" }, "bin": 0 },
+        { "v": { "t": "art", "k": "esKrim" }, "bin": 0 },
+        { "v": { "t": "art", "k": "susu" }, "bin": 0 },
+        { "v": { "t": "art", "k": "semangka" }, "bin": 0 },
+        { "v": { "t": "art", "k": "tetesAir" }, "bin": 0 },
+        { "v": { "t": "art", "k": "tehHangat" }, "bin": 1 },
+        { "v": { "t": "art", "k": "soto" }, "bin": 1 },
+        { "v": { "t": "art", "k": "matahari" }, "bin": 1 },
+        { "v": { "t": "art", "k": "obor" }, "bin": 1 },
+        { "v": { "t": "art", "k": "wajan" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "dingin-panas"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "lain-ukuran",
+    "ageGroup": ["B", "C"],
+    "difficulty": 4,
+    "speak": "Kelompokkan hewan besar dan hewan kecil.",
+    "label": "Kelompokkan hewan besar dan hewan kecil.",
+    "data": {
+      "bins": [
+        { "label": "besar", "icon": { "t": "art", "k": "gajah" } },
+        { "label": "kecil", "icon": { "t": "art", "k": "tikus" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "gajah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "paus" }, "bin": 0 },
+        { "v": { "t": "art", "k": "kudaNil" }, "bin": 0 },
+        { "v": { "t": "art", "k": "kerbau" }, "bin": 0 },
+        { "v": { "t": "art", "k": "beruang" }, "bin": 0 },
+        { "v": { "t": "art", "k": "tikus" }, "bin": 1 },
+        { "v": { "t": "art", "k": "lebah" }, "bin": 1 },
+        { "v": { "t": "art", "k": "nyamuk" }, "bin": 1 },
+        { "v": { "t": "art", "k": "cicak" }, "bin": 1 },
+        { "v": { "t": "art", "k": "anakAyam" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "ukuran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "lain-alat",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kelompokkan alat makan dan alat tulis.",
+    "label": "Kelompokkan alat makan dan alat tulis.",
+    "data": {
+      "bins": [
+        { "label": "makan", "icon": { "t": "art", "k": "piring" } },
+        { "label": "tulis", "icon": { "t": "art", "k": "buku" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "piring" }, "bin": 0 },
+        { "v": { "t": "art", "k": "wajan" }, "bin": 0 },
+        { "v": { "t": "art", "k": "nasi" }, "bin": 0 },
+        { "v": { "t": "art", "k": "susu" }, "bin": 0 },
+        { "v": { "t": "art", "k": "kue" }, "bin": 0 },
+        { "v": { "t": "art", "k": "buku" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kuas" }, "bin": 1 },
+        { "v": { "t": "art", "k": "kertas" }, "bin": 1 },
+        { "v": { "t": "art", "k": "tasSekolah" }, "bin": 1 },
+        { "v": { "t": "art", "k": "canting" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "alat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "lain-budaya",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kelompokkan rumah adat dan makanan khas.",
+    "label": "Kelompokkan rumah adat dan makanan khas.",
+    "data": {
+      "bins": [
+        { "label": "rumah adat", "icon": { "t": "art", "k": "rumahJoglo" } },
+        { "label": "makanan", "icon": { "t": "art", "k": "piring" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "rumahGadang" }, "bin": 0 },
+        { "v": { "t": "art", "k": "rumahJoglo" }, "bin": 0 },
+        { "v": { "t": "art", "k": "rumahHonai" }, "bin": 0 },
+        { "v": { "t": "art", "k": "rumahTongkonan" }, "bin": 0 },
+        { "v": { "t": "art", "k": "rumahPanggung" }, "bin": 0 },
+        { "v": { "t": "art", "k": "rendang" }, "bin": 1 },
+        { "v": { "t": "art", "k": "sate" }, "bin": 1 },
+        { "v": { "t": "art", "k": "tumpeng" }, "bin": 1 },
+        { "v": { "t": "art", "k": "soto" }, "bin": 1 },
+        { "v": { "t": "art", "k": "klepon" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "budaya"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "lain-angka",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kelompokkan angka kecil dan angka besar.",
+    "label": "Kelompokkan angka kecil dan angka besar.",
+    "data": {
+      "bins": [
+        { "label": "1 sampai 5", "icon": { "t": "num", "n": 5 } },
+        { "label": "6 sampai 10", "icon": { "t": "num", "n": 10 } }
+      ],
+      "items": [
+        { "v": { "t": "num", "n": 1 }, "bin": 0 },
+        { "v": { "t": "num", "n": 2 }, "bin": 0 },
+        { "v": { "t": "num", "n": 3 }, "bin": 0 },
+        { "v": { "t": "num", "n": 4 }, "bin": 0 },
+        { "v": { "t": "num", "n": 5 }, "bin": 0 },
+        { "v": { "t": "num", "n": 6 }, "bin": 1 },
+        { "v": { "t": "num", "n": 7 }, "bin": 1 },
+        { "v": { "t": "num", "n": 8 }, "bin": 1 },
+        { "v": { "t": "num", "n": 9 }, "bin": 1 },
+        { "v": { "t": "num", "n": 10 }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "angka"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "lain-huruf",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kelompokkan huruf vokal dan huruf lainnya.",
+    "label": "Kelompokkan huruf vokal dan huruf lainnya.",
+    "data": {
+      "bins": [
+        { "label": "vokal", "icon": { "t": "text", "s": "a i u" } },
+        { "label": "lainnya", "icon": { "t": "text", "s": "b c d" } }
+      ],
+      "items": [
+        { "v": { "t": "text", "s": "a", "size": "xl" }, "bin": 0 },
+        { "v": { "t": "text", "s": "i", "size": "xl" }, "bin": 0 },
+        { "v": { "t": "text", "s": "u", "size": "xl" }, "bin": 0 },
+        { "v": { "t": "text", "s": "e", "size": "xl" }, "bin": 0 },
+        { "v": { "t": "text", "s": "o", "size": "xl" }, "bin": 0 },
+        { "v": { "t": "text", "s": "b", "size": "xl" }, "bin": 1 },
+        { "v": { "t": "text", "s": "m", "size": "xl" }, "bin": 1 },
+        { "v": { "t": "text", "s": "s", "size": "xl" }, "bin": 1 },
+        { "v": { "t": "text", "s": "k", "size": "xl" }, "bin": 1 },
+        { "v": { "t": "text", "s": "t", "size": "xl" }, "bin": 1 }
+      ]
+    },
+    "tags": ["kelompok", "huruf"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna3-0",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Kelompokkan warna merah, kuning, dan biru.",
+    "label": "Kelompokkan warna merah, kuning, dan biru.",
+    "data": {
+      "bins": [
+        { "label": "merah", "icon": { "t": "swatch", "c": "merah" } },
+        { "label": "kuning", "icon": { "t": "swatch", "c": "kuning" } },
+        { "label": "biru", "icon": { "t": "swatch", "c": "biru" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "bola", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "balon", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bintang", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bunga", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bola", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "art", "k": "balon", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bintang", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bunga", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bola", "color": "biru" }, "bin": 2 },
+        { "v": { "t": "art", "k": "balon", "color": "biru" }, "bin": 2 },
+        { "v": { "t": "art", "k": "bintang", "color": "biru" }, "bin": 2 },
+        { "v": { "t": "art", "k": "bunga", "color": "biru" }, "bin": 2 }
+      ]
+    },
+    "tags": ["kelompok", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna3-1",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Kelompokkan warna hijau, ungu, dan oranye.",
+    "label": "Kelompokkan warna hijau, ungu, dan oranye.",
+    "data": {
+      "bins": [
+        { "label": "hijau", "icon": { "t": "swatch", "c": "hijau" } },
+        { "label": "ungu", "icon": { "t": "swatch", "c": "ungu" } },
+        { "label": "oranye", "icon": { "t": "swatch", "c": "oranye" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "bola", "color": "hijau" }, "bin": 0 },
+        { "v": { "t": "art", "k": "balon", "color": "hijau" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bintang", "color": "hijau" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bunga", "color": "hijau" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bola", "color": "ungu" }, "bin": 1 },
+        { "v": { "t": "art", "k": "balon", "color": "ungu" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bintang", "color": "ungu" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bunga", "color": "ungu" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bola", "color": "oranye" }, "bin": 2 },
+        { "v": { "t": "art", "k": "balon", "color": "oranye" }, "bin": 2 },
+        { "v": { "t": "art", "k": "bintang", "color": "oranye" }, "bin": 2 },
+        { "v": { "t": "art", "k": "bunga", "color": "oranye" }, "bin": 2 }
+      ]
+    },
+    "tags": ["kelompok", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna3-2",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Kelompokkan warna merah muda, biru muda, dan abu-abu.",
+    "label": "Kelompokkan warna merah muda, biru muda, dan abu-abu.",
+    "data": {
+      "bins": [
+        { "label": "merah muda", "icon": { "t": "swatch", "c": "merah muda" } },
+        { "label": "biru muda", "icon": { "t": "swatch", "c": "biru muda" } },
+        { "label": "abu-abu", "icon": { "t": "swatch", "c": "abu-abu" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "bola", "color": "merah muda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "balon", "color": "merah muda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bintang", "color": "merah muda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bunga", "color": "merah muda" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bola", "color": "biru muda" }, "bin": 1 },
+        { "v": { "t": "art", "k": "balon", "color": "biru muda" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bintang", "color": "biru muda" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bunga", "color": "biru muda" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bola", "color": "abu-abu" }, "bin": 2 },
+        { "v": { "t": "art", "k": "balon", "color": "abu-abu" }, "bin": 2 },
+        { "v": { "t": "art", "k": "bintang", "color": "abu-abu" }, "bin": 2 },
+        { "v": { "t": "art", "k": "bunga", "color": "abu-abu" }, "bin": 2 }
+      ]
+    },
+    "tags": ["kelompok", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "warna3-3",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Kelompokkan warna cokelat, hitam, dan putih.",
+    "label": "Kelompokkan warna cokelat, hitam, dan putih.",
+    "data": {
+      "bins": [
+        { "label": "cokelat", "icon": { "t": "swatch", "c": "cokelat" } },
+        { "label": "hitam", "icon": { "t": "swatch", "c": "hitam" } },
+        { "label": "putih", "icon": { "t": "swatch", "c": "putih" } }
+      ],
+      "items": [
+        { "v": { "t": "art", "k": "bola", "color": "cokelat" }, "bin": 0 },
+        { "v": { "t": "art", "k": "balon", "color": "cokelat" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bintang", "color": "cokelat" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bunga", "color": "cokelat" }, "bin": 0 },
+        { "v": { "t": "art", "k": "bola", "color": "hitam" }, "bin": 1 },
+        { "v": { "t": "art", "k": "balon", "color": "hitam" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bintang", "color": "hitam" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bunga", "color": "hitam" }, "bin": 1 },
+        { "v": { "t": "art", "k": "bola", "color": "putih" }, "bin": 2 },
+        { "v": { "t": "art", "k": "balon", "color": "putih" }, "bin": 2 },
+        { "v": { "t": "art", "k": "bintang", "color": "putih" }, "bin": 2 },
+        { "v": { "t": "art", "k": "bunga", "color": "putih" }, "bin": 2 }
+      ]
+    },
+    "tags": ["kelompok", "warna"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk3-0",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Kelompokkan bentuk lingkaran, segitiga, dan persegi.",
+    "label": "Kelompokkan bentuk lingkaran, segitiga, dan persegi.",
+    "data": {
+      "bins": [
+        { "label": "lingkaran", "icon": { "t": "shape", "s": "lingkaran", "color": "abu-abu" } },
+        { "label": "segitiga", "icon": { "t": "shape", "s": "segitiga", "color": "abu-abu" } },
+        { "label": "persegi", "icon": { "t": "shape", "s": "persegi", "color": "abu-abu" } }
+      ],
+      "items": [
+        { "v": { "t": "shape", "s": "lingkaran", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "lingkaran", "color": "biru" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "lingkaran", "color": "kuning" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "lingkaran", "color": "hijau" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "segitiga", "color": "merah" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "segitiga", "color": "biru" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "segitiga", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "segitiga", "color": "hijau" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "persegi", "color": "merah" }, "bin": 2 },
+        { "v": { "t": "shape", "s": "persegi", "color": "biru" }, "bin": 2 },
+        { "v": { "t": "shape", "s": "persegi", "color": "kuning" }, "bin": 2 },
+        { "v": { "t": "shape", "s": "persegi", "color": "hijau" }, "bin": 2 }
+      ]
+    },
+    "tags": ["kelompok", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk3-1",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Kelompokkan bentuk bintang, hati, dan oval.",
+    "label": "Kelompokkan bentuk bintang, hati, dan oval.",
+    "data": {
+      "bins": [
+        { "label": "bintang", "icon": { "t": "shape", "s": "bintang", "color": "abu-abu" } },
+        { "label": "hati", "icon": { "t": "shape", "s": "hati", "color": "abu-abu" } },
+        { "label": "oval", "icon": { "t": "shape", "s": "oval", "color": "abu-abu" } }
+      ],
+      "items": [
+        { "v": { "t": "shape", "s": "bintang", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "bintang", "color": "biru" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "bintang", "color": "kuning" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "bintang", "color": "hijau" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "hati", "color": "merah" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "hati", "color": "biru" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "hati", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "hati", "color": "hijau" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "oval", "color": "merah" }, "bin": 2 },
+        { "v": { "t": "shape", "s": "oval", "color": "biru" }, "bin": 2 },
+        { "v": { "t": "shape", "s": "oval", "color": "kuning" }, "bin": 2 },
+        { "v": { "t": "shape", "s": "oval", "color": "hijau" }, "bin": 2 }
+      ]
+    },
+    "tags": ["kelompok", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk3-2",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Kelompokkan bentuk kubus, bola, dan tabung.",
+    "label": "Kelompokkan bentuk kubus, bola, dan tabung.",
+    "data": {
+      "bins": [
+        { "label": "kubus", "icon": { "t": "shape", "s": "kubus", "color": "abu-abu" } },
+        { "label": "bola", "icon": { "t": "shape", "s": "bola", "color": "abu-abu" } },
+        { "label": "tabung", "icon": { "t": "shape", "s": "tabung", "color": "abu-abu" } }
+      ],
+      "items": [
+        { "v": { "t": "shape", "s": "kubus", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "kubus", "color": "biru" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "kubus", "color": "kuning" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "kubus", "color": "hijau" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "bola", "color": "merah" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "bola", "color": "biru" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "bola", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "bola", "color": "hijau" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "tabung", "color": "merah" }, "bin": 2 },
+        { "v": { "t": "shape", "s": "tabung", "color": "biru" }, "bin": 2 },
+        { "v": { "t": "shape", "s": "tabung", "color": "kuning" }, "bin": 2 },
+        { "v": { "t": "shape", "s": "tabung", "color": "hijau" }, "bin": 2 }
+      ]
+    },
+    "tags": ["kelompok", "bentuk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "bentuk3-3",
+    "ageGroup": ["C"],
+    "difficulty": 5,
+    "speak": "Kelompokkan bentuk kerucut, limas, dan balok.",
+    "label": "Kelompokkan bentuk kerucut, limas, dan balok.",
+    "data": {
+      "bins": [
+        { "label": "kerucut", "icon": { "t": "shape", "s": "kerucut", "color": "abu-abu" } },
+        { "label": "limas", "icon": { "t": "shape", "s": "limas", "color": "abu-abu" } },
+        { "label": "balok", "icon": { "t": "shape", "s": "balok", "color": "abu-abu" } }
+      ],
+      "items": [
+        { "v": { "t": "shape", "s": "kerucut", "color": "merah" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "kerucut", "color": "biru" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "kerucut", "color": "kuning" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "kerucut", "color": "hijau" }, "bin": 0 },
+        { "v": { "t": "shape", "s": "limas", "color": "merah" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "limas", "color": "biru" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "limas", "color": "kuning" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "limas", "color": "hijau" }, "bin": 1 },
+        { "v": { "t": "shape", "s": "balok", "color": "merah" }, "bin": 2 },
+        { "v": { "t": "shape", "s": "balok", "color": "biru" }, "bin": 2 },
+        { "v": { "t": "shape", "s": "balok", "color": "kuning" }, "bin": 2 },
+        { "v": { "t": "shape", "s": "balok", "color": "hijau" }, "bin": 2 }
+      ]
+    },
+    "tags": ["kelompok", "bentuk"],
+    "review": "ditinjau"
+  }
+]
