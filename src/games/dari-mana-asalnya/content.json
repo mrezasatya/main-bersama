@@ -1,0 +1,732 @@
+[
+  {
+    "id": "asal-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Susu berasal dari hewan apa?",
+    "label": "Susu berasal dari hewan apa?",
+    "data": {
+      "cue": { "t": "art", "k": "susu" },
+      "options": [
+        { "t": "art", "k": "sapi" },
+        { "t": "art", "k": "ayamBetina" },
+        { "t": "art", "k": "lebah" },
+        { "t": "art", "k": "ikan" }
+      ],
+      "speakAlso": ["Susu berasal dari sapi."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Telur berasal dari hewan apa?",
+    "label": "Telur berasal dari hewan apa?",
+    "data": {
+      "cue": { "t": "art", "k": "telur" },
+      "options": [
+        { "t": "art", "k": "ayamBetina" },
+        { "t": "art", "k": "sapi" },
+        { "t": "art", "k": "kucing" },
+        { "t": "art", "k": "lebah" }
+      ],
+      "speakAlso": ["Telur berasal dari ayam."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Madu dibuat oleh hewan apa?",
+    "label": "Madu dibuat oleh hewan apa?",
+    "data": {
+      "cue": { "t": "art", "k": "madu" },
+      "options": [
+        { "t": "art", "k": "lebah" },
+        { "t": "art", "k": "sapi" },
+        { "t": "art", "k": "ayamBetina" },
+        { "t": "art", "k": "ikan" }
+      ],
+      "speakAlso": ["Madu dibuat oleh lebah dari sari bunga."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-4",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Benang wol berasal dari bulu hewan apa?",
+    "label": "Benang wol berasal dari bulu hewan apa?",
+    "data": {
+      "cue": { "t": "art", "k": "wol" },
+      "options": [
+        { "t": "art", "k": "domba" },
+        { "t": "art", "k": "ayamBetina" },
+        { "t": "art", "k": "ikan" },
+        { "t": "art", "k": "lebah" }
+      ],
+      "speakAlso": ["Wol berasal dari bulu domba."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-5",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Nasi berasal dari tanaman apa?",
+    "label": "Nasi berasal dari tanaman apa?",
+    "data": {
+      "cue": { "t": "art", "k": "nasi" },
+      "options": [
+        { "t": "art", "k": "padi" },
+        { "t": "art", "k": "tebu" },
+        { "t": "art", "k": "kakao" },
+        { "t": "art", "k": "kapas" }
+      ],
+      "speakAlso": ["Nasi berasal dari padi yang ditanam petani."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-6",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Roti dibuat dari tepung tanaman apa?",
+    "label": "Roti dibuat dari tepung tanaman apa?",
+    "data": {
+      "cue": { "t": "art", "k": "roti" },
+      "options": [
+        { "t": "art", "k": "gandum" },
+        { "t": "art", "k": "padi" },
+        { "t": "art", "k": "tebu" },
+        { "t": "art", "k": "kakao" }
+      ],
+      "speakAlso": ["Roti dibuat dari tepung gandum."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-7",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Tempe dibuat dari apa?",
+    "label": "Tempe dibuat dari apa?",
+    "data": {
+      "cue": { "t": "art", "k": "tempe" },
+      "options": [
+        { "t": "art", "k": "kedelai" },
+        { "t": "art", "k": "padi" },
+        { "t": "art", "k": "gandum" },
+        { "t": "art", "k": "tebu" }
+      ],
+      "speakAlso": ["Tempe dibuat dari kedelai."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-8",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Gula pasir dibuat dari tanaman apa?",
+    "label": "Gula pasir dibuat dari tanaman apa?",
+    "data": {
+      "cue": { "t": "art", "k": "gula" },
+      "options": [
+        { "t": "art", "k": "tebu" },
+        { "t": "art", "k": "kedelai" },
+        { "t": "art", "k": "kapas" },
+        { "t": "art", "k": "padi" }
+      ],
+      "speakAlso": ["Gula dibuat dari batang tebu."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-9",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Cokelat dibuat dari buah apa?",
+    "label": "Cokelat dibuat dari buah apa?",
+    "data": {
+      "cue": { "t": "art", "k": "cokelat" },
+      "options": [
+        { "t": "art", "k": "kakao" },
+        { "t": "art", "k": "apel" },
+        { "t": "art", "k": "jeruk" },
+        { "t": "art", "k": "tebu" }
+      ],
+      "speakAlso": ["Cokelat dibuat dari biji buah kakao."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-10",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Keju dibuat dari apa?",
+    "label": "Keju dibuat dari apa?",
+    "data": {
+      "cue": { "t": "art", "k": "keju" },
+      "options": [
+        { "t": "art", "k": "susu" },
+        { "t": "art", "k": "madu" },
+        { "t": "art", "k": "telur" },
+        { "t": "art", "k": "gula" }
+      ],
+      "speakAlso": ["Keju dibuat dari susu."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-11",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kertas dibuat dari apa?",
+    "label": "Kertas dibuat dari apa?",
+    "data": {
+      "cue": { "t": "art", "k": "kertas" },
+      "options": [
+        { "t": "art", "k": "pohon" },
+        { "t": "art", "k": "batu" },
+        { "t": "art", "k": "kapas" },
+        { "t": "art", "k": "tebu" }
+      ],
+      "speakAlso": ["Kertas dibuat dari kayu pohon."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-12",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Meja kayu dibuat dari apa?",
+    "label": "Meja kayu dibuat dari apa?",
+    "data": {
+      "cue": { "t": "art", "k": "meja" },
+      "options": [
+        { "t": "art", "k": "pohon" },
+        { "t": "art", "k": "batu" },
+        { "t": "art", "k": "kapas" },
+        { "t": "art", "k": "padi" }
+      ],
+      "speakAlso": ["Kayu berasal dari pohon."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-13",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Air kelapa berasal dari pohon apa?",
+    "label": "Air kelapa berasal dari pohon apa?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "pohonKelapa" },
+        { "t": "art", "k": "pohon" },
+        { "t": "art", "k": "tebu" },
+        { "t": "art", "k": "padi" }
+      ],
+      "speakAlso": ["Air kelapa ada di dalam buah kelapa."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-14",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kain katun dibuat dari apa?",
+    "label": "Kain katun dibuat dari apa?",
+    "data": {
+      "cue": { "t": "art", "k": "baju" },
+      "options": [
+        { "t": "art", "k": "kapas" },
+        { "t": "art", "k": "wol" },
+        { "t": "art", "k": "kertas" },
+        { "t": "art", "k": "daun" }
+      ],
+      "speakAlso": ["Kain katun dibuat dari kapas."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-15",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Anak ayam menetas dari apa?",
+    "label": "Anak ayam menetas dari apa?",
+    "data": {
+      "cue": { "t": "art", "k": "anakAyam" },
+      "options": [
+        { "t": "art", "k": "telur" },
+        { "t": "art", "k": "susu" },
+        { "t": "art", "k": "madu" },
+        { "t": "art", "k": "roti" }
+      ],
+      "speakAlso": ["Anak ayam menetas dari telur."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-16",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Apel tumbuh di mana?",
+    "label": "Apel tumbuh di mana?",
+    "data": {
+      "cue": { "t": "art", "k": "apel" },
+      "options": [
+        { "t": "art", "k": "pohon" },
+        { "t": "art", "k": "awan" },
+        { "t": "art", "k": "batu" },
+        { "t": "art", "k": "meja" }
+      ],
+      "speakAlso": ["Apel tumbuh di pohon."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-17",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ikan hidup di mana?",
+    "label": "Ikan hidup di mana?",
+    "data": {
+      "cue": { "t": "art", "k": "ikan" },
+      "options": [
+        { "t": "art", "k": "tetesAir" },
+        { "t": "art", "k": "matahari" },
+        { "t": "art", "k": "batu" },
+        { "t": "art", "k": "pohon" }
+      ],
+      "speakAlso": ["Ikan hidup di dalam air."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-18",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Pisang tumbuh dari tanaman apa?",
+    "label": "Pisang tumbuh dari tanaman apa?",
+    "data": {
+      "cue": { "t": "art", "k": "pisang" },
+      "options": [
+        { "t": "art", "k": "pohon" },
+        { "t": "art", "k": "awan" },
+        { "t": "art", "k": "batu" },
+        { "t": "art", "k": "meja" }
+      ],
+      "speakAlso": ["Pisang tumbuh di pohon pisang."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-19",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Gelas susu cokelat dibuat dari apa saja?",
+    "label": "Gelas susu cokelat dibuat dari apa saja?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "susu" },
+        { "t": "art", "k": "batu" },
+        { "t": "art", "k": "kertas" },
+        { "t": "art", "k": "daun" }
+      ],
+      "speakAlso": ["Susu cokelat dibuat dari susu dan cokelat."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-20",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Bahan es batu adalah?",
+    "label": "Bahan es batu adalah?",
+    "data": {
+      "cue": { "t": "art", "k": "esBatu" },
+      "options": [
+        { "t": "art", "k": "tetesAir" },
+        { "t": "art", "k": "madu" },
+        { "t": "art", "k": "gula" },
+        { "t": "art", "k": "batu" }
+      ],
+      "speakAlso": ["Es batu adalah air yang membeku."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-21",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Garam dapur banyak dibuat dari air apa?",
+    "label": "Garam dapur banyak dibuat dari air apa?",
+    "data": {
+      "cue": { "t": "art", "k": "garam" },
+      "options": [
+        { "t": "art", "k": "paus" },
+        { "t": "art", "k": "sapi" },
+        { "t": "art", "k": "pohon" },
+        { "t": "art", "k": "lebah" }
+      ],
+      "speakAlso": ["Garam dibuat dari air laut, tempat paus hidup."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-22",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Siapa yang membuat sarang dan menghasilkan madu?",
+    "label": "Siapa yang membuat sarang dan menghasilkan madu?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "lebah" },
+        { "t": "art", "k": "kucing" },
+        { "t": "art", "k": "ikan" },
+        { "t": "art", "k": "sapi" }
+      ],
+      "speakAlso": ["Lebah tinggal di sarang dan membuat madu."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-23",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kupu-kupu suka mengisap sari apa?",
+    "label": "Kupu-kupu suka mengisap sari apa?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "bunga" },
+        { "t": "art", "k": "batu" },
+        { "t": "art", "k": "roti" },
+        { "t": "art", "k": "garam" }
+      ],
+      "speakAlso": ["Kupu-kupu mengisap sari bunga."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "asal-24",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Jagung tumbuh di mana?",
+    "label": "Jagung tumbuh di mana?",
+    "data": {
+      "cue": { "t": "art", "k": "jagung" },
+      "options": [
+        { "t": "art", "k": "pot" },
+        { "t": "art", "k": "awan" },
+        { "t": "art", "k": "meja" },
+        { "t": "art", "k": "piring" }
+      ],
+      "speakAlso": ["Jagung tumbuh di tanah."]
+    },
+    "tags": ["asal"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Hujan turun dari mana?",
+    "label": "Hujan turun dari mana?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "awan" },
+        { "t": "art", "k": "matahari" },
+        { "t": "art", "k": "bulan" },
+        { "t": "art", "k": "pohon" }
+      ],
+      "speakAlso": ["Hujan turun dari awan."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Siang hari terang karena ada apa?",
+    "label": "Siang hari terang karena ada apa?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "matahari" },
+        { "t": "art", "k": "bulan" },
+        { "t": "art", "k": "awan" },
+        { "t": "art", "k": "lonceng" }
+      ],
+      "speakAlso": ["Matahari membuat siang hari terang."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Saat malam, apa yang bersinar di langit?",
+    "label": "Saat malam, apa yang bersinar di langit?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "bulan" },
+        { "t": "art", "k": "matahari" },
+        { "t": "art", "k": "pohon" },
+        { "t": "art", "k": "awan" }
+      ],
+      "speakAlso": ["Bulan dan bintang terlihat saat malam."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-4",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Pelangi biasanya muncul setelah apa?",
+    "label": "Pelangi biasanya muncul setelah apa?",
+    "data": {
+      "options": [
+        { "t": "scene", "s": "hujan" },
+        { "t": "scene", "s": "malam" },
+        { "t": "scene", "s": "kemarau" }
+      ],
+      "speakAlso": ["Pelangi muncul setelah hujan, saat matahari bersinar lagi."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-5",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Saat musim kemarau, cuaca seperti apa?",
+    "label": "Saat musim kemarau, cuaca seperti apa?",
+    "data": {
+      "options": [
+        { "t": "scene", "s": "kemarau" },
+        { "t": "scene", "s": "hujan" },
+        { "t": "scene", "s": "malam" }
+      ],
+      "speakAlso": ["Saat kemarau, cuaca panas dan jarang hujan."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-6",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Saat musim hujan, apa yang sering terjadi?",
+    "label": "Saat musim hujan, apa yang sering terjadi?",
+    "data": {
+      "options": [
+        { "t": "scene", "s": "hujan" },
+        { "t": "scene", "s": "kemarau" },
+        { "t": "scene", "s": "siang" }
+      ],
+      "speakAlso": ["Saat musim hujan, hujan sering turun."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-7",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Langit gelap dan penuh awan. Sebentar lagi akan?",
+    "label": "Langit gelap dan penuh awan. Sebentar lagi akan?",
+    "data": {
+      "options": [
+        { "t": "scene", "s": "hujan" },
+        { "t": "scene", "s": "pelangi" },
+        { "t": "scene", "s": "kemarau" }
+      ],
+      "speakAlso": ["Awan gelap tandanya akan hujan."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-8",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana gambar langit malam?",
+    "label": "Mana gambar langit malam?",
+    "data": {
+      "options": [
+        { "t": "scene", "s": "malam" },
+        { "t": "scene", "s": "siang" },
+        { "t": "scene", "s": "pagi" }
+      ],
+      "speakAlso": ["Malam hari langit gelap dan ada bulan."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-9",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana gambar langit siang?",
+    "label": "Mana gambar langit siang?",
+    "data": {
+      "options": [
+        { "t": "scene", "s": "siang" },
+        { "t": "scene", "s": "malam" },
+        { "t": "scene", "s": "sore" }
+      ],
+      "speakAlso": ["Siang hari langit terang dan matahari tinggi."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-10",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mana gambar pelangi?",
+    "label": "Mana gambar pelangi?",
+    "data": {
+      "options": [
+        { "t": "scene", "s": "pelangi" },
+        { "t": "scene", "s": "hujan" },
+        { "t": "scene", "s": "malam" }
+      ],
+      "speakAlso": ["Pelangi punya banyak warna."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-11",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Mana gambar langit berawan?",
+    "label": "Mana gambar langit berawan?",
+    "data": {
+      "options": [
+        { "t": "scene", "s": "berawan" },
+        { "t": "scene", "s": "malam" },
+        { "t": "scene", "s": "kemarau" }
+      ],
+      "speakAlso": ["Langit berawan tertutup banyak awan."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-12",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Tanaman layu karena lama tidak ada apa?",
+    "label": "Tanaman layu karena lama tidak ada apa?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "tetesAir" },
+        { "t": "art", "k": "batu" },
+        { "t": "art", "k": "televisi" },
+        { "t": "art", "k": "permen" }
+      ],
+      "speakAlso": ["Tanaman butuh air supaya tidak layu."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-13",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Matahari terbenam pada waktu apa?",
+    "label": "Matahari terbenam pada waktu apa?",
+    "data": {
+      "options": [
+        { "t": "scene", "s": "sore" },
+        { "t": "scene", "s": "pagi" },
+        { "t": "scene", "s": "siang" }
+      ],
+      "speakAlso": ["Matahari terbenam pada sore hari."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-14",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Matahari terbit pada waktu apa?",
+    "label": "Matahari terbit pada waktu apa?",
+    "data": {
+      "options": [
+        { "t": "scene", "s": "pagi" },
+        { "t": "scene", "s": "malam" },
+        { "t": "scene", "s": "sore" }
+      ],
+      "speakAlso": ["Matahari terbit pada pagi hari."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-15",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Air untuk sungai berasal dari mana?",
+    "label": "Air untuk sungai berasal dari mana?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "awan" },
+        { "t": "art", "k": "batu" },
+        { "t": "art", "k": "meja" },
+        { "t": "art", "k": "televisi" }
+      ],
+      "speakAlso": ["Air hujan dari awan mengalir ke sungai."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  },
+  {
+    "id": "alam-16",
+    "ageGroup": ["C"],
+    "difficulty": 4,
+    "speak": "Kita bisa melihat bayangan saat ada apa?",
+    "label": "Kita bisa melihat bayangan saat ada apa?",
+    "data": {
+      "options": [
+        { "t": "art", "k": "matahari" },
+        { "t": "art", "k": "bulan" },
+        { "t": "art", "k": "awan" },
+        { "t": "art", "k": "tetesAir" }
+      ],
+      "speakAlso": ["Bayangan muncul saat ada cahaya, misalnya matahari."]
+    },
+    "tags": ["alam"],
+    "review": "perlu-ditinjau"
+  }
+]

@@ -1,0 +1,922 @@
+[
+  {
+    "id": "rasa-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Balonmu terbang terbawa angin. Bagaimana perasaanmu?",
+    "label": "Balonmu terbang terbawa angin. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "balon" },
+      "options": [
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "bangga" },
+        { "t": "face", "e": "terkejut" }
+      ],
+      "labels": ["Sedih", "Senang", "Bangga", "Terkejut"],
+      "speakAlso": [
+        "Sedih. Wajar merasa sedih. Kita boleh menangis dan bercerita kepada Ayah atau Ibu."
+      ]
+    },
+    "tags": ["emosi", "sedih"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kamu mendapat hadiah ulang tahun. Bagaimana perasaanmu?",
+    "label": "Kamu mendapat hadiah ulang tahun. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "hadiah" },
+      "options": [
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "takut" }
+      ],
+      "labels": ["Senang", "Sedih", "Marah", "Takut"],
+      "speakAlso": ["Senang. Senang sekali! Bagikan senyummu kepada orang di sekitarmu."]
+    },
+    "tags": ["emosi", "senang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Es krimmu jatuh ke tanah. Bagaimana perasaanmu?",
+    "label": "Es krimmu jatuh ke tanah. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "esKrim" },
+      "options": [
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "bangga" },
+        { "t": "face", "e": "terkejut" }
+      ],
+      "labels": ["Sedih", "Senang", "Bangga", "Terkejut"],
+      "speakAlso": [
+        "Sedih. Wajar merasa sedih. Kita boleh menangis dan bercerita kepada Ayah atau Ibu."
+      ]
+    },
+    "tags": ["emosi", "sedih"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mainanmu direbut teman tanpa izin. Bagaimana perasaanmu?",
+    "label": "Mainanmu direbut teman tanpa izin. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "yoyo" },
+      "options": [
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "tenang" },
+        { "t": "face", "e": "malu" }
+      ],
+      "labels": ["Marah", "Senang", "Tenang", "Malu"],
+      "speakAlso": [
+        "Marah. Wajar merasa marah. Tarik napas dalam-dalam, hitung sampai tiga, lalu bicara pelan-pelan."
+      ]
+    },
+    "tags": ["emosi", "marah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-5",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Petir menyambar dengan suara keras. Bagaimana perasaanmu?",
+    "label": "Petir menyambar dengan suara keras. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "scene", "s": "hujan" },
+      "options": [
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "tenang" }
+      ],
+      "labels": ["Takut", "Senang", "Marah", "Tenang"],
+      "speakAlso": ["Takut. Wajar merasa takut. Dekati orang dewasa yang kamu percaya."]
+    },
+    "tags": ["emosi", "takut"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-6",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Lampu tiba-tiba mati saat malam. Bagaimana perasaanmu?",
+    "label": "Lampu tiba-tiba mati saat malam. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "scene", "s": "malam" },
+      "options": [
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "tenang" }
+      ],
+      "labels": ["Takut", "Senang", "Marah", "Tenang"],
+      "speakAlso": ["Takut. Wajar merasa takut. Dekati orang dewasa yang kamu percaya."]
+    },
+    "tags": ["emosi", "takut"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-7",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kamu berhasil naik sepeda sendiri. Bagaimana perasaanmu?",
+    "label": "Kamu berhasil naik sepeda sendiri. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "sepeda" },
+      "options": [
+        { "t": "face", "e": "bangga" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "marah" }
+      ],
+      "labels": ["Bangga", "Sedih", "Takut", "Marah"],
+      "speakAlso": ["Bangga. Kamu boleh bangga dengan usahamu!"]
+    },
+    "tags": ["emosi", "bangga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-8",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kucing kesayanganmu mendekat dan mengeong manja. Bagaimana perasaanmu?",
+    "label": "Kucing kesayanganmu mendekat dan mengeong manja. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "kucing" },
+      "options": [
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "takut" }
+      ],
+      "labels": ["Senang", "Sedih", "Marah", "Takut"],
+      "speakAlso": ["Senang. Senang sekali! Bagikan senyummu kepada orang di sekitarmu."]
+    },
+    "tags": ["emosi", "senang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-9",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kamu selesai menyusun puzzle sendiri. Bagaimana perasaanmu?",
+    "label": "Kamu selesai menyusun puzzle sendiri. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "bintang" },
+      "options": [
+        { "t": "face", "e": "bangga" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "marah" }
+      ],
+      "labels": ["Bangga", "Sedih", "Takut", "Marah"],
+      "speakAlso": ["Bangga. Kamu boleh bangga dengan usahamu!"]
+    },
+    "tags": ["emosi", "bangga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-10",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Tiba-tiba seekor katak melompat di depanmu. Bagaimana perasaanmu?",
+    "label": "Tiba-tiba seekor katak melompat di depanmu. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "katak" },
+      "options": [
+        { "t": "face", "e": "terkejut" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "tenang" },
+        { "t": "face", "e": "marah" }
+      ],
+      "labels": ["Terkejut", "Sedih", "Tenang", "Marah"],
+      "speakAlso": ["Terkejut. Kaget, ya! Tarik napas pelan-pelan supaya tenang lagi."]
+    },
+    "tags": ["emosi", "terkejut"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-11",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu diminta bernyanyi di depan banyak orang. Bagaimana perasaanmu?",
+    "label": "Kamu diminta bernyanyi di depan banyak orang. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "mikrofon" },
+      "options": [
+        { "t": "face", "e": "malu" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "takut" }
+      ],
+      "labels": ["Malu", "Marah", "Senang", "Takut"],
+      "speakAlso": ["Malu. Tidak apa-apa merasa malu. Semua orang pernah salah."]
+    },
+    "tags": ["emosi", "malu"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-12",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu berbaring sambil mendengarkan suara hujan. Bagaimana perasaanmu?",
+    "label": "Kamu berbaring sambil mendengarkan suara hujan. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "tempatTidur" },
+      "options": [
+        { "t": "face", "e": "tenang" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "terkejut" }
+      ],
+      "labels": ["Tenang", "Marah", "Takut", "Terkejut"],
+      "speakAlso": ["Tenang. Rasanya tenang dan nyaman. Kita bisa bernapas pelan dan menikmatinya."]
+    },
+    "tags": ["emosi", "tenang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-13",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Temanmu tidak mau bermain bersamamu. Bagaimana perasaanmu?",
+    "label": "Temanmu tidak mau bermain bersamamu. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "bola" },
+      "options": [
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "bangga" },
+        { "t": "face", "e": "terkejut" }
+      ],
+      "labels": ["Sedih", "Senang", "Bangga", "Terkejut"],
+      "speakAlso": [
+        "Sedih. Wajar merasa sedih. Kita boleh menangis dan bercerita kepada Ayah atau Ibu."
+      ]
+    },
+    "tags": ["emosi", "sedih"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-14",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Hari pertama sekolah, kamu belum kenal siapa pun. Bagaimana perasaanmu?",
+    "label": "Hari pertama sekolah, kamu belum kenal siapa pun. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "tasSekolah" },
+      "options": [
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "tenang" }
+      ],
+      "labels": ["Takut", "Senang", "Marah", "Tenang"],
+      "speakAlso": ["Takut. Wajar merasa takut. Dekati orang dewasa yang kamu percaya."]
+    },
+    "tags": ["emosi", "takut"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-15",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kamu bisa menggosok gigi sendiri. Bagaimana perasaanmu?",
+    "label": "Kamu bisa menggosok gigi sendiri. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "sikatGigiPasta" },
+      "options": [
+        { "t": "face", "e": "bangga" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "marah" }
+      ],
+      "labels": ["Bangga", "Sedih", "Takut", "Marah"],
+      "speakAlso": ["Bangga. Kamu boleh bangga dengan usahamu!"]
+    },
+    "tags": ["emosi", "bangga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-16",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Gambarmu disobek oleh kakak. Bagaimana perasaanmu?",
+    "label": "Gambarmu disobek oleh kakak. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "kertas" },
+      "options": [
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "tenang" },
+        { "t": "face", "e": "malu" }
+      ],
+      "labels": ["Marah", "Senang", "Tenang", "Malu"],
+      "speakAlso": [
+        "Marah. Wajar merasa marah. Tarik napas dalam-dalam, hitung sampai tiga, lalu bicara pelan-pelan."
+      ]
+    },
+    "tags": ["emosi", "marah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-17",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Nenek datang berkunjung dari kota yang jauh. Bagaimana perasaanmu?",
+    "label": "Nenek datang berkunjung dari kota yang jauh. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "pesawat" },
+      "options": [
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "takut" }
+      ],
+      "labels": ["Senang", "Sedih", "Marah", "Takut"],
+      "speakAlso": ["Senang. Senang sekali! Bagikan senyummu kepada orang di sekitarmu."]
+    },
+    "tags": ["emosi", "senang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-18",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Anjing peliharaanmu sedang sakit. Bagaimana perasaanmu?",
+    "label": "Anjing peliharaanmu sedang sakit. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "anjing" },
+      "options": [
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "bangga" },
+        { "t": "face", "e": "terkejut" }
+      ],
+      "labels": ["Sedih", "Senang", "Bangga", "Terkejut"],
+      "speakAlso": [
+        "Sedih. Wajar merasa sedih. Kita boleh menangis dan bercerita kepada Ayah atau Ibu."
+      ]
+    },
+    "tags": ["emosi", "sedih"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-19",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamar gelap dan kamu mendengar suara aneh. Bagaimana perasaanmu?",
+    "label": "Kamar gelap dan kamu mendengar suara aneh. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "senter" },
+      "options": [
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "tenang" }
+      ],
+      "labels": ["Takut", "Senang", "Marah", "Tenang"],
+      "speakAlso": ["Takut. Wajar merasa takut. Dekati orang dewasa yang kamu percaya."]
+    },
+    "tags": ["emosi", "takut"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-20",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Piring jatuh dan pecah dengan bunyi keras. Bagaimana perasaanmu?",
+    "label": "Piring jatuh dan pecah dengan bunyi keras. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "piring" },
+      "options": [
+        { "t": "face", "e": "terkejut" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "tenang" },
+        { "t": "face", "e": "marah" }
+      ],
+      "labels": ["Terkejut", "Sedih", "Tenang", "Marah"],
+      "speakAlso": ["Terkejut. Kaget, ya! Tarik napas pelan-pelan supaya tenang lagi."]
+    },
+    "tags": ["emosi", "terkejut"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-21",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Temanmu bilang gambarmu bagus sekali. Bagaimana perasaanmu?",
+    "label": "Temanmu bilang gambarmu bagus sekali. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "kuas" },
+      "options": [
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "takut" }
+      ],
+      "labels": ["Senang", "Sedih", "Marah", "Takut"],
+      "speakAlso": ["Senang. Senang sekali! Bagikan senyummu kepada orang di sekitarmu."]
+    },
+    "tags": ["emosi", "senang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-22",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kue buatanmu dimakan habis oleh keluarga. Bagaimana perasaanmu?",
+    "label": "Kue buatanmu dimakan habis oleh keluarga. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "kue" },
+      "options": [
+        { "t": "face", "e": "bangga" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "marah" }
+      ],
+      "labels": ["Bangga", "Sedih", "Takut", "Marah"],
+      "speakAlso": ["Bangga. Kamu boleh bangga dengan usahamu!"]
+    },
+    "tags": ["emosi", "bangga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-23",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu duduk di taman melihat bunga dan kupu-kupu. Bagaimana perasaanmu?",
+    "label": "Kamu duduk di taman melihat bunga dan kupu-kupu. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "bunga" },
+      "options": [
+        { "t": "face", "e": "tenang" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "terkejut" }
+      ],
+      "labels": ["Tenang", "Marah", "Takut", "Terkejut"],
+      "speakAlso": ["Tenang. Rasanya tenang dan nyaman. Kita bisa bernapas pelan dan menikmatinya."]
+    },
+    "tags": ["emosi", "tenang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-24",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu salah membaca kata di depan kelas. Bagaimana perasaanmu?",
+    "label": "Kamu salah membaca kata di depan kelas. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "buku" },
+      "options": [
+        { "t": "face", "e": "malu" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "takut" }
+      ],
+      "labels": ["Malu", "Marah", "Senang", "Takut"],
+      "speakAlso": ["Malu. Tidak apa-apa merasa malu. Semua orang pernah salah."]
+    },
+    "tags": ["emosi", "malu"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-25",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ambulans lewat dengan sirene yang sangat keras. Bagaimana perasaanmu?",
+    "label": "Ambulans lewat dengan sirene yang sangat keras. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "ambulans" },
+      "options": [
+        { "t": "face", "e": "terkejut" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "tenang" },
+        { "t": "face", "e": "marah" }
+      ],
+      "labels": ["Terkejut", "Sedih", "Tenang", "Marah"],
+      "speakAlso": ["Terkejut. Kaget, ya! Tarik napas pelan-pelan supaya tenang lagi."]
+    },
+    "tags": ["emosi", "terkejut"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-26",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Hujan turun, kamu tidak bisa bermain di luar. Bagaimana perasaanmu?",
+    "label": "Hujan turun, kamu tidak bisa bermain di luar. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "scene", "s": "hujan" },
+      "options": [
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "bangga" },
+        { "t": "face", "e": "terkejut" }
+      ],
+      "labels": ["Sedih", "Senang", "Bangga", "Terkejut"],
+      "speakAlso": [
+        "Sedih. Wajar merasa sedih. Kita boleh menangis dan bercerita kepada Ayah atau Ibu."
+      ]
+    },
+    "tags": ["emosi", "sedih"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-27",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Guru memberimu stiker bintang. Bagaimana perasaanmu?",
+    "label": "Guru memberimu stiker bintang. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "hadiah" },
+      "options": [
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "takut" }
+      ],
+      "labels": ["Senang", "Sedih", "Marah", "Takut"],
+      "speakAlso": ["Senang. Senang sekali! Bagikan senyummu kepada orang di sekitarmu."]
+    },
+    "tags": ["emosi", "senang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-28",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu tidur siang setelah lelah bermain. Bagaimana perasaanmu?",
+    "label": "Kamu tidur siang setelah lelah bermain. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "tempatTidur" },
+      "options": [
+        { "t": "face", "e": "tenang" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "terkejut" }
+      ],
+      "labels": ["Tenang", "Marah", "Takut", "Terkejut"],
+      "speakAlso": ["Tenang. Rasanya tenang dan nyaman. Kita bisa bernapas pelan dan menikmatinya."]
+    },
+    "tags": ["emosi", "tenang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-29",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Di pasar yang ramai kamu tidak melihat ibumu. Bagaimana perasaanmu?",
+    "label": "Di pasar yang ramai kamu tidak melihat ibumu. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "timbangan" },
+      "options": [
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "tenang" }
+      ],
+      "labels": ["Takut", "Senang", "Marah", "Tenang"],
+      "speakAlso": ["Takut. Wajar merasa takut. Dekati orang dewasa yang kamu percaya."]
+    },
+    "tags": ["emosi", "takut"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-30",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kamu berhasil memakai baju sendiri. Bagaimana perasaanmu?",
+    "label": "Kamu berhasil memakai baju sendiri. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "baju" },
+      "options": [
+        { "t": "face", "e": "bangga" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "marah" }
+      ],
+      "labels": ["Bangga", "Sedih", "Takut", "Marah"],
+      "speakAlso": ["Bangga. Kamu boleh bangga dengan usahamu!"]
+    },
+    "tags": ["emosi", "bangga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-31",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada anjing besar menggonggong keras ke arahmu. Bagaimana perasaanmu?",
+    "label": "Ada anjing besar menggonggong keras ke arahmu. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "anjing" },
+      "options": [
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "tenang" }
+      ],
+      "labels": ["Takut", "Senang", "Marah", "Tenang"],
+      "speakAlso": ["Takut. Wajar merasa takut. Dekati orang dewasa yang kamu percaya."]
+    },
+    "tags": ["emosi", "takut"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-32",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Sahabatmu pindah ke kota lain. Bagaimana perasaanmu?",
+    "label": "Sahabatmu pindah ke kota lain. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "bus" },
+      "options": [
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "bangga" },
+        { "t": "face", "e": "terkejut" }
+      ],
+      "labels": ["Sedih", "Senang", "Bangga", "Terkejut"],
+      "speakAlso": [
+        "Sedih. Wajar merasa sedih. Kita boleh menangis dan bercerita kepada Ayah atau Ibu."
+      ]
+    },
+    "tags": ["emosi", "sedih"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-33",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu mendapat surat dari sahabatmu. Bagaimana perasaanmu?",
+    "label": "Kamu mendapat surat dari sahabatmu. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "amplop" },
+      "options": [
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "takut" }
+      ],
+      "labels": ["Senang", "Sedih", "Marah", "Takut"],
+      "speakAlso": ["Senang. Senang sekali! Bagikan senyummu kepada orang di sekitarmu."]
+    },
+    "tags": ["emosi", "senang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-34",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu tidak sengaja menumpahkan susu di depan tamu. Bagaimana perasaanmu?",
+    "label": "Kamu tidak sengaja menumpahkan susu di depan tamu. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "susu" },
+      "options": [
+        { "t": "face", "e": "malu" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "takut" }
+      ],
+      "labels": ["Malu", "Marah", "Senang", "Takut"],
+      "speakAlso": ["Malu. Tidak apa-apa merasa malu. Semua orang pernah salah."]
+    },
+    "tags": ["emosi", "malu"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-35",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ayah memainkan lagu yang lembut sebelum tidur. Bagaimana perasaanmu?",
+    "label": "Ayah memainkan lagu yang lembut sebelum tidur. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "gitar" },
+      "options": [
+        { "t": "face", "e": "tenang" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "terkejut" }
+      ],
+      "labels": ["Tenang", "Marah", "Takut", "Terkejut"],
+      "speakAlso": ["Tenang. Rasanya tenang dan nyaman. Kita bisa bernapas pelan dan menikmatinya."]
+    },
+    "tags": ["emosi", "tenang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-36",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Bunga yang kamu tanam akhirnya mekar. Bagaimana perasaanmu?",
+    "label": "Bunga yang kamu tanam akhirnya mekar. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "pot" },
+      "options": [
+        { "t": "face", "e": "bangga" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "marah" }
+      ],
+      "labels": ["Bangga", "Sedih", "Takut", "Marah"],
+      "speakAlso": ["Bangga. Kamu boleh bangga dengan usahamu!"]
+    },
+    "tags": ["emosi", "bangga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-37",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ayah pulang membawa roti kesukaanmu. Bagaimana perasaanmu?",
+    "label": "Ayah pulang membawa roti kesukaanmu. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "roti" },
+      "options": [
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "takut" }
+      ],
+      "labels": ["Senang", "Sedih", "Marah", "Takut"],
+      "speakAlso": ["Senang. Senang sekali! Bagikan senyummu kepada orang di sekitarmu."]
+    },
+    "tags": ["emosi", "senang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-38",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu melihat ular di kebun. Bagaimana perasaanmu?",
+    "label": "Kamu melihat ular di kebun. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "ular" },
+      "options": [
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "tenang" }
+      ],
+      "labels": ["Takut", "Senang", "Marah", "Tenang"],
+      "speakAlso": ["Takut. Wajar merasa takut. Dekati orang dewasa yang kamu percaya."]
+    },
+    "tags": ["emosi", "takut"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-39",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kembang api meletus tiba-tiba di langit. Bagaimana perasaanmu?",
+    "label": "Kembang api meletus tiba-tiba di langit. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "bintang" },
+      "options": [
+        { "t": "face", "e": "terkejut" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "tenang" },
+        { "t": "face", "e": "marah" }
+      ],
+      "labels": ["Terkejut", "Sedih", "Tenang", "Marah"],
+      "speakAlso": ["Terkejut. Kaget, ya! Tarik napas pelan-pelan supaya tenang lagi."]
+    },
+    "tags": ["emosi", "terkejut"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-40",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu menolong teman yang jatuh. Bagaimana perasaanmu?",
+    "label": "Kamu menolong teman yang jatuh. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "tangan" },
+      "options": [
+        { "t": "face", "e": "bangga" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "marah" }
+      ],
+      "labels": ["Bangga", "Sedih", "Takut", "Marah"],
+      "speakAlso": ["Bangga. Kamu boleh bangga dengan usahamu!"]
+    },
+    "tags": ["emosi", "bangga"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-41",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Adikmu mengambil kuemu tanpa bertanya. Bagaimana perasaanmu?",
+    "label": "Adikmu mengambil kuemu tanpa bertanya. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "kue" },
+      "options": [
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "tenang" },
+        { "t": "face", "e": "malu" }
+      ],
+      "labels": ["Marah", "Senang", "Tenang", "Malu"],
+      "speakAlso": [
+        "Marah. Wajar merasa marah. Tarik napas dalam-dalam, hitung sampai tiga, lalu bicara pelan-pelan."
+      ]
+    },
+    "tags": ["emosi", "marah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-42",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Mainan kesayanganmu rusak. Bagaimana perasaanmu?",
+    "label": "Mainan kesayanganmu rusak. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "mainanRusak" },
+      "options": [
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "bangga" },
+        { "t": "face", "e": "terkejut" }
+      ],
+      "labels": ["Sedih", "Senang", "Bangga", "Terkejut"],
+      "speakAlso": [
+        "Sedih. Wajar merasa sedih. Kita boleh menangis dan bercerita kepada Ayah atau Ibu."
+      ]
+    },
+    "tags": ["emosi", "sedih"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-43",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Bel berbunyi keras tepat di sebelahmu. Bagaimana perasaanmu?",
+    "label": "Bel berbunyi keras tepat di sebelahmu. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "lonceng" },
+      "options": [
+        { "t": "face", "e": "terkejut" },
+        { "t": "face", "e": "sedih" },
+        { "t": "face", "e": "tenang" },
+        { "t": "face", "e": "marah" }
+      ],
+      "labels": ["Terkejut", "Sedih", "Tenang", "Marah"],
+      "speakAlso": ["Terkejut. Kaget, ya! Tarik napas pelan-pelan supaya tenang lagi."]
+    },
+    "tags": ["emosi", "terkejut"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-44",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Bajumu terbalik dan teman-teman menunjuknya. Bagaimana perasaanmu?",
+    "label": "Bajumu terbalik dan teman-teman menunjuknya. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "selendang" },
+      "options": [
+        { "t": "face", "e": "malu" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "senang" },
+        { "t": "face", "e": "takut" }
+      ],
+      "labels": ["Malu", "Marah", "Senang", "Takut"],
+      "speakAlso": ["Malu. Tidak apa-apa merasa malu. Semua orang pernah salah."]
+    },
+    "tags": ["emosi", "malu"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "rasa-45",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu menyiram tanaman di pagi yang sejuk. Bagaimana perasaanmu?",
+    "label": "Kamu menyiram tanaman di pagi yang sejuk. Bagaimana perasaanmu?",
+    "data": {
+      "cue": { "t": "art", "k": "penyiram" },
+      "options": [
+        { "t": "face", "e": "tenang" },
+        { "t": "face", "e": "marah" },
+        { "t": "face", "e": "takut" },
+        { "t": "face", "e": "terkejut" }
+      ],
+      "labels": ["Tenang", "Marah", "Takut", "Terkejut"],
+      "speakAlso": ["Tenang. Rasanya tenang dan nyaman. Kita bisa bernapas pelan dan menikmatinya."]
+    },
+    "tags": ["emosi", "tenang"],
+    "review": "ditinjau"
+  }
+]

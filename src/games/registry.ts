@@ -1,6 +1,11 @@
 import type { ComponentType } from 'react';
 import type { ArtKey, ColorName } from '../core/art';
 import type { CompanionGuide, ContentItem, GameMeta } from '../types';
+import * as ayoBerkebun from './ayo-berkebun/meta';
+import * as ceritaPilihanku from './cerita-pilihanku/meta';
+import * as dariManaAsalnya from './dari-mana-asalnya/meta';
+import * as jamDanHari from './jam-dan-hari/meta';
+import * as rasaHatiku from './rasa-hatiku/meta';
 import * as cariWarna from './cari-warna/meta';
 import * as kendaraan from './kendaraan/meta';
 import * as nadaNusantara from './nada-nusantara/meta';
@@ -83,6 +88,36 @@ export const GAMES: readonly GameEntry[] = [
     cover: { art: 'dokter' },
     load: () => import('./profesi'),
     loadContent: () => import('./profesi/content.json'),
+  },
+  {
+    ...rasaHatiku,
+    cover: { art: 'hadiah' },
+    load: () => import('./rasa-hatiku'),
+    loadContent: () => import('./rasa-hatiku/content.json'),
+  },
+  {
+    ...ceritaPilihanku,
+    cover: { art: 'tangan' },
+    load: () => import('./cerita-pilihanku'),
+    loadContent: () => import('./cerita-pilihanku/content.json'),
+  },
+  {
+    ...jamDanHari,
+    cover: { art: 'matahari' },
+    load: () => import('./jam-dan-hari'),
+    loadContent: () => import('./jam-dan-hari/content.json'),
+  },
+  {
+    ...dariManaAsalnya,
+    cover: { art: 'susu' },
+    load: () => import('./dari-mana-asalnya'),
+    loadContent: () => import('./dari-mana-asalnya/content.json'),
+  },
+  {
+    ...ayoBerkebun,
+    cover: { art: 'pot' },
+    load: () => import('./ayo-berkebun'),
+    loadContent: () => import('./ayo-berkebun/content.json'),
   },
   // Permainan contoh Fase 0 (di luar katalog 30).
   {

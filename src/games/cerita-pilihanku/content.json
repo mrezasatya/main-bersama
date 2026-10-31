@@ -1,0 +1,891 @@
+[
+  {
+    "id": "cerita-1",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kamu punya dua kue. Temanmu tidak membawa bekal. Kamu pilih: berbagi satu kue, atau makan dua-duanya sendiri?",
+    "label": "Kamu punya dua kue. Temanmu tidak membawa bekal.",
+    "data": {
+      "cue": { "t": "art", "k": "kue" },
+      "options": [
+        { "t": "art", "k": "kue" },
+        { "t": "art", "k": "piring" }
+      ],
+      "labels": ["Berbagi satu kue", "Makan dua-duanya sendiri"],
+      "showLabels": true,
+      "optionSay": [null, "Temanmu jadi lapar dan sedih. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Berbagi membuat temanmu senang, kamu juga senang."]
+    },
+    "tags": ["nilai", "berbagi"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-2",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kamu tidak sengaja memecahkan piring ibu. Kamu pilih: bilang jujur kepada ibu, atau diam dan bersembunyi?",
+    "label": "Kamu tidak sengaja memecahkan piring ibu.",
+    "data": {
+      "cue": { "t": "art", "k": "piring" },
+      "options": [
+        { "t": "art", "k": "tangan" },
+        { "t": "art", "k": "tempatTidur" }
+      ],
+      "labels": ["Bilang jujur kepada Ibu", "Diam dan bersembunyi"],
+      "showLabels": true,
+      "optionSay": [null, "Ibu jadi bingung siapa yang memecahkannya. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Jujur itu berani. Ibu senang kamu berkata jujur."]
+    },
+    "tags": ["nilai", "jujur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-3",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kamu dan teman-teman antre naik bus. Kamu pilih: menunggu giliran, atau menyerobot ke depan?",
+    "label": "Kamu dan teman-teman antre naik bus.",
+    "data": {
+      "cue": { "t": "art", "k": "bus" },
+      "options": [
+        { "t": "art", "k": "bus" },
+        { "t": "art", "k": "bola" }
+      ],
+      "labels": ["Menunggu giliran", "Menyerobot ke depan"],
+      "showLabels": true,
+      "optionSay": [null, "Teman yang sudah lama menunggu jadi kesal. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Sabar menunggu giliran itu adil untuk semua."]
+    },
+    "tags": ["nilai", "sabar"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-4",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Temanmu jatuh saat berlari di halaman. Kamu pilih: membantunya berdiri, atau terus bermain sendiri?",
+    "label": "Temanmu jatuh saat berlari di halaman.",
+    "data": {
+      "cue": { "t": "art", "k": "tangan" },
+      "options": [
+        { "t": "art", "k": "tangan" },
+        { "t": "art", "k": "bola" }
+      ],
+      "labels": ["Membantunya berdiri", "Terus bermain sendiri"],
+      "showLabels": true,
+      "optionSay": [null, "Temanmu kesakitan sendirian. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Menolong teman membuatnya merasa disayang."]
+    },
+    "tags": ["nilai", "menolong"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-5",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kamu tidak sengaja merobek gambar adikmu. Kamu pilih: minta maaf, atau pura-pura tidak tahu?",
+    "label": "Kamu tidak sengaja merobek gambar adikmu.",
+    "data": {
+      "cue": { "t": "art", "k": "kertas" },
+      "options": [
+        { "t": "art", "k": "tangan" },
+        { "t": "art", "k": "kuas" }
+      ],
+      "labels": ["Minta maaf", "Pura-pura tidak tahu"],
+      "showLabels": true,
+      "optionSay": [null, "Adikmu sedih dan tidak tahu apa yang terjadi. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Meminta maaf membuat hati adikmu lega."]
+    },
+    "tags": ["nilai", "minta maaf"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-6",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kucingmu terlihat lapar dan haus. Kamu pilih: memberinya makan dan minum, atau menonton televisi saja?",
+    "label": "Kucingmu terlihat lapar dan haus.",
+    "data": {
+      "cue": { "t": "art", "k": "kucing" },
+      "options": [
+        { "t": "art", "k": "susu" },
+        { "t": "art", "k": "televisi" }
+      ],
+      "labels": ["Memberinya makan dan minum", "Menonton televisi saja"],
+      "showLabels": true,
+      "optionSay": [null, "Kucingmu tetap lapar. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Merawat hewan adalah tanda sayang."]
+    },
+    "tags": ["nilai", "merawat"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-7",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Mainan berserakan di lantai kamar. Kamu pilih: membereskan bersama, atau membiarkannya?",
+    "label": "Mainan berserakan di lantai kamar.",
+    "data": {
+      "cue": { "t": "art", "k": "sapu" },
+      "options": [
+        { "t": "art", "k": "sapu" },
+        { "t": "art", "k": "televisi" }
+      ],
+      "labels": ["Membereskan bersama", "Membiarkannya"],
+      "showLabels": true,
+      "optionSay": [null, "Ada yang bisa tersandung mainan. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Kamar rapi, semua aman dan nyaman."]
+    },
+    "tags": ["nilai", "kebersihan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-8",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Nenek memberimu hadiah. Kamu pilih: bilang terima kasih, atau langsung pergi bermain?",
+    "label": "Nenek memberimu hadiah.",
+    "data": {
+      "cue": { "t": "art", "k": "hadiah" },
+      "options": [
+        { "t": "art", "k": "hadiah" },
+        { "t": "art", "k": "yoyo" }
+      ],
+      "labels": ["Bilang terima kasih", "Langsung pergi bermain"],
+      "showLabels": true,
+      "optionSay": [null, "Nenek tidak tahu kamu senang. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Terima kasih membuat Nenek bahagia."]
+    },
+    "tags": ["nilai", "berterima kasih"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-9",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kamu ingin meminjam buku kakak. Kamu pilih: minta izin dulu, atau langsung mengambilnya?",
+    "label": "Kamu ingin meminjam buku kakak.",
+    "data": {
+      "cue": { "t": "art", "k": "buku" },
+      "options": [
+        { "t": "art", "k": "buku" },
+        { "t": "art", "k": "tasSekolah" }
+      ],
+      "labels": ["Minta izin dulu", "Langsung mengambilnya"],
+      "showLabels": true,
+      "optionSay": [null, "Kakak bingung mencari bukunya. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Meminta izin itu sopan."]
+    },
+    "tags": ["nilai", "izin"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-10",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kamu selesai mencuci tangan. Kamu pilih: menutup keran, atau membiarkan air mengalir?",
+    "label": "Kamu selesai mencuci tangan.",
+    "data": {
+      "cue": { "t": "art", "k": "tetesAir" },
+      "options": [
+        { "t": "art", "k": "tetesAir" },
+        { "t": "art", "k": "bola" }
+      ],
+      "labels": ["Menutup keran", "Membiarkan air mengalir"],
+      "showLabels": true,
+      "optionSay": [null, "Air bersih terbuang sia-sia. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Menutup keran membantu menghemat air."]
+    },
+    "tags": ["nilai", "hemat air"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-11",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kamu baru selesai makan permen. Kamu pilih: membuang bungkusnya ke tempat sampah, atau membuangnya di taman?",
+    "label": "Kamu baru selesai makan permen.",
+    "data": {
+      "cue": { "t": "art", "k": "kertas" },
+      "options": [
+        { "t": "art", "k": "sapu" },
+        { "t": "art", "k": "bunga" }
+      ],
+      "labels": ["Membuang bungkusnya ke tempat sampah", "Membuangnya di taman"],
+      "showLabels": true,
+      "optionSay": [null, "Taman jadi kotor. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Membuang sampah pada tempatnya menjaga lingkungan tetap bersih."]
+    },
+    "tags": ["nilai", "buang sampah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-12",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Ada anak baru yang duduk sendirian. Kamu pilih: mengajaknya bermain, atau tidak memedulikannya?",
+    "label": "Ada anak baru yang duduk sendirian.",
+    "data": {
+      "cue": { "t": "art", "k": "bola" },
+      "options": [
+        { "t": "art", "k": "bola" },
+        { "t": "art", "k": "buku" }
+      ],
+      "labels": ["Mengajaknya bermain", "Tidak memedulikannya"],
+      "showLabels": true,
+      "optionSay": [null, "Anak baru itu merasa kesepian. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Mengajak teman baru membuatnya merasa diterima."]
+    },
+    "tags": ["nilai", "mengajak teman"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-13",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Kamu dan adik ingin naik sepeda yang sama. Kamu pilih: bergantian naik, atau tidak mau gantian?",
+    "label": "Kamu dan adik ingin naik sepeda yang sama.",
+    "data": {
+      "cue": { "t": "art", "k": "sepeda" },
+      "options": [
+        { "t": "art", "k": "sepeda" },
+        { "t": "art", "k": "yoyo" }
+      ],
+      "labels": ["Bergantian naik", "Tidak mau gantian"],
+      "showLabels": true,
+      "optionSay": [null, "Adikmu menangis karena tidak dapat giliran. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Bergantian membuat semua bisa bermain."]
+    },
+    "tags": ["nilai", "bergiliran"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-14",
+    "ageGroup": ["B", "C"],
+    "difficulty": 2,
+    "speak": "Temanmu meminjamkan mobil mainannya. Kamu pilih: memakainya dengan hati-hati, atau melemparnya ke dinding?",
+    "label": "Temanmu meminjamkan mobil mainannya.",
+    "data": {
+      "cue": { "t": "art", "k": "mainanRusak" },
+      "options": [
+        { "t": "art", "k": "tangan" },
+        { "t": "art", "k": "mainanRusak" }
+      ],
+      "labels": ["Memakainya dengan hati-hati", "Melemparnya ke dinding"],
+      "showLabels": true,
+      "optionSay": [null, "Mainan temanmu bisa rusak. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Menjaga barang pinjaman membuat temanmu percaya padamu."]
+    },
+    "tags": ["nilai", "menjaga mainan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-15",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Guru sedang berbicara di depan kelas. Kamu pilih: mendengarkan dengan tenang, atau berteriak dan memukul meja?",
+    "label": "Guru sedang berbicara di depan kelas.",
+    "data": {
+      "cue": { "t": "art", "k": "mikrofon" },
+      "options": [
+        { "t": "art", "k": "mikrofon" },
+        { "t": "art", "k": "gendang" }
+      ],
+      "labels": ["Mendengarkan dengan tenang", "Berteriak dan memukul meja"],
+      "showLabels": true,
+      "optionSay": [null, "Teman-teman tidak bisa mendengar guru. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Mendengarkan dengan tenang itu sopan."]
+    },
+    "tags": ["nilai", "sopan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-16",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ayah pulang kerja dan terlihat lelah. Kamu pilih: membawakan segelas teh, atau bermain gendang keras-keras?",
+    "label": "Ayah pulang kerja dan terlihat lelah.",
+    "data": {
+      "cue": { "t": "art", "k": "tehHangat" },
+      "options": [
+        { "t": "art", "k": "tehHangat" },
+        { "t": "art", "k": "gendang" }
+      ],
+      "labels": ["Membawakan segelas teh", "Bermain gendang keras-keras"],
+      "showLabels": true,
+      "optionSay": [null, "Ayah tidak bisa beristirahat. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Perhatian kecil membuat Ayah merasa disayang."]
+    },
+    "tags": ["nilai", "peduli"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-17",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu berjanji menyiram tanaman setiap pagi. Kamu pilih: menyiram tanaman, atau lupa dan tidur lagi?",
+    "label": "Kamu berjanji menyiram tanaman setiap pagi.",
+    "data": {
+      "cue": { "t": "art", "k": "pot" },
+      "options": [
+        { "t": "art", "k": "penyiram" },
+        { "t": "art", "k": "tempatTidur" }
+      ],
+      "labels": ["Menyiram tanaman", "Lupa dan tidur lagi"],
+      "showLabels": true,
+      "optionSay": [null, "Tanamannya layu kekeringan. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Menepati janji itu tanggung jawab."]
+    },
+    "tags": ["nilai", "tanggung jawab"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-18",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu belum bisa naik sepeda tanpa roda bantu. Kamu pilih: mencoba pelan-pelan, atau menyerah sebelum mencoba?",
+    "label": "Kamu belum bisa naik sepeda tanpa roda bantu.",
+    "data": {
+      "cue": { "t": "art", "k": "sepeda" },
+      "options": [
+        { "t": "art", "k": "sepeda" },
+        { "t": "art", "k": "tempatTidur" }
+      ],
+      "labels": ["Mencoba pelan-pelan", "Menyerah sebelum mencoba"],
+      "showLabels": true,
+      "optionSay": [null, "Kamu tidak akan tahu kalau tidak mencoba. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Mencoba itu berani, walau jatuh sesekali."]
+    },
+    "tags": ["nilai", "berani mencoba"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-19",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Masih ada nasi di piringmu. Kamu pilih: menghabiskan makanan, atau membuangnya?",
+    "label": "Masih ada nasi di piringmu.",
+    "data": {
+      "cue": { "t": "art", "k": "nasi" },
+      "options": [
+        { "t": "art", "k": "nasi" },
+        { "t": "art", "k": "sapu" }
+      ],
+      "labels": ["Menghabiskan makanan", "Membuangnya"],
+      "showLabels": true,
+      "optionSay": [
+        null,
+        "Makanan terbuang, padahal petani menanamnya dengan susah payah. Coba pikirkan lagi, yuk."
+      ],
+      "speakAlso": ["Menghabiskan makanan berarti menghargai kerja petani."]
+    },
+    "tags": ["nilai", "menghargai makanan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-20",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Balon adikmu terbang dan ia menangis. Kamu pilih: memeluk dan menghiburnya, atau menertawakannya?",
+    "label": "Balon adikmu terbang dan ia menangis.",
+    "data": {
+      "cue": { "t": "art", "k": "balon" },
+      "options": [
+        { "t": "art", "k": "tangan" },
+        { "t": "art", "k": "balon" }
+      ],
+      "labels": ["Memeluk dan menghiburnya", "Menertawakannya"],
+      "showLabels": true,
+      "optionSay": [null, "Adikmu makin sedih. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Menghibur membuat adikmu merasa lebih baik."]
+    },
+    "tags": ["nilai", "menghibur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-21",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ibu sedang menyiapkan meja makan. Kamu pilih: membantu menata piring, atau menonton televisi?",
+    "label": "Ibu sedang menyiapkan meja makan.",
+    "data": {
+      "cue": { "t": "art", "k": "meja" },
+      "options": [
+        { "t": "art", "k": "piring" },
+        { "t": "art", "k": "televisi" }
+      ],
+      "labels": ["Membantu menata piring", "Menonton televisi"],
+      "showLabels": true,
+      "optionSay": [null, "Ibu harus bekerja sendirian. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Bekerja sama membuat pekerjaan cepat selesai."]
+    },
+    "tags": ["nilai", "kerja sama"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-22",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Bajumu dan baju temanmu berbeda warna. Kamu pilih: bilang bajunya bagus, atau mengejek bajunya?",
+    "label": "Bajumu dan baju temanmu berbeda warna.",
+    "data": {
+      "cue": { "t": "art", "k": "baju" },
+      "options": [
+        { "t": "art", "k": "baju" },
+        { "t": "art", "k": "mikrofon" }
+      ],
+      "labels": ["Bilang bajunya bagus", "Mengejek bajunya"],
+      "showLabels": true,
+      "optionSay": [null, "Temanmu jadi malu dan sedih. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Perbedaan itu indah. Kata-kata baik membuat teman senang."]
+    },
+    "tags": ["nilai", "tidak mengejek"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-23",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada ikan-ikan kecil berenang di kolam. Kamu pilih: melihatnya dengan tenang, atau melempar batu ke kolam?",
+    "label": "Ada ikan-ikan kecil berenang di kolam.",
+    "data": {
+      "cue": { "t": "art", "k": "ikan" },
+      "options": [
+        { "t": "art", "k": "tangan" },
+        { "t": "art", "k": "batu" }
+      ],
+      "labels": ["Melihatnya dengan tenang", "Melempar batu ke kolam"],
+      "showLabels": true,
+      "optionSay": [null, "Ikan-ikan jadi ketakutan. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Menyayangi hewan berarti tidak mengganggunya."]
+    },
+    "tags": ["nilai", "sayang hewan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-24",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Temanmu meminta maaf karena merusak gambarmu. Kamu pilih: memaafkannya, atau terus marah?",
+    "label": "Temanmu meminta maaf karena merusak gambarmu.",
+    "data": {
+      "cue": { "t": "art", "k": "kertas" },
+      "options": [
+        { "t": "art", "k": "tangan" },
+        { "t": "art", "k": "kertas" }
+      ],
+      "labels": ["Memaafkannya", "Terus marah"],
+      "showLabels": true,
+      "optionSay": [
+        null,
+        "Kalian berdua jadi sedih dan tidak bermain bersama. Coba pikirkan lagi, yuk."
+      ],
+      "speakAlso": ["Memaafkan membuat persahabatan kembali hangat."]
+    },
+    "tags": ["nilai", "memaafkan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-25",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu ingin mengambil bola yang masuk ke jalan raya. Kamu pilih: minta tolong orang dewasa, atau berlari ke jalan?",
+    "label": "Kamu ingin mengambil bola yang masuk ke jalan raya.",
+    "data": {
+      "cue": { "t": "art", "k": "mobil" },
+      "options": [
+        { "t": "art", "k": "tangan" },
+        { "t": "art", "k": "bola" }
+      ],
+      "labels": ["Minta tolong orang dewasa", "Berlari ke jalan"],
+      "showLabels": true,
+      "optionSay": [null, "Berlari ke jalan raya bisa berbahaya. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Minta tolong orang dewasa itu pilihan yang aman."]
+    },
+    "tags": ["nilai", "keselamatan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-26",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Sudah malam dan kamu mengantuk. Kamu pilih: menggosok gigi dulu, atau langsung tidur?",
+    "label": "Sudah malam dan kamu mengantuk.",
+    "data": {
+      "cue": { "t": "art", "k": "sikatGigiPasta" },
+      "options": [
+        { "t": "art", "k": "sikatGigiPasta" },
+        { "t": "art", "k": "tempatTidur" }
+      ],
+      "labels": ["Menggosok gigi dulu", "Langsung tidur"],
+      "showLabels": true,
+      "optionSay": [null, "Sisa makanan bisa merusak gigi. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Menggosok gigi sebelum tidur menjaga gigi tetap sehat."]
+    },
+    "tags": ["nilai", "menjaga tubuh"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-27",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Temanmu sedang bercerita tentang kucingnya. Kamu pilih: mendengarkan ceritanya, atau memotong ceritanya?",
+    "label": "Temanmu sedang bercerita tentang kucingnya.",
+    "data": {
+      "cue": { "t": "art", "k": "telinga" },
+      "options": [
+        { "t": "art", "k": "telinga" },
+        { "t": "art", "k": "gendang" }
+      ],
+      "labels": ["Mendengarkan ceritanya", "Memotong ceritanya"],
+      "showLabels": true,
+      "optionSay": [null, "Temanmu merasa tidak didengar. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Mendengarkan membuat teman merasa dihargai."]
+    },
+    "tags": ["nilai", "mendengarkan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-28",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu selesai menonton televisi. Kamu pilih: mematikan televisi, atau membiarkannya menyala?",
+    "label": "Kamu selesai menonton televisi.",
+    "data": {
+      "cue": { "t": "art", "k": "televisi" },
+      "options": [
+        { "t": "art", "k": "tangan" },
+        { "t": "art", "k": "bola" }
+      ],
+      "labels": ["Mematikan televisi", "Membiarkannya menyala"],
+      "showLabels": true,
+      "optionSay": [null, "Listrik terbuang percuma. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Mematikan alat listrik membantu menghemat energi."]
+    },
+    "tags": ["nilai", "hemat listrik"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-29",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Tukang pos mengantar paket ke rumahmu. Kamu pilih: bilang terima kasih, atau pura-pura tidak mendengar?",
+    "label": "Tukang pos mengantar paket ke rumahmu.",
+    "data": {
+      "cue": { "t": "art", "k": "tukangPos" },
+      "options": [
+        { "t": "art", "k": "tangan" },
+        { "t": "art", "k": "tempatTidur" }
+      ],
+      "labels": ["Bilang terima kasih", "Pura-pura tidak mendengar"],
+      "showLabels": true,
+      "optionSay": [null, "Tukang pos menunggu lama di depan pintu. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Berterima kasih kepada orang yang membantu itu ramah."]
+    },
+    "tags": ["nilai", "ramah"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-30",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Sepupumu ingin mencoba yoyo milikmu. Kamu pilih: meminjamkan sebentar, atau menyembunyikannya?",
+    "label": "Sepupumu ingin mencoba yoyo milikmu.",
+    "data": {
+      "cue": { "t": "art", "k": "yoyo" },
+      "options": [
+        { "t": "art", "k": "yoyo" },
+        { "t": "art", "k": "tasSekolah" }
+      ],
+      "labels": ["Meminjamkan sebentar", "Menyembunyikannya"],
+      "showLabels": true,
+      "optionSay": [null, "Sepupumu kecewa. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Meminjamkan mainan membuat bermain lebih seru."]
+    },
+    "tags": ["nilai", "berbagi mainan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-31",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada tugas menggambar dari guru. Kamu pilih: mengerjakannya, atau menundanya terus?",
+    "label": "Ada tugas menggambar dari guru.",
+    "data": {
+      "cue": { "t": "art", "k": "buku" },
+      "options": [
+        { "t": "art", "k": "kuas" },
+        { "t": "art", "k": "televisi" }
+      ],
+      "labels": ["Mengerjakannya", "Menundanya terus"],
+      "showLabels": true,
+      "optionSay": [null, "Tugasnya tidak selesai. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Mengerjakan tugas tepat waktu itu rajin."]
+    },
+    "tags": ["nilai", "rajin"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-32",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ada pohon kecil yang baru ditanam di sekolah. Kamu pilih: ikut menyiramnya, atau menginjak-injaknya?",
+    "label": "Ada pohon kecil yang baru ditanam di sekolah.",
+    "data": {
+      "cue": { "t": "art", "k": "pohon" },
+      "options": [
+        { "t": "art", "k": "penyiram" },
+        { "t": "art", "k": "batu" }
+      ],
+      "labels": ["Ikut menyiramnya", "Menginjak-injaknya"],
+      "showLabels": true,
+      "optionSay": [null, "Pohon kecil itu bisa mati. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Merawat pohon membuat udara segar."]
+    },
+    "tags": ["nilai", "peduli lingkungan"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-33",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Temanmu sakit dan tidak masuk sekolah. Kamu pilih: mengirim kartu semoga lekas sembuh, atau melupakannya?",
+    "label": "Temanmu sakit dan tidak masuk sekolah.",
+    "data": {
+      "cue": { "t": "art", "k": "termometer" },
+      "options": [
+        { "t": "art", "k": "amplop" },
+        { "t": "art", "k": "bola" }
+      ],
+      "labels": ["Mengirim kartu semoga lekas sembuh", "Melupakannya"],
+      "showLabels": true,
+      "optionSay": [null, "Temanmu merasa sendirian. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Kartu kecil bisa membuat temanmu cepat ceria."]
+    },
+    "tags": ["nilai", "menjenguk"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-34",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kue masih panas di atas meja. Kamu pilih: menunggu sampai dingin, atau langsung memegangnya?",
+    "label": "Kue masih panas di atas meja.",
+    "data": {
+      "cue": { "t": "art", "k": "kue" },
+      "options": [
+        { "t": "art", "k": "kue" },
+        { "t": "art", "k": "tangan" }
+      ],
+      "labels": ["Menunggu sampai dingin", "Langsung memegangnya"],
+      "showLabels": true,
+      "optionSay": [null, "Tanganmu bisa kepanasan. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Sabar menunggu membuatmu tetap aman."]
+    },
+    "tags": ["nilai", "menunggu"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-35",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu menumpahkan susu di lantai. Kamu pilih: membersihkannya dan bilang ke ibu, atau pergi diam-diam?",
+    "label": "Kamu menumpahkan susu di lantai.",
+    "data": {
+      "cue": { "t": "art", "k": "susu" },
+      "options": [
+        { "t": "art", "k": "sapu" },
+        { "t": "art", "k": "tempatTidur" }
+      ],
+      "labels": ["Membersihkannya dan bilang ke Ibu", "Pergi diam-diam"],
+      "showLabels": true,
+      "optionSay": [null, "Ada yang bisa terpeleset. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Mengakui dan membereskan itu bertanggung jawab."]
+    },
+    "tags": ["nilai", "mengakui"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-36",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kakek berjalan pelan karena lelah. Kamu pilih: menggandeng tangan kakek, atau meninggalkannya?",
+    "label": "Kakek berjalan pelan karena lelah.",
+    "data": {
+      "cue": { "t": "art", "k": "pohonKelapa" },
+      "options": [
+        { "t": "art", "k": "tangan" },
+        { "t": "art", "k": "sepeda" }
+      ],
+      "labels": ["Menggandeng tangan Kakek", "Meninggalkannya"],
+      "showLabels": true,
+      "optionSay": [null, "Kakek berjalan sendirian. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Menggandeng Kakek menunjukkan rasa sayang."]
+    },
+    "tags": ["nilai", "kasih sayang"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-37",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Temanmu sedang tidak ingin bermain bola. Kamu pilih: mengajak main yang lain, atau memaksanya terus?",
+    "label": "Temanmu sedang tidak ingin bermain bola.",
+    "data": {
+      "cue": { "t": "art", "k": "bola" },
+      "options": [
+        { "t": "art", "k": "buku" },
+        { "t": "art", "k": "bola" }
+      ],
+      "labels": ["Mengajak main yang lain", "Memaksanya terus"],
+      "showLabels": true,
+      "optionSay": [null, "Temanmu merasa tidak nyaman. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Menghargai keinginan teman itu baik."]
+    },
+    "tags": ["nilai", "tidak memaksa"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-38",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Kamu berjanji bermain dengan adik setelah makan. Kamu pilih: menepati janji bermain, atau menonton televisi saja?",
+    "label": "Kamu berjanji bermain dengan adik setelah makan.",
+    "data": {
+      "cue": { "t": "art", "k": "bola" },
+      "options": [
+        { "t": "art", "k": "bola" },
+        { "t": "art", "k": "televisi" }
+      ],
+      "labels": ["Menepati janji bermain", "Menonton televisi saja"],
+      "showLabels": true,
+      "optionSay": [null, "Adikmu kecewa karena terus menunggu. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Menepati janji membuat orang percaya padamu."]
+    },
+    "tags": ["nilai", "menepati janji"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-39",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Adikmu menunjukkan gambar buatannya. Kamu pilih: memuji usahanya, atau bilang gambarnya jelek?",
+    "label": "Adikmu menunjukkan gambar buatannya.",
+    "data": {
+      "cue": { "t": "art", "k": "kuas" },
+      "options": [
+        { "t": "art", "k": "kuas" },
+        { "t": "art", "k": "kertas" }
+      ],
+      "labels": ["Memuji usahanya", "Bilang gambarnya jelek"],
+      "showLabels": true,
+      "optionSay": [null, "Adikmu jadi tidak mau menggambar lagi. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Pujian membuat adikmu semangat berkarya."]
+    },
+    "tags": ["nilai", "menghargai karya"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-40",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ibu memasak sayur yang tidak terlalu kamu suka. Kamu pilih: mencicipi dan berterima kasih, atau mendorong piringnya jauh-jauh?",
+    "label": "Ibu memasak sayur yang tidak terlalu kamu suka.",
+    "data": {
+      "cue": { "t": "art", "k": "nasi" },
+      "options": [
+        { "t": "art", "k": "nasi" },
+        { "t": "art", "k": "piring" }
+      ],
+      "labels": ["Mencicipi dan berterima kasih", "Mendorong piringnya jauh-jauh"],
+      "showLabels": true,
+      "optionSay": [null, "Ibu sedih usahanya tidak dihargai. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Bersyukur dan mencoba makanan baru itu hebat."]
+    },
+    "tags": ["nilai", "bersyukur"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-41",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Bunga-bunga di taman sedang mekar. Kamu pilih: memandanginya saja, atau memetik semuanya?",
+    "label": "Bunga-bunga di taman sedang mekar.",
+    "data": {
+      "cue": { "t": "art", "k": "bunga" },
+      "options": [
+        { "t": "art", "k": "bunga" },
+        { "t": "art", "k": "gunting" }
+      ],
+      "labels": ["Memandanginya saja", "Memetik semuanya"],
+      "showLabels": true,
+      "optionSay": [
+        null,
+        "Taman jadi gundul dan kupu-kupu tidak punya makanan. Coba pikirkan lagi, yuk."
+      ],
+      "speakAlso": ["Membiarkan bunga tumbuh membuat taman tetap indah."]
+    },
+    "tags": ["nilai", "menyayangi alam"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-42",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Ibu membawa banyak belanjaan. Kamu pilih: membantu membawa, atau bermain sendiri?",
+    "label": "Ibu membawa banyak belanjaan.",
+    "data": {
+      "cue": { "t": "art", "k": "tasSekolah" },
+      "options": [
+        { "t": "art", "k": "tasSekolah" },
+        { "t": "art", "k": "sepeda" }
+      ],
+      "labels": ["Membantu membawa", "Bermain sendiri"],
+      "showLabels": true,
+      "optionSay": [null, "Ibu kelelahan membawa semuanya. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Membantu Ibu membuat bebannya lebih ringan."]
+    },
+    "tags": ["nilai", "menolong orang tua"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-43",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Lampu lalu lintas sedang merah. Kamu pilih: berhenti dan menunggu, atau terus menyeberang?",
+    "label": "Lampu lalu lintas sedang merah.",
+    "data": {
+      "cue": { "t": "art", "k": "peluit" },
+      "options": [
+        { "t": "art", "k": "peluit" },
+        { "t": "art", "k": "mobil" }
+      ],
+      "labels": ["Berhenti dan menunggu", "Terus menyeberang"],
+      "showLabels": true,
+      "optionSay": [null, "Menyeberang saat lampu merah berbahaya. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Menaati aturan menjaga semua orang tetap selamat."]
+    },
+    "tags": ["nilai", "tertib"],
+    "review": "ditinjau"
+  },
+  {
+    "id": "cerita-44",
+    "ageGroup": ["C"],
+    "difficulty": 3,
+    "speak": "Temanmu menari dan sedikit salah langkah. Kamu pilih: menyemangatinya, atau menertawakannya?",
+    "label": "Temanmu menari dan sedikit salah langkah.",
+    "data": {
+      "cue": { "t": "art", "k": "selendang" },
+      "options": [
+        { "t": "art", "k": "tangan" },
+        { "t": "art", "k": "mikrofon" }
+      ],
+      "labels": ["Menyemangatinya", "Menertawakannya"],
+      "showLabels": true,
+      "optionSay": [null, "Temanmu malu dan berhenti menari. Coba pikirkan lagi, yuk."],
+      "speakAlso": ["Semangat dari teman membuatnya berani mencoba lagi."]
+    },
+    "tags": ["nilai", "menghargai teman"],
+    "review": "ditinjau"
+  }
+]

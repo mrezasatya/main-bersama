@@ -162,6 +162,12 @@ function Face({ e }: { e: Emotion }) {
         </g>
       )}
       {e === 'sedih' && <path d="M34 50 q-3 8 0 10 q3 -2 0 -10" fill="#7FC4EE" />}
+      {e === 'bangga' && (
+        <g fill="#FFC83A" stroke="#E08A00" strokeWidth={1}>
+          <path d="M12 16 l3 7 l7 1 l-5 5 l1 7 l-6 -4 l-6 4 l1 -7 l-5 -5 l7 -1 z" />
+          <path d="M84 8 l2 5 l5 1 l-4 3 l1 5 l-4 -3 l-4 3 l1 -5 l-4 -3 l5 -1 z" />
+        </g>
+      )}
       {e === 'takut' && <path d="M82 26 q-4 8 0 10 q4 -2 0 -10" fill="#7FC4EE" />}
       {mouth[e]}
     </Svg>
