@@ -9,11 +9,13 @@ export interface DragPiece {
 
 export interface DropTarget {
   id: string;
-  /** Tampilan sasaran sebelum diisi (mis. siluet). */
+  /** Tampilan sasaran sebelum diisi (mis. siluet), atau label wadah. */
   node: ReactNode;
-  /** id keping yang cocok. */
-  accepts: string;
+  /** id keping yang cocok (satu atau beberapa). */
+  accepts: string | string[];
   label: string;
+  /** Wadah yang menampung banyak keping (mengelompokkan). */
+  multi?: boolean;
 }
 
 interface Props {
@@ -45,19 +47,22 @@ export function DragBoard({
   grid,
   ghost,
 }: Props) {
+  /** keping -> sasaran */
   const [placed, setPlaced] = useState<Record<string, string>>({});
   const [selected, setSelected] = useState<string | null>(null);
   const [drag, setDrag] = useState<{ id: string; dx: number; dy: number } | null>(null);
   const [bounce, setBounce] = useState<string | null>(null);
   const origin = useRef<{ x: number; y: number; moved: boolean }>({ x: 0, y: 0, moved: false });
   const mistakes = useRef(0);
-  const placedPieces = new Set(Object.values(placed));
+  const occupied = (targetId: string) => Object.values(placed).includes(targetId);
+  const accepts = (t: DropTarget, pieceId: string) =>
+    Array.isArray(t.accepts) ? t.accepts.includes(pieceId) : t.accepts === pieceId;
 
   const tryPlace = (pieceId: string, targetId: string | null) => {
-    if (!targetId || placed[targetId]) return false;
+    if (!targetId) return false;
     const t = targets.find((x) => x.id === targetId);
-    if (!t) return false;
-    if (t.accepts !== pieceId) {
+    if (!t || (!t.multi && occupied(targetId))) return false;
+    if (!accepts(t, pieceId)) {
       mistakes.current += 1;
       setBounce(pieceId);
       window.setTimeout(() => setBounce(null), 500);
@@ -65,11 +70,11 @@ export function DragBoard({
       return false;
     }
     sfx.tap();
-    const next = { ...placed, [targetId]: pieceId };
+    const next = { ...placed, [pieceId]: targetId };
     setPlaced(next);
     setSelected(null);
     onPlaced?.(pieceId);
-    if (Object.keys(next).length === targets.length) onComplete(mistakes.current);
+    if (Object.keys(next).length === pieces.length) onComplete(mistakes.current);
     return true;
   };
 
@@ -89,25 +94,40 @@ export function DragBoard({
       >
         {ghost && <div className="dnd-ghost">{ghost}</div>}
         {targets.map((t) => {
-          const filled = placed[t.id];
-          const piece = filled ? pieces.find((p) => p.id === filled) : null;
+          const inside = pieces.filter((p) => placed[p.id] === t.id);
+          const filled = !t.multi && inside.length > 0;
           return (
             <button
               key={t.id}
               type="button"
-              className={`dnd-target ${filled ? 'is-filled' : ''} ${selected && !filled ? 'is-armed' : ''}`}
+              className={`dnd-target ${t.multi ? 'is-bin' : ''} ${filled ? 'is-filled' : ''} ${selected && !filled ? 'is-armed' : ''}`}
               data-drop={t.id}
               aria-label={t.label}
               onClick={() => selected && tryPlace(selected, t.id)}
             >
-              {piece ? piece.node : t.node}
+              {t.multi ? (
+                <>
+                  <span className="dnd-bin-label">{t.node}</span>
+                  <span className="dnd-bin-items">
+                    {inside.map((p) => (
+                      <span key={p.id} className="dnd-bin-item">
+                        {p.node}
+                      </span>
+                    ))}
+                  </span>
+                </>
+              ) : filled ? (
+                inside[0]!.node
+              ) : (
+                t.node
+              )}
             </button>
           );
         })}
       </div>
       <div className="dnd-tray">
         {pieces
-          .filter((p) => !placedPieces.has(p.id))
+          .filter((p) => !placed[p.id])
           .map((p) => {
             const isDrag = drag?.id === p.id;
             return (

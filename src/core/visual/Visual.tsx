@@ -722,8 +722,9 @@ function render(v: Visual): React.ReactNode {
       );
     }
     case 'group': {
-      const perRow = v.n <= 4 ? v.n : v.n <= 6 ? 3 : v.n <= 10 ? 5 : 5;
-      const rows = Math.max(1, Math.ceil(v.n / Math.max(1, perRow)));
+      const m = Math.max(v.n, v.slots ?? 0);
+      const perRow = m <= 4 ? Math.max(1, m) : m <= 6 ? 3 : 5;
+      const rows = Math.max(1, Math.ceil(m / perRow));
       const s = Math.min(96 / Math.max(1, perRow), 96 / rows);
       return (
         <Svg label={`${v.n} ${v.k}`}>

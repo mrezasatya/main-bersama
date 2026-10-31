@@ -48,9 +48,35 @@ export const VOICE_SAMPLES = [
   { label: 'Kecepatan', text: 'Mana bola merah? Ayo cari bersama.' },
 ] as const;
 
+/** Bilangan 0-20 dalam kata, dibacakan saat anak menghitung dengan mengetuk. */
+export const NUMBER_WORDS = [
+  'nol',
+  'satu',
+  'dua',
+  'tiga',
+  'empat',
+  'lima',
+  'enam',
+  'tujuh',
+  'delapan',
+  'sembilan',
+  'sepuluh',
+  'sebelas',
+  'dua belas',
+  'tiga belas',
+  'empat belas',
+  'lima belas',
+  'enam belas',
+  'tujuh belas',
+  'delapan belas',
+  'sembilan belas',
+  'dua puluh',
+] as const;
+
 /** Kalimat tetap di luar konten permainan, judul permainan, dan nama stiker. */
 export function uiPhrases(): string[] {
   return [
+    ...NUMBER_WORDS.slice(1),
     ...PRAISE,
     ...TRY_AGAIN,
     ...Object.values(PHRASE),

@@ -57,7 +57,8 @@ export type Visual =
   | { t: 'text'; s: string; size?: 'xl' | 'l' | 'm' }
   | { t: 'num'; n: number }
   | { t: 'dadu'; n: number }
-  | { t: 'group'; k: ArtKey; n: number; color?: ColorName }
+  /** slots: tata letak seolah ada sekian benda, agar ukuran benda seragam dalam satu baris. */
+  | { t: 'group'; k: ArtKey; n: number; color?: ColorName; slots?: number }
   | { t: 'tenframe'; n: number; k?: ArtKey }
   | { t: 'bond'; whole: number | null; a: number | null; b: number | null }
   | { t: 'bar'; parts: (number | null)[]; total: number | null }

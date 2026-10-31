@@ -1454,3 +1454,78 @@ textarea {
 .puzzle .dnd-piece {
   aspect-ratio: var(--pa, 1);
 }
+/* Wadah mengelompokkan */
+.dnd-target.is-bin {
+  width: clamp(140px, 30vmin, 260px);
+  aspect-ratio: auto;
+  min-height: clamp(150px, 26vmin, 240px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 10px;
+}
+.dnd-bin-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+.dnd-bin-label svg {
+  width: 44px;
+  height: 44px;
+}
+.dnd-bin-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  justify-content: center;
+}
+.dnd-bin-item {
+  width: clamp(36px, 7vmin, 56px);
+  aspect-ratio: 1;
+  animation: pop 0.4s ease;
+}
+
+/* ---------- Menghitung dengan mengetuk ---------- */
+.countable {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: clamp(6px, 1.5vmin, 12px);
+  max-width: min(94vw, 640px);
+  padding: 12px;
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+.count-item {
+  position: relative;
+  width: clamp(64px, 12vmin, 96px);
+  aspect-ratio: 1;
+  padding: 4px;
+  border: 3px solid transparent;
+  border-radius: 16px;
+  background: #fffaf0;
+  cursor: pointer;
+}
+.countable-many .count-item {
+  width: clamp(54px, 9vmin, 76px);
+}
+.count-item.is-counted {
+  border-color: var(--ok);
+}
+.count-badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  min-width: 28px;
+  height: 28px;
+  border-radius: 14px;
+  background: var(--ok);
+  color: #fff;
+  font-weight: 800;
+  display: grid;
+  place-items: center;
+}

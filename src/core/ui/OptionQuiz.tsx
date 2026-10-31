@@ -4,7 +4,9 @@ import { ENGINE_CONFIG, shuffle } from '../engine';
 import { Visual } from '../visual/Visual';
 import { visualLabel, type Visual as VisualSpec } from '../visual/types';
 import type { RoundProps } from '../../types';
+import type { ArtKey } from '../art/keys';
 import { ChoiceGrid } from './ChoiceGrid';
+import { CountableGroup } from './CountableGroup';
 import { InstructionBar } from './InstructionBar';
 
 export interface OptionQuizData {
@@ -25,6 +27,10 @@ export interface OptionQuizData {
   sfx?: string;
   /** Jumlah pilihan maksimum (bawaan: menurut usia). */
   maxOptions?: number;
+  /** Jumlah pilihan minimum (mis. "cari yang beda" butuh 3). */
+  minOptions?: number;
+  /** Kelompok benda yang dihitung dengan mengetuk (tahap konkret), menggantikan cue. */
+  countable?: { t: 'group'; k: ArtKey; n: number };
   layout?: 'grid' | 'bubbles';
 }
 
@@ -37,7 +43,7 @@ export function OptionQuizRound({ item, ageGroup, onDone }: RoundProps<OptionQui
   const n = Math.min(
     d.options.length,
     d.maxOptions ?? 99,
-    Math.max(2, ENGINE_CONFIG.choiceCount[ageGroup]),
+    Math.max(d.minOptions ?? 2, ENGINE_CONFIG.choiceCount[ageGroup]),
   );
   const choices = useMemo(
     () =>
@@ -63,10 +69,14 @@ export function OptionQuizRound({ item, ageGroup, onDone }: RoundProps<OptionQui
         speakText={item.speak}
         cue={d.instr ? <Visual v={d.instr} /> : undefined}
       />
-      {d.cue && (
-        <div className={`quiz-cue quiz-cue-${d.cue.t}`}>
-          <Visual v={d.cue} />
-        </div>
+      {d.countable ? (
+        <CountableGroup k={d.countable.k} n={d.countable.n} />
+      ) : (
+        d.cue && (
+          <div className={`quiz-cue quiz-cue-${d.cue.t}`}>
+            <Visual v={d.cue} />
+          </div>
+        )
       )}
       <div className={d.layout === 'bubbles' ? 'bubbles' : undefined}>
         <ChoiceGrid
